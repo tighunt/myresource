@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/weibo_statusdetial_headerbar" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:gravity="top"
+                android:orientation="horizontal"
+                android:scrollbars="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/status_profile_image"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:paddingBottom="5.0dip"
+                        android:paddingLeft="5.0dip"
+                        android:paddingTop="10.0dip"
+                        android:src="@drawable/face" />
+
+                    <ImageView
+                        android:id="@+id/status_vipImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right|center"
+                        android:src="@drawable/vip"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6.0dip"
+                    android:layout_marginTop="6.0dip"
+                    android:descendantFocusability="blocksDescendants"
+                    android:gravity="left"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dip" >
+
+                        <TextView
+                            android:id="@+id/status_screen_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/red"
+                            android:textSize="17.0sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/status_feed_type_TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/status_screen_name"
+                            android:layout_marginBottom="2.0dip"
+                            android:layout_marginLeft="4.0dip"
+                            android:layout_toRightOf="@id/status_screen_name"
+                            android:background="@drawable/tencent_mblog_feedtype"
+                            android:gravity="center"
+                            android:padding="2.0dip"
+                            android:textColor="@color/white"
+                            android:textSize="10.0sp"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/status_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/status_screen_name"
+                            android:layout_marginTop="6.0dip"
+                            android:autoLink="web"
+                            android:linksClickable="true"
+                            android:textColor="#ff222222"
+                            android:textSize="15.0sp" />
+
+                        <ImageView
+                            android:id="@+id/status_microBlogImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/status_text"
+                            android:layout_marginTop="6.0dip"
+                            android:scaleType="center"
+                            android:src="@drawable/loading"
+                            android:visibility="visible" />
+
+                        <LinearLayout
+                            android:id="@+id/status_retweeted_status_ll"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/status_microBlogImage"
+                            android:layout_marginTop="6.0dip"
+                            android:background="@drawable/review_bg_top"
+                            android:gravity="left"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/status_retweeted_status_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:autoLink="web"
+                                android:linksClickable="true"
+                                android:textColor="#ff222222"
+                                android:textSize="15.0sp" />
+
+                            <ImageView
+                                android:id="@+id/status_retweeted_status_microBlogImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5.0dip"
+                                android:layout_marginLeft="5.0dip"
+                                android:layout_marginRight="5.0dip"
+                                android:layout_marginTop="5.0dip"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/loading" />
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/status_countLL"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@id/status_retweeted_status_ll"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/white"
+                            android:gravity="left|right"
+                            android:orientation="horizontal"
+                            android:visibility="visible" >
+
+                            <RelativeLayout
+                                android:id="@+id/relativelyt_redirect"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/detail_redirect_button_bg"
+                                android:clickable="true"
+                                android:descendantFocusability="blocksDescendants"
+                                android:focusable="true"
+                                android:gravity="center" >
+
+                                <ImageView
+                                    android:id="@+id/redirect_imageview"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/redirect_icon" />
+
+                                <TextView
+                                    android:id="@+id/status_repostsCount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dip"
+                                    android:layout_toRightOf="@id/redirect_imageview"
+                                    android:text="@string/app_name"
+                                    android:textColor="#ffa4b7d6"
+                                    android:textSize="12.0sp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/relativelyt_commment"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@id/relativelyt_redirect"
+                                android:background="@drawable/detail_comment_button_bg"
+                                android:clickable="true"
+                                android:descendantFocusability="blocksDescendants"
+                                android:focusable="true"
+                                android:gravity="center" >
+
+                                <TextView
+                                    android:id="@+id/status_commentsCount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="10dp"
+                                    android:text="@string/app_name"
+                                    android:textColor="#ffa4b7d6"
+                                    android:textSize="12.0sp" />
+
+                                <ImageView
+                                    android:id="@+id/imageview_comment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_toLeftOf="@id/status_commentsCount"
+                                    android:src="@drawable/comment_icon" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6.0dip"
+                        android:layout_marginTop="6.0dip"
+                        android:gravity="left"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/weibo_single_from_which_plaform"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="3.0dip"
+                            android:text="@string/from_which_plaform" />
+
+                        <TextView
+                            android:id="@+id/status_from"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:layout_toRightOf="@+id/weibo_single_from_which_plaform"
+                            android:textColor="#ffa4b7d6"
+                            android:textSize="13.0sp" />
+
+                        <TextView
+                            android:id="@+id/status_created_at"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/status_screen_name"
+                            android:gravity="right"
+                            android:textColor="@color/gray"
+                            android:textSize="15.0sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

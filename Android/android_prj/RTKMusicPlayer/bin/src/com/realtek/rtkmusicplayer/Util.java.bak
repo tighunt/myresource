@@ -1,0 +1,18 @@
+package com.realtek.rtkmusicplayer;
+public class Util{
+	
+	/**
+	 * 播放时间格式转换函数
+	 * 
+	 * @param time
+	 * @return
+	 */
+	public static String toTime(long time) {
+
+		time /= 1000;
+		long minute = time / 60;
+		long second = time % 60;
+		minute %= 60;
+		return String.format("%02d:%02d", minute, second);
+	}
+}

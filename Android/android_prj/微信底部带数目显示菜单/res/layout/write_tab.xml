@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="317.32812dip"
+        android:layout_height="217.33331dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/write_operation_bg"
+        android:orientation="vertical"
+        android:visibility="visible"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15.0dip"
+            android:layout_marginTop="20.0dip"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="30.0dip"
+                android:layout_height="1.0dip"
+                android:layout_gravity="center_vertical"
+                android:background="#ffffffff" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="分享生活，留住感动"
+                    android:textColor="#ffcecece"
+                    android:textSize="16.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="30.0dip"
+                android:layout_height="1.0dip"
+                android:layout_gravity="center_vertical"
+                android:background="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="63.329987dip"
+                android:layout_height="63.329987dip"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="36.666595dip"
+                    android:layout_height="36.666595dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="1.0dip"
+                    android:src="@drawable/write_operation_photo"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:text="拍照"
+                    android:textColor="#ffffffff"
+                    android:textSize="13.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="63.329987dip"
+                android:layout_height="63.329987dip"
+                android:layout_marginLeft="30.0dip"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="36.666595dip"
+                    android:layout_height="36.666595dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="1.0dip"
+                    android:src="@drawable/write_operation_pic"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:text="传照片"
+                    android:textColor="#ffffffff"
+                    android:textSize="13.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="63.329987dip"
+                android:layout_height="63.329987dip"
+                android:layout_marginLeft="30.0dip"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="36.666595dip"
+                    android:layout_height="36.666595dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="1.0dip"
+                    android:src="@drawable/write_operation_talk"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:text="写说说"
+                    android:textColor="#ffffffff"
+                    android:textSize="13.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10.0dip"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="63.329987dip"
+                android:layout_height="63.329987dip"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="36.666595dip"
+                    android:layout_height="36.666595dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="1.0dip"
+                    android:src="@drawable/write_operation_diary"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:text="写日志"
+                    android:textColor="#ffffffff"
+                    android:textSize="13.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="63.329987dip"
+                android:layout_height="63.329987dip"
+                android:layout_marginLeft="30.0dip"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="36.666595dip"
+                    android:layout_height="36.666595dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="1.0dip"
+                    android:src="@drawable/write_operation_location"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:text="分享位置"
+                    android:textColor="#ffffffff"
+                    android:textSize="13.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="63.329987dip"
+                android:layout_height="63.329987dip"
+                android:layout_marginLeft="30.0dip"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="36.666595dip"
+                    android:layout_height="36.666595dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="1.0dip"
+                    android:src="@drawable/write_operation_gif"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:text="拍动画"
+                    android:textColor="#ffffffff"
+                    android:textSize="13.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

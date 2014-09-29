@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+    
+    
+    <TableLayout 
+	    	android:id="@+id/Table_user_1" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:gravity="center">
+			
+        <TextView
+	       				android:id="@+id/textView37"
+	        			android:layout_width="wrap_content"
+	        			android:layout_height="wrap_content"
+	        			android:gravity="center" 
+	        			android:text="家庭帐号基本信息" />
+			
+    	<TableRow
+    	    android:gravity="center">
+    	    	<TextView
+	       				android:id="@+id/textView38"
+	        			android:layout_width="wrap_content"
+	        			android:layout_height="30px" 
+	        			android:layout_marginTop="20dp"   			
+	        			android:text="帐号：" />
+    	    	
+    	    	<TextView
+	       				android:id="@+id/text_username"
+	        			android:layout_width="200px"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp"
+	        			android:text="" />
+    	    	
+    	    	<TextView
+	       				android:id="@+id/textView39"
+	        			android:layout_width="wrap_content"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp"
+	        			android:text="家庭总空间：" />
+    	    	
+    	    	<TextView
+	       				android:id="@+id/text_family_total_space"
+	        			android:layout_width="200px"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp"
+	        			android:text="" />
+    	</TableRow>
+    	
+    	<TableRow android:gravity="center">
+    	    	<TextView
+	       				android:id="@+id/textView40"
+	        			android:layout_width="wrap_content"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="昵称：" />
+    	    	
+    	    	<TextView
+	       				android:id="@+id/text_nickname"
+	        			android:layout_width="200px"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="" />
+    	    	
+    	    	<TextView
+	       				android:id="@+id/textView41"
+	        			android:layout_width="wrap_content"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="已用空间：" />
+    	    	
+    	    	<TextView
+	       				android:id="@+id/text_used_space"
+	        			android:layout_width="200px"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="" />
+    	</TableRow>
+    	
+    	<TableRow android:gravity="center">
+    	    	<TextView
+	       				android:id="@+id/textView42"
+	        			android:layout_width="wrap_content"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="所在地：" />
+    	    	
+    	    	<TextView
+	       				android:id="@+id/text_address"
+	        			android:layout_width="200px"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="" />
+    	    	
+    	    	<TextView
+	       				android:id="@+id/textView43"
+	        			android:layout_width="wrap_content"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="剩余空间：" />
+    	    	
+    	    	<TextView
+	       				android:id="@+id/text_available_space"
+	        			android:layout_width="200px"
+	        			android:layout_height="30px"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="" />
+    	</TableRow>
+    				
+    </TableLayout>
+    
+    <TableLayout 
+	    	android:id="@+id/Table_user_2" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:gravity="center">
+    	
+        <TableRow
+            android:gravity="center">
+            	<Button
+			   	         android:id="@+id/bt_edit_family_info"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="编辑家庭信息" />	
+            	<Button
+			   	        android:id="@+id/bt_member_manage"
+			   	        android:layout_width="wrap_content"
+			   	        android:layout_height="wrap_content"
+			   	        android:layout_marginTop="20dp"
+			   	        android:text="成员管理" />
+            	<Button
+			   	         android:id="@+id/bt_cancel"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="取消" />		
+        </TableRow>	
+    	
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="horizontal">
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+		android:background="@drawable/toolbar_gridview" android:id="@+id/menu_commonused_layout1"
+		android:layout_weight="1" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<ImageButton android:id="@+id/menu_commonused_image1"
+			android:src="@drawable/menu_about" android:background="@drawable/toolbar_gridview"
+			android:onClick="Menu_commonused_btn1" android:layout_width="40dp"
+			android:layout_height="40dp" android:layout_centerHorizontal="true" />
+
+
+		<TextView android:id="@+id/menu_commonused_title1"
+			android:text="@string/commonused1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="14dp"
+			android:layout_centerHorizontal="true" android:textColor="@color/white"
+			android:layout_below="@id/menu_commonused_image1" />
+
+	</RelativeLayout>
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+		android:background="@drawable/toolbar_gridview" android:id="@+id/menu_commonused_layout2"
+		android:layout_weight="1" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<ImageButton android:id="@+id/menu_commonused_image2"
+			android:src="@drawable/menu_bookmark" android:background="@drawable/toolbar_gridview"
+			android:onClick="Menu_commonused_btn2" android:layout_width="40dp"
+			android:layout_height="40dp" android:layout_centerHorizontal="true" />
+
+
+		<TextView android:id="@+id/menu_commonused_title2"
+			android:text="@string/commonused2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="14dp"
+			android:layout_centerHorizontal="true" android:layout_below="@id/menu_commonused_image2"
+			android:textColor="@color/white" />
+
+	</RelativeLayout>
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+		android:background="@drawable/toolbar_gridview" android:id="@+id/menu_commonused_layout3"
+		android:layout_weight="1" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<ImageButton android:id="@+id/menu_commonused_image3"
+			android:src="@drawable/menu_about" android:background="@drawable/toolbar_gridview"
+			android:onClick="Menu_commonused_btn3" android:layout_width="40dp"
+			android:layout_height="40dp" android:layout_centerHorizontal="true" />
+
+
+		<TextView android:id="@+id/menu_commonused_title3"
+			android:text="@string/commonused3" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="14dp"
+			android:layout_centerHorizontal="true" android:layout_below="@id/menu_commonused_image3"
+			android:textColor="@color/white" />
+
+	</RelativeLayout>
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+		android:background="@drawable/toolbar_gridview" android:id="@+id/menu_commonused_layout4"
+		android:layout_weight="1" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<ImageButton android:id="@+id/menu_commonused_image4"
+			android:src="@drawable/menu_quit" android:background="@drawable/toolbar_gridview"
+			android:onClick="Menu_commonused_btn4" android:layout_width="40dp"
+			android:layout_height="40dp" android:layout_centerHorizontal="true" />
+
+
+		<TextView android:id="@+id/menu_commonused_title4"
+			android:text="@string/commonused4" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="14dp"
+			android:layout_centerHorizontal="true" android:layout_below="@id/menu_commonused_image4"
+			android:textColor="@color/white" />
+
+	</RelativeLayout>
+
+
+</LinearLayout>

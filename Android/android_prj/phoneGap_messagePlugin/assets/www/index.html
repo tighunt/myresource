@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>PhoneGap</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+<script type="text/javascript" charset="utf-8" src="../js/jquery-1.7.1.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/phonegap.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/phonegap_messagePlugin.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		var onSend = function(){
+			
+			//成功时执行该函数
+			var success = function(data){
+				alert("tel:" + data.target + "\ncontent:" + data.content);		
+			};
+			
+			//失败时执行该函数
+			var error = function(e){
+				alert(e);
+			};
+			
+			var tel = $('#tel').val();
+			var content = $('#content').val();
+			
+			//message: 自定义phonegap_messagePlugin.js中定义的
+			//send(...)函数： message对象的方法
+			window.plugins.message.send(success,error,tel,content);
+		};
+		
+		//发送按钮点击方法绑定
+		$('#send').bind('click',onSend);
+		
+	});
+</script>
+
+</head>
+
+<body>
+	<div id="messageDiv">
+		<input id="tel" type="tel" value="5556"/>
+		<textarea id="content" rows="10" cols="25"></textarea>
+		<button id="send" type="button">发送</button>
+	</div>
+</body>
+
+</html>

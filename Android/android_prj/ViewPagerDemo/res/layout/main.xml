@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/titlebar_bg_nor"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text1"
+                style="@style/titleIcon"
+                android:background="@drawable/msg_group_at"
+                 />
+
+            <TextView
+                android:id="@+id/text2"
+                style="@style/titleIcon"
+                android:background="@drawable/msg_group_comment"
+                />
+
+            <TextView
+                android:id="@+id/text3"
+                style="@style/titleIcon"
+                android:background="@drawable/msg_group_message"
+                 />
+
+            <TextView
+                android:id="@+id/text4"
+                style="@style/titleIcon"
+                android:background="@drawable/msg_group_notification"
+                 />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cursor"
+             android:layout_width="20dip"
+            android:layout_height="2dip"
+            android:layout_marginLeft="80dip"
+            android:layout_marginBottom="3dip"
+            android:background="@drawable/title_bar_mark"
+            />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>

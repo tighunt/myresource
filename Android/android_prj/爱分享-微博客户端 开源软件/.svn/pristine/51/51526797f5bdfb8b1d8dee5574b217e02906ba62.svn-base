@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+	 >
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="300dp"
+ 		>
+	
+	    <CheckBox
+	        android:id="@+id/checkBox1"
+	        android:layout_width="130dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:text="@string/remindone" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBox2"
+	        android:layout_width="130dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/checkBox1"
+	        android:layout_below="@+id/checkBox1"
+	        android:text="@string/remind2" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBox3"
+	        android:layout_width="130dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/checkBox2"
+	        android:layout_below="@+id/checkBox2"
+	        android:text="@string/remind3" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBox4"
+	        android:layout_width="130dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/checkBox3"
+	        android:layout_below="@+id/checkBox3"
+	        android:text="@string/remind4" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBox5"
+	        android:layout_width="130dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/checkBox4"
+	        android:layout_below="@+id/checkBox4"
+	        android:text="@string/remind5" />
+	
+	    <Button
+	        android:id="@+id/closeButton"
+	        android:layout_width="130dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/checkBox5"
+	        android:layout_alignParentBottom="true"
+	        android:text="@string/close" />
+	</RelativeLayout>
+</RelativeLayout>

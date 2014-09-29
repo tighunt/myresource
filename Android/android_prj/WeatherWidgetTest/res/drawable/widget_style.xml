@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 播放器中搜索版块背景效果 -->
+<shape	xmlns:android="http://schemas.android.com/apk/res/android"
+		android:shape = "rectangle">
+	<!-- <gradient android:angle = "270"
+				android:startColor = "#99ccff"
+				android:centerColor="#00ccff"
+				android:endColor =  "#99ccff"/>  -->
+						
+	<solid android:color="#99999999" />
+						
+	<corners android:topLeftRadius = "18dip"
+			android:topRightRadius = "18dip"
+			android:bottomLeftRadius = "18dip"
+			android:bottomRightRadius = "18dip" />  
+</shape>

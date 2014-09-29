@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">OptionMenu</string>
+    <string name="hello_eboy">Hello eboy!</string>
+    <string name="itemAdd">添加</string>
+    <string name="itemEdit">修改</string>
+    <string name="itemDel">删除</string>
+    <string name="itemShare">分享</string>
+    <string name="itemHelp">帮助</string>
+    <string name="itemAbout">关于</string>
+    
+    <string name="itemAddSelect">您单击了添加</string>
+    <string name="itemEditSelect">您单击了修改</string>
+    <string name="itemDelSelect">您单击了删除</string>
+    <string name="itemShareSelect">您单击了分享</string>
+    <string name="itemHelpSelect">您单击了帮助</string>
+    <string name="itemAboutSelect">您单击了关于</string>
+    
+    <string name="title_activity_main">Menu菜单操作</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="libs/universal-image-loader-1.7.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/universal-image-loader-1.7.0-with-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/JustSharePro/libs/universal-image-loader-1.7.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

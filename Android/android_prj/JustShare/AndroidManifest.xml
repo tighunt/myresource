@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.logan"
+    android:versionCode="3"
+    android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+
+    <application android:name=".app.AppContext" android:icon="@drawable/icon" android:label="@string/app_name"  android:allowBackup="true">"
+        <activity android:name=".app.WelcomeActivity" android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".weibo.ui.AuthorizeActivity" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.QAuthorizeActivity" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.AccountActivity" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.TimeLineActivity" android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.UserInfo" android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.More" android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.StatusDetailActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" > </activity>
+        <activity android:name=".weibo.ui.QStatusDetailActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" > </activity>
+        <activity android:name=".weibo.ui.ImageDialog" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" > </activity>
+        <activity android:name=".weibo.ui.ImageZoomDialog" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" > </activity>
+        <activity android:name=".weibo.ui.CommentListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" > </activity>
+        <activity android:name=".weibo.ui.RetweetListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"> </activity>
+        <activity android:name=".weibo.ui.FavoriteListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"> </activity>
+        <activity android:name=".weibo.ui.FansListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" > </activity>
+        <activity android:name=".weibo.ui.IdolListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" > </activity>
+        <activity android:name=".weibo.ui.Tweet" android:configChanges="keyboardHidden|orientation" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" /> 
+        <activity android:name=".weibo.ui.more.AboutAcitvity" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.more.AccountAcitvity" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.more.FeedbackActivity" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.more.HelpAcitvity" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.more.SettingActivity" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".weibo.ui.more.ThemeDialog" android:label="@string/theme" android:theme="@android:style/Theme.Dialog" > </activity>
+        <activity android:name=".weibo.ui.more.CacheSettingDialog" android:label="@string/tip" android:theme="@android:style/Theme.Dialog" > </activity>
+        <activity android:name=".weibo.ui.more.RemindSettingDialog" android:label="@string/setting_remind" android:theme="@android:style/Theme.Dialog" > </activity>
+        <activity android:name="com.nostra13.universalimageloader.ImagePagerActivity"  > </activity>
+	</application>
+</manifest>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="#fff4f4f4" >
+
+        <LinearLayout
+            android:id="@+id/btns_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/titlebar_bg"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:paddingBottom="5.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="5.0dip" >
+
+            <ImageButton
+                android:id="@+id/insert_expression_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/write_insert_face"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/insert_pic_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/write_insert_pic"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/accountSelectBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/write_change_account"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/writeTopTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/titlebar_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="5.0dip" >
+
+            <ImageButton
+                android:id="@+id/comment_writeBackBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/write_back"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/comment_title_tv"
+                android:textColor="@color/white"
+                android:textSize="20.0sp" />
+
+            <Button
+                android:id="@+id/sendBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/write_send"
+                android:scaleType="fitCenter"
+                android:text="@string/send_btn"
+                android:textColor="@color/gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/marks"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_above="@id/btns_bottom"
+            android:padding="3.0dip" >
+
+            <ImageView
+                android:id="@+id/insertPic"
+                android:layout_width="50.0dip"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/delword_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_delwords"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/comment_text_limit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5.0px"
+                    android:text="140"
+                    android:textColor="#ff333333" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_delwords" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/microBlog_ed"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/marks"
+            android:layout_below="@id/writeTopTitle"
+            android:layout_margin="3.0px"
+            android:capitalize="sentences"
+            android:gravity="top|left|center"
+            android:hint="@string/say_something" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/expressionsRL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:visibility="gone" >
+
+        <RadioGroup
+            android:id="@+id/expressionsBtns"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="2.0dip"
+            android:paddingTop="2.0dip"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/showSinaEXBtn"
+                style="@style/write_mblog_expression_btn_left"
+                android:checked="true"
+                android:text="@string/show_sina_btn" />
+
+            <RadioButton
+                android:id="@+id/showTencentEXBtn"
+                style="@style/write_mblog_expression_btn_middle"
+                android:text="@string/show_tencent_btn" />
+
+            <RadioButton
+                android:id="@+id/showRenrenEXBtn"
+                style="@style/write_mblog_expression_btn_right"
+                android:text="@string/show_renren_btn" />
+        </RadioGroup>
+
+        <GridView
+            android:id="@+id/sinaExpressions"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/expressionsBtns"
+            android:gravity="center"
+            android:horizontalSpacing="5.0dip"
+            android:numColumns="6"
+            android:padding="10.0dip"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="2.0dip"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/tencentExpressions"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/expressionsBtns"
+            android:gravity="center"
+            android:horizontalSpacing="5.0dip"
+            android:numColumns="6"
+            android:padding="10.0dip"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="2.0dip"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/renrenExpressions"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/expressionsBtns"
+            android:gravity="center"
+            android:horizontalSpacing="5.0dip"
+            android:numColumns="6"
+            android:padding="10.0dip"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="2.0dip"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

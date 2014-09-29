@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/weibo_headerbar" />
+
+    <ListView
+        android:id="@+id/manage_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:cacheColorHint="#000000"
+        android:divider="@drawable/divider"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="true"
+        android:scrollbars="vertical"
+        android:scrollingCache="false"
+        android:smoothScrollbar="false" 
+        android:layout_weight="1.0">
+    </ListView>
+
+</LinearLayout>

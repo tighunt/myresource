@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">视频播放器演示</string>
+    <string name="video_text">请输入视频文件的名字：</string>
+    <string name="no_sdcard_error">SDCard找不到！</string>
+    <string name="file_not_found_error">文件找不到！</string>
+
+</resources>

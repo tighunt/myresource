@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlebar_bg" >
+
+        <ImageView
+            android:id="@+id/weibo_writeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/microblog_list_title_new" />
+		<TextView 
+            android:id="@+id/weibo_title_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="title"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+             />
+        <ProgressBar
+            android:id="@+id/weibo_refreshBtn"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            style="@style/loading_small"
+            android:visibility="gone"
+           	/>
+    </RelativeLayout>
+    <!--
+     <ImageView
+            android:id="@+id/weibo_list_imageView1_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/weibo_list_imageView1_write"
+            android:layout_marginLeft="19dp"
+            android:layout_toRightOf="@+id/weibo_list_imageView1_write"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/weibo_location" />
+    -->
+
+</LinearLayout>

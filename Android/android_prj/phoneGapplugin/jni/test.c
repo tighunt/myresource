@@ -1,0 +1,14 @@
+//#include "RingBuffer.h"
+
+int main()
+{
+	unsigned int re =0;
+	unsigned char* data;
+	unsigned char* tt ="retyreiteritreitrethererretre\0";
+	re = write(tt,(unsigned int)strlen(tt));
+	printf("write result %d\n",re);
+	re = 100;
+	read(data,&re);
+	printf("write result %d\n",re);
+	printf("read data: %s\n",tt);
+}

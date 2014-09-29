@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.xijiebamutian" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8" />
+
+
+
+	<application android:icon="@drawable/icon"
+		android:label="@string/app_name" android:name="com.bamutian.util.ApplicationData">
+
+		<activity android:configChanges="keyboardHidden|orientation"
+			android:name="com.bamutian.navigation.ConvertActivityGroup"
+			android:windowSoftInputMode="stateVisible|adjustPan"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:configChanges="keyboardHidden|orientation"
+			android:name="com.bamutian.navigation.Temp"
+			android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:configChanges="keyboardHidden|orientation"
+			android:name="com.bamutian.navigation.Temp2"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:configChanges="keyboardHidden|orientation"
+			android:name="com.bamutian.navigation.StartActivity"
+			android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait">
+
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+
+		</activity>
+
+
+		<activity android:configChanges="keyboardHidden|orientation"
+			android:name="com.bamutian.navigation.OpenMenuHelper"
+			android:screenOrientation="portrait">
+		</activity>
+
+
+	</application>
+
+
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+	</uses-permission>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/numberview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入对方号码:"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/numberedit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top" />
+    <TextView
+        android:id="@+id/messageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="天气情况:"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/messageedit"
+        android:layout_width="fill_parent"
+        android:layout_height="70px"
+        android:gravity="top"
+        android:scrollbars="vertical" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送"
+        android:textStyle="bold" />
+</LinearLayout>

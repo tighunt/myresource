@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+	<string name="app_name">ToolBarDemo</string>
+	<string name="app_webpage_url">http://www.8mutian.com</string>
+
+
+	<string name="hint1_timeout">【温馨提示】</string>
+	<string name="hint2_timeout">连接出错，请检查您的网络环境！</string>
+	<string name="ok_timeout">确定</string>
+	<string name="cancel">取消</string>
+
+	<string name="hint_exit">确定退出吗？</string>
+    
+    
+    <!-- OpenMenu title -->
+    <string name="commonused1">页面显示</string>
+    <string name="commonused2">收藏</string>
+    <string name="commonused3">常用3</string>
+    <string name="commonused4">退出</string>
+    
+    <string name="setting1">设置1</string>
+    <string name="setting2">设置2</string>
+    <string name="setting3">设置3</string>
+    <string name="setting4">设置4</string>
+    
+    <string name="tool1">工具1</string>
+    <string name="tool2">检查更新</string>
+    <string name="tool3">意见反馈</string>
+    <string name="tool4">关于</string>
+    
+</resources>

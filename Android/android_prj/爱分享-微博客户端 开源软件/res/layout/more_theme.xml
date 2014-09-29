@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_alignParentTop="true"
+     android:layout_centerInParent="true"
+     android:background="@drawable/btn_before"
+     android:paddingBottom="2dp"
+     android:paddingLeft="20dp"
+     android:paddingRight="20dp"
+     android:paddingTop="2dp" >
+
+		<RadioGroup
+            android:id="@+id/radioGroupTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+           >
+
+            <RadioButton
+                android:id="@+id/radioThemeOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:text="@string/theme_1" />
+
+            <RadioButton
+                android:id="@+id/radioThemeTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:text="@string/theme_2" />
+
+            <RadioButton
+                android:id="@+id/radioThemeThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:text="@string/theme_3" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/surebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroupTheme"
+            android:layout_centerHorizontal="true"
+            android:text="@string/sure" />
+
+</RelativeLayout>
+

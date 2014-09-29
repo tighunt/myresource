@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">爱分享</string>
+    <string name="add">添加账户</string>
+    <string name="delete">删除账户</string>
+    <string name="home">首页</string>
+    <string name="user_timeline">我的微博</string>
+    <string name="user_news">动态</string>
+    <string name="user_info">我的资料</string>
+    <string name="more">更多</string>
+    <string name="display_original_pic">查看原图</string>
+    <string name="description">此版本适于Android2.2及以上的操作系统，如使用过程中遇到任何问题，欢迎与我们交流</string>
+    <string name="developers">开发者群：232482105</string>
+    <string name="tweeting">发布中&#8230;</string>
+    <string name="limit_num">140</string>
+    <string name="not_implemented">该功能还未实现</string>
+    <string name="exit">退出</string>
+    
+    
+    <string name="from_which_plaform">来自：</string>
+    <string name="introuction">自我介绍：</string>
+    <string name="write_title_tv">发表新微博</string>
+    <string name="send_btn">发表</string>
+    <string name="say_something">说点什么吧&#8230;</string>
+    <string name="send">发送</string>
+    <string name="close">关闭</string>
+    <string name="share_dialog_title">新浪微博</string>
+    <string name="send_sucess">分享成功！</string>
+    <string name="send_failed">分享失败！</string>
+    <string name="mycount">我的账户</string>
+    <string name="picture">图片显示</string>
+    <string name="theme">主题</string>
+    <string name="weibo">官方微博</string>
+    <string name="setting">通用设置</string>
+    <string name="help">帮助</string>
+    <string name="about">关于</string>
+    <string name="addcount">添加账户</string>
+    <string name="managerCount">管理账户</string>
+    
+    <string name="theme_1">经典主题</string>
+    <string name="theme_2">夜间主题</string>
+    <string name="theme_3">主题</string>
+    <string name="feedback">意见反馈</string>
+    <string name="feedbacktext">在使用本软件时，如果你遇到问题，请联系我们。 服务群：232482105 </string>
+    <string name="language">语言</string>
+    <string name="setting_language">切换语言</string>
+    <string name="setting_loading">自动加载“更多”</string>
+    <string name="setting_loading_text">到达列表底部时自动加载“更多”微博</string>
+    <string name="setting_screen">横竖屏自动切换</string>
+    <string name="setting_screen_text">当手机横过来是，横竖屏是否自动切换</string>
+    <string name="setting_drag">开启快速拖动</string>
+    <string name="setting_drag_text">浏览列表时可使用拖动条快速拖动</string>
+    <string name="setting_cache">清除缓存</string>
+    <string name="setting_cache_text">清除缓存：包括用户信息、微博信息、图片等</string>
+    <string name="acahe_information">您需要清除缓存吗?</string>
+    <string name="setting_picture">图片质量设置</string>
+    <string name="setting_optimization">开启自动优化</string>
+    <string name="setting_optimization_text">wifi环境下自动优化图片上传下载清晰度</string>
+    <string name="setting_uploadPicture">上传图片设置</string>
+    <string name="setting_uploadPicture_text">调整上传图片的质量</string>
+    <string name="setting_downloadPicture">下载图片设置</string>
+    <string name="setting_downloadPicture_text">调整下载图片的质量</string>
+    <string name="setting_news">消息设置</string>
+    <string name="setting_remind">提醒设置</string>
+    <string name="setting_remind_text">可定制项包括私信、@我的、评论、新粉丝、通知等</string>
+    <string name="remindone">at我提醒</string>
+    <string name="remind2">评论提醒</string>
+    <string name="remind3">私信提醒</string>
+    <string name="remind4">新粉丝提醒</string>
+    <string name="remind5">通知提醒</string>
+    <string name="setting_time">检测间隔</string>
+    <string name="setting_time_text">自动检测微博的间隔时间，时间越长越省流量</string>
+    <string name="setting_ring">铃声提醒</string>
+    <string name="setting_ring_text">启用铃声提醒</string>
+    <string name="setting_vibration">震动提醒</string>
+    <string name="setting_vibration_text">启用震动提醒</string>
+    <string name="sure">确定</string>
+    <string name="cancelbutton">取消</string>
+    <string name="tip">提示</string>
+    <string name="status_detail">微博正文</string>
+    <string name="sina">新浪</string>
+    <string name="tencent">腾讯</string>
+    
+    
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中&#8230;</string>
+    <string name="pull_to_refresh_update">最近更新：</string>
+   
+    <string name="descr_image">Image</string>
+    <string name ="first_tag">first_tag</string>
+    <string name ="second_tag">second_tag</string>
+    <string name ="openid">openid</string>
+    <string name ="isidol">isidol</string>
+</resources>

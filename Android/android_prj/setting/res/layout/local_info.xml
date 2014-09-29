@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+    
+    <TableLayout 
+	    		android:id="@+id/Table_advance_1" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center">
+				
+         <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView28"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:gravity="center" 
+	        			android:text="引擎" />
+				   	
+				   	<TextView
+	       				android:id="@+id/text_engine"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:gravity="center" 
+	        			android:text="" />				   	
+	     </TableRow>
+	     
+         <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView29"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="中央处理器" />
+				   	
+				   	<TextView
+	       				android:id="@+id/text_cpu"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="" />				   	
+	     </TableRow>
+	     
+         <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView30"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="图形处理器" />
+				   	
+				   	<TextView
+	       				android:id="@+id/text_graphics_processor"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="" />				   	
+	     </TableRow>
+        
+          <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView31"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="操作系统" />
+				   	
+				   	<TextView
+	       				android:id="@+id/text_os"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="" />				   	
+	     </TableRow>
+	     
+          <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView32"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="智能平台" />
+				   	
+				   	<TextView
+	       				android:id="@+id/text_intelligent_platform"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="" />				   	
+	     </TableRow>
+	     
+          <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView33"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="存储器" />
+				   	
+				   	<TextView
+	       				android:id="@+id/text_memory"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="" />				   	
+	     </TableRow>
+	     
+          <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView34"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="网卡" />
+				   	
+				   	<TextView
+	       				android:id="@+id/text_network_adapter"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="" />				   	
+	     </TableRow>
+	     
+          <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView35"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="音频处理" />
+				   	
+				   	<TextView
+	       				android:id="@+id/text_audio_process"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="" />				   	
+	     </TableRow>
+	     
+          <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView36"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="屏体" />
+				   	
+				   	<TextView
+	       				android:id="@+id/text_screen"
+	        			android:layout_width="300px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp"
+	        			android:gravity="center" 
+	        			android:text="" />				   	
+	     </TableRow>
+  	</TableLayout>
+ 
+</LinearLayout>

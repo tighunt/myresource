@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"  
+    android:layout_gravity="center">
+    
+			<TableLayout 
+	    		android:id="@+id/Table_sound_1" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+				<TableRow>
+				 	<TextView
+       				 	android:id="@+id/textView10"
+        				android:layout_width="100px"
+        				android:layout_height="wrap_content"
+        				android:text="低音" />	
+			   	    
+			   	    <SeekBar
+			   		    android:id="@+id/seek_low_sound"
+			   		    android:layout_width="400px"
+			   		    android:layout_height="wrap_content"
+			   		    android:max="100" 
+			   		    android:progress="50"
+			   		    android:secondaryProgress="75"
+			   		    android:gravity="center" />
+			   	    
+			   	    <TextView
+       				 	android:id="@+id/text_low_sound"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:text="50" />
+			   	</TableRow>
+			   	
+				 <TableRow>  	
+				   	<TextView
+	       				 	android:id="@+id/textView11"
+	        				android:layout_width="100px"
+	        				android:layout_height="wrap_content"
+	        				android:layout_marginTop="20dp" 
+	        				android:text="高音" />    
+	   	     
+			   	     <SeekBar
+			   		    android:id="@+id/seek_high_sound"
+			   		    android:layout_width="400px"
+			   		    android:layout_height="wrap_content"
+			   		    android:layout_marginTop="20dp" 
+			   		    android:max="100" 
+			   		    android:progress="50"
+			   		    android:secondaryProgress="75" 
+			   		    android:gravity="center" />
+			   	     
+			   	     <TextView
+       				 	android:id="@+id/text_high_sound"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="50" />
+	   	    	 </TableRow>
+   	      
+   	     </TableLayout>		 
+   	           	        	 
+	   	 <TableLayout 
+	    		android:id="@+id/Table_seekbar" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+   	      		 
+	   	     <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView12"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="SRS环绕声" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p5"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_surround"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="关" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n5"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	      </TableRow>
+	   	     
+	   	      <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView13"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="清脆人声" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p6"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_human_sound"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="开" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n6"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	     </TableRow>
+	   	     
+	   	     <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView14"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="低声提升" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p7"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_lowsound_elevate"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="开" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n7"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	     </TableRow>
+	   	     
+	   	      <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView15"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="声音模式" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p8"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_sound_model"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="标准" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n8"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	     </TableRow>
+	   	     
+	   	     <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView16"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="重低音开关" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p9"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_heavylowsound_switch"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="关" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n9"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	     </TableRow>
+	   	</TableLayout>
+	   	
+		<TableLayout 
+	    		android:id="@+id/Table_sound_3" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+	   	     <TableRow>  	
+				   	<TextView
+	       				 	android:id="@+id/textView17"
+	        				android:layout_width="100px"
+	        				android:layout_height="wrap_content"
+	        				android:layout_marginTop="20dp" 
+	        				android:text="重低音音量" />    
+	   	     
+			   	     <SeekBar
+			   		    android:id="@+id/seek_heavylowsound_volume"
+			   		    android:layout_width="400px"
+			   		    android:layout_height="wrap_content"
+			   		    android:layout_marginTop="20dp" 
+			   		    android:max="100" 
+			   		    android:progress="50"
+			   		    android:secondaryProgress="75" 
+			   		    android:gravity="center" />
+			   	     
+			   	     <TextView
+       				 	android:id="@+id/text_heavylowsound_volume"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="50" />
+	   	    </TableRow>
+			   	       	 
+   	    </TableLayout>
+   	    
+		<TableLayout 
+	    		android:id="@+id/Table_sound_4" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+	   	  
+	   	  <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView18"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="开关机音乐" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p10"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_open_close_music"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="开" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n10"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	   </TableRow>   
+		    
+	   	</TableLayout>
+    
+</LinearLayout>

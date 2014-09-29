@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+    <TableLayout 
+	    		android:id="@+id/Table_advance_1" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">		
+        <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView19"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="语言/language" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p11"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_language"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="中文" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n11"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   </TableRow>
+	   
+       <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView20"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="开机通道" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p12"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_open_channel"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="记忆" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n12"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   </TableRow>
+	   
+       <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView21"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="睡眠时间" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p13"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_sleep_time"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="关" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n13"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   </TableRow> 
+	   
+       <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView22"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="六基色III代" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p14"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_six_primary_colors "
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="关" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n14"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   </TableRow> 
+	</TableLayout>
+	
+    <TableLayout 
+	    		android:id="@+id/Table_advance_2" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+       		<TableRow>
+					<TextView
+       					android:id="@+id/textView23"
+        				android:layout_width="100px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="背光调节" />			
+			   	    
+			    	<SeekBar
+			   		    android:id="@+id/seek_backlight_adjust"
+			   		    android:layout_width="400px"
+			   		    android:layout_height="wrap_content"
+			   		    android:max="100" 
+			   		    android:progress="50"
+			   		    android:secondaryProgress="75"
+			   		    android:layout_marginTop="20dp"
+			   		    android:gravity="center" />
+			   	    
+			   	    <TextView
+       				 	android:id="@+id/text_backlight_adjust"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="50" />	 	
+			</TableRow>
+    </TableLayout>
+    
+    <TableLayout 
+	    		android:id="@+id/Table_advance_3" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+       
+       <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView24"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="屏变" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p15"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_plate_modulation"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="关" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n15"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   </TableRow>
+	   
+       <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView25"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="在线升级" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p16"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_upgrade_online"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="请按确定键进入" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n16"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   </TableRow>
+	   
+        <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView26"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="本地升级" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p17"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_upgrade_local"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="请按确定键进入" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n17"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   </TableRow>
+	   
+         <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView27"
+	        			android:layout_width="100px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="恢复默认设置" />    
+	   				 <Button
+			   	         android:id="@+id/bt_p18"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_restore_default"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="请按确定键进入" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:id="@+id/bt_n18"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   </TableRow>	
+       	
+     </TableLayout>   
+
+</LinearLayout>

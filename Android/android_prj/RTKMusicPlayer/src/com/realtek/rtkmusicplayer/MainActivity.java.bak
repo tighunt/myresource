@@ -1,0 +1,324 @@
+package com.realtek.rtkmusicplayer;
+
+import java.io.File;
+import java.util.ArrayList;
+
+import org.jaudiotagger.audio.mp3.MP3File;
+import org.jaudiotagger.tag.FieldKey;
+import org.jaudiotagger.tag.id3.AbstractID3v2Frame;
+import org.jaudiotagger.tag.id3.AbstractID3v2Tag;
+import org.jaudiotagger.tag.id3.ID3v24Frames;
+import org.jaudiotagger.tag.id3.framebody.FrameBodyAPIC;
+
+import com.realtek.DataProvider.DeviceFileDataPrivider;
+import com.realtek.DataProvider.FileFilterType;
+
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
+import android.content.res.XmlResourceParser;
+import android.graphics.BitmapFactory;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.KeyEvent;
+import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity extends Activity {
+
+	private Toast toast;
+	private Thread barThd = null;
+	private boolean finishThd = false;
+	public static int index;
+	public static ArrayList<String> musicList;
+	public static int status;
+	public static int sta_play = 0;
+	public static int sta_pause = 1;
+	public static int total_time;
+	private static ComponentName component;
+
+	private DeviceFileDataPrivider mDataProvider = null;
+	private XmlResourceParser in;
+
+	private static ProgressBar musicBar;
+
+	private static TextView time_now;
+	private static TextView time_all;
+
+	private static TextView music_title;
+	private static TextView music_album;
+	private static TextView music_artist;
+	private static TextView music_year;
+	private static ImageView music_face;
+	
+	private static String sTitle;
+	private static String sAlbum;
+	private static String sArtist;
+	private static String sYear;
+	private static byte[] imageData;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+		component = new ComponentName(this, PlayService.class);
+		in = getResources().getXml(R.xml.mimetypes);
+		musicBar = (ProgressBar) findViewById(R.id.playBar);
+		time_now = (TextView) findViewById(R.id.timeNow);
+		time_all = (TextView) findViewById(R.id.timeTotal);
+		music_title = (TextView) findViewById(R.id.musicTitle);
+		music_album = (TextView) findViewById(R.id.musicAlbum);
+		music_artist = (TextView) findViewById(R.id.musicArtist);
+		music_year = (TextView) findViewById(R.id.musicYear);
+		music_face = (ImageView) findViewById(R.id.imageFace);
+
+		if (getIntent().getIntExtra("initPos", -1) == -1) {
+			popMsg("playlist is null");
+			finish();
+		} else {
+			startFromIntent(getIntent());
+		}
+	}
+
+	protected void onNewIntent(Intent intent) {
+
+		super.onNewIntent(intent);
+		if (intent.getIntExtra("initPos", -1) == -1) {
+			popMsg("playlist is null");
+			finish();
+		} else {
+			startFromIntent(intent);
+		}
+	}
+
+	private void startFromIntent(Intent intent) {
+		PlayService.isBackground = false;
+		int initPos = intent.getIntExtra("initPos", 0);
+		String path = intent.getStringExtra("currPath");
+
+		Intent mIntent = new Intent(PlayService.PAUSE_ACTION);
+		mIntent.setComponent(component);
+		startService(mIntent);
+
+		if (musicList == null) {
+			musicList = new ArrayList<String>();
+		} else
+			musicList.clear();
+		getDataProvider(path);
+		int total = mDataProvider.GetSize();
+		for (int i = 0; i < total; i++) {
+			musicList.add(mDataProvider.GetDataAt(i));
+		}
+		if (barThd == null) {
+			barThd = new Thread(new Runnable() {
+				@Override
+				public void run() {
+					while (!finishThd) {
+						if (PlayService.mMediaPlayer == null) {
+							try {
+								Thread.sleep(1000);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+							continue;
+						}
+						try {
+							if (PlayService.mMediaPlayer.isPlaying()) {
+								handler.sendEmptyMessage(MainActivity.MSG_PROCESS_TIME);
+							}
+							Thread.sleep(1000);
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+				}
+			});
+			barThd.start();
+		}
+		index = initPos;
+		setMusicInfo();
+		musicBar.setProgress(0);
+		Intent mIntent2 = new Intent(PlayService.PLAY_ACTION);
+		mIntent2.setComponent(component);
+		startService(mIntent2);
+	}
+
+	public void popMsg(String msg) {
+		if (toast == null) {
+			toast = Toast.makeText(getApplicationContext(), msg,
+					Toast.LENGTH_LONG);
+			toast.setGravity(Gravity.CENTER, 0, 0);
+		} else
+			toast.setText(msg);
+		toast.show();
+	}
+
+	private void getDataProvider(String path) {
+		mDataProvider = new DeviceFileDataPrivider(path,
+				FileFilterType.DEVICE_FILE_AUDIO, -1, 0, in);
+	}
+
+	public static final int MSG_TOTAL_TIME = 1;
+	public static final int MSG_PROCESS_TIME = 2;
+	public static final int MSG_RESET = 3;
+	public static final int MSG_INFO_UI = 4;
+	public static Handler handler = new Handler() {
+
+		@Override
+		public void handleMessage(Message msg) {
+
+			// TODO Auto-generated method stub
+
+			switch (msg.what) {
+
+			case MSG_TOTAL_TIME: {
+				musicBar.setMax(PlayService.mMediaPlayer.getDuration());
+				time_all.setText(Util.toTime(PlayService.mMediaPlayer
+						.getDuration()));
+			}
+				break;
+			case MSG_PROCESS_TIME: {
+				musicBar.setProgress(PlayService.mMediaPlayer
+						.getCurrentPosition()); // 获得当前播放的进度值
+				time_now.setText(Util.toTime(PlayService.mMediaPlayer
+						.getCurrentPosition()));
+
+			}
+				break;
+			case MSG_RESET: {
+
+				setMusicInfo();
+				musicBar.setProgress(0);
+			}
+				break;
+			case MSG_INFO_UI: {
+				if(sTitle!=null)
+					music_title.setText(sTitle);
+				if(sAlbum !=null)
+					music_album.setText(": "+ sAlbum );
+				else music_album.setText(": ");
+				if(sArtist != null)
+					music_artist.setText(": "+ sArtist);
+				else music_artist.setText(": ");
+				if(sYear!=null)
+					music_year.setText(": "+ sYear);
+				else music_year.setText(":");
+				if(imageData !=null)
+					music_face.setImageBitmap(BitmapFactory.decodeByteArray(
+						imageData, 0, imageData.length));
+			}
+				break;
+
+			}
+		}
+	};
+
+	private static void setMusicInfo() {
+		
+		Thread infoThd = new Thread(new Runnable() {
+			@Override
+			public void run() {
+				int tmpindex = index;
+				File sourceFile = new File(musicList.get(tmpindex));
+				try {
+					MP3File mp3file = new MP3File(sourceFile, 14, true);
+
+					AbstractID3v2Tag tag = mp3file.getID3v2Tag();
+					if (tag != null) {
+						sTitle = tag.getFirst(FieldKey.TITLE);
+						sAlbum = tag.getFirst(FieldKey.ALBUM);
+						sArtist = tag.getFirst(FieldKey.ARTIST);
+						String tmpyear =tag.getFirst(FieldKey.YEAR);
+						if(tmpyear!=null)
+						{
+						sYear = tmpyear.substring(0, 4);
+						}
+						AbstractID3v2Frame frame = (AbstractID3v2Frame) tag
+								.getFrame("APIC");
+						FrameBodyAPIC body = (FrameBodyAPIC) frame.getBody();
+						imageData = body.getImageData();
+						if(index == tmpindex)
+						{
+							handler.sendEmptyMessage(MSG_INFO_UI);
+						}
+					}
+				} catch (Exception e) {
+					Log.e("000", "no tags");
+				}
+			}
+		});
+		infoThd.start();
+		
+/*		File sourceFile = new File(musicList.get(index));
+		try {
+			MP3File mp3file = new MP3File(sourceFile, 14, true);
+
+			AbstractID3v2Tag tag = mp3file.getID3v2Tag();
+			if (tag != null) {
+				music_title.setText(""
+						+ tag.getFirst(ID3v24Frames.FRAME_ID_TITLE));
+				music_album.setText(": "
+						+ tag.getFirst(ID3v24Frames.FRAME_ID_ALBUM));
+				music_artist.setText(": "
+						+ tag.getFirst(ID3v24Frames.FRAME_ID_ARTIST));
+				music_year.setText(": "
+						+ tag.getFirst(ID3v24Frames.FRAME_ID_YEAR));
+				AbstractID3v2Frame frame = (AbstractID3v2Frame) tag
+						.getFrame("APIC");
+				FrameBodyAPIC body = (FrameBodyAPIC) frame.getBody();
+				byte[] imageData = body.getImageData();
+				// BitmapFactory.decodeByteArray(imageData, 0,imageData.length);
+				music_face.setImageBitmap(BitmapFactory.decodeByteArray(
+						imageData, 0, imageData.length));
+			}
+		} catch (Exception e) {
+			Log.e("000", "error");
+		}*/
+	}
+
+
+	public void onPause() {
+		super.onPause();
+		PlayService.isBackground = true;
+	}
+
+
+	public void onResume() {
+		super.onResume();
+		PlayService.isBackground = false;
+	}
+
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		finishThd = true;
+		try {
+			// lrcThd.join(); // wait to finish
+			if (barThd != null)
+				barThd.join();
+		} catch (InterruptedException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	@Override
+	public boolean dispatchKeyEvent(KeyEvent m) {
+		if (m.getAction() == KeyEvent.ACTION_UP) {
+			if (m.getKeyCode() == KeyEvent.KEYCODE_DPAD_CENTER) {
+				Intent mIntent2 = new Intent(PlayService.PAUSE_ACTION);
+				mIntent2.setComponent(component);
+				startService(mIntent2);
+				return true;
+			}
+		}
+		return super.dispatchKeyEvent(m);
+	}
+}

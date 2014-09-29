@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+     >
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.2"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+         />
+
+    <LinearLayout
+        android:id="@+id/account_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="0.8"
+        >
+
+        <ImageView
+            android:id="@+id/account_iv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/account_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:id="@+id/plf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+             >
+
+            <ImageView
+                android:id="@+id/weibo_plf_icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/sina" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

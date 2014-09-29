@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="horizontal">
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+		android:background="@drawable/toolbar_gridview" android:id="@+id/menu_setting_layout1"
+		android:layout_weight="1" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<ImageButton android:id="@+id/menu_setting_image1"
+			android:src="@drawable/menu_about" android:background="@drawable/toolbar_gridview"
+			android:onClick="Menu_setting_btn1" android:layout_width="40dp"
+			android:layout_height="40dp" android:layout_centerHorizontal="true" />
+
+
+		<TextView android:id="@+id/menu_setting_title1" android:text="@string/setting1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="14dp" android:layout_centerHorizontal="true"
+			android:textColor="@color/white" android:layout_below="@id/menu_setting_image1" />
+
+	</RelativeLayout>
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+		android:background="@drawable/toolbar_gridview" android:id="@+id/menu_setting_layout2"
+		android:layout_weight="1" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<ImageButton android:id="@+id/menu_setting_image2"
+			android:src="@drawable/menu_about" android:background="@drawable/toolbar_gridview"
+			android:onClick="Menu_setting_btn2" android:layout_width="40dp"
+			android:layout_height="40dp" android:layout_centerHorizontal="true" />
+
+
+		<TextView android:id="@+id/menu_setting_title2" android:text="@string/setting2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="14dp" android:layout_centerHorizontal="true"
+			android:layout_below="@id/menu_setting_image2" android:textColor="@color/white" />
+
+	</RelativeLayout>
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+		android:background="@drawable/toolbar_gridview" android:id="@+id/menu_setting_layout3"
+		android:layout_weight="1" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<ImageButton android:id="@+id/menu_setting_image3"
+			android:src="@drawable/menu_about" android:background="@drawable/toolbar_gridview"
+			android:onClick="Menu_setting_btn3" android:layout_width="40dp"
+			android:layout_height="40dp" android:layout_centerHorizontal="true" />
+
+
+		<TextView android:id="@+id/menu_setting_title3" android:text="@string/setting3"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="14dp" android:layout_centerHorizontal="true"
+			android:layout_below="@id/menu_setting_image3" android:textColor="@color/white" />
+
+	</RelativeLayout>
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+		android:background="@drawable/toolbar_gridview" android:id="@+id/menu_setting_layout4"
+		android:layout_weight="1" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<ImageButton android:id="@+id/menu_setting_image4"
+			android:src="@drawable/menu_about" android:background="@drawable/toolbar_gridview"
+			android:onClick="Menu_setting_btn4" android:layout_width="40dp"
+			android:layout_height="40dp" android:layout_centerHorizontal="true" />
+
+
+		<TextView android:id="@+id/menu_setting_title4" android:text="@string/setting4"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="14dp" android:layout_centerHorizontal="true"
+			android:layout_below="@id/menu_setting_image4" android:textColor="@color/white" />
+
+	</RelativeLayout>
+
+
+</LinearLayout>

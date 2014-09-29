@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 定义常用的数组, 包括以下: 城市 -->
+<resources>
+
+	<!-- [ToBeRevised]底部菜单的数组 -->
+	<string-array name="menu_toolbar_text">
+		<item>首页</item>
+		<item>后退</item>
+		<item>前进</item>
+		<item>创建</item>
+		<item>菜单</item>
+	</string-array>
+
+	
+	
+	<string-array name="TOOLBAR_COMMONUSE">
+		<item>页面显示</item>
+		<item>收藏</item>
+		<item>常用3</item>
+		<item>退出</item>
+	</string-array>
+	
+	
+	<string-array name="TOOLBAR_SETTING">
+		<item>设置1</item>
+		<item>设置2</item>
+		<item>设置3</item>
+		<item>设置4</item>
+	</string-array>
+	
+	
+	<string-array name="TOOLBAR_TOOL">
+		<item>工具1</item>
+		<item>工具2</item>
+		<item>工具3</item>
+		<item>工具4</item>
+	</string-array>
+	
+	
+	<string-array name="TOOLBAR_MENUTITLE">
+		<item>常用</item>
+		<item>设置</item>
+		<item>工具</item>
+	</string-array>
+	
+	
+	<string-array name="PERSONALCENTER">
+		<item>网址收藏</item>
+		<item>签到</item>
+		<item>优惠券</item>
+		<item>个人资料</item>
+	</string-array>
+	
+
+</resources>

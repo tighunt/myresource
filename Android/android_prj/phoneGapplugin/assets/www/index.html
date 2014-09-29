@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>PhoneGap</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+<script type="text/javascript" charset="utf-8" src="../js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="cordova-2.2.0.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="video.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		var onSend = function(){
+			
+
+			var success = function(data){
+				alert("tel:" + data.target + "\ncontent:" + data.content);		
+			};
+			
+
+			var error = function(e){
+				alert(e);
+			};
+			
+			var tel = $('#tel').val();
+			var content = $('#content').val();
+			var url = 'http://172.29.52.33/easley_li/102/37.m3u8';
+			cordova.exec(null, null, "VideoPlayer", "playVideo", [url]);
+			//window.plugins.Message.send(success,error,tel,content);
+			//window.plugins.VideoPlayer.prototype.play("http://path.to.my/video.mp4");
+		};
+		
+
+		$('#send').bind('click',onSend);
+		
+	});
+</script>
+
+</head>
+
+<body>
+	<div id="messageDiv">
+		<input id="tel" type="tel" value="5556"/>
+		<textarea id="content" rows="10" cols="25"></textarea>
+		<button id="send" type="button">send</button>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"  
+    android:layout_gravity="center">
+    
+			<TableLayout 
+	    		android:id="@+id/Table_pic_1" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+				<TableRow>
+				 	<TextView
+       				 	android:id="@+id/textView1"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:text="亮度" />	
+			   	    
+			   	    <SeekBar
+			   		    android:id="@+id/seek_brightness"
+			   		    android:layout_width="400px"
+			   		    android:layout_height="wrap_content"
+			   		    android:max="100" 
+			   		    android:progress="50"
+			   		    android:secondaryProgress="75"
+			   		    android:gravity="center" />
+			   	    
+			   	    <TextView
+       				 	android:id="@+id/text_brightness"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:text="50" />
+			   	</TableRow>
+			   	
+				 <TableRow>  	
+				   	<TextView
+	       				 	android:id="@+id/textView2"
+	        				android:layout_width="wrap_content"
+	        				android:layout_height="wrap_content"
+	        				android:layout_marginTop="20dp" 
+	        				android:text="对比度" />    
+	   	     
+			   	     <SeekBar
+			   		    android:id="@+id/seek_contrast"
+			   		    android:layout_width="400px"
+			   		    android:layout_height="wrap_content"
+			   		    android:layout_marginTop="20dp" 
+			   		    android:max="100" 
+			   		    android:progress="50"
+			   		    android:secondaryProgress="75" 
+			   		    android:gravity="center" />
+			   	     
+			   	     <TextView
+       				 	android:id="@+id/text_contrast"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="50" />
+	   	    	 </TableRow>
+	   	    	 
+				 <TableRow>  	
+				   	<TextView
+	       				 	android:id="@+id/textView3"
+	        				android:layout_width="wrap_content"
+	        				android:layout_height="wrap_content"
+	        				android:layout_marginTop="20dp" 
+	        				android:text="彩色" />    
+	   	     
+			   	     <SeekBar
+   		    				android:id="@+id/seek_color"
+   		    				android:layout_width="400px"
+   		    				android:layout_height="wrap_content"
+   		   	 				android:layout_marginTop="20dp" 
+   		    				android:max="100" 
+				   		    android:progress="50"
+				   		    android:secondaryProgress="75" 
+				   		    android:gravity="center" />
+			   	     
+			   	     <TextView
+       				 	android:id="@+id/text_color"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="50" />
+	   	    	 </TableRow>
+   	      
+   	     		 <TableRow>  	
+				   	<TextView
+	       				 	android:id="@+id/textView4"
+	        				android:layout_width="wrap_content"
+	        				android:layout_height="wrap_content"
+	        				android:layout_marginTop="20dp" 
+	        				android:text="色调" />    
+	   	     
+			   	      <SeekBar
+			   	          	android:onClick="clickhandler"
+				   		    android:id="@+id/seek_hue"
+				   		    android:layout_width="400px"
+				   		    android:layout_height="wrap_content"
+				   		    android:layout_marginTop="20dp" 
+				   		    android:max="100" 
+				   		    android:progress="50"
+				   		    android:secondaryProgress="75" 
+				   		    android:gravity="center" />
+			   	     
+			   	     <TextView
+       				 	android:id="@+id/text_hue"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="50" />
+	   	    	 </TableRow>
+   	     
+   	      		 <TableRow>  	
+				   	<TextView
+	       				 	android:id="@+id/textView5"
+	        				android:layout_width="wrap_content"
+	        				android:layout_height="wrap_content"
+	        				android:layout_marginTop="20dp" 
+	        				android:text="清晰度" />    
+	   	     
+			   	      <SeekBar
+				   		    android:id="@+id/seek_sharpness"
+				   		    android:layout_width="400px"
+				   		    android:layout_height="wrap_content"
+				   		    android:layout_marginTop="20dp" 
+				   		    android:max="100" 
+				   		    android:progress="50"
+				   		    android:secondaryProgress="75" 
+				   		    android:gravity="center" />
+			   	     
+			   	     <TextView
+       				 	android:id="@+id/text_sharpness"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="50" />
+	   	    	 </TableRow>
+	   	    </TableLayout>
+   	           	        	 
+	   	 <TableLayout 
+	    		android:id="@+id/Table_pic_2" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+   	      		 
+	   	     <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView6"
+	        			android:layout_width="60px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="色温" />    
+	   				 <Button
+	   				     android:onClick="clickhandler"
+			   	         android:id="@+id/bt_p1"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_color_temp"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="标准" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:onClick="clickhandler"
+			   	         android:id="@+id/bt_n1"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	      </TableRow>
+	   	     
+	   	      <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView7"
+	        			android:layout_width="60px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="降噪" />    
+	   				 <Button
+	   				     android:onClick="clickhandler"
+			   	         android:id="@+id/bt_p2"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_denoise"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="自动" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:onClick="clickhandler"
+			   	         android:id="@+id/bt_n2"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	     </TableRow>
+	   	     
+	   	     <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView8"
+	        			android:layout_width="60px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="图像模式" />    
+	   				 <Button
+	   				     android:onClick="clickhandler"
+			   	         android:id="@+id/bt_p3"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_image_model"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="标准" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:onClick="clickhandler"
+			   	         android:id="@+id/bt_n3"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	     </TableRow>
+	   	     
+	   	      <TableRow>  	
+				   	<TextView
+	       				android:id="@+id/textView9"
+	        			android:layout_width="60px"
+	        			android:layout_height="wrap_content"
+	        			android:layout_marginTop="20dp" 
+	        			android:text="显示模式" />    
+	   				 <Button
+	   				     android:onClick="clickhandler"
+			   	         android:id="@+id/bt_p4"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="prev" /> 	
+			   	     <TextView
+       				 	android:id="@+id/text_display_model"
+        				android:layout_width="300px"
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="20dp"
+        				android:text="人物模式" 
+        				android:layout_gravity="center"/>
+			   	     <Button
+			   	         android:onClick="clickhandler"
+			   	         android:id="@+id/bt_n4"
+			   	         android:layout_width="wrap_content"
+			   	         android:layout_height="wrap_content"
+			   	         android:layout_marginTop="20dp"
+			   	         android:text="next" />			   	     			   	     
+	   	     </TableRow>
+			   	       	 
+   	     </TableLayout>
+</LinearLayout>

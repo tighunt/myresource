@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:stretchColumns="*" >
+
+        <TableRow >
+
+            <ImageButton
+                android:id="@+id/playIBtn"
+                android:src="@drawable/play" />
+            <ImageButton
+                android:id="@+id/playIBtn2"
+                android:src="@drawable/play" />
+            <ImageButton
+                android:id="@+id/playIBtn3"
+                android:src="@drawable/play" />
+            <ImageButton
+                android:id="@+id/playIBtn4"
+                android:src="@drawable/play" />
+
+            <ImageButton
+                android:id="@+id/pauseIBtn"
+                android:src="@drawable/pause"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/resetIBtn"
+                android:src="@drawable/reset"
+                android:visibility="gone"/>
+
+            <ImageButton
+                android:id="@+id/stopIBtn"
+                android:src="@drawable/stop" />
+
+        </TableRow>
+    </TableLayout>
+    
+    <SurfaceView
+        android:id="@+id/videoSv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tableLayout"
+  />
+    <!--
+    <ImageView
+        android:id="@+id/imageSv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tableLayout"
+        android:src="@drawable/bg_lyc" />
+  --><!-- 
+        <SlidingDrawer
+            android:id="@+id/sliding_drawer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+        	android:layout_alignParentRight="true"
+        	android:bottomOffset="-50.0dip"
+            android:content="@+id/mycontent"
+            android:handle="@+id/layout1"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@id/layout1"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="#00000000"
+            android:gravity="center" >
+
+           <ImageView
+               android:id="@+id/my_image"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/up1"
+           />
+        </LinearLayout>
+
+        <GridView
+            android:id="@id/mycontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="center"
+            android:numColumns="3"/>
+
+    </SlidingDrawer>
+     -->
+
+</RelativeLayout>

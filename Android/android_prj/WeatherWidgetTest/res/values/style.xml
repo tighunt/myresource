@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Activity主题（theme），将style添加到Manifest.xml文件
+		对应的Activity里面（android：theme）实现背景透明的效果 -->
+	<style name = "translucent" parent = "android:Theme.Dialog">				
+		 <item name="android:windowBackground">@drawable/widget_style</item>  
+   	 	 <item name="android:windowIsTranslucent">true</item>  
+    	 <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item> 
+	</style>
+</resources>

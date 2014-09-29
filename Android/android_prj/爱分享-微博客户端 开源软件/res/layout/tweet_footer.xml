@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/titlebar_bg"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/tweet_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6.0dip"
+            android:background="@drawable/write_insert_face"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/tweet_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4.0dip"
+            android:background="@drawable/write_insert_pic"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/tweet_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4.0dip"
+            android:background="@drawable/write_change_account"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView_faces"
+        android:layout_width="fill_parent"
+        android:layout_height="220dip"
+        android:columnWidth="50dip"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:scrollingCache="false"
+        android:stretchMode="columnWidth"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/itemAdd" android:title="@string/itemAdd" />
+    <item android:id="@+id/itemEdit" android:title="@string/itemEdit" />
+    <item android:id="@+id/itemDel" android:title="@string/itemDel" />
+    <item android:id="@+id/itemShare" android:title="@string/itemShare" />
+    <item android:id="@+id/itemHelp" android:title="@string/itemHelp" />
+    <item android:id="@+id/itemAbout" android:title="@string/itemAbout" />
+    
+</menu>

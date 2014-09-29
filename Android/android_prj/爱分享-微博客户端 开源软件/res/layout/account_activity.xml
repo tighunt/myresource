@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        layout="@layout/weibo_headerbar" />
+
+    <ListView
+        android:id="@+id/account_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.88"
+        android:layout_marginTop="0dp"
+        android:cacheColorHint="#000000"
+        android:divider="@drawable/listview_divider_line"
+        android:dividerHeight="1dp"
+        android:scrollbars="vertical"
+        android:scrollingCache="false"
+        android:smoothScrollbar="false" >
+    </ListView>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        layout="@layout/account_footerbar" />
+
+</LinearLayout>

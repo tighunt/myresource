@@ -1,0 +1,102 @@
+
+#include "RingBuffer.h"
+
+unsigned int space()
+{
+	unsigned int rp_snapshot = m_rp;
+
+    if(rp_snapshot > m_wp)
+        return rp_snapshot - m_wp - 1;
+    else
+        return m_size + rp_snapshot - m_wp - 1;
+}
+
+unsigned int used_size()
+{
+    return m_size - space();
+}
+
+
+int write( unsigned char* data, unsigned int size)
+{
+    if(space() < size)
+    {
+    	//RB_WARN("[RingBuffer]: not enough space to write!\n");
+        return 0; // not enough space in ring buffer
+    }
+
+    if(m_wp + size >= m_size) // wrap-around
+    {
+    	unsigned int half = m_size - m_wp;
+
+        memcpy(&m_data[m_wp], data, half);
+        size -= half;
+
+        if(size > 0)
+            memcpy(&m_data[0], &data[half], size);
+
+        m_wp = size;
+    }
+    else if(size > 0)
+    {
+        memcpy(&m_data[m_wp], data, size);
+        m_wp += size;
+    }
+
+	//RB_DBG("### write wp = %d, rp = %d ###\n", m_wp, m_rp);
+
+    return 1;
+}
+
+int read(unsigned char* data, unsigned int* size)
+{
+	unsigned int rp = m_rp;
+	unsigned int wp = m_wp;
+
+	unsigned int length = 0;
+
+	if (wp >= rp)
+		length = wp - rp;
+	else
+		length = m_size - rp + wp;
+
+	if (length == 0)
+	{
+		//RB_DBG("[RingBuffer]: WARN: no data to read!\n");
+		size = 0;
+		return 0;
+	}
+
+	if (size > length)
+	{
+		//RB_DBG("[RingBuffer]: WARN: not enough size to read!\n");
+		size = length;
+	}
+
+	//RB_DBG("[RingBuffer]: read size:%d\n", size);
+
+    if (wp > rp)
+    {
+		memcpy(data, &m_data[rp], size);
+		m_rp += size;
+    }
+    else
+    {
+		if (rp + size > m_size)
+		{
+			unsigned int half = m_size - rp;
+			memcpy(data, &m_data[rp], half);
+			memcpy(data+half, &m_data[0], size - half);
+			m_rp = size - half;
+		}
+		else
+		{
+			memcpy(data, &m_data[rp], size);
+			m_rp += size;
+		}
+    }
+
+	//RB_DBG("### [Ringbuffer]: read wp:%d, rp:%d, size:%d ###\n", m_wp, m_rp, size);
+
+	return 1;
+}

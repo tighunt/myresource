@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/user_fanlist_item_avatar"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/face" />
+
+    <TextView
+        android:id="@+id/user_fanlist_item_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/user_fanlist_item_avatar"
+        android:paddingTop="15dp"
+        android:textColor="@color/red"
+        android:textSize="17.0sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/following"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_fanlist_item_nick"
+        android:layout_alignBottom="@+id/user_fanlist_item_nick"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

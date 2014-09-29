@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/weibo_headerbar" />
+ -    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@color/lightblue"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5.0dip" >
+
+        <ImageView
+            android:id="@+id/userHead"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/face" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/sexOfUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/locationOfUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:layout_margin="10.0dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/mblogNumBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/detail_redirect_button_bg"
+            android:padding="5.0dip"
+            android:paddingLeft="15.0dip"
+            android:text="..."
+            android:textColor="#ff5779a7"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/fansNumBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/user_info_middle_num_bg"
+            android:padding="5.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="10.0dip"
+            android:text="..."
+            android:textColor="#ff5779a7"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/guanzhuNumBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/detail_comment_button_bg"
+            android:padding="5.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="10.0dip"
+            android:text="..."
+            android:textColor="#ff5779a7"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/intorduction_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingLeft="12.0dip"
+        android:text="@string/introuction"
+        android:textColor="@color/black"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/introductionTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/introduction_bg"
+        android:padding="15.0dip"
+        android:singleLine="false"
+        android:textColor="#ff5779a7"
+        android:textSize="15.0sp" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        layout="@layout/weibo_menu" />
+
+</LinearLayout>

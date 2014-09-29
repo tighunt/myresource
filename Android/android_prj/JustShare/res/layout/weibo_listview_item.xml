@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/item_profile_image"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:paddingBottom="5.0dip"
+            android:paddingLeft="5.0dip"
+            android:paddingTop="10.0dip"
+            android:src="@drawable/face" />
+
+        <ImageView
+            android:id="@+id/item_vipImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right|center"
+            android:src="@drawable/vip"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginTop="6.0dip"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5.0dip" >
+
+            <TextView
+                android:id="@+id/item_screen_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="17.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_feed_type_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/item_screen_name"
+                android:layout_marginBottom="2.0dip"
+                android:layout_marginLeft="4.0dip"
+                android:layout_toRightOf="@id/item_screen_name"
+                android:background="@drawable/tencent_mblog_feedtype"
+                android:gravity="center"
+                android:padding="2.0dip"
+                android:textColor="@color/white"
+                android:textSize="10.0sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/item_created_at"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/item_screen_name"
+                android:gravity="right"
+                
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@+id/item_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_created_at"
+                android:layout_marginTop="6.0dip"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textColor="#000000"
+                android:textSize="15.0sp" />
+
+            <ImageView
+                android:id="@+id/item_microBlogImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_text"
+                android:layout_marginTop="6.0dip"
+                android:scaleType="center"
+                android:src="@drawable/loading"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/item_retweeted_status_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_text"
+                android:layout_marginTop="6.0dip"
+                android:background="@drawable/review_bg_top"
+                android:gravity="left"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/item_retweeted_status_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoLink="web"
+                    android:linksClickable="true"
+                    android:textColor="#ff222222"
+                    android:textSize="15.0sp"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/item_retweeted_status_microBlogImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5.0dip"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/loading"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginTop="6.0dip"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/from_which_plaform"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="3.0dip"
+                android:text="@string/from_which_plaform" />
+
+            <TextView
+                android:id="@+id/item_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:layout_toRightOf="@+id/from_which_plaform"
+                android:textColor="#ffa4b7d6"
+                android:textSize="13.0sp" />
+
+            <LinearLayout
+                android:id="@+id/item_countLL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right|center"
+                android:gravity="right|center"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10.0dip"
+                    android:src="@drawable/redirect_icon" />
+
+                <TextView
+                    android:id="@+id/item_tweet_followers_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2.0dip"
+                    android:textColor="#ffa4b7d6"
+                    android:textSize="12.0sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10.0dip"
+                    android:src="@drawable/comment_icon" />
+
+                <TextView
+                    android:id="@+id/item_tweet_statuses_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2.0dip"
+                    android:paddingRight="5.0dip"
+                    android:textColor="#ffa4b7d6"
+                    android:textSize="12.0sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidPreferenceDemoII!</string>
+    <string name="app_name">AndroidPreferenceDemoII</string>
+    <!-- 统设置界面需要要到的字符串 -->
+    <string name="system_settings">系统设置</string>
+    <string name="auto_update_setting">自动更新设置</string>
+    <string name="auto_update_switch_title">自动更新</string>
+    <string name="auto_update_switch_key">auto_update_switch</string>
+    <string name="auto_update_switch_summary_on">开启自动更新</string>
+    <string name="auto_update_switch_summary_off">关闭自动更新</string>
+    <string name="auto_update_frequency_title">更新频率</string>
+    <string name="auto_update_frequency_key">auto_update_frequency</string>
+    <string name="auto_update_frequency_default_value">10</string>
+    <string name="auto_update_frequency_summary">设置自动更新的时间周期</string>
+    <string name="cancel">取消</string>
+</resources>

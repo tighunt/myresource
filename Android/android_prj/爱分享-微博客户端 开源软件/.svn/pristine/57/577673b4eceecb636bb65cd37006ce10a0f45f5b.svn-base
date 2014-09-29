@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options">
+    	<item>自动</item>
+    	<item>简体中文</item>
+    	<item>繁体中文</item>
+    </string-array>
+    <string-array name="values">
+        <item>0</item>
+    	<item>1</item>
+    	<item>2</item>
+    </string-array>
+    
+    <string-array name="upload_options">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="upload_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+     <string-array name="download_options">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="download_values">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    
+     <string-array name="time_options">
+        <item>半分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+    </string-array>
+    <string-array name="time_values">
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+</resources>

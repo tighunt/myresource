@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+      android:title="@string/setting" >
+
+	<ListPreference 
+	    android:key="setting_language"
+      	android:title="@string/language"
+      	android:summary="@string/setting_language"
+     	android:entries="@array/options"
+      	android:entryValues="@array/values"
+       />
+
+	<CheckBoxPreference 
+	    android:key="setting_loading"
+	   	 android:title="@string/setting_loading"
+	     android:summary="@string/setting_loading_text"
+	     android:defaultValue="true"
+      />
+	<CheckBoxPreference 
+	    android:key="setting_screen"
+	   	 android:title="@string/setting_screen"
+	     android:summary="@string/setting_screen_text"
+	     android:defaultValue="false"
+      />
+	<CheckBoxPreference android:key="setting_drag"
+    	android:title="@string/setting_drag"
+     	android:summary="@string/setting_drag_text"
+     	android:defaultValue="false"
+    	/>
+	<Preference android:key="setting_cache"
+	     android:title="@string/setting_cache"
+	     android:summary="@string/setting_cache_text"
+	    />
+	<PreferenceCategory android:title="@string/setting_picture"
+	    >
+	    <CheckBoxPreference android:key="setting_optimization"
+	     	android:title="@string/setting_optimization"
+	     	android:summary="@string/setting_optimization_text"
+	     	android:defaultValue="true"
+	     	android:disableDependentsState="true"
+	    	/>
+	    <ListPreference android:key="setting_uploadPicture"
+	        android:title="@string/setting_uploadPicture"
+	     	android:summary="@string/setting_uploadPicture_text"
+	     	android:entries="@array/upload_options"
+	     	android:entryValues="@array/upload_values"
+	     	android:dependency="setting_optimization"
+	        />
+	     <ListPreference android:key="setting_downloadPicture"
+	        android:title="@string/setting_downloadPicture"
+	     	android:summary="@string/setting_downloadPicture_text"
+	     	android:entries="@array/download_options"
+	     	android:entryValues="@array/download_values"
+	     	android:dependency="setting_optimization"
+	        />
+	</PreferenceCategory>
+	<PreferenceCategory 
+	    android:title="@string/setting_news"
+	    >
+	    <Preference android:key="setting_remind"
+	        android:title="@string/setting_remind"
+	        android:summary="@string/setting_remind_text"
+	        />
+	    <ListPreference android:key="setting_time"
+	        android:title="@string/setting_time"
+	        android:summary="@string/setting_time_text"
+	        android:entries="@array/time_options"
+	        android:entryValues="@array/time_values"
+	        />
+	    <CheckBoxPreference android:key="setting_ring"
+	        android:title="@string/setting_ring"
+	        android:summary="@string/setting_ring_text"
+	        />
+	    <CheckBoxPreference android:key="setting_vibration"
+	        android:title="@string/setting_vibration"
+	        android:summary="@string/setting_vibration_text"
+	        />
+	</PreferenceCategory>
+	
+</PreferenceScreen>

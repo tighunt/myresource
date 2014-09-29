@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/line">
+
+
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_weight="1" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_weight="0" android:visibility="gone"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></TabWidget>
+
+	</RelativeLayout>
+
+
+	<LinearLayout android:id="@+id/toolbar_linearlayout"
+		android:layout_gravity="bottom" android:layout_width="fill_parent"
+		android:layout_height="50dip" android:layout_below="@id/container"
+		android:background="@drawable/toolbar_bg" android:orientation="horizontal">
+
+		<RelativeLayout android:id="@+id/toolbar_layout1"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:onClick="Toolbar_HomeBtn"
+				android:layout_centerInParent="true" android:id="@+id/Toolbar_HomeBtn"
+				android:src="@drawable/controlbar_homepage_enable"
+				android:background="@drawable/toolbar_gridview"></ImageButton>
+
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/toolbar_layout2"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:onClick="Toolbar_BackBtn"
+				android:layout_centerInParent="true" android:id="@+id/Toolbar_BackBtn"
+				android:src="@drawable/controlbar_backward_enable"
+				android:background="@drawable/toolbar_gridview"></ImageButton>
+
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/toolbar_linearlayout3"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:onClick="Toolbar_MenuBtn"
+				android:layout_centerInParent="true" android:id="@+id/Toolbar_MenuBtn"
+				android:src="@drawable/controlbar_menu" android:background="@drawable/toolbar_gridview"></ImageButton>
+
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/toolbar_linearlayout4"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:onClick="Toolbar_ForwardBtn"
+				android:layout_centerInParent="true" android:id="@+id/Toolbar_ForwardBtn"
+				android:src="@drawable/controlbar_forward_enable"
+				android:background="@drawable/toolbar_gridview"></ImageButton>
+
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/toolbar_linearlayout5"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:onClick="Toolbar_PersonalCenterBtn"
+				android:layout_centerInParent="true" android:id="@+id/Toolbar_PersonalCenterBtn"
+				android:src="@drawable/controlbar_personalcenter_enable"
+				android:background="#00000000"></ImageButton>
+
+		</RelativeLayout>
+
+
+	</LinearLayout>
+
+
+</TabHost>
