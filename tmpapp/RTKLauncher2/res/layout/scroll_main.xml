@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ <!--  
+	<com.rtk.launcher.ScrollLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/scrollView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_gravity="center|bottom"
+	    android:gravity="center|bottom" >
+	    
+	</com.rtk.launcher.ScrollLayout>
+-->
+</RelativeLayout>

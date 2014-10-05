@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- stephen_chen 1080p density=320 convert to 720p density=240 转换因子8/9-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/atv_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fixed_video_bg"
+        android:layout_width="364.4dp"
+        android:layout_height="291.6dp"
+        android:layout_marginLeft="102.2dp"
+        android:layout_marginTop="69.3dp"
+        android:background="@drawable/fixed_video_bg" >
+
+        <TextView
+            android:id="@+id/atv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="33.8dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center|left"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/atv_info_text_color"
+            android:textSize="14.2dp"
+            android:textStyle="bold|normal" />
+
+         <TextView
+             android:id="@+id/atv_info2"
+             android:layout_width="wrap_content"
+             android:layout_height="33.8dp"
+             android:layout_alignParentBottom="true"
+             android:layout_toRightOf="@id/atv_info"
+             android:gravity="center|left"
+             android:textAppearance="?android:attr/textAppearanceSmallInverse"
+             android:textColor="#487d65"
+             android:textSize="14.2dp"
+             android:textStyle="bold|normal" />
+
+        <LinearLayout
+            android:id="@+id/atv_highlight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/atv_info">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/tv_layout"
+            android:layout_width="match_parent"
+            android:layout_height="62.2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/fixed_icon_ch_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/ch_text"
+                android:focusable="true"
+                android:src="@drawable/fixed_icon_ch_up" />
+
+            <ImageView
+                android:id="@+id/fixed_icon_ch_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/fixed_icon_ch_up"
+                android:layout_alignParentBottom="true"
+                android:focusable="true"
+                android:src="@drawable/fixed_icon_ch_down" />
+
+            <TextView
+                android:id="@+id/ch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40.9dp"
+                android:focusable="false"
+                android:text="@string/channel"
+                android:textColor="@color/channel_text_color"
+                android:textSize="16.67dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/fixed_icon_adjustment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="true"
+                android:src="@drawable/fixed_icon_adjustment" />
+
+            <ImageView
+                android:id="@+id/fixed_icon_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/fixed_icon_adjustment"
+                android:layout_marginRight="34.67dp"
+                android:focusable="true"
+                android:src="@drawable/fixed_icon_setting" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

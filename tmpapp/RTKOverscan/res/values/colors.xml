@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="overscan_background">#ff808080</color>
+    <color name="calibrator_background">#ff131313</color>
+
+</resources>

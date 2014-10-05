@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>
+	<string-array name="ex_entry">
+		<item>经典桌面效果</item>
+		<item>旋转效果</item>
+	</string-array>
+	<string-array name="ex_value">
+		<item>1</item>
+		<item>2</item>	
+	</string-array>
+</resources> 

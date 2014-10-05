@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/music_fullscreen_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/musicTitle"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="304.5dip"
+            android:layout_marginTop="114dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/musicArtist"
+            android:layout_width="360dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/musicTitle"
+            android:layout_marginLeft="304.5dip"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_repeat"
+            android:layout_width="426.75dip"
+            android:layout_height="15dip"
+            android:layout_marginLeft="315dip"
+            android:layout_marginTop="175.5dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:textColor="@color/musicTitle"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/lay_spectrum"
+            android:layout_width="364.5dip"
+            android:layout_height="126dip"
+            android:layout_marginLeft="301.5dip"
+            android:layout_marginTop="195dip"
+            android:visibility="visible" >
+
+            <com.realtek.Utils.SpectrumView
+                android:id="@+id/spectrum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </com.realtek.Utils.SpectrumView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_text"
+            android:layout_width="364.5dip"
+            android:layout_height="120dip"
+            android:layout_marginLeft="301.5dip"
+            android:layout_marginTop="322.5dip"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="23dp"
+                android:layout_height="19.5dp"
+                android:layout_marginLeft="0.5dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="9dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="23dp"
+                android:layout_height="19.5dp"
+                android:layout_marginLeft="169.5dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="9dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="23dp"
+                android:layout_height="19.5dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:gravity="left|center_vertical"
+                android:textColor="#ffffff"
+                android:textSize="9dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="19.5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:text="@string/spectrum_unit"
+                android:textColor="#ffffff"
+                android:textSize="12dp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_gui"
+            android:layout_width="match_parent"
+            android:layout_height="97.5dip"
+            android:layout_marginLeft="0dip"
+            android:layout_marginTop="387dip"
+            android:visibility="invisible" >
+
+            <ImageButton
+                android:id="@+id/gui_last"
+                android:layout_width="95.25dp"
+                android:layout_height="87dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="234dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gui_last" />
+            <ImageButton
+                android:id="@+id/gui_rw"
+                android:layout_width="95.25dp"
+                android:layout_height="87dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="333dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gui_rw" />
+            <ImageButton
+                android:id="@+id/gui_play"
+                android:layout_width="95.25dp"
+                android:layout_height="87dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="432dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gui_play" />
+            <ImageButton
+                android:id="@+id/gui_fw"
+                android:layout_width="95.25dp"
+                android:layout_height="87dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="531dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gui_fw" />
+           <ImageButton
+                android:id="@+id/gui_next"
+                android:layout_width="95.25dp"
+                android:layout_height="87dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="630dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gui_next" />
+            <ImageButton
+                android:id="@+id/gui_repeat"
+                android:layout_width="95.25dp"
+                android:layout_height="87dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="754.5dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gui_repeat" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/lay_banner"
+            android:layout_width="match_parent"
+            android:layout_height="37.5dip"
+            android:layout_marginLeft="0dip"
+            android:layout_marginTop="502.5dip"
+            android:background="@drawable/photo_banner" >
+
+            <TextView
+                android:id="@+id/musicNumber"
+                android:layout_width="75dip"
+                android:layout_height="18dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="115.5dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imgSta"
+                android:layout_width="54dp"
+                android:layout_height="16.5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="183dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/au_play" />
+
+            <ProgressBar
+                android:id="@+id/playBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="351dip"
+                android:layout_height="10.5dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="241.5dp"
+                android:max="100"
+                android:progress="50"
+                android:progressDrawable="@drawable/myprocess" />
+
+            <TextView
+                android:id="@+id/timeNow"
+                android:layout_width="142.5dip"
+                android:layout_height="24dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="610.5dp"
+                android:gravity="center"
+                android:text="@string/stime"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/btn_repeat"
+                android:layout_width="22.5dip"
+                android:layout_height="22.5dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="787.5dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/photo_repeat_all_off" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_quick"
+            android:layout_width="500dip"
+            android:layout_height="300dip"
+            android:layout_marginLeft="100dip"
+            android:layout_marginTop="380dip"
+            android:background="@color/black"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/txtSound"
+                android:layout_width="200dip"
+                android:layout_height="50dip"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/txtSound"
+                android:textColor="@color/timecolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtRepeat"
+                android:layout_width="200dip"
+                android:layout_height="50dip"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="60dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/txtRepeat"
+                android:textColor="@color/timecolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtSleep"
+                android:layout_width="200dip"
+                android:layout_height="50dip"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="110dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/txtSleep"
+                android:textColor="@color/timecolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtDevice"
+                android:layout_width="200dip"
+                android:layout_height="50dip"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="160dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/txtDevice"
+                android:textColor="@color/timecolor"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

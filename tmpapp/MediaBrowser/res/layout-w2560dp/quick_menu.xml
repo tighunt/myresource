@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mquick_menu_bg" >
+    <TextView
+        android:id="@+id/txtmenu"
+        android:layout_width="300dip"
+        android:layout_height="40dip"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/quickmenu"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtmenu" >
+        <RelativeLayout
+            android:id="@+id/re_sound"
+            android:layout_width="840dp"
+            android:layout_height="80dp" >
+            <TextView
+                android:id="@+id/txtSound"
+                android:layout_width="300dip"
+                android:layout_height="80dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/txtSound"
+                android:textColor="@color/black"
+                android:textSize="32sp" />            <SeekBar                android:id="@+id/sound_bar"
+                android:layout_width="400dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="420dp"
+                android:progressDrawable="@drawable/seekbar_style"
+                android:thumb="@android:drawable/ic_notification_overlay" />
+        </RelativeLayout>        <RelativeLayout
+            android:id="@+id/re_repeat"
+            android:layout_width="840dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/re_sound" >
+            <TextView
+                android:id="@+id/txtRepeat"
+                android:layout_width="300dip"
+                android:layout_height="80dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/txtRepeat"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/menu_repeat"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="420dp"
+                android:background="#00000000" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/re_sleep"
+            android:layout_width="840dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/re_repeat" >
+            <TextView
+                android:id="@+id/txtSleep"
+                android:layout_width="300dip"
+                android:layout_height="80dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/txtSleep"
+                android:textColor="@color/black"
+                android:textSize="32sp" />            <Button
+                android:id="@+id/menu_sleep"
+                android:layout_width="400dp"
+                android:layout_height="80dp"
+                android:background="#00000000"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="420dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/re_tvap"
+            android:layout_width="840dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/re_sleep" >
+            <Button
+                android:id="@+id/btn_tvap"
+                android:layout_width="300dip"
+                android:layout_height="80dip"
+                android:background="#00000000"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="100dp"
+                android:text="@string/tv_application" />        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/re_setting"
+            android:layout_width="840dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/re_tvap" >            <Button
+                android:id="@+id/btn_setting"
+                android:layout_width="300dip"
+                android:layout_height="80dip"
+                android:background="#00000000"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="100dp"
+                android:text="@string/sys_setting" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

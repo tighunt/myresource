@@ -1,0 +1,96 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/fragment_camera"
+        android:name="com.realtek.camera.app.fragment.CameraFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottombar_background" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.realtek.camera.widget.ImageThumbButton
+            android:id="@+id/image_thumb"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="6dp"
+            android:background="@drawable/item_gallery_background"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/indicator_recording"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="27dp"
+            android:layout_marginTop="27dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_recording_indicator" />
+
+        <ImageButton
+            android:id="@+id/button_screen_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@android:drawable/ic_menu_slideshow" />
+
+        <ImageButton
+            android:id="@+id/button_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button_shutter"
+            android:layout_toRightOf="@+id/button_shutter"
+            android:background="@drawable/btn_shutter_background"
+            android:src="@drawable/btn_shutter_video" />
+
+        <Spinner
+            android:id="@+id/spinner_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="0dp"
+            tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+        <ImageButton
+            android:id="@+id/button_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image_thumb"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="6dp"
+            android:layout_toRightOf="@+id/image_thumb"
+            android:background="@drawable/btn_switch_background"
+            android:src="@drawable/ic_switch_camera" />
+
+        <ImageButton
+            android:id="@+id/button_shutter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_thumb"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/button_switch"
+            android:background="@drawable/btn_shutter_background"
+            android:src="@drawable/btn_shutter" />
+
+    </RelativeLayout>
+
+</merge>

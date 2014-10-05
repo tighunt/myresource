@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_bw_thumb_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/audio_image"
+        android:layout_width="396.0dp"
+        android:layout_height="224.4dp"
+        android:layout_x="1148.4dp"
+        android:layout_y="250.8dp" />
+
+		
+    <TextView
+        android:id="@+id/audio_artist"
+        android:layout_width="528.0dp"
+        android:layout_height="31.7dp"
+        android:layout_x="1159.0dp"
+        android:layout_y="512.2dp"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/black"
+        android:textSize="23.8sp" />
+
+    <TextView
+        android:id="@+id/audio_album"
+        android:layout_width="528.0dp"
+        android:layout_height="31.7dp"
+        android:layout_x="1195.9dp"
+        android:layout_y="543.8dp"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/black"
+        android:textSize="23.8sp" />
+
+
+    <TextView
+        android:id="@+id/audio_path"
+        android:layout_width="309.8dp"
+        android:layout_height="31.7dp"
+        android:layout_x="112.6dp"
+        android:layout_y="531.5dp"
+        android:shadowColor="#aaaaaa"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="15.8dp"
+        android:visibility="gone" />
+
+
+    <ProgressBar
+        android:id="@+id/audio_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="435.6dp"
+        android:layout_height="10.6dp"
+        android:layout_x="1135.2dp"
+        android:layout_y="646.8dp" />
+
+    <TextView
+        android:id="@+id/audio_hasplayed"
+        android:layout_width="150.5dp"
+        android:layout_height="21.1dp"
+        android:layout_x="1288.3dp"
+        android:layout_y="686.4dp"
+        android:textColor="#fcb913"
+        android:textSize="14.1dp" />
+   <ListView
+        android:id="@+id/audio_list"
+        android:layout_width="884.4dp"
+        android:layout_height="728.6dp"
+        android:layout_x="118.8dp"
+        android:layout_y="163.7dp"
+        android:dividerHeight="2.6dp"
+        android:listSelector="@drawable/selector_list_background">
+
+    </ListView>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="63.4dp"
+        android:layout_height="20.2dp"
+        android:layout_x="21.1dp"
+        android:layout_y="23.8dp"
+        android:src="@drawable/image_mbw_media_menu_music_icon" />
+    <ImageView
+        android:id="@+id/imgPath"
+        android:layout_width="23.8dp"
+        android:layout_height="23.8dp"
+        android:layout_x="113.5dp"
+        android:layout_y="110.9dp"
+        android:src="@drawable/list_common_icon_folder" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="134.6dp"
+        android:layout_height="50.2dp"
+        android:layout_x="61.6dp"
+        android:layout_y="31.7dp"
+        android:text="@string/title_music"
+        android:textColor="@color/black"
+        android:textSize="26.4dp" />
+    <TextView
+        android:id="@+id/music_path_top"
+        android:layout_width="396.0dp"
+        android:layout_height="23.8dp"
+        android:layout_x="155.8dp"
+        android:layout_y="110.9dp"
+        android:shadowColor="#aaaaaa"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="15.8dp" />
+
+    <TextView
+        android:id="@+id/totaltxt"
+        android:layout_width="132.0dp"
+        android:layout_height="23.8dp"
+        android:layout_x="863.3dp"
+        android:layout_y="110.9dp"
+        android:shadowColor="#aaaaaa"
+        android:singleLine="true"
+        android:text="@string/totaltime"
+        android:textColor="@color/black"
+        android:textSize="15.8dp" />
+    <TextView
+        android:id="@+id/audio_duration_tag"
+        android:layout_width="21.1dp"
+        android:layout_height="18.5dp"
+        android:layout_x="1346.4dp"
+        android:layout_y="686.4dp"
+        android:gravity="center"
+        android:text="@string/gapline"
+        android:textColor="@color/black"
+        android:textSize="14.1dp" />
+
+
+
+    <TextView
+        android:id="@+id/audio_duration"
+        android:layout_width="150.5dp"
+        android:layout_height="18.5dp"
+        android:layout_x="1364.9dp"
+        android:layout_y="686.4dp"
+        android:textColor="@color/black"
+        android:textSize="14.1dp" />
+    <ImageButton
+        android:id="@+id/imgRepeat"
+        android:layout_width="39.6dp"
+        android:layout_height="39.6dp"
+        android:layout_x="1515.4dp"
+        android:layout_y="686.4dp"
+        android:background="#00000000"
+        android:src="@drawable/av_repeat_icon" />
+
+
+
+
+    <TextView
+        android:id="@+id/TopIndexInfo_audio"
+        android:layout_width="200.6dp"
+        android:layout_height="52.8dp"
+        android:layout_x="968.9dp"
+        android:layout_y="103.0dp"
+        android:gravity="center"
+        android:shadowColor="#aaaaaa"
+        android:textColor="@color/black"
+        android:textSize="26.4dp" />
+
+
+
+
+</AbsoluteLayout>

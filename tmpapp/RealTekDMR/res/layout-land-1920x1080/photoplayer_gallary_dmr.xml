@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+	<com.realtek.dmr.PictureSurfaceView
+	    android:id="@+id/picture_focused"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	>
+	</com.realtek.dmr.PictureSurfaceView>
+	<ProgressBar
+                android:id="@+id/loading"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:max="100"
+                android:maxHeight="90px"
+                android:maxWidth="90px"
+                android:minHeight="90px"
+                android:minWidth="90px" />
+	 <ImageView
+            android:id="@+id/btn_menu"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="35px"
+            android:layout_marginTop="35px"
+            android:src="@drawable/dlna_media_menu_icon" />
+	 
+	<RelativeLayout 
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="105px"  
+        android:id="@+id/controlbar_photoplayer"
+        android:paddingLeft="30px"
+        android:paddingTop="15px"
+        android:paddingBottom="15px"
+        android:background="@drawable/guide_bar"
+	    >
+	    <RelativeLayout 
+	        android:layout_width="180px"
+	        android:layout_height="match_parent"
+	     	android:id="@+id/bar_buttons"
+	        >
+
+	        
+	    </RelativeLayout>
+	    <RelativeLayout 
+	        android:layout_toRightOf="@+id/bar_buttons"
+	        android:layout_marginLeft="83px"
+	        android:layout_width="750px"
+	        android:layout_height="match_parent"
+	        android:id="@+id/bar_gallery"
+	        >
+			<HorizontalScrollView 
+			    android:id="@+id/gallery"
+			    android:layout_alignParentBottom="true"
+			    android:layout_alignParentLeft="true"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		         android:scrollbars="none"
+		        
+		        >
+		        <LinearLayout 
+		            android:orientation="horizontal"
+		            android:id="@+id/item_gallery"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            >
+		            
+		            
+		            <ImageView
+		                android:id="@+id/img_content"
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                >
+		            </ImageView>
+		        </LinearLayout>
+		    </HorizontalScrollView>
+	    </RelativeLayout>
+	    <RelativeLayout 
+	        android:layout_alignParentRight="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:id="@+id/control_info"
+	        >
+			<ImageButton
+			    android:layout_centerVertical="true"
+	            android:layout_marginRight="35px"
+	            android:layout_toLeftOf="@+id/rotate_btn"
+	            android:id="@+id/info_zoom"
+	            android:layout_width="300px"
+	            android:layout_height="50px"
+	            android:scaleType="center"
+	            />
+	        <ImageButton
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="35px"
+	            android:id="@+id/rotate_btn"
+	            android:layout_width="75px"
+	            android:layout_height="75px"
+	            />
+			
+	    </RelativeLayout>
+	</RelativeLayout>    
+	
+</RelativeLayout>

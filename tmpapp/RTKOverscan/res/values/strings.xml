@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Window Overscan Calibrator</string>
+    <string name="app_name_box">Overscan Calibrator</string>
+    <string name="msg_help">User your controller to move the arrows to match the image above.</string>
+    <string name="click_to_confirm">Click to confirm</string>
+
+</resources>

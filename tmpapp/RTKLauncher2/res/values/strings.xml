@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RTK_Launcher</string>
+    <string name="title_activity_main">home</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ex_title">桌面效果</string>
+    <string name="ex_key">experience</string>
+    <string name="ex_default_value">1</string>
+    <string name="ex_summary">设置桌面呈现的效果</string>
+    <string name="cancel">取消</string>
+    <string name="lastPage">上一页</string>
+    <string name="nextPage">下一页</string>
+    <string name="atv">TV</string>
+    <string name="videoplayer">VideoPlayer</string>
+    <string name="musicplayer">LineMusic</string>
+    <string name="photoview">PhotoViewer</string>
+    <string name="bowser">Web Browser</string>
+    <string name="media">Meida Browser</string>
+    <string name="market">Market</string>
+    <string name="setting">Setting</string>
+    <string name="myapp">Myapps</string>
+    <string name="sun">星期天</string>
+    <string name="mon">星期一</string>
+    <string name="tue">星期二</string>
+    <string name="wed">星期三</string>
+    <string name="thu">星期四</string>
+    <string name="fri">星期五</string>
+    <string name="sat">星期六</string>
+    <string name="dlna">DLNA Media Server</string>
+
+</resources>

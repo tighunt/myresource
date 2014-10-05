@@ -1,0 +1,15 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="video_menu_width_landscape">320dp</dimen>
+    <dimen name="video_menu_height_landscape">180dp</dimen>
+    <dimen name="video_menu_listItemHeight_landscape">30dp</dimen>
+    <dimen name="video_menu_dividerHeight_landscape">0.66dp</dimen>
+    
+    <dimen name="video_menu_width_port">320dp</dimen>
+    <dimen name="video_menu_height_port">320dp</dimen>
+    <dimen name="video_menu_listItemHeight_port">30dp</dimen>
+    <dimen name="video_menu_dividerHeight_port">0.66dp</dimen>
+</resources>

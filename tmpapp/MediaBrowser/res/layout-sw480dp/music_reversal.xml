@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_common_bg"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <ImageView
+	        android:id="@+id/focus"
+	        android:layout_width="442.2dp"
+	        android:layout_height="29.9dp"
+	        android:layout_marginLeft="0dp"
+	        android:layout_marginTop="0dp"
+	        android:scaleType="fitCenter"
+	        android:src="@drawable/list_common_item_focus"
+	        android:visibility="gone" />
+        <LinearLayout
+            android:id="@+id/bg_bottom"
+            android:layout_width="844.8dp"
+            android:layout_height="30.4dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="444.8dp"
+            android:background="@drawable/list_common_bg_bottom" />
+        <ImageView
+            android:id="@+id/audio_image"
+            android:layout_width="198.0dp"
+            android:layout_height="112.2dp"
+            android:layout_marginLeft="574.2dp"
+            android:layout_marginTop="125.4dp"
+            android:scaleType="fitCenter" />
+        <ImageView
+            android:id="@+id/loadingIcon"
+            android:layout_width="23.8dp"
+            android:layout_height="23.8dp"
+            android:layout_marginLeft="796.0dp"
+            android:layout_marginTop="23.8dp"
+            android:background="#00000000"
+            android:src="@drawable/others_icons_loading" />
+        <TextView
+            android:id="@+id/audio_artist"
+            android:layout_width="194.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="579.5dp"
+            android:layout_marginTop="256.1dp"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            android:textColor="#0f265f"
+            android:textSize="11.9sp" />
+        <TextView
+            android:id="@+id/audio_album"
+            android:layout_width="194.0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/audio_artist"
+            android:layout_marginLeft="579.5dp"
+            android:layout_marginTop="15.8dp"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            android:textColor="#0f265f"
+            android:textSize="11.9sp" />
+        <TextView
+            android:id="@+id/audio_path"
+            android:layout_width="232.3dp"
+            android:layout_height="23.8dp"
+            android:layout_marginLeft="84.5dp"
+            android:layout_marginTop="398.6dp"
+            android:shadowColor="#aaaaaa"
+            android:singleLine="true"
+            android:textColor="#0f265f"
+            android:textSize="11.9dp"
+            android:visibility="gone" />
+       <ProgressBar
+            android:id="@+id/audio_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="220.4dp"
+            android:layout_height="5.3dp"
+            android:layout_marginLeft="567.6dp"
+            android:layout_marginTop="323.4dp"
+            android:progressDrawable="@drawable/listprocess" />
+        <TextView
+            android:id="@+id/audio_hasplayed"
+            android:layout_width="75.2dp"
+            android:layout_height="10.6dp"
+            android:layout_marginLeft="644.2dp"
+            android:layout_marginTop="343.2dp"
+            android:textColor="#0f265f"
+            android:textSize="8.6dp" />
+        <ListView
+            android:id="@+id/audio_list"
+            android:layout_width="442.2dp"
+            android:layout_height="364.3dp"
+            android:layout_marginLeft="59.4dp"
+            android:layout_marginTop="79.2dp"
+            android:dividerHeight=".4dp"
+            android:divider="@color/ListViewDivideLine"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:listSelector="@drawable/selector_list_background"
+            android:scrollbars="none" >
+        </ListView>
+        <ImageView
+            android:id="@+id/page_up"
+            android:layout_width="13.2dp"
+            android:layout_height="13.2dp"
+            android:layout_marginLeft="520.1dp"
+            android:layout_marginTop="87.1dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/list_common_icon_up" />
+        <ImageView
+            android:id="@+id/page_down"
+            android:layout_width="13.2dp"
+            android:layout_height="13.2dp"
+            android:layout_marginLeft="520.1dp"
+            android:layout_marginTop="421.1dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/list_common_icon_down" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.5dp"
+            android:layout_marginTop="12.5dp"
+            android:background="#00000000"
+            android:src="@drawable/music_list_icon_music" />
+        <ImageView
+            android:id="@+id/imgPath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="472.6dp"
+            android:layout_marginTop="55.4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/list_common_icon_folder" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_toRightOf="@+id/imageView1"
+        	android:layout_alignTop="@+id/imageView1"
+        	android:layout_marginTop="4.0dp"
+        	android:layout_marginLeft="9.9dp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:singleLine="true"
+        	android:textColor="#102860"
+       	 	android:textSize="17.8sp" 
+            android:text="@string/title_music" />
+
+        <TextView
+            android:id="@+id/music_path_top"
+            android:layout_width="316.8dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="154.4dp"
+            android:layout_marginTop="54.1dp"
+            android:gravity="right"
+            android:ellipsize="end"
+            android:shadowColor="#aaaaaa"
+            android:singleLine="true"
+            android:textColor="#0f265f"
+            android:textSize="13.2sp" />
+
+        <TextView
+            android:id="@+id/totaltxt"
+            android:layout_width="110.0dp"
+            android:layout_height="19.8dp"
+            android:layout_marginLeft="71.3dp"
+            android:layout_marginTop="54.1dp"
+            android:gravity="left"
+            android:shadowColor="#aaaaaa"
+            android:singleLine="true"
+            android:text="@string/totaltime"
+            android:textColor="#0f265f"
+            android:textSize="13.2sp" />
+
+        <ImageView
+            android:id="@+id/audio_list_icon_line"
+            android:layout_width="448.8dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="59.4dp"
+            android:layout_marginTop="77.9dp"
+            android:src="@drawable/list_common_icon_line" />
+        <TextView
+            android:id="@+id/audio_duration_tag"
+            android:layout_width="10.6dp"
+            android:layout_height="10.6dp"
+            android:layout_marginLeft="673.2dp"
+            android:layout_marginTop="343.2dp"
+            android:gravity="center"
+            android:text="@string/gapline"
+            android:textColor="@color/black"
+            android:textSize="8.6dp" />
+        <TextView
+            android:id="@+id/audio_duration"
+            android:layout_width="75.2dp"
+            android:layout_height="10.6dp"
+            android:layout_marginLeft="682.4dp"
+            android:layout_marginTop="343.2dp"
+            android:textColor="#0f265f"
+            android:textSize="8.6dp" />
+        <ImageButton
+            android:id="@+id/imgRepeat"
+            android:layout_width="19.8dp"
+            android:layout_height="19.8dp"
+            android:layout_marginLeft="757.7dp"
+            android:layout_marginTop="343.2dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/av_repeat_icon" />
+
+        <TextView
+            android:id="@+id/TopIndexInfo_audio"
+            android:layout_width="100.3dp"
+            android:layout_height="26.4dp"
+            android:layout_marginLeft="496.3dp"
+            android:layout_marginTop="51.5dp"
+            android:gravity="left|center_vertical"
+            android:shadowColor="#aaaaaa"
+            android:textColor="#0f265f"
+            android:textSize="13.2dp" />
+
+	    <RelativeLayout
+	            android:id="@+id/bg_bottom"
+	            android:layout_width="844.8dp"
+	            android:layout_height="30.4dp"
+	            android:layout_marginLeft="0dp"
+	            android:layout_marginTop="444.8dp"
+	            android:background="@drawable/list_common_bg_bottom">
+
+	        <RelativeLayout
+	            android:id="@+id/guide_center"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true" >
+
+	            <TextView
+	                android:id="@+id/guide_features"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+
+	                android:gravity="center"
+	                android:text="@string/guide_features"
+	                android:textColor="#0f265f"
+	                android:textSize="13.2sp" />
+
+	            <TextView
+	                android:id="@+id/guide_quick"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingLeft = "3.5dp"
+	                android:paddingRight = "3.5dp"
+	                android:layout_marginLeft="5.3dp"
+	                android:layout_toRightOf="@+id/guide_features"
+	                android:background="@drawable/guide_icon_bg"
+	                android:gravity="center"
+	                android:text="@string/guide_quick"
+	                android:textColor="@color/white"
+	                android:textSize="13.2sp" />
+
+	        </RelativeLayout>
+
+	        <RelativeLayout
+	            android:id="@+id/guide_left"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_toRightOf="@id/guide_center" 
+	            android:layout_marginLeft="18.5dp" >
+
+	            <TextView
+	                android:id="@+id/guide_enter"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+
+	                android:gravity="center"
+	                android:text="@string/guide_enter"
+	                android:textColor="#0f265f"
+	                android:textSize="13.2sp" />
+
+	            <TextView
+	                android:id="@+id/guide_ok"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingLeft = "3.5dp"
+	                android:paddingRight = "3.5dp"
+	                android:layout_marginLeft="5.3dp"
+	                android:layout_toRightOf="@id/guide_enter"
+	                android:background="@drawable/guide_icon_bg"
+	                android:gravity="center"
+	                android:text="@string/guide_ok"
+	                android:textColor="@color/white"
+	                android:textSize="13.2sp" />
+
+	        </RelativeLayout>
+
+	        <RelativeLayout
+	            android:id="@+id/guide_right"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="18.5dp"
+	            android:layout_toLeftOf="@id/guide_center" >
+
+	            <TextView
+	                android:id="@+id/guide_page"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+
+	                android:gravity="center"
+	                android:text="@string/guide_page"
+	                android:textColor="#0f265f"
+	                android:textSize="13.2sp" />
+
+	            <TextView
+	                android:id="@+id/guide_p"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingLeft = "3.5dp"
+	                android:paddingRight = "3.5dp"
+	                android:layout_marginLeft="5.3dp"
+	                android:layout_toRightOf="@id/guide_page"
+	                android:background="@drawable/guide_icon_bg"
+	                android:gravity="center"
+	                android:text="@string/guide_p"
+	                android:textColor="@color/white"
+	                android:textSize="13.2sp" />
+
+	        </RelativeLayout>
+
+	    </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RtkAtvView
+        android:id="@+id/divx_atv_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35.25dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/list_common_bg_bottom" >
+
+        <RelativeLayout
+            android:id="@+id/guide_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="395dp" >
+
+            <TextView
+                android:id="@+id/divx_guide_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/guide_enter"
+                android:textColor="#0f265f"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/divx_guide_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@id/divx_guide_enter"
+                android:background="@drawable/guide_icon_bg"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/guide_ok"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/guide_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="21dp"
+            android:layout_toRightOf="@id/guide_left" >
+
+            <TextView
+                android:id="@+id/divx_guide_select"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:gravity="center"
+                android:text="@string/guide_select"
+                android:textColor="#0f265f" />
+
+            <TextView
+                android:id="@+id/divx_guide_arrows"
+                android:layout_width="34.5dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@id/divx_guide_select"
+                android:background="@drawable/guide_csl_rl"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/registerChoice_bg"
+        android:layout_width="337.5dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:background="@drawable/quick_menu_bg" />
+
+    <ImageView
+        android:id="@+id/focus"
+        android:layout_width="337.5dp"
+        android:layout_height="33.9975dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/list_common_item_focus"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/registerChoice"
+        android:layout_width="337.5dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/title_registerChoice"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="right"
+            android:paddingRight="7.5dp"
+            android:paddingTop="1.5dp"
+            android:singleLine="true"
+            android:textColor="#0f265f"
+            android:textSize="15sp" />
+
+        <ListView
+            android:id="@+id/menu_list"
+            android:layout_width="337.5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/title_registerChoice"
+            android:layout_marginLeft="0.75dp"
+            android:layout_marginTop="0.75dp"
+            android:divider="@color/quickMenuLine"
+            android:dividerHeight="0.375dp"
+            android:listSelector="@drawable/selector_list_background" />
+
+        <TextView
+            android:id="@+id/divider"
+            android:layout_width="337.5dp"
+            android:layout_height="0.375dp"
+            android:layout_below="@+id/menu_list"
+            android:background="@color/quickMenuLine" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/clues_relativelayout"
+        android:layout_width="339dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/quick_menu_bg" />
+
+        <TextView
+            android:id="@+id/title_clue"
+            android:layout_width="337.5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.5dp"
+            android:paddingTop="1.5dp"
+            android:singleLine="true"
+            android:textColor="#0f265f"
+            android:textSize="13.5sp" />
+
+        <RelativeLayout
+            android:id="@+id/bt_single"
+            android:layout_width="172.5dp"
+            android:layout_height="26.25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15.75dp" >
+            <Button
+                android:id="@+id/option"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/list_common_item_focus"
+                android:focusableInTouchMode="true"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/white"
+                android:text="@string/guide_ok"
+                android:textSize="11.25sp" >
+                <requestFocus/>
+             </Button>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bt_yes_no"
+            android:layout_width="172.5dp"
+            android:layout_height="26.25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15.75dp"
+            android:visibility="invisible" >
+
+            <Button
+                android:id="@+id/bt_yes"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/tsb_button_bk_selector"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/msg_yes"
+                android:textColor="@drawable/tsb_button_text_selector"
+                android:textSize="11.25sp" >
+                <requestFocus/>
+            </Button>
+
+            <Button
+                android:id="@+id/bt_no"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="52.5dp"
+                android:layout_toRightOf="@+id/bt_yes"
+                android:background="@drawable/tsb_button_bk_selector"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:text="@string/msg_no"
+                android:textColor="@drawable/tsb_button_text_selector"
+                android:textSize="11.25sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/clues_linearlayout"
+            android:layout_width="562.5dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bt_single"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="7.5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/clue1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textColor="#10265f"
+                android:textSize="13.5sp" />
+
+            <TextView
+                android:id="@+id/clue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textColor="#10265f"
+                android:textSize="13.5sp" />
+
+            <TextView
+                android:id="@+id/clue3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textColor="#10265f"
+                android:textSize="13.5sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

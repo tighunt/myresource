@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/atv_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="710dp"
+        android:layout_height="560dp" >
+
+              <LinearLayout
+                  android:id="@+id/align_layout"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_above="@+id/atv_info"
+                  android:layout_marginLeft="100dp" >
+                  
+              </LinearLayout>
+      
+        <RelativeLayout
+            android:id="@+id/tv_layout"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_alignLeft="@+id/align_layout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/fixed_video_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/fixed_icon_ch_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/fixed_icon_setting"
+                android:layout_alignLeft="@+id/fixed_icon_ch_up"
+                android:focusable="true"
+                android:src="@drawable/fixed_icon_ch_down" />
+
+            <ImageView
+                android:id="@+id/fixed_icon_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="111dp"
+                android:layout_toRightOf="@+id/fixed_icon_adjustment"
+                android:focusable="true"
+                android:src="@drawable/fixed_icon_setting" />
+
+            <TextView
+                android:id="@+id/ch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="79dp"
+                android:focusable="false"
+                android:text="@string/channel"
+                android:textColor="@color/channel_text_color"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/fixed_icon_adjustment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="true"
+                android:src="@drawable/fixed_icon_adjustment" />
+
+            <ImageView
+                android:id="@+id/fixed_icon_ch_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fixed_icon_setting"
+                android:layout_toRightOf="@+id/ch_text"
+                android:focusable="true"
+                android:src="@drawable/fixed_icon_ch_up" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/atv_info"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/tv_layout"
+            android:layout_alignLeft="@+id/tv_layout"
+            android:background="@drawable/atv_info_bg"
+            android:gravity="center_horizontal|left"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/atv_info_text_color"
+            android:textSize="20dp"
+            android:textStyle="bold|normal" />
+
+        <LinearLayout
+            android:id="@+id/atv_highlight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tv_layout"
+            android:layout_toRightOf="@+id/align_layout"
+            android:background="@drawable/pip_focus_bg"
+            android:layout_marginTop="116dp"
+            android:clickable="true" 
+            android:focusable="true" >
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

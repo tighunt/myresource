@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="446.67dp"
+    android:layout_height="wrap_content" >
+    <ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2.67dp"/>
+    <TextView
+        android:id="@+id/ItemTitle"
+        android:layout_width="333.33dp"
+        android:layout_height="30.22dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="34dp"
+        android:gravity="left|center_vertical"
+        android:textColor="@drawable/list_text_color" 
+        android:textSize="11sp" />
+    <TextView
+        android:id="@+id/ItemTime"
+        android:layout_width="53.333dp"
+        android:layout_height="30.22dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6.667dp"
+        android:layout_toRightOf="@id/ItemTitle"
+        android:gravity="right|center_vertical"
+        android:text="@string/blanktime"
+        android:textColor="@drawable/list_text_color" 
+        android:textSize="11sp" />
+</RelativeLayout>

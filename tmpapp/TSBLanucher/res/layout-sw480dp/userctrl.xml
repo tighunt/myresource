@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="@dimen/button_bar_width_right_padding" >
+<!-- stephen_chen 1080p density=320 convert to 720p density=240 转换因子8/9-->
+    <ImageView
+        android:id="@+id/img_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="26.67dp"
+        android:focusable="true"
+        android:src="@drawable/logout_src" />
+
+    <TextView
+        android:id="@+id/txt_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="67.56dp"
+        android:textSize="10.67sp"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

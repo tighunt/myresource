@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_list_cell"
+    android:layout_width="442.2dp"
+    android:layout_height="39.6dp">
+    <ImageView
+        android:id="@+id/video_list_cell_icon"
+        android:layout_width="29.0dp"
+        android:layout_height="29.0dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2.6dp"/>
+    <TextView
+        android:id="@+id/video_list_cell_title"
+        android:layout_width="330.0dp"
+        android:layout_height="29.0dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2.6dp"
+        android:layout_toRightOf="@+id/video_list_cell_icon"
+        android:gravity="left|center_vertical"
+        android:textSize="10.6sp"
+        android:textColor="@drawable/list_text_color" />
+    <TextView
+        android:id="@+id/video_list_cell_time"
+        android:layout_width="52.8dp"
+        android:layout_height="29.0dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6.6dp"
+        android:layout_toRightOf="@id/video_list_cell_title"
+        android:gravity="right|center_vertical"
+        android:text="@string/blanktime"
+        android:textSize="10.6sp"
+        android:textColor="@drawable/list_text_color" />
+</RelativeLayout>

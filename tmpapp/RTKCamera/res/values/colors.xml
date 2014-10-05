@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_light">#ff33b5e5</color>
+    <color name="theme_dark">#ff0099cc</color>
+    <color name="theme_bright">#ff00ddff</color>
+    <color name="theme_gray">#aaa</color>
+    
+    <color name="theme_dark_translucent">#800099cc</color>
+</resources>

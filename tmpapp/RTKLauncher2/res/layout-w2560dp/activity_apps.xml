@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/apps_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <GridView
+            android:id="@+id/all_myapps"
+            android:layout_width="1940dp"
+            android:layout_height="1100dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="260dp"
+            android:alwaysDrawnWithCache="true"
+            android:columnWidth="278dp"
+            android:drawSelectorOnTop="false"
+            android:numColumns="auto_fit"
+            android:persistentDrawingCache="animation|scrolling"
+            android:scrollbars="none"
+            android:stackFromBottom="false"
+            android:listSelector="#00000000"
+            android:stretchMode="spacingWidth"
+            android:visibility="visible" >
+        </GridView>
+<!--
+        <ImageView
+            android:id="@+id/img_pbg"
+            android:background="#00000000"
+            android:layout_width="384dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="1082dp"
+            android:layout_marginTop="134dp"
+            android:src="@drawable/page_bg_x" />
+-->
+        <ImageView
+            android:id="@+id/img_pindex"
+            android:layout_width="394dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="1082dp"
+            android:layout_marginTop="134dp"
+            android:src="@drawable/page_01_x" />
+
+        <ImageView
+            android:id="@+id/img_left"
+            android:layout_width="308dp"
+            android:layout_height="1152dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="288dp"
+            android:src="@drawable/left_x"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="308dp"
+            android:layout_height="1152dp"
+            android:layout_marginLeft="2252dp"
+            android:layout_marginTop="288dp"
+            android:src="@drawable/right_x"
+            android:visibility="invisible" />
+        
+                <ImageView
+            android:id="@+id/img_widgetbg2"
+            android:layout_width="534dp"
+            android:layout_height="292dp"
+            android:layout_marginLeft="1852dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/widget_bg_x" />
+
+
+
+        <TextView
+            android:id="@+id/txt_time2"
+            android:layout_width="186dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="2008dp"
+            android:layout_marginTop="106dp"
+            android:textSize="42dp" />
+
+
+
+        <TextView
+            android:id="@+id/txt_am2"
+            android:layout_width="52dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="2204dp"
+            android:layout_marginTop="134dp"
+            android:textSize="26dp" />
+
+
+
+        <TextView
+            android:id="@+id/txt_date2"
+            android:layout_width="194dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="1954dp"
+            android:layout_marginTop="194dp"
+            android:textSize="26dp" />
+
+
+
+        <TextView
+            android:id="@+id/txt_week2"
+            android:layout_width="104dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="2186dp"
+            android:layout_marginTop="194dp"
+            android:textSize="26dp" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

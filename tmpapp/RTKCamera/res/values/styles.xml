@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar"></style>
+    
+    <style name="AppTheme.ActionBar" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/Widget.Camera.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.Overlay" parent="AppTheme.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Widget.Camera.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#80000000</item>
+    </style>
+</resources>

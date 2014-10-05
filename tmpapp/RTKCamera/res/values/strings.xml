@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Camera</string>
+    
+    <string name="title_open_media">Open Media</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="msg_no_camera_available">No camera available</string>
+    <string name="msg_failed_to_capture_image">Failed to captrue image</string>
+    <string name="msg_video_recording_failed">Video recording failed</string>
+    <string name="msg_cannot_open_camera">Cannot open camera</string>
+
+    <string name="title_screenrecord">Screen Record</string>
+    <string name="msg_format_screenrecord_finish">Screen recording saved:\n%s</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="dismiss">Dismiss</string>
+</resources>

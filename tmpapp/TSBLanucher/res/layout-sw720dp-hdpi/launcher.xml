@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- stephen_chen 1080p density=320 convert to 720p density=240 conversion parameter8/9-->
+<com.tsb.launcher.DragLayer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.tsb.launcher"
+    android:id="@+id/drag_layer"
+    android:background="@drawable/menu_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+
+    <!-- Keep these behind the workspace so that they are not visible when
+         we go into AllApps -->
+    <include
+        android:id="@+id/dock_divider"
+        layout="@layout/workspace_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dockbar_height_plus_padding"
+        android:layout_gravity="top|center_horizontal" />
+    <include
+        android:id="@+id/paged_view_indicator"
+        layout="@layout/scroll_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="@dimen/dockbar_height_plus_padding" />
+<RelativeLayout     
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout android:background="#a3aba8"
+        android:alpha="0.54"
+        android:layout_width="996dp"
+        android:layout_height="517.5dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="60dp">        
+    </LinearLayout>
+</RelativeLayout>
+    <!-- The workspace contains 5 screens of cells -->
+    <com.tsb.launcher.Workspace
+        android:background="@android:color/transparent"
+        android:id="@+id/workspace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/workspace_left_padding"
+        android:paddingRight="@dimen/workspace_right_padding"
+        android:paddingTop="@dimen/workspace_top_padding"
+        android:paddingBottom="@dimen/workspace_bottom_padding"
+        launcher:defaultScreen="2"
+        launcher:cellCountX="@integer/cell_count_x"
+        launcher:cellCountY="@integer/cell_count_y"
+        launcher:pageSpacing="@dimen/workspace_page_spacing"
+        launcher:scrollIndicatorPaddingLeft="@dimen/workspace_divider_padding_left"
+        launcher:scrollIndicatorPaddingRight="@dimen/workspace_divider_padding_right">
+
+        <include android:id="@+id/cell1" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell2" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell3" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell4" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell5" layout="@layout/workspace_screen" />
+    </com.tsb.launcher.Workspace>
+    <ImageView
+    android:scaleType="fitXY"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="8.9dp"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/s_icon_bg_full" />
+    <include layout="@layout/hotseat"
+        android:id="@+id/hotseat"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_bar_height_plus_padding"
+        android:layout_gravity="bottom" />
+
+    <include layout="@layout/pageleft"
+        android:id="@+id/lay_pageleft"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left" />
+    <include layout="@layout/pageright"
+        android:id="@+id/lay_pageright"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right" />
+    <include layout="@layout/userctrl"
+        android:id="@+id/lay_userctrl"
+        android:layout_width="280dp"
+        android:layout_height="73.335dp"
+        android:layout_marginRight="146.67dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="right|bottom" />
+    <include
+        android:id="@+id/qsb_bar"
+        layout="@layout/qsb_bar" />
+
+    
+    <include
+        android:id="@+id/atvlayout"
+        layout="@layout/firstpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+    
+    <com.tsb.launcher.DrawableStateProxyView
+        android:id="@+id/voice_button_proxy"
+        android:layout_width="80dp"
+        android:layout_height="@dimen/qsb_bar_height"
+        android:layout_marginRight="@dimen/qsb_voice_proxy_padding_right"
+        android:layout_gravity="top|right"
+        android:clickable="true"
+        android:onClick="onClickVoiceButton"
+        android:importantForAccessibility="no"
+        launcher:sourceViewId="@+id/voice_button" />
+
+    <include layout="@layout/apps_customize_pane"
+        android:id="@+id/apps_customize_pane"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <include layout="@layout/workspace_cling"
+        android:id="@+id/workspace_cling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <include layout="@layout/folder_cling"
+        android:id="@+id/folder_cling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+   <ImageView
+        android:id="@+id/scaleView"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+   <ImageView
+        android:id="@+id/focusView"
+        android:visibility="gone"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/focus_bg0"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+   
+      <ImageView
+        android:id="@+id/view0"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+      <ImageView
+        android:id="@+id/view1"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+      <ImageView
+        android:id="@+id/view2"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+      <ImageView
+        android:id="@+id/view3"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+      <ImageView
+        android:id="@+id/view4"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+      <ImageView
+        android:id="@+id/view5"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+     <ImageView
+        android:id="@+id/view6"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+      <ImageView
+        android:id="@+id/view7"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+      <ImageView
+        android:id="@+id/view8"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"/>
+      
+     <TextView
+        android:id="@+id/textview0"
+        android:visibility="gone"
+		android:textColor="@color/icon_title_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:text="@string/channel"
+        android:textSize="11.56sp" />
+     <TextView
+        android:id="@+id/textview1"
+        android:visibility="gone"
+		android:textColor="@color/icon_title_color"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp" />
+     <TextView
+        android:id="@+id/textview2"
+        android:visibility="gone"
+		android:textColor="@color/icon_title_color"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11.56sp" /> 
+     <TextView
+        android:id="@+id/textview3"
+        android:visibility="gone"
+		android:textColor="@color/icon_title_color"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11.56sp" />
+     <TextView
+        android:id="@+id/textview4"
+        android:visibility="gone"
+		android:textColor="@color/icon_title_color"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11.56sp" />
+     <TextView
+        android:id="@+id/textview5"
+        android:visibility="gone"
+		android:textColor="@color/icon_title_color"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11.56sp" />
+     <TextView
+        android:id="@+id/textview6"
+        android:visibility="gone"
+		android:textColor="@color/icon_title_color"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11.56sp" />
+     <TextView
+        android:id="@+id/textview7"
+        android:visibility="gone"
+		android:textColor="@color/icon_title_color"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11.56sp" />
+     <TextView
+        android:id="@+id/textview8"
+        android:visibility="gone"
+		android:textColor="@color/icon_title_color"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11.56sp" />                
+</com.tsb.launcher.DragLayer>

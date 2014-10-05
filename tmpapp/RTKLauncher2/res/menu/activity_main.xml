@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/csubmenu2" android:title="单选菜单">    
+        <menu>    
+            <group android:checkableBehavior="single">    
+                <item android:title="经典桌面效果" android:orderInCategory="100"/>    
+                <item android:title="方块选择效果" android:orderInCategory="101"/>  
+            </group>    
+        </menu>    
+    </item> 
+</menu>

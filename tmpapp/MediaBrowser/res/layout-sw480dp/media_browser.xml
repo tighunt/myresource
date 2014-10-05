@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_mbw_menu_bg"
+    android:orientation="horizontal" >
+  
+    <ImageView
+        android:id="@+id/mb_background"
+        android:layout_width="514.8dp"
+        android:layout_height="132.0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="165.0dp"
+        android:layout_marginTop="178.2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/select_icon_bg" 
+		android:visibility="invisible"/>
+
+    <LinearLayout	        
+		android:layout_width="528.0dp"
+		android:layout_height="149.6dp"			    
+		android:layout_marginLeft="158.4dp"
+		android:layout_marginTop="162.8dp"
+		android:id="@+id/mb_linearlayout"
+		android:orientation="horizontal">	   
+		  		
+		<RelativeLayout 
+		    	android:layout_width="132.0dp"
+	    		android:layout_height="149.6dp"  		
+	    		>	    	
+		    <ImageButton 
+	   		android:id="@+id/mb_photo_img"   	
+	    	android:layout_width="132.0dp"
+	    	android:layout_height="123.2dp"	    	
+	    	android:src="@drawable/select_icon_photo_focus"
+	    	android:scaleType="fitCenter"
+	    	android:background="@drawable/btn_bk"/>
+		    <TextView 
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginTop="116.2dp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="17.6dp"
+	    	android:textColor="#000000"
+	    	android:gravity="center"
+	    	android:textSize="14.1dp"
+	    	android:text="@string/title_photo"/>
+		</RelativeLayout>
+		
+		<RelativeLayout 
+		    	android:layout_width="132.0dp"
+	    		android:layout_height="149.6dp"	    		
+	    		>	    	
+		    <ImageButton 
+	   		android:id="@+id/mb_music_img" 	
+	    	android:layout_width="132.0dp"
+	    	android:layout_height="123.2dp"	    	
+	    	android:src="@drawable/select_icon_music_unfocus"
+	    	android:scaleType="fitCenter"
+	    	android:background="@drawable/btn_bk"/>
+		    <TextView 
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginTop="116.2dp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="17.6dp"
+	    	android:textColor="#000000"
+	    	android:gravity="center"
+	    	android:textSize="14.1dp"
+	    	android:text="@string/title_music"/>
+		</RelativeLayout>
+		
+		<RelativeLayout 
+		    	android:layout_width="132.0dp"
+	    		android:layout_height="149.6dp"	    		
+	    		>	    	
+		    <ImageButton 
+	   		android:id="@+id/mb_videos_img"   	
+	    	android:layout_width="132.0dp"
+	    	android:layout_height="123.2dp"	    	
+	    	android:src="@drawable/select_icon_video_unfocus"
+	    	android:scaleType="fitCenter"
+	    	android:background="@drawable/btn_bk"/>
+		    <TextView 
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginTop="116.2dp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="17.6dp"
+	    	android:textColor="#000000"
+	    	android:gravity="center"
+	    	android:textSize="14.1dp"
+	    	android:text="@string/title_movie"/>
+		</RelativeLayout>
+		
+		<RelativeLayout 
+		    	android:layout_width="132.0dp"
+	    		android:layout_height="149.6dp"	    		
+	    		>	    	
+		    <ImageButton 
+	   		android:id="@+id/mb_setting_img" 	
+	    	android:layout_width="132.0dp"
+	    	android:layout_height="123.2dp"	    	
+	    	android:src="@drawable/select_icon_setting_unfocus"
+	    	android:scaleType="fitCenter"
+	    	android:background="@drawable/btn_bk"/>
+		    <TextView 
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginTop="116.2dp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="17.6dp"
+	    	android:textColor="#000000"
+	    	android:gravity="center"
+	    	android:textSize="14.1dp"
+	    	android:text="@string/title_setup"/>
+		</RelativeLayout>		
+		
+	</LinearLayout> 
+	
+    <ImageView
+        android:id="@+id/mb_focus"
+        android:layout_width="132.0dp"
+        android:layout_height="123.2dp"
+        android:layout_marginLeft="158.4dp"
+        android:layout_marginTop="162.8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/select_icon_focus" />
+
+    <RelativeLayout
+	            android:id="@+id/mb_guide_bar"
+	            android:layout_width="844.8dp"
+	            android:layout_height="30.4dp"
+	            android:layout_marginLeft="0dp"
+	            android:layout_marginTop="444.8dp"
+	            android:background="@drawable/list_common_bg_bottom">
+			<RelativeLayout
+		            android:id="@+id/guide_left"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="347.2dp"
+	            	android:layout_marginTop="5.9dp">
+		    		<TextView
+			            android:id="@+id/mb_guide_ok"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/hint_black"
+			            android:gravity="center"
+			            android:paddingLeft = "3.5dp"
+	                	android:paddingRight = "3.5dp"
+			            android:text="@string/guide_ok"
+			            android:textColor="@color/white" 
+			            android:textSize="13.2sp"/>
+		    		<TextView
+			            android:id="@+id/mb_guide_enter"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textSize="13.2sp"
+			            android:layout_marginLeft="1.8dp"
+			            android:layout_toRightOf="@+id/mb_guide_ok"
+			            android:gravity="center"
+			            android:textColor="#4A4A4A"
+			            android:text="@string/guide_enter" />
+		    </RelativeLayout>
+		    <RelativeLayout
+		            android:id="@+id/guide_right"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="18.5dp"
+		            android:layout_toRightOf="@id/guide_left" >
+		    		<TextView
+			            android:id="@+id/mb_guide_quick"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/hint_black"
+			            android:gravity="center"
+			            android:paddingLeft = "3.5dp"
+	                	android:paddingRight = "3.5dp"
+	                	android:textSize="13.2sp"
+			            android:text="@string/guide_quick"
+			            android:textColor="@color/white" />
+		    		<TextView
+			            android:id="@+id/mb_guide_features"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_toRightOf="@+id/mb_guide_quick"
+			            android:layout_marginLeft="1.8dp"
+			            android:gravity="center"
+			            android:textColor="#4A4A4A"
+			            android:textSize="13.2sp"
+			            android:text="@string/guide_features" />
+		    </RelativeLayout>
+	        
+	    </RelativeLayout>
+
+</RelativeLayout>

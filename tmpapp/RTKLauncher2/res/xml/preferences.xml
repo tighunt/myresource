@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference android:entries="@array/ex_entry" android:entryValues="@array/ex_value" android:summary="@string/ex_summary" android:defaultValue="@string/ex_default_value" android:key="@string/ex_key" android:negativeButtonText="@string/cancel" android:dialogTitle="@string/ex_title" android:title="@string/ex_title"/>
+</PreferenceScreen>
