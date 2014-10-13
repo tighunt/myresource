@@ -1,0 +1,1 @@
+Android4.0以及以上版本移除了memoryfile的含FileDescriptor构造函数，所以client端读取有问题
