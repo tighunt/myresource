@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="225dp"
+    android:layout_height="150dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="300dp"
+    android:layout_marginTop="295dp"
+    android:background="@color/background_dark"
+    android:focusable="false"
+    android:orientation="horizontal"
+    android:padding="1dp" >
+  
+       <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ListView
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="25dp"
+                android:paddingLeft="17dp"
+                android:paddingRight="14dp"
+                android:layout_width="225dp"
+                android:layout_height="150dp"
+                android:id="@+id/list"
+                android:fadeScrollbars="false"
+                android:scrollbars="none"
+                android:divider="#FF98B0D0"
+                android:dividerHeight="1dp"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbarSize="5dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+        <!--    <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/up_arrow"
+                android:layout_marginRight="8.5dp" android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" android:layout_marginTop="9dp"
+                android:src="@drawable/arw_e_up" android:visibility="invisible"/>
+             <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/down_arrow"
+                android:layout_marginBottom="8.5dp"
+                android:layout_alignParentBottom="true" android:layout_alignLeft="@id/up_arrow"
+                android:src="@drawable/arw_e_low" android:visibility="invisible"/>  -->
+        </RelativeLayout>   
+</LinearLayout>

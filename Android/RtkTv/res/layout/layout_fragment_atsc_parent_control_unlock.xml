@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Pane"
+    android:orientation="vertical"
+    android:focusableInTouchMode="false"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:layout_width="400dp"
+    android:layout_height="110dp">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:paddingStart="10dp"
+            android:gravity="center"
+        	style="@style/Widget.Tv.TextView.Title"
+            android:text="@string/STRING_PARENTAL_CONTROL"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:paddingStart="10dp"
+            android:gravity="center"
+            android:text="@string/STRING_PARENTAL_CONTROL_BLOCK_LEVEL"/>    
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/STRING_PL_INPASSWORD"
+                android:layout_weight="1"
+                android:paddingStart="5dp"
+                android:gravity="center_vertical"
+				android:textSize="12dp"/>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+            <TextView
+                    android:background="@color/background_light"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="26dp"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:id="@+id/PIN1"
+                    android:textColor="#FF102860"
+                    android:gravity="center"
+                    android:textSize="14dp">
+            </TextView>
+            <TextView
+                    android:background="@color/background_light"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="26dp"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:id="@+id/PIN2"
+                    android:textColor="#FF102860"
+                    android:gravity="center"
+                    android:textSize="14dp">
+            </TextView>
+            <TextView
+                    android:background="@color/background_light"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="26dp"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:id="@+id/PIN3"
+                    android:textColor="#FF102860"
+                    android:gravity="center"
+                    android:textSize="14dp">
+            </TextView>
+            <TextView
+                    android:background="@color/background_light"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="26dp"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:id="@+id/PIN4"
+                    android:textColor="#FF102860"
+                    android:gravity="center"
+                    android:textSize="14dp">
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <TextView
+            android:id="@+id/TOAST"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:paddingStart="10dp"
+            android:gravity="center_vertical"
+        	android:textSize="10dp"/>
+</LinearLayout>

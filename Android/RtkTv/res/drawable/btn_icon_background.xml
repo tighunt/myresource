@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Disabled -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+
+            <solid android:color="#331E3237" />
+        </shape>
+    </item>
+
+    <!-- Pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+
+            <solid android:color="#CD7820"/>
+        </shape>
+    </item>
+
+    <!-- Focused -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+
+            <gradient android:angle="270" android:centerColor="#F38F1E" android:centerX="0.5576" android:endColor="#C17517" android:startColor="#F3B356" android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Selected -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+
+            <gradient android:angle="270" android:centerColor="#F38F1E" android:centerX="0.5576" android:endColor="#C17517" android:startColor="#F3B356" android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Hovered -->
+    <item android:state_hovered="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+
+            <gradient android:angle="270" android:centerColor="#4CF38F1E" android:centerX="0.5576" android:endColor="#4CC17517" android:startColor="#4CF3B356" android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Default -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+
+            <solid android:color="#80000000" />
+        </shape>
+    </item>
+
+</selector>

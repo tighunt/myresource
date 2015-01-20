@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Pane"
+    android:layout_width="@dimen/pane_width_main_menu"
+    android:layout_height="360dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/Widget.Tv.TextView.Title"
+        android:text="@string/STRING_AUTO_TUNING" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:paddingBottom="@dimen/pane_padding"
+            android:paddingLeft="@dimen/pane_padding"
+            android:paddingRight="@dimen/pane_padding"
+            android:requiresFadingEdge="vertical" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/text_message"
+            style="@style/Widget.Tv.TextView.Message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/msg_no_channel_found" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button_cancel"
+        style="@style/Widget.Tv.ButtonBarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/cancel"
+        android:visibility="gone" >
+
+        <requestFocus />
+    </Button>
+
+</LinearLayout>

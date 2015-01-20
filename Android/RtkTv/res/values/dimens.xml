@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragment_main_menu_button_size">53dp</dimen>
+    
+    <dimen name="pane_padding">12dp</dimen>
+    <dimen name="pane_padding_half">6dp</dimen>
+    <dimen name="pane_padding_quarter">3dp</dimen>
+    
+    <dimen name="pane_width_dialog">405dp</dimen>
+    <dimen name="pane_height_dialog">153.25dp</dimen>
+    <dimen name="pane_height_dialog_title">34.5dp</dimen>
+    <dimen name="pane_width_main_menu">540dp</dimen>
+    
+    <dimen name="epg_time_interval_with">90dp</dimen>
+    <dimen name="epg_item_height">31.25dp</dimen>
+    
+    <dimen name="line_width">1dp</dimen>
+    <dimen name="pane_width_program_info">640dp</dimen>
+    
+    <dimen name="dropdown_pvr_width">240dp</dimen>
+    <dimen name="dropdown_pvr_vertical_offset">6dp</dimen>
+    <dimen name="dropdown_pvr_horizontal_offset">-48dp</dimen>
+    
+</resources>

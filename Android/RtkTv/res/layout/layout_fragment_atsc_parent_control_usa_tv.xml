@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Pane"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="540dp"
+    android:layout_height="220dp" >
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:paddingStart="10dp"
+            android:gravity="center_vertical"
+        	style="@style/Widget.Tv.TextView.Title"
+            android:text="@string/STRING_PL_USA_TV"/>
+    
+    <TableLayout    
+			android:id="@+id/pl_usa_tv_table"
+			android:background="@color/background_light"
+    		android:layout_width="495dp"
+			android:layout_height="148dp"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="10dp">
+			<TableRow
+			    android:id="@+id/pl_usa_tv_table_row1">
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row1_col1"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row1_col2"
+			        android:text="@string/STRING_PL_USA_TV_ALL" 
+			        android:gravity="center" 
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row1_col3"
+			        android:text="@string/STRING_PL_USA_TV_FV" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row1_col4"
+			        android:text="@string/STRING_PL_USA_TV_V" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row1_col5"
+			        android:text="@string/STRING_PL_USA_TV_S" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row1_col6"
+			        android:text="@string/STRING_PL_USA_TV_L" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row1_col7"
+			        android:text="@string/STRING_PL_USA_TV_D" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			</TableRow>
+			<TableRow
+			    android:id="@+id/pl_usa_tv_table_row2">
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row2_col1"
+			        android:text="@string/STRING_PL_USA_TV_Y" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row2_col2"
+                    android:focusable="true"
+			        android:gravity="center" 
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp"
+			        android:nextFocusRight="@+id/pl_usa_tv_table_row3_col3" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row2_col3"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row2_col4"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row2_col5"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row2_col6"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row2_col7"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			</TableRow>
+			<TableRow
+			    android:id="@+id/pl_usa_tv_table_row3">
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row3_col1"
+			        android:text="@string/STRING_PL_USA_TV_Y7" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row3_col2"
+                    android:focusable="true"
+			        android:gravity="center" 
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row3_col3"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp"
+			        android:nextFocusRight="@+id/pl_usa_tv_table_row5_col4" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row3_col4"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row3_col5"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row3_col6"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row3_col7"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			</TableRow>
+			<TableRow
+			    android:id="@+id/pl_usa_tv_table_row4">
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row4_col1"
+			        android:text="@string/STRING_PL_USA_TV_G" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row4_col2"
+                    android:focusable="true"
+			        android:gravity="center" 
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp"
+			        android:nextFocusRight="@+id/pl_usa_tv_table_row5_col4" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row4_col3"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row4_col4"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row4_col5"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row4_col6"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row4_col7"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			</TableRow>
+			<TableRow
+			    android:id="@+id/pl_usa_tv_table_row5">
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row5_col1"
+			        android:text="@string/STRING_PL_USA_TV_PG" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row5_col2"
+                    android:focusable="true"
+			        android:gravity="center" 
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp"
+			        android:nextFocusRight="@+id/pl_usa_tv_table_row5_col4" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row5_col3"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row5_col4"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row5_col5"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row5_col6"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row5_col7"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			</TableRow>
+			<TableRow
+			    android:id="@+id/pl_usa_tv_table_row6">
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row6_col1"
+			        android:text="@string/STRING_PL_USA_TV_14" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row6_col2"
+                    android:focusable="true"
+			        android:gravity="center" 
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp"
+			        android:nextFocusRight="@+id/pl_usa_tv_table_row6_col4" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row6_col3"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row6_col4"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row6_col5"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row6_col6"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row6_col7"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			</TableRow>
+			<TableRow
+			    android:id="@+id/pl_usa_tv_table_row7">
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row7_col1"
+			        android:text="@string/STRING_PL_USA_TV_MA" 
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row7_col2"
+                    android:focusable="true"
+			        android:gravity="center" 
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp"
+			        android:nextFocusRight="@+id/pl_usa_tv_table_row7_col4" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row7_col3"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row7_col4"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row7_col5"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row7_col6"
+                    android:focusable="true"
+			        android:gravity="center"
+        			android:background="@drawable/item_generic_round_background"
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp"
+			        android:nextFocusRight="@+id/pl_usa_tv_table_row2_col2" />
+			    <TextView 
+			        android:id="@+id/pl_usa_tv_table_row7_col7"
+			        android:gravity="center"
+			        style="@style/Pane" 
+			        android:width="70dp"
+			        android:height="20dp"
+			        android:layout_marginLeft="0.5dp"
+			        android:layout_marginTop="0.5dp" />
+			</TableRow>
+    </TableLayout>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:paddingStart="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/STRING_PL_USA_TV_HINT"/>
+
+</LinearLayout>

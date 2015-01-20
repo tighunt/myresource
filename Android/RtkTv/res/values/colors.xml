@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#364F52</color>
+    <color name="background_light">#577981</color>
+    
+    <color name="background_tvinfo_now">#F4A800</color>
+    <color name="background_tvinfo_next">#00A399</color>
+    <color name="background_tvinfo_prev">#00A399</color>
+    
+    <color name="theme_focused">#F1A500</color>
+</resources>

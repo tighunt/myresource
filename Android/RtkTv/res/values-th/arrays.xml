@@ -1,0 +1,281 @@
+<resources>
+	<string-array name="pic_ratio">
+        <item>แสดงสด</item>
+        <item>จอภาพยนตร์</item>
+        <item>คำบรรยาย</item>
+        <item>14:9</item>
+        <item>จุดต่อจุด</item>
+        <item>ปรับภาพ</item>
+        <item>ปกติ</item>
+        <item>ท้องถิ่น</item>
+        <item>จอกว้าง</item>
+        <item>4:3</item>
+        <item>PC จอกว้าง</item>
+        <item>PC ทั่วไป</item>
+    </string-array>
+	<string-array name="sourcelist_aka">
+        <item>--</item>
+        <item>เครื่องขยายเสียง</item>
+        <item>เคเบิล</item>
+        <item>DVD</item>
+        <item>เกม</item>
+        <item>PC</item>
+        <item>ตัวบันทึก</item>
+        <item>ดาวเทียม</item>
+        <item>VCR</item>
+    </string-array>
+	<string-array name="color_temperature">
+        <item>สีอุ่น</item>
+        <item>ธรรมชาติ</item>
+        <item>สีเย็นตา</item>
+    </string-array>
+	<string-array name="yes_no">
+        <item>ไม่ใช่</item>
+        <item>ใช่</item>
+    </string-array>
+	<string-array name="inputs">
+        <item>DTV</item>
+        <item>ATV</item>
+        <item>EXT 1</item>
+        <item>EXT 2</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>PC</item>
+    </string-array>
+	<string-array name="power_bass_booster">
+        <item> ปิด</item>
+        <item>ปกติ</item>
+        <item>สูงมาก</item>
+    </string-array>
+	<string-array name="sound_mode">
+		<item>ภาพแบบคมชัด</item>
+        <item>ธรรมชาติ</item>
+        <item>เสียงใส</item>  
+    </string-array>
+	<string-array name="mts">
+        <item>อัตโนมัติ</item>
+        <item>โมโน</item>
+        <item>สเตอริโอ</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="atv_receiving_sound_mode">
+        <item>โมโน</item>
+        <item>สเตอริโอ</item>
+        <item>Dual</item>
+        <item>SAP</item>
+        <item>สเตอริโอ SAP</item>
+    </string-array>
+    <string-array name="dual">
+        <item>Dual 1</item>
+        <item>Dual 2</item>
+    </string-array>
+    <string-array name="audo_track">
+        <item>โมโน</item>
+        <item>โมโน 1</item>
+        <item>โมโน 2</item>
+        <item>Dual 1</item>
+        <item>Dual 2</item>
+        <item>SAP</item>
+        <item>สเตอริโอ</item>
+    </string-array>
+	<string-array name="pic_mode">
+        <item>Intelligent AutoView</item>
+        <item>ภาพแบบคมชัด</item>
+        <item>ฟุตบอล</item>
+        <item>คริกเก็ต</item>
+        <item>ภาพแบบมาตรฐาน</item>
+        <item>ภาพแบบสบายตา</item>
+        <item>ภาพยนตร์</item>
+        <item>โหมด Eco </item>
+        <item>เกม</item>
+        <item>PC</item>
+    </string-array>
+   	<string-array name="noise_nr">
+    	<item> ปิด</item>
+    	<item>ต่ำ</item>
+        <item>กลาง</item>
+        <item>สูง</item>       
+    </string-array>
+    <string-array name="contrast_booster">
+    	<item> ปิด</item>
+    	<item>ต่ำ</item>
+        <item>กลาง</item>        
+        <item>สูง</item>       
+    </string-array>
+    <string-array name="tv_mount">
+        <item>ตั้งพื้น</item>
+        <item>ผนัง</item>
+    </string-array>
+	<string-array name="preference_teletext">
+        <item>อัตโนมัติ</item>
+        <item>รายการ</item>
+    </string-array>
+    <string-array name="preference_1_4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+	<string-array name="preference_pc_hdmi">
+        <item>PC</item>
+        <item>HDMI 1</item>
+    </string-array>
+    <string-array name="preference_hdmi_audio">
+        <item>อัตโนมัติ</item>
+        <item>ดิจิตอล</item>
+        <item>อนาล็อก</item>
+    </string-array>
+	<string-array name="tabsetting_option_OnOff">
+		<item> ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name ="setup_country">
+        <item>บาห์เรน</item>
+        <item>อินเดีย</item>
+        <item>อินโดนีเซีย</item>
+        <item>อิสราเอล</item>
+        <item>คูเวต</item>
+        <item>มาเลเซีย</item>
+        <item>ฟิลิปปินส์</item>
+        <item>กาตาร์</item>
+        <item>ซาอุดิอาระเบีย</item>
+        <item>สิงคโปร์</item>
+        <item>ไทย</item>
+        <item>สหรัฐอาหรับเอมิเรตส์</item>
+        <item>เวียดนาม</item>
+    </string-array>
+    <string-array name="setup_option_location">
+		<item>บ้าน</item>
+        <item>ร้านค้า</item>
+    </string-array>
+	<string-array name="tabsettingsound_adsettup_avl">
+        <item>เปิด</item>
+        <item> ปิด</item>
+    </string-array>
+    <string-array name="tabsettingsound_adsettup_spdif">
+        <item>SPDIF RAW</item>
+        <item>SPDIF LPCM</item>
+    </string-array>
+    
+	<string-array name="tabsettingpicture_personal_noise">
+        <item> ปิด</item>
+        <item>ต่ำ</item>
+        <item>กลาง</item>
+        <item>สูง</item>
+        <item>อัตโนมัติ</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcc">
+        <item>เปิด</item>
+        <item> ปิด</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcr">
+        <item>เปิด</item>
+        <item> ปิด</item>
+    </string-array>
+    <string-array name="tabsettingsetting_osd_exhibitiontime">
+        <item>None</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>45s</item>
+        <item>60s</item>
+    </string-array>
+    
+    <string-array name="tabsettingchannel_chantenna_tvsource">
+        <item>AIR</item>
+        <item>เคเบิล</item>
+    </string-array>
+	<string-array name="setting_other_adj_hdmisource">
+        <item>อัตโนมัติ</item>
+        <item>HDMI</item>
+        <item>DVI</item>
+    </string-array>
+    <string-array name="setting_other_adj_sleeptimer">
+        <item>ปิด</item>
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>60 Min</item>
+        <item>90 Min</item>
+        <item>120 Min</item>
+    </string-array>
+    <string-array name="manual_tuning_system">
+        <item>D/K</item>
+        <item>I</item>
+        <item>B/G</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system">
+        <item>A</item>
+        <item>P</item>
+        <item>S</item>
+        <item>N4</item>
+        <item>N3</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system_full">
+        <item>อัตโนมัติ</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC 4.43</item>
+        <item>NTSC 3.58</item>
+    </string-array>
+    <string-array name="manual_tuning_sigclass">
+        <item>C</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="manual_tuning_search">
+        <item>ขึ้น</item>
+        <item>ลง</item>
+   </string-array>
+   <string-array name="service_option_normal_special">
+   		<item>ปกติ</item>
+   		<item>Special</item>
+   </string-array>
+   <string-array name="service_option_white_tail">
+   		<item>ปกติ</item>
+   		<item>1</item>
+   		<item>2</item>
+		<item>3</item>
+   		<item>4</item>
+   </string-array>
+   <string-array name="service_option_H_jitter">
+   		<item>ปกติ</item>
+   		<item>_01</item>
+   		<item>_02</item>
+   		<item>_03</item>
+   		<item>_04</item>
+   		<item>_05</item>
+   </string-array>      
+   <string-array name="service_option_vsync_threshold">
+   		<item>ปกติ</item>
+   		<item>1</item>
+   		<item>2</item>
+   </string-array>
+   <string-array name="service_option_enable_disable">
+   		<item>Disable</item>
+   		<item>Enable</item>
+   </string-array>
+   <string-array name="service_option_agc_speed">
+   		<item>196</item>
+   		<item>206</item>
+   		<item>216</item>
+   		<item>219</item>
+   		<item>222</item>
+   		<item>248</item>
+   		<item>250</item>
+   		<item>251</item>
+   		<item>Default</item>
+   		<item>89</item>
+   		<item>105</item>
+   		<item>121</item>
+   		<item>137</item>
+   		<item>158</item>
+   		<item>172</item>
+   		<item>185</item>
+   </string-array>
+    <string-array name="programme_timer_repeat">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+   </string-array>
+   
+</resources> 

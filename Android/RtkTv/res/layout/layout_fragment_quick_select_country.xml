@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Pane.Dialog"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/Widget.Tv.TextView.Title"
+        android:text="@null" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/pane_padding_half"
+        android:layout_marginLeft="@dimen/pane_padding"
+        android:layout_marginRight="@dimen/pane_padding"
+        android:layout_marginTop="@dimen/pane_padding_half"
+        android:layout_weight="1"
+        android:fadeScrollbars="false"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:listSelector="@drawable/item_generic_round_background"
+        android:paddingBottom="@dimen/pane_padding"
+        android:paddingTop="@dimen/pane_padding" >
+
+        <requestFocus />
+    </ListView>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/button_next"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/STRING_NEXT" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

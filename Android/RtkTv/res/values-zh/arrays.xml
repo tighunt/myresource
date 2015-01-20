@@ -1,0 +1,281 @@
+<resources>
+	<string-array name="pic_ratio">
+        <item>超级全屏幕</item>
+        <item>电影院</item>
+        <item>字幕</item>
+        <item>14:9</item>
+        <item>点阵模式</item>
+        <item>缩放</item>
+        <item>正常</item>
+        <item>原始</item>
+        <item>宽屏幕</item>
+        <item>4:3</item>
+        <item>PC 宽屏</item>
+        <item>PC 标准</item>
+    </string-array>
+	<string-array name="sourcelist_aka">
+        <item>--</item>
+        <item>外接音箱</item>
+        <item>有线</item>
+        <item>DVD</item>
+        <item>游戏</item>
+        <item>PC</item>
+        <item>刻录机</item>
+        <item>卫星</item>
+        <item>VCR</item>
+    </string-array>
+	<string-array name="color_temperature">
+        <item>暖色</item>
+        <item>自然</item>
+        <item>冷色</item>
+    </string-array>
+	<string-array name="yes_no">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+	<string-array name="inputs">
+        <item>DTV</item>
+        <item>ATV</item>
+        <item>EXT 1</item>
+        <item>EXT 2</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>PC</item>
+    </string-array>
+	<string-array name="power_bass_booster">
+        <item>关</item>
+        <item>正常</item>
+        <item>超级</item>
+    </string-array>
+	<string-array name="sound_mode">
+		<item>动态</item>
+        <item>自然</item>
+        <item>高清音质</item>  
+    </string-array>
+	<string-array name="mts">
+        <item>自动</item>
+        <item>单声道</item>
+        <item>立体声</item>
+        <item>SAP</item>
+    </string-array>
+	<string-array name="atv_receiving_sound_mode">
+        <item>单声道</item>
+        <item>立体声</item>
+        <item>双声道</item>
+        <item>SAP</item>
+        <item>立体声 SAP</item>
+    </string-array>
+    <string-array name="dual">
+        <item>双声道 1</item>
+        <item>双声道 2</item>
+    </string-array>
+    <string-array name="audo_track">
+        <item>单声道</item>
+		<item>单声道 1</item>
+		<item>单声道 2</item>
+        <item>双声道 1</item>
+        <item>双声道 2</item>
+		<item>SAP</item>
+        <item>立体声</item>
+    </string-array>
+	<string-array name="pic_mode">
+        <item>Intelligent AutoView</item>
+        <item>动态</item>
+        <item>足球</item>
+        <item>板球</item>
+        <item>标准</item>
+        <item>柔和</item>
+        <item>电影</item>
+        <item>Eco模式</item>
+        <item>游戏</item>
+        <item>PC</item>
+    </string-array>
+   	<string-array name="noise_nr">
+    	<item>关</item>
+    	<item>低</item>
+        <item>中</item>
+        <item>高</item>       
+    </string-array>
+    <string-array name="contrast_booster">
+    	<item>关</item>
+    	<item>低</item>
+        <item>中</item>        
+        <item>高</item>       
+    </string-array>
+    <string-array name="tv_mount">
+        <item>底架</item>
+        <item>墙壁</item>
+    </string-array>
+	<string-array name="preference_teletext">
+        <item>自动</item>
+        <item>列表</item>
+    </string-array>
+    <string-array name="preference_1_4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+	<string-array name="preference_pc_hdmi">
+        <item>PC</item>
+        <item>HDMI 1</item>
+    </string-array>
+    <string-array name="preference_hdmi_audio">
+        <item>自动</item>
+        <item>数字</item>
+        <item>模拟</item>
+    </string-array>
+	<string-array name="tabsetting_option_OnOff">
+		<item>关</item>
+        <item>开</item>
+    </string-array>
+    <string-array name ="setup_country">
+        <item>巴林岛</item>
+        <item>印度</item>
+        <item>印度尼西亚</item>
+        <item>以色列</item>
+        <item>科威特</item>
+        <item>马来西亚</item>
+        <item>菲律宾</item>
+        <item>卡塔尔</item>
+        <item>沙特阿拉伯</item>
+        <item>新加坡</item>
+        <item>泰国</item>
+        <item>阿联酋</item>
+        <item>越南</item>
+    </string-array>
+    <string-array name="setup_option_location">
+		<item>家庭</item>
+        <item>商场</item>
+    </string-array>
+	<string-array name="tabsettingsound_adsettup_avl">
+        <item>开</item>
+        <item>关</item>
+    </string-array>
+    <string-array name="tabsettingsound_adsettup_spdif">
+        <item>SPDIF RAW</item>
+        <item>SPDIF LPCM</item>
+    </string-array>
+    
+	<string-array name="tabsettingpicture_personal_noise">
+        <item>关</item>
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcc">
+        <item>开</item>
+        <item>关</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcr">
+        <item>开</item>
+        <item>关</item>
+    </string-array>
+    <string-array name="tabsettingsetting_osd_exhibitiontime">
+        <item>None</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>45s</item>
+        <item>60s</item>
+    </string-array>
+    
+    <string-array name="tabsettingchannel_chantenna_tvsource">
+        <item>AIR</item>
+        <item>有线</item>
+    </string-array>
+	<string-array name="setting_other_adj_hdmisource">
+        <item>自动</item>
+        <item>HDMI</item>
+        <item>DVI</item>
+    </string-array>
+    <string-array name="setting_other_adj_sleeptimer">
+        <item>关</item>
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>60 Min</item>
+        <item>90 Min</item>
+        <item>120 Min</item>
+    </string-array>
+    <string-array name="manual_tuning_system">
+        <item>D/K</item>
+        <item>I</item>
+        <item>B/G</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system">
+        <item>A</item>
+        <item>P</item>
+        <item>S</item>
+        <item>N4</item>
+        <item>N3</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system_full">
+        <item>自动</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC 4.43</item>
+        <item>NTSC 3.58</item>
+    </string-array>
+    <string-array name="manual_tuning_sigclass">
+        <item>C</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="manual_tuning_search">
+        <item>上</item>
+        <item>下</item>
+   </string-array>
+   <string-array name="service_option_normal_special">
+   		<item>正常</item>
+   		<item>Special</item>
+   </string-array>
+   <string-array name="service_option_white_tail">
+   		<item>正常</item>
+   		<item>1</item>
+   		<item>2</item>
+		<item>3</item>
+   		<item>4</item>
+   </string-array>
+   <string-array name="service_option_H_jitter">
+   		<item>正常</item>
+   		<item>_01</item>
+   		<item>_02</item>
+   		<item>_03</item>
+   		<item>_04</item>
+   		<item>_05</item>
+   </string-array>      
+   <string-array name="service_option_vsync_threshold">
+   		<item>正常</item>
+   		<item>1</item>
+   		<item>2</item>
+   </string-array>
+   <string-array name="service_option_enable_disable">
+   		<item>Disable</item>
+   		<item>Enable</item>
+   </string-array>
+   <string-array name="service_option_agc_speed">
+   		<item>196</item>
+   		<item>206</item>
+   		<item>216</item>
+   		<item>219</item>
+   		<item>222</item>
+   		<item>248</item>
+   		<item>250</item>
+   		<item>251</item>
+   		<item>Default</item>
+   		<item>89</item>
+   		<item>105</item>
+   		<item>121</item>
+   		<item>137</item>
+   		<item>158</item>
+   		<item>172</item>
+   		<item>185</item>
+   </string-array>
+    <string-array name="programme_timer_repeat">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+   </string-array>
+   
+</resources> 

@@ -1,0 +1,281 @@
+<resources>
+	<string-array name="pic_ratio">
+        <item>Super Live</item>
+        <item>אולם קולנוע</item>
+        <item>כתוביות</item>
+        <item>14:9</item>
+        <item>נקודה אחר נקודה</item>
+        <item>גודל תצוגה</item>
+        <item>רגילה</item>
+        <item>טבעי</item>
+        <item>רחב</item>
+        <item>4:3</item>
+        <item>מחשב - רחב</item>
+        <item>מחשב - רגיל</item>
+    </string-array>
+	<string-array name="sourcelist_aka">
+        <item>--</item>
+        <item>מגבר</item>
+        <item>כבלים</item>
+        <item>DVD</item>
+        <item>משחק</item>
+        <item>PC</item>
+        <item>מקליט</item>
+        <item>לוויין</item>
+        <item>VCR</item>
+    </string-array>
+	<string-array name="color_temperature">
+        <item>צבעים חמים</item>
+        <item>טבעי</item>
+        <item>צבעים קרים</item>
+    </string-array>
+	<string-array name="yes_no">
+        <item>לא</item>
+        <item>כן</item>
+    </string-array>
+	<string-array name="inputs">
+        <item>DTV</item>
+        <item>ATV</item>
+        <item>EXT 1</item>
+        <item>EXT 2</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>PC</item>
+    </string-array>
+	<string-array name="power_bass_booster">
+        <item>כבוי</item>
+        <item>רגילה</item>
+        <item>Super</item>
+    </string-array>
+	<string-array name="sound_mode">
+		<item>דינאמי</item>
+        <item>טבעי</item>
+        <item>צליל נקי</item>  
+    </string-array>
+	<string-array name="mts">
+        <item><![CDATA[" אוטו'"]]></item>
+        <item>מונו</item>
+        <item>סטריאו</item>
+        <item>SAP</item>
+    </string-array>
+	<string-array name="atv_receiving_sound_mode">
+        <item>מונו</item>
+        <item>סטריאו</item>
+        <item>דו-ערוצי</item>
+        <item>SAP</item>
+        <item>SAP סטריאו</item>
+    </string-array>
+    <string-array name="dual">
+        <item>דו-ערוצי 1</item>
+        <item>דו-ערוצי 2</item>
+    </string-array>
+    <string-array name="audo_track">
+        <item>מונו</item>
+		<item>מונו 1</item>
+		<item>מונו 2</item>
+        <item>דו-ערוצי 1</item>
+        <item>דו-ערוצי 2</item>
+		<item>SAP</item>
+        <item>סטריאו</item>
+    </string-array>
+	<string-array name="pic_mode">
+        <item>Intelligent AutoView</item>
+        <item>דינאמי</item>
+        <item>כדורגל</item>
+        <item>קריקט</item>
+        <item>רגיל</item>
+        <item>עדין</item>
+        <item>סרט</item>
+        <item>Eco </item>
+        <item>משחק</item>
+        <item>PC</item>
+    </string-array>
+   	<string-array name="noise_nr">
+    	<item>כבוי</item>
+    	<item>נמוך</item>
+        <item>בינוני</item>
+        <item>גבוה</item>       
+    </string-array>
+    <string-array name="contrast_booster">
+    	<item>כבוי</item>
+    	<item>נמוך</item>
+        <item>בינוני</item>        
+        <item>גבוה</item>       
+    </string-array>
+    <string-array name="tv_mount">
+        <item>עומד</item>
+        <item>קיר</item>
+    </string-array>
+	<string-array name="preference_teletext">
+        <item><![CDATA[" אוטו'"]]></item>
+        <item>רשימה</item>
+    </string-array>
+    <string-array name="preference_1_4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+	<string-array name="preference_pc_hdmi">
+        <item>PC</item>
+        <item>HDMI 1</item>
+    </string-array>
+    <string-array name="preference_hdmi_audio">
+        <item ><![CDATA[" אוטו'"]]></item>
+        <item>דיגיטלי</item>
+        <item>אנאלוגי</item>
+    </string-array>
+	<string-array name="tabsetting_option_OnOff">
+		<item>כבוי</item>
+        <item>מופעל</item>
+    </string-array>
+    <string-array name ="setup_country">
+        <item>בחריין</item>
+        <item>הודו</item>
+        <item>אינדונזיה</item>
+        <item>ישראל</item>
+        <item>כווית</item>
+        <item>מלזיה</item>
+        <item>פיליפינים</item>
+        <item>קטאר</item>
+        <item>ערב הסעודית</item>
+        <item>סינגפור</item>
+        <item>תאילנד</item>
+        <item>איחוד האמירויות הערביות</item>
+        <item>וייטנאם</item>
+    </string-array>
+    <string-array name="setup_option_location">
+		<item>דף הבית</item>
+        <item>חנות</item>
+    </string-array>
+	<string-array name="tabsettingsound_adsettup_avl">
+        <item>דילוג</item>
+        <item>כבוי</item>
+    </string-array>
+    <string-array name="tabsettingsound_adsettup_spdif">
+        <item>SPDIF RAW</item>
+        <item>SPDIF LPCM</item>
+    </string-array>
+    
+	<string-array name="tabsettingpicture_personal_noise">
+        <item>כבוי</item>
+        <item>נמוך</item>
+        <item>בינוני</item>
+        <item>גבוה</item>
+        <item><![CDATA[" אוטו'"]]></item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcc">
+        <item>דילוג</item>
+        <item>כבוי</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcr">
+        <item>דילוג</item>
+        <item>כבוי</item>
+    </string-array>
+    <string-array name="tabsettingsetting_osd_exhibitiontime">
+        <item>None</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>45s</item>
+        <item>60s</item>
+    </string-array>
+    
+    <string-array name="tabsettingchannel_chantenna_tvsource">
+        <item>AIR</item>
+        <item>כבלים</item>
+    </string-array>
+	<string-array name="setting_other_adj_hdmisource">
+        <item>![CDATA[" אוטו'</item>
+        <item>HDMI</item>
+        <item>DVI</item>
+    </string-array>
+    <string-array name="setting_other_adj_sleeptimer">
+        <item>כבוי</item>
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>60 Min</item>
+        <item>90 Min</item>
+        <item>120 Min</item>
+    </string-array>
+    <string-array name="manual_tuning_system">
+        <item>D/K</item>
+        <item>I</item>
+        <item>B/G</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system">
+        <item>A</item>
+        <item>P</item>
+        <item>S</item>
+        <item>N4</item>
+        <item>N3</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system_full">
+        <item><![CDATA[" אוטו'"]]></item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC 4.43</item>
+        <item>NTSC 3.58</item>
+    </string-array>
+    <string-array name="manual_tuning_sigclass">
+        <item>C</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="manual_tuning_search">
+        <item>למעלה</item>
+        <item>למטה</item>
+   </string-array>
+   <string-array name="service_option_normal_special">
+   		<item>רגילה</item>
+   		<item>Special</item>
+   </string-array>
+   <string-array name="service_option_white_tail">
+   		<item>רגילה</item>
+   		<item>1</item>
+   		<item>2</item>
+		<item>3</item>
+   		<item>4</item>
+   </string-array>
+   <string-array name="service_option_H_jitter">
+   		<item>רגילה</item>
+   		<item>_01</item>
+   		<item>_02</item>
+   		<item>_03</item>
+   		<item>_04</item>
+   		<item>_05</item>
+   </string-array>      
+   <string-array name="service_option_vsync_threshold">
+   		<item>רגילה</item>
+   		<item>1</item>
+   		<item>2</item>
+   </string-array>
+   <string-array name="service_option_enable_disable">
+   		<item>Disable</item>
+   		<item>Enable</item>
+   </string-array>
+   <string-array name="service_option_agc_speed">
+   		<item>196</item>
+   		<item>206</item>
+   		<item>216</item>
+   		<item>219</item>
+   		<item>222</item>
+   		<item>248</item>
+   		<item>250</item>
+   		<item>251</item>
+   		<item>Default</item>
+   		<item>89</item>
+   		<item>105</item>
+   		<item>121</item>
+   		<item>137</item>
+   		<item>158</item>
+   		<item>172</item>
+   		<item>185</item>
+   </string-array>
+    <string-array name="programme_timer_repeat">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+   </string-array>
+   
+</resources> 

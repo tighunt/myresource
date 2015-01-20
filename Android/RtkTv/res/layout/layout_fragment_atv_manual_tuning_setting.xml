@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Pane"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/Widget.Tv.TextView.Title"
+        android:gravity="center_vertical|center_horizontal"
+        android:shadowColor="#FB3C3F3B"
+        android:singleLine="false"
+        android:text="@string/STRING_MANUAL_TUNING" />
+
+    <TextView
+        android:id="@+id/text_hint"
+        style="@style/Widget.Tv.TextView.Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/pane_padding_half"
+        android:paddingLeft="@dimen/pane_padding"
+        android:paddingRight="@dimen/pane_padding"
+        android:paddingTop="@dimen/pane_padding_half"
+        android:text="@null" />
+
+    <LinearLayout
+        android:id="@+id/container_atv_tuning_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:baselineAligned="true"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/pane_padding_half"
+        android:paddingLeft="@dimen/pane_padding"
+        android:paddingRight="@dimen/pane_padding"
+        android:paddingTop="@dimen/pane_padding_half" >
+
+        <LinearLayout
+            android:id="@+id/option_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:nextFocusLeft="@+id/option_label7"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_up_selector" />
+
+            <TextView
+                android:id="@+id/text_option"
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_down_selector" />
+
+            <requestFocus />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_system"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_up_selector" />
+
+            <ImageView
+                style="@style/Widget.Tv.ImageView.AtvTuing.Item"
+                android:src="@drawable/ic_item_atvtune_skip_on" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_down_selector" />
+        </LinearLayout>
+
+        <!--LinearLayout
+            android:id="@+id/option_sigclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_down_selector" />
+        </LinearLayout-->
+
+        <LinearLayout
+            android:id="@+id/option_fine_tune"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_sigbooster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:layout_width="wrap_content"
+                android:ems="4"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_up_selector" />
+
+            <ImageView
+                style="@style/Widget.Tv.ImageView.AtvTuing.Item"
+                android:src="@drawable/ic_item_atvtune_loupe" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_item_setting_down_selector" />
+        </LinearLayout>
+
+        <!--LinearLayout
+            android:id="@+id/option_label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:layout_width="wrap_content"
+                android:ems="1"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:layout_width="wrap_content"
+                android:ems="1"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_label3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:layout_width="wrap_content"
+                android:ems="1"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_label4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:layout_width="wrap_content"
+                android:ems="1"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_label5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:layout_width="wrap_content"
+                android:ems="1"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_label6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:layout_width="wrap_content"
+                android:ems="1"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_down_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option_label7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:nextFocusRight="@+id/option_position"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_up_selector" />
+
+            <TextView
+                style="@style/Widget.Tv.TextView.AtvTuing.Item"
+                android:layout_width="wrap_content"
+                android:ems="1"
+                android:text="@null" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_down_selector" />
+        </LinearLayout-->
+    </LinearLayout>
+
+</LinearLayout>

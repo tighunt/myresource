@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Pane.Dialog"
+    android:layout_width="480dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/Widget.Tv.TextView.Title"
+        android:text="@string/STRING_DTV_MANUAL_TUNING" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pane_padding_half"
+        android:layout_marginLeft="@dimen/pane_padding"
+        android:layout_marginRight="@dimen/pane_padding"
+        android:layout_marginTop="@dimen/pane_padding_half"
+        android:fadeScrollbars="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:listitem="@layout/layout_item_setting" >
+    </ListView>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_confirm"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/STRING_STARTSCAN" />
+    </LinearLayout>
+
+</LinearLayout>

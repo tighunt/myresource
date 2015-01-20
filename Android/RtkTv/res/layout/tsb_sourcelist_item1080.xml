@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"  
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/item_generic_round_background"
+    > 
+	<CheckedTextView
+		android:layout_marginLeft="5dp"
+        android:layout_height="26dp"   
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:id="@+id/listPerItem"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center_vertical|left"
+        android:textSize="12dp"/>
+        <!-- 
+        android:shadowColor="#FB3C3F3B"
+		android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="2" -->
+	<CheckedTextView
+		android:paddingRight="9dp"
+        android:layout_height="26dp"   
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:id="@+id/listPerItem2"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center_vertical|right"
+        android:textSize="13dp"/>
+	<!-- 
+        android:shadowColor="#FB3C3F3B"
+		android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="2" -->
+    <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/right_arrow" 
+          android:src="@drawable/arw_d_f_r"
+          android:visibility="invisible"/>
+</LinearLayout>

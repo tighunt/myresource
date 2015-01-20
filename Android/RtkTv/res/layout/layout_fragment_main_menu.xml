@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="@dimen/pane_width_main_menu"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="120dp"
+        android:addStatesFromChildren="true"
+        android:background="@drawable/tsb_mainmenu_main_top_style"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/container_tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/btn_tab_picture"
+                android:layout_width="@dimen/fragment_main_menu_button_size"
+                android:layout_height="@dimen/fragment_main_menu_button_size"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusLeft="@+id/btn_tab_pvr"
+                android:nextFocusRight="@+id/btn_tab_sound"
+                android:src="@drawable/ic_menu_tab_picture" />
+
+            <ImageView
+                android:id="@+id/btn_tab_sound"
+                android:layout_width="@dimen/fragment_main_menu_button_size"
+                android:layout_height="@dimen/fragment_main_menu_button_size"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/btn_tab_picture"
+                android:nextFocusRight="@+id/btn_tab_application"
+                android:src="@drawable/ic_menu_tab_sound" />
+
+            <ImageView
+                android:id="@+id/btn_tab_application"
+                android:layout_width="@dimen/fragment_main_menu_button_size"
+                android:layout_height="@dimen/fragment_main_menu_button_size"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/btn_tab_sound"
+                android:nextFocusRight="@+id/btn_tab_preference"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_menu_tab_application" />
+
+            <ImageView
+                android:id="@+id/btn_tab_preference"
+                android:layout_width="@dimen/fragment_main_menu_button_size"
+                android:layout_height="@dimen/fragment_main_menu_button_size"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/btn_tab_application"
+                android:nextFocusRight="@+id/btn_tab_setup"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_menu_tab_preference" />
+
+            <ImageView
+                android:id="@+id/btn_tab_setup"
+                android:layout_width="@dimen/fragment_main_menu_button_size"
+                android:layout_height="@dimen/fragment_main_menu_button_size"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/btn_tab_preference"
+                android:nextFocusRight="@+id/btn_tab_pvr"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_menu_tab_setup" />
+
+            <ImageView
+                android:id="@+id/btn_tab_pvr"
+                android:layout_width="@dimen/fragment_main_menu_button_size"
+                android:layout_height="@dimen/fragment_main_menu_button_size"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/btn_tab_setup"
+                android:nextFocusRight="@+id/btn_tab_picture"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_menu_tab_pvr" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/container_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tsb_mainmenu_main_bottom_style"
+            android:focusable="false"
+            android:padding="3dp" >
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Pane.Dialog"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/Widget.Tv.TextView.Title"
+        android:text="@string/STRING_LOCATION" />
+
+    <TextView
+        android:id="@+id/text_message"
+        style="@style/Widget.Tv.TextView.Message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/STRING_QUICKSETUP_LOCATION" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_store"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/STRING_STORE" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_home"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/STRING_HOME" >
+
+            <requestFocus />
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

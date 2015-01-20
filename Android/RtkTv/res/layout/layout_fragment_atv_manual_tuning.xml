@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Pane"
+    android:layout_width="@dimen/pane_width_main_menu"
+    android:layout_height="360dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/Widget.Tv.TextView.Title"
+        android:text="@string/STRING_ATV_MANUAL_TUNING" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pane_padding"
+        android:layout_marginRight="@dimen/pane_padding"
+        android:paddingBottom="@dimen/pane_padding_half"
+        android:paddingTop="@dimen/pane_padding_half" >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/pane_padding"
+            android:gravity="center"
+            android:text="@string/num"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/STRING_LABEL"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="none"
+        android:fadeScrollbars="false"
+        android:listSelector="@drawable/item_generic_round_background"
+        android:paddingBottom="@dimen/pane_padding"
+        android:paddingLeft="@dimen/pane_padding"
+        android:paddingRight="@dimen/pane_padding"
+        android:requiresFadingEdge="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        tools:listitem="@layout/item_atv_manual_tuning" />
+
+</LinearLayout>

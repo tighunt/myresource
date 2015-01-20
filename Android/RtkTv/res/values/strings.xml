@@ -1,0 +1,1316 @@
+<resources>
+
+	<item type="id" name="tabid"></item>
+	<string name="STRING_QUICKMENU">Quick Menu</string>
+	<string name="STRING_PICTUREMODE">Picture Mode</string>
+	<string name="STRING_SOUNDMODE">Sound Mode</string>
+	<string name="STRING_SLEEPTIMER">Sleep Timer</string>
+	<string name="STRING_POWERBASS">Power Bass Booster</string>
+	<string name="STRING_SIGNALBOOSTER">Signal Booster</string>
+
+	<string name="STRING_SETUP">SETUP</string>
+	<string name="STRING_MENU_LANG">Menu Language</string>
+
+    <!-- walker add for 5450-->
+    <string name="STRING_TUNING_MODE">Tuning Mode</string>
+    <string name="STRING_SCAN_TYPE">Scan Type</string>
+    <string name="STRING_BAND_WIDTH">BandWidth</string>
+    <string name="STRING_TYPE">Type</string>
+    <string name="STRING_NAME">Name</string>
+    <string name="STRING_DTV_MANUAL_TUNING">DTV Manual Tuning</string>
+    <string name="STRING_WEAK">WEAK</string>
+    <string name="STRING_AVERAGE">AVERAGE</string>
+    <string name="STRING_STRONG">STRONG</string>
+    <string name="STRING_GOOD">GOOD</string>
+    <string name="STRING_POOR">POOR</string>
+    <string name="STRING_MEDIUM">MEDIUM</string>
+    <string name="STRING_NEW">New</string>
+    <string name="STRING_DTV_TUNE">DTV Tune</string>
+    <string name="STRING_ATV_TUNE">ATV Tune</string>
+    <string name="STRING_SIGNAL_STRENGTH">Signal Strength</string>
+    <string name="STRING_SIGNAL_QUALITY">Signal Quality</string>
+    <string name="STRING_SIGNAL_STRENGTH_QUALITY">Signal Strength Quality</string>
+    <string name="STRING_SCANNING_PLEASE_WAIT">Scanning channels, please wait...</string>
+    <string name="STRING_NEW_CHANNES_FOUND">New Channels-Total</string>
+    <string name="STRING_DTV_SETTINGS">DTV Settins</string>
+    <string name="STRING_SUBTITLE_AND_AUDIO">Subtitle and Audio</string>
+    <string name="STRING_SUBTITLE_DISPLAY">Subtitle Display</string>
+    <string name="STRING_SUBTITLE_TYPE">Subtitle Type</string>
+    <string name="STRING_PRIMARY_SUBTITLE_LAUNGUAGE">Primary Subtitle Language</string>
+    <string name="STRING_SECONDARY_SUBTITLE_LANGUAGE">Secondary Subtitle Language</string>
+    <string name="STRING_PRIMARY_AUDIO_LANGUAGE">Primary Audio Language</string>
+    <string name="STRING_SECONDARY_AUDIO_LANGUAGE">Secondary Audio Language</string>
+    <string name="STRING_PIN_SETTING">PIN Setting</string>
+	<string name="STRING_WRONG_PIN">Incorrect PIN code, please try again!</string>
+    <string name="STRING_CHANGE_PIN">Change PIN</string>
+    <string name="STRING_DELETE_PIN">Delete PIN</string>
+    <string name="STRING_PARENTAL_CONTROL">Parental Control</string>
+    <string name="STRING_PARENTAL_CONTROL_BLOCK_LEVEL">Block level:</string>
+    <string name="STRING_LOCAL_TIME_SETTING">Local Time Setting</string>
+    <string name="STRING_DYNAMIC_SCAN">Dynamic Scan</string>
+    <string name="STRING_SYSTEM_INFO_DTV">System Information(DTV)</string>
+    <string name="STRING_DETAILS">Details</string>
+    <string name="STRING_SERVICE_LIST">Service List</string>
+    <string name="STRING_LINE_NO">Line NO.</string>
+    <string name="STRING_TRANSMITTER">Transmitter</string>
+    <string name="STRING_CN">C/N</string>
+    <string name="STRING_UNCONNECTED_PACKETS">Unconnected Packets</string>
+    <string name="STRING_CODE_RATE">Code Rate</string>
+    <string name="STRING_ONID">ONID</string>
+    <string name="STRING_NID">NID</string>
+    <string name="STRING_CENTER_FREQUENCY">Center Frequency(MHz)</string>
+    <string name="STRING_BER">BER</string>
+    <string name="STRING_MODULATION">Modulation</string>
+    <string name="STRING_GUARD_INTERVAL">Guard Interval</string>
+    <string name="STRING_TSID">TSID</string>
+    <string name="STRING_PORTUGUESE">Portuguese</string>
+    <string name="STRING_DUTCH">Dutch</string>
+    <string name="STRING_CZECH">Czech</string>
+    <string name="STRING_HUNGARIAN">Hungarian</string>
+    <string name="STRING_FINNISH">Finnish</string>
+    <string name="STRING_NORWEGIAN">Norwegian</string>
+    <string name="STRING_DANISH">Danish</string>
+    <string name="STRING_SLOVENIAN">Slovenian</string>
+    <string name="STRING_HINDI">Hindi</string>
+    <string name="STRING_IRISH">Irish</string>
+    <string name="STRING_TURKISH">Turkish</string>
+    <string name="STRING_ROMANIAN">Romainian</string>
+    <string name="STRING_BULGARIAN">Bulgarian</string>
+    <string name="STRING_BURMESE">Burmese</string>
+    <string name="STRING_LATVIAN">Latvian</string>
+    <string name="STRING_LITHUANIAN">Lithuanian</string>
+    <string name="STRING_LATIN">Latin</string>
+    <string name="STRING_NEPALI">Nepali</string>
+    <string name="STRING_SLOVAK">Slovak</string>
+    <string name="STRING_ALBANIAN">Albanian</string>
+    <string name="STRING_SERBIAN">Serbian</string>
+    <string name="STRING_UKRAINIAN">Ukrainian</string>
+    <string name="STRING_CAMBODIAN">Cambodian</string>
+    <string name="STRING_ICELANDIC">Icelandic</string>
+    <string name="STRING_ARMENIAN">Armenian</string>
+    <string name="STRING_CROATIAN">Croatian</string>
+    <string name="STRING_VIETNAMESE">Vietnamese</string>
+    <string name="STRING_ESTONIAN">Estoonian</string>
+    <string name="STRING_MACEDONIAN">Macedonian</string>
+    <string name="STRING_TAMIL">Tamil</string>
+    <string name="STRING_CATALAN">Catalan</string>
+
+	<string name="STRING_AUTO_TUNING">Auto Tuning</string>
+	<string name="STRING_MANUAL_TUNING">Manual Tuning</string>
+	<string name="STRING_QUICK_SETUP">Quick Setup</string>
+	<string name="STRING_LOCATION">Location</string>
+	<string name="STRING_SW_LINCEN">Software Licences</string>
+	<string name="STRING_SYSTEM_INFO">System Information</string>
+	<string name="STRING_RESET_TV">Reset TV</string>
+	<string name="STRING_NO_TELETEXT">No Teletext</string>
+
+	<string name="STRING_PICTURE">PICTURE</string>
+	<string name="STRING_PIC_SETTINGS">Picture Settings</string>
+	<string name="STRING_ASPECT_RATIO">Aspect Ratio</string>
+	<string name="STRING_3D_MANAGE">3D Colour Management</string>
+	<string name="STRING_BASE_COLOR_ADJ">Base Colour Adjustment</string>
+	<string name="STRING_ACTIVE_BACKLIGHT_CTRL">Active Backlight Control</string>
+	
+	<string name="STRING_SOUND">SOUND</string>
+	<string name="STRING_S_MTS">MTS</string>
+	<string name="STRING_S_DUAL">Dual</string>
+	<string name="STRING_S_BALANCE">Balance</string>
+	<string name="STRING_S_AD_SOUND_SETTING">Advanced Sound Settings</string>
+	<string name="STRING_S_AUDIO_DIST_CTRL">Audio Distortion Control</string>
+    <string name="STRING_S_TV_MOUNT">TV Mounting</string>
+	<string name="STRING_S_DYNAMIC_RANGE_CTRL">Dynamic Range Control</string>
+	<string name="STRING_S_AUDIO_OFFSET">Audio Level Offset</string>
+	<string name="STRING_S_SPECTRUM_ANALY">Spectrum Analyzer</string>
+
+	<string name="STRING_APPLICATION">APPLICATION</string>
+	<string name="STRING_A_MEDIAPLAYER">Media Player</string>
+	<string name="STRING_A_ON_TIMER">On Timer</string>
+	<string name="STRING_A_SLEEP_TIMER">Sleep Timer</string>
+    <string name="STRING_SYSTEM_SETTINGS">System Settings</string>
+    <string name="STRING_COMMON_INTERFACE">Common Interface</string>
+
+	<string name="STRING_DONE">Done</string>
+
+	<string name="STRING_RED">Red</string>
+	<string name="STRING_GREEN">Green</string>
+	<string name="STRING_BLUE">Blue</string>
+	<string name="STRING_YELLOW">Yellow</string>
+	<string name="STRING_MAGENTA">Magenta</string>
+	<string name="STRING_CYAN">Cyan</string>
+	<string name="STRING_HUE">Hue</string>
+	<string name="STRING_SATURATION">Saturation</string>
+	<string name="STRING_BRIGHTNEDD">Brightness</string>
+
+	
+	<string name="STRING_PERFERENCE">PREFERENCE</string>
+	<string name="STRING_P_TELETEXT">Teletext</string>
+	<string name="STRING_P_TELETEXT_LANG">Teletext Language</string>
+	<string name="STRING_P_PANEL_LOCK">Panel Lock</string>
+	<string name="STRING_P_DISP_SETTINGS">Display Settings</string>
+	<string name="STRING_P_AV_CONNECTION">AV Connection</string>
+	<string name="STRING_P_ENERGY_SAVING">Energy Saving Settings</string>
+	<string name="STRING_P_BLUE_SCREEN">Blue Screen</string>
+
+    <string name="STRING_HORIZONTAL_POSITION">Horizontal Position</string>
+    <string name="STRING_VERTICAL_POSITION">Vertical Position</string>
+    <string name="STRING_CLOCK_PHASE">Clock Phase</string>
+    <string name="STRING_SAMPLING_CLOCK">Sampling Clock</string>
+
+	<string name="STRING_ENTER">Enter</string>
+	<string name="STRING_OK">OK</string>
+	<string name="STRING_EDIT">Edit</string>
+	<string name="STRING_AUTOTUNING">Auto Tuning</string>
+	<string name="STRING_AUTO_S_BOOSTER">Auto Signal Booster</string>
+	<string name="STRING_STARTSCAN">Start Scan</string>
+	<string name="STRING_AUTO">Auto</string>
+	
+	<string name="STRING_AUTO_FORMAT">Auto Format</string>
+	<string name="STRING_43_STRETCH">4:3 Stretch</string>
+	<string name="STRING_PC_SETTINGS">PC Settings</string>
+
+	<string name="STRING_INPUT_LABEL">Input Labelling</string>
+	<string name="STRING_PC_HDMI_AUDIO_1">PC/HDMI 1 Audio</string>
+	<string name="STRING_HDMI_AUDIO_1">HDMI 1 Audio</string>
+	<string name="STRING_LABEL">Label</string>
+	<string name="STRING_AUTO_PWOER_DOWN">Automatic Power Down</string>
+	<string name="STRING_NOSIGNAL_POWER_DOWN">No Signal Power Down</string>
+
+	<string name="STRING_TV">TV</string>
+	<string name="STRING_EXT1">EXT 1</string>
+	<string name="STRING_EXT2">EXT 2</string>
+	<string name="STRING_HDMI1">HDMI 1</string>
+	<string name="STRING_HDMI2">HDMI 2</string>
+	<string name="STRING_PC">PC</string>
+	<string name="STRING_VIDEO1">VIDEO 1</string>
+	<string name="STRING_VIDEO2">VIDEO 2</string>
+	<string name="STRING_YUV">YUV</string>
+	
+	<string name="STRING_BASS">Bass</string>
+	<string name="STRING_TREBLE">Treble</string>
+	<string name="STRING_POER_BASS_BOOSTER">Power Bass Booster</string>
+    <string name="STRING_EQUALISER">Equaliser</string>
+    <string name="STRING_SURROUND">Surround</string>
+
+	
+	<string name="STRING_FOUND">Found</string>
+	<string name="PROGRESS">Progress</string>
+	<string name="HINT_EXIT">EXIT</string>
+	<string name="HINT_STOP">Stop</string>
+	<string name="HINT_SELECT">Select</string>
+	<string name="HINT_ADJUST">Adjust</string>
+	
+	<string name="STRING_CHANNEL_LIST">Channel List</string>
+
+	
+	<string name="tabsettingpicture_indicator">Picture</string>
+
+	<string name="STRING_0_9">0 - 9</string>
+	
+	<string name="STRING_ENABLE_TIMER">Enable On Timer</string>
+	<string name="STRING_INPUT">Input</string>
+	<string name="STRING_T_INPUT">Input</string>
+	<string name="STRING_POSITION">Pos.</string>
+	<string name="STRING_POSITION_F">Position</string>
+	<string name="STRING_VOLUME">Volume</string>
+	<string name="STRING_TIME_UNTIL_POWER_ON">Time Until Power On</string>
+	
+	<string name="STRING_CINEMA">Cinema</string>
+    <string name="STRING_VIVID">Vivid</string>
+	<string name="STRING_MILD">Mild</string>
+	<string name="tabsettingpicture_sport">Sport</string>
+	<string name="tabsettingpicture_game">Game</string>
+	
+	<string name="STRING_AUTO_CLEAN">Auto Clean</string>
+	<string name="STRING_MPEGNR">MPEG NR</string>
+	<string name="STRING_DNR">DNR</string>
+	
+	<string name="STRING_CONTRAST">Contrast</string>
+	<string name="STRING_COLOUR">Colour</string>
+	<string name="STRING_TINT">Tint</string>
+	<string name="STRING_SHARPNESS">Sharpness</string>
+	<string name="STRING_BACKLIGHT">Backlight</string>
+	<string name="STRTING_NOISE_REDUCTION">Noise Reduction</string>
+	<string name="STRING_COLOUR_TEMP">Colour Temperature</string>
+	<string name="STRING_CINEMA_MODE">Cinema Mode</string>
+	<string name="STRING_CONTRAST_BOOSTER">Contrast Booster</string>
+	<string name="STRING_RESET">Reset</string>
+
+	<string name="STRING_RED_LEVEL">Red Level</string>
+	<string name="STRING_GREEN_LEVEL">Green Level</string>
+	<string name="STRING_BLUE_LEVEL">Blue Level</string>
+
+	<string name="STRING_CHANNEL_NOT_FOUND">No broadcast signals could be found. Please check your connection and scan again.</string>
+	<string name="STRING_RESET_TV_INFO">All previous settings will be deleted. Continue?</string>
+	<string name="STRING_SOURCE_AUTO_SWITCH_INFO">Are you sure you want to change the source?</string>
+	<string name="STRING_RESET_SETTING_INFO">Are you sure you want to reset to default settings?</string>
+	<string name="STRING_QUICKSETUP_INFO">This may change the features available on your TV. In some cases, all existing channels may be cleared. Continue?</string>
+	<string name="STRING_QUICKSETUP_LOCATION">To use the TV for displaying in a store showroom,\nplease select [Store]. [Home] mode is recommended\nfor normal use.</string>
+	<string name="STRING_QUICKSETUP_AUTOVIEW">Intelligent AutoView mode automatically adjusts picture settings to suit ambient light conditions. Do you wish to enable Intelligent AutoView mode?</string>
+    <string name="STRING_SPDIFOUTPUT">SpdifOutput</string>
+	<string name="STRING_SPDIFOUTPUT_RAW">RAW</string>
+	<string name="STRING_SPDIFOUTPUT_LPCM">PCM</string>
+	<string name="STRING_EQ_20PLUS">+20</string>
+    <string name="STRING_EQ_20MINUS">-20</string>
+    <string name="STRING_EQ_ZERO">0</string>
+    <string name="STRING_HZ_100">100</string>
+    <string name="STRING_HZ_350">350</string>
+    <string name="STRING_HZ_1K">1K</string>
+    <string name="STRING_HZ_3_5K">3.5K</string>
+    <string name="STRING_HZ_10K">10K</string>
+    <string name="STRING_HZ">[Hz]</string>
+    <string name="STRING_LEVEL">[Level]</string>
+    <string name="STRING_LEVEL_3">3</string>
+    <string name="STRING_LEVEL_6">6</string>
+    <string name="STRING_LEVEL_8MINUS">-8</string>
+    <string name="STRING_LEVEL_8PLUS">8</string>
+    <string name="STRING_LEVEL_10PLUS">10</string>
+    <string name="STRING_EQ_CANCER">Cancel</string>
+    <string name="STRING_EQ_RESET">Reset</string>
+	<string name="HINT_SKIP">Skip</string>
+	<string name="HINT_NEXT">Next</string>
+	<string name="HINT_BACK">Back</string>
+    <string name ="HINT_CHANGE">Change</string>
+    <string name="HINT_SAVE">Save</string>
+    <string name="HINT_STORE">Store</string>
+    <string name="HINT_SORT">Sort</string>
+    <string name="HINT_CANCEL">Cancel</string>
+    <!--walker add for L5450-->
+    <string name="HINT_MOVE">Move</string>
+    <string name="HINT_RENUMBER">Renumber</string>
+	<string name="STRING_MHZ">MHz</string>
+	
+    <string name="app_name">TV</string>
+    <string name="chlist_name">Channel</string>
+    <string name="menu_settings">Settings</string>
+    <string name="chedit_title">Input channel number</string>
+    <string name="title_activity_dtv_strategy">TV</string>
+	<string name="title_activity_mainmenu">SettingTab</string>
+	<string name="STRING_DEMO">Demo</string>
+	<string name="STRING_DIGITAL_POP">Digital POP</string>
+	<string name="STRING_START_DEMO">Start Demo</string>
+
+
+    <string name="STRING_CH_UP">CH Up</string>
+    <string name="STRING_CH_DOWN">CH Down</string>
+	<!--
+	<string name="tabsettingsound_indicator">Sound</string>
+	<string name="tabsettingsound_standard">Standard</string>
+	<string name="tabsettingsound_voice">Voice</string>
+	<string name="tabsettingsound_music">Music</string>
+	<string name="tabsettingsound_theater">Theater</string>
+	<string name="tabsettingsound_personal">Personal</string>
+	<string name="tabsettingsound_adsetup">Advanced Setup</string>
+	<string name="tabsettingsound_p_balance">Balance</string>
+	<string name="tabsettingsound_p_300HZ">300HZ</string>
+	<string name="tabsettingsound_p_1KHZ">1KHZ</string>
+	<string name="tabsettingsound_p_3KHZ">3KHZ</string>
+	<string name="tabsettingsound_p_8KHZ">8KHZ</string>
+	<string name="tabsettingsound_p_15KHZ">15KHZ</string>
+	<string name="tabsettingsound_ad_avl">AVL</string>
+	<string name="tabsettingsound_ad_spdif">SPDIF Output</string>
+	<string name="tabsettingsound_ad_mts">MTS</string>
+
+	<string name="tabsettingsound_space"> </string>
+
+	<string name="mainmenu_tile">TV Setting</string>
+
+	<string name="tabsettingsetting_indicator">Setting</string>
+	<string name="tabsettingsetting_otherAdj">Other Adjustments</string>
+    <string name="tabsettingsetting_osd">OSD</string>
+	<string name="tabsettingsetting_srclock">Source Lock</string>
+	<string name="tabsettingsetting_usbupdate">USB Upgrade</string>
+	<string name="tabsettingsetting_pc">PC</string>
+	<string name="tabsettingsetting_date">Date Time</string>
+	<string name="tabsettingsetting_sysrest">System Reset</string>
+
+	<string name="tabsettingsetting_date_timezone">Time Zone</string>
+	<string name="tabsettingsetting_date_date">Date</string>
+	<string name="tabsettingsetting_date_time">Time</string>
+	<string name="tabsettingsetting_date_24hiur">24 Hour Time</string>
+	
+	
+	<string name="tabsettingpicture_ad_dcc">DCC</string>
+	<string name="tabsettingpicture_ad_aspectratio">Aspect Ratio</string>
+	<string name="tabsettingpicture_ad_dcr">DCR</string>
+
+	<string name="tabsettingchannel_indicator">Channels</string>
+	
+	<string name="tabsettingchannel_chantenna">Channels and Antenna</string>
+	<string name="tabsettingchannel_chantenna_ch_tvsource">TV Signal Source</string>
+	<string name="tabsettingchannel_chantenna_ch_addchannel">Add Channel</string>
+	<string name="tabsettingchannel_chantenna_ch_newchscan">New Channel Scan</string>
+	<string name="tabsettingchannel_chantenna_ch_manualscan">Manual Scan</string>
+	<string name="tabsettingchannel_chantenna_ch_navigation">Services Navigation</string>
+	<string name="tabsettingchannel_chantenna_ch_oneseg">Enable one-Seg</string>
+
+	<string name="tabsettingsetting_adjustment_sleep">Sleep</string>
+	<string name="tabsettingsetting_adjustment_colorsystem">Colour System</string>
+	<string name="tabsettingsetting_adjustment_hdmidvi">HDMI/DVI Switched</string>
+	<string name="tabsettingsetting_osd_alpha">OSD Aplpha</string>
+	<string name="tabsettingsetting_osd_extime">Exhibition Time</string>
+	<string name="tabsettingprivacy_patentctrl">Parental Control</string>
+	
+	<string name="STRING_MANUAL">Manual</string>
+	
+	
+	<string name="STRING_CHANNELTITLE">CH</string>
+	
+	<string name="STRING_CANCEL">Cancel</string>
+	<string name="STRING_BACKTO">Back to</string>
+	<string name="STRING_CHLIST_FAV">Favorite</string>
+	<string name="STRING_CHLIST_SKIP">Skip</string>
+	<string name="STRING_CHLIST_BLOCK">Block</string>
+	<string name="STRING_PRIVACY">Privacy</string>
+	<string name="STRING_NWPASSWORD">New Password</string>
+	<string name="STRING_CHPASSWORD">Change Password</string>
+	<string name="STRING_INPASSWORD">Input Password</string>
+	<string name="STRING_CFPASSWORD">Confirm Password</string>
+	<string name="STRING_COMFIRM">Confirm</string>
+	
+	<string name="STRING_WEEK_MON">Mon</string>
+	<string name="STRING_WEEK_TUE">Tue</string>
+	<string name="STRING_WEEK_WEN">Wen</string>
+	<string name="STRING_WEEK_THU">Thu</string>
+	<string name="STRING_WEEK_FRI">Fri</string>
+	<string name="STRING_WEEK_SAT">Sat</string>
+	<string name="STRING_WEEK_SUN">Sun</string>
+
+	<string name="STRING_EPG_HINT_1">View programs</string>
+	<string name="STRING_EPG_TITLE">TV EPG</string>
+	<string name="STRING_EPG_TEST">Jan. 15 2013</string>
+
+	
+	<string name="SOURCE_LIST">Source List</string>
+	<string name="NEW_CHANNEL_SCAN">New Channel Scan</string>
+	<string name="ADD_CHANNELS">Add Channel</string>
+	<string name="CHANNEL_FOUND">Channel Found</string>
+	<string name="NEW_CHANNEL_FOUND">New Channel Found</string>
+	<string name="INSTALLGUIDE_SETTING">Installation Guide - Setting</string>
+	<string name="INSTALLGUIDE_SCAN">Installation Guide - auto channel scan</string>
+	<string name="OSD_LANGUAGE">OSD language</string>
+	<string name="LANG_ENGLISH">English</string>
+	<string name="LANG_SPANISH">Español</string>
+	<string name="LANG_PORTUGUESE">Português</string>
+	
+	<string name="HINT_MOVE_SELECT">Move select</string>
+	
+	<string name="AUTO_CH_SCAN">Auto Channel Scan</string>
+	<string name="CURRENT_FREQ">Current Frequency</string>
+	<string name="TOTAL_CH_FOUND">Total Channel Found</string>
+	<string name="STATUS">Status</string>
+	<string name="SCANNING">Scanning</string>
+	-->
+	<string name="STRING_PL_NWPASSWORD">New Password</string>
+	<string name="STRING_PL_CHPASSWORD">Change Password</string>
+	<string name="STRING_PL_INPASSWORD">Input Password</string>
+	<string name="STRING_PL_CFPASSWORD">Confirm Password</string>
+	<string name="STRING_PL_SYSTEMLOCK">System Lock</string>
+	<string name="STRING_PL_RRT_SETTING">RRT Setting</string>
+	<string name="STRING_PL_RESET_RRT">Reset RRT</string>
+	<string name="STRING_PL_CLEAR_LOCK">Clear Lock</string>
+	<string name="STRING_PL_USA">USA</string>
+	<string name="STRING_PL_USA_TV">TV</string>
+	<string name="STRING_PL_USA_TV_ALL">ALL</string>
+	<string name="STRING_PL_USA_TV_FV">FV</string>
+	<string name="STRING_PL_USA_TV_V">V</string>
+	<string name="STRING_PL_USA_TV_S">S</string>
+	<string name="STRING_PL_USA_TV_L">L</string>
+	<string name="STRING_PL_USA_TV_D">D</string>
+	<string name="STRING_PL_USA_TV_Y">TV-Y</string>
+	<string name="STRING_PL_USA_TV_Y7">TV-Y7</string>
+	<string name="STRING_PL_USA_TV_G">TV-G</string>
+	<string name="STRING_PL_USA_TV_PG">TV-PG</string>
+	<string name="STRING_PL_USA_TV_14">TV-14</string>
+	<string name="STRING_PL_USA_TV_MA">TV-MA</string>
+	<string name="STRING_PL_USA_TV_HINT">Press OK to Lock or Unlock</string>
+	<string name="STRING_PL_USA_MPAA">MPAA</string>
+	<string name="STRING_PL_CANADA">Canada</string>
+	<string name="STRING_PL_CANADA_ENGLISH">Canada English</string>
+	<string name="STRING_PL_CANADA_FRENCH">Canada French</string>
+	
+	<string name="AIR">AIR</string>
+	<string name="CABLE">CABLE</string>
+	<string name="ATV">ATV</string>
+	<string name="DTV">DTV</string>
+	<string name="IDTV">IDTV</string>
+	<string name="AV1">VIDEO 1</string>
+	<string name="AV2">VIDEO 2</string>
+	<string name="SV1">SV1</string>
+	<string name="SV2">SV2</string>
+	<string name="YPP1">COMPONENT</string>
+	<string name="VGA">VGA</string>
+	<string name="HDMI1">HDMI 1</string>
+	<string name="HDMI2">HDMI 2</string>
+	<string name="HDMI3">HDMI 3</string>
+	<string name="BROWSER">Browser</string>
+	<string name="NO_SIGNAL">No signal</string>
+    <string name="STRING_SOUND_NAVI">Sound Navi</string>
+	<string name="STRING_INPUT_LONG">Input String Long XXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ ZZZZZZZZZZZZZZZZZZZZZZZZZ ZZZZZZZZZZZZ ZZZZZZZZZZZZZZZZZZ ZZZZZZZZZZZZZZZZZZ YYYYYYYYYYYYY YYYYYYYYYYYYYYYYYYYYYYYYYY YYYYYYYYYYYYYYY</string>
+	
+	<!-- jerry_wang add -->
+	
+	<string name="STRING_OFF">Off</string>
+	<string name="STRING_ON">On</string>
+	
+	<string name="STRING_BRIGHTNESS">Brightness</string>
+	
+	<string name="STRING_HIGH">High</string>
+	<string name="STRING_MIDDLE">Middle</string>
+	<string name="STRING_Low">Low</string>
+	
+	<string name="STRING_NORMAL">Normal</string>
+	<string name="STRING_COOL">Cool</string>
+	
+	<string name="STRING_MONO">Mono</string>
+	
+	<string name="STRING_S_DUAL_1">Dual 1</string>
+	<string name="STRING_S_DUAL_2">Dual 2</string>
+	
+	<string name="STRING_LANG">English</string>
+	
+	<string name="STRING_SYSTEM">System</string>
+	<string name="STRING_B_G">B/G</string>
+	<string name="STRING_I">I</string>
+	<string name="STRING_D_K">D/K</string>
+	<string name="STRING_M">M</string>
+	<string name="STRING_SEARCHING">Searching</string>
+	<string name="STRING_POS">Pos</string>
+	
+	<string name="STRING_PAL">PAL</string>
+	<string name="STRING_SECAM">SECAM</string>
+	<string name="STRING_SEARCH">Search</string>
+	<string name="STRING_UP">Up</string>
+	<string name="STRING_DOWN">Down</string>
+	
+	<string name="STRING_LIST">List</string>
+	
+	<string name="STRING_1">1</string>
+	<string name="STRING_2">2</string>
+	<string name="STRING_3">3</string>
+	<string name="STRING_4">4</string>
+	<string name="STRING_SORT">Sort</string>
+	
+	<string name="STRING_SOUND_MUTE">Sound Mute</string>
+	<string name="STRING_WIDE">Wide</string>
+	<string name="STRING_4:3">4:3</string>
+	<string name="STRING_SUPER_LIVE">Super Live</string>
+	
+	<string name="STRING_Subtitle">Subtitle</string>
+	<string name="STRING_14:9">14:9</string>
+	<string name="STRING_DYNAMIC">Dynamic</string>
+	
+	<string name="STRING_STANDARD">Standard</string>
+	<string name="STRING_STEREO">Stereo</string>
+	<string name="STRING_MONO_1">Mono 1</string>
+	<string name="STRING_MONO_2">Mono 2</string>
+	
+	<string name="HINT_A">A</string>
+	<string name="HINT_P">P</string>
+	<string name="HINT_S">S</string>
+	<string name="HINT_N4">N4</string>
+	<string name="HINT_N3">N3</string>
+	<string name="STRING_DIGITAL">Digital</string>
+	<string name="STRING_ANALOGUE">Analogue</string>
+	
+	<string name="STRING_AUTO_STANDBY">Auto Standby</string>	
+	<string name="STRING_AMPLIFIER">Amplifier</string>
+	
+	<string name="tabsettingpicture_movie">Movie</string>
+    <string name="STRING_INTELLIGENT_AUTOVIEW">Intelligent AutoView</string>
+	<string name="STRING_NATIVE">Native</string>
+	<string name="STRING_PC_NORMAL">PC Normal</string>
+	<string name="STRING_PC_WIDE">PC Wide</string>
+	
+	<string name="STRING_SKIP">Skip</string>
+	
+	<string name="STRING_ADVANCED_SOUND_SETTING">Advanced Sound Settings</string>	
+	
+	<string name="STRING_PHOTO">Photo</string>
+	<string name="STRING_Music">Music</string>
+	
+	<string name="STRING_AUTO_START">Location</string>
+	<string name="STRING_HOME">Home</string>
+	<string name="STRING_STORE">Store</string>
+	<string name="STRING_DOT_BY_DOT">Dot by Dot</string>
+	<string name="STRING_PICTURE_SIZE">Picture Size</string>
+	<string name="STRING_AUTOVIEW">AutoView</string>
+	
+	<string name="STRING_SAVE">Save</string>	
+	
+	<string name="STRING_INTERVAL_TIME">Interval Time</string>	
+	<string name="STRING_REPEAT">Repeat</string>	
+	<string name="STRING_Found">Found</string>
+	<string name="STRING_USB_DEVICE_INFO">USB device was connected to TV.</string>
+	<string name="STRING_OPEN_MEDIA_PLAYER_INFO">Do you want to open Media Player?</string>
+	<string name="STRING_USB_DEVICE_ABNORMAL_INFO">USB over current status detected. Please remove all USB devices from the TV, and restart the TV by removing the AC power.</string>
+	<string name="STRING_SELECT_DEVICE">Select Device</string>
+	<string name="STRING_YES">Yes</string>
+	<string name="STRING_NO">No</string>
+	
+	<string name="STRING_PAGE">Page</string>
+	<string name="STRING_SLIDE_SHOW">Slide Show</string>
+	<string name="STRING_SINGLE_VIEW">Single View</string>
+	<string name="STRING_PREVIOUS_NEXT">Previous/Next</string>
+	<string name="STRING_ROTATE">Rotate</string>
+	<string name="STRING_FEATURES">Features</string>
+	
+	<string name="STRING_CANCEL">Cancel</string>
+	<string name="STRING_NOISE_REDUCTION">Noise Reduction</string>
+	<string name="STRING_CHANGE">Change</string>
+	<string name="STRING_APPLICATIONS">APPLICATIONS</string>
+	<string name="STRING_ENABLE_ON_TIMER">Enable On Timer</string>
+	
+	<string name="STRING_HDMI3">HDMI 3</string>
+	<string name="STRING_CHANNEL">Channel</string>
+	
+	<string name="STRING_AUTO_DEMO">Auto Demo</string>
+	
+	<string name="STRING_PREFERENCES">PREFERENCES</string>
+
+   	<string name="STRING_WEEK_MON">Mon</string>
+	<string name="STRING_WEEK_TUE">Tue</string>
+	<string name="STRING_WEEK_WEN">Wed</string>
+	<string name="STRING_WEEK_THU">Thu</string>
+	<string name="STRING_WEEK_FRI">Fri</string>
+	<string name="STRING_WEEK_SAT">Sat</string>
+	<string name="STRING_WEEK_SUN">Sun</string>
+	<string name="STRING_MONTH_JAN">Jan</string>
+	<string name="STRING_MONTH_FEB">Feb</string>
+	<string name="STRING_MONTH_MAR">Mar</string>
+	<string name="STRING_MONTH_APR">Apr</string>
+	<string name="STRING_MONTH_MAY">May</string>
+	<string name="STRING_MONTH_JUN">Jun</string>
+	<string name="STRING_MONTH_JUL">Jul</string>
+	<string name="STRING_MONTH_AUG">Aug</string>
+	<string name="STRING_MONTH_SEP">Sep</string>
+	<string name="STRING_MONTH_OCT">Oct</string>
+	<string name="STRING_MONTH_NOV">Nov</string>
+	<string name="STRING_MONTH_DEC">Dec</string>
+	<string name="STRING_WAITING">Waiting...</string>
+	<string name="STRING_PLEASE_WAIT">Please wait...</string>
+	
+	<string name="SVGA">SVGA</string>
+	<string name="XGA">XGA</string>
+	
+	<string name="STRING_USE_DEMO_INFO">To use the demo, please select [On]. For normal TV usage, please select [Off].</string>
+	<string name="STRING_TV_AUTO_POWER">TV Auto Power</string>
+	<string name="STRING_SOFTWARE_LICENCES">Software Licences</string>
+	<string name="STRING_SOFTWARE_UPGRADE_FINISH_INFO">The software upgrade is complete! Please remove upgrade media. Your TV system will reboot after which you may resume normal viewing.</string>
+	<string name="STRING_SOFTWARE_UPGRADE_WAITING_INFO">Software upgrade in progress, please wait... DO NOT unplug your TV! Doing so may corrupt the system making your TV inoperable.</string>
+	<string name="STRING_SOFTWARE_UPGRADE_COMPLETE">Software Upgrade Complete</string>
+	
+	<string name="STRING_ON_TIMER">On Timer</string>
+
+	<string name="STRING_NETWORK_SETUP">Network Setup</string>
+	<string name="STRING_IP_ADDRESS">IP Address</string>
+	<string name="STRING_SUBNET_MASK">Subnet Mask</string>	
+	<string name="STRING_MAC_ADDRESS">MAC Address</string>	
+	<string name="STRING_DELETE">Delete</string>	
+	<string name="STRING_LEFT">Left</string>
+	<string name="STRING_RIGHT">Right</string>
+	
+	<string name="STRING_ATV_MANUAL_TUNING">ATV Manual Tuning</string>
+	<string name="STRING_COLOR_SYSTEM">Colour System</string>
+	<string name="STRING_NTSC_4.43">NTSC 4.43</string>
+	<string name="STRING_NTSC_3.58">NTSC 3.58</string>
+	<string name="STRING_MANUAL_FINE_TUNING">Manual Fine Tuning</string>
+	<string name="STRING_CHANNELS">Channels</string>
+	
+	<string name="STRING_DIGITAL_AUDIO_OUTPUT">Digital Audio Output</string>
+	<string name="STRING_PCM">PCM</string>
+	
+	<string name="STRING_PICTURE_POSITION">Picture Position</string>
+
+	<string name="STRING_DEVICE_INFORMATION">Device Information</string>
+	<string name="STRING_CLEAR">Clear</string>
+	<string name="STRING_SCROLL">Scroll</string>
+	
+	<string name="STRING_ALL">All</string>
+	
+	<string name="STRING_AUDIO_TYPE">Audio Type</string>
+	
+	<string name="STRING_CH">CH</string>
+	<string name="STRING_CLOSE">Close</string>
+	
+	<string name="STRING_ENGLISH">English</string>
+	<string name="STRING_EXTERNAL_INPUT">External Input</string>
+	<string name="STRING_MANUAL">Manual</string>
+	<string name="STRING_RUSSIAN">Russian</string>	
+	<string name="STRING_SIGNAL_CLASS">Signal Class</string>
+	<string name="STRING_Unkown">Unknown</string>
+	<string name="STRING_USB_DEV_CONNECTED_INFO">USB device was connected to TV. Do you want to open Media Player?</string>
+	<string name="STRING_NO_DEVICE_INFO">No devices are connected.</string>
+	<string name="STRING_UNSUPPORTED_INFO">Unsupported device.</string>
+	<string name="USB">USB</string>
+	
+	<string name="STRING_16:9">16:9</string>
+	<string name="STRING_AUTO_STANDBY_INFO">The Automatic Power Down feature will switch the TV to standby momentarily.</string>
+
+	<string name="STRING_STANDBY_CONSERVE_ENERGY_INFO">Due to inactivity the TV will momentarily switch to standby to conserve energy.</string>
+	<string name="STRING_CANCEL_INFO">Press EXIT to cancel.</string>
+	<string name="STRING_PLAYBACK_ERROR">Media playback error</string>
+	<string name="STRING_DASH">-</string>
+	<string name="STRING_DOUBLE_DASH">--</string>
+	<string name="STRING_FRENCH">French</string>
+	<string name="STRING_GERMAN">German</string>
+	<string name="STRING_GREEK">Greek</string>
+	<string name="STRING_ITALIAN">Italian</string>
+	<string name="STRING_POLISH">Polish</string>
+	<string name="STRING_SPANISH">Spanish</string>
+	<string name="STRING_SWEDISH">Swedish</string>
+	
+	<string name="STRING_EXIT">EXIT</string>
+	<string name="STRING_UNSUPPORT_FILE_INFO">Unsupported file.</string>
+	<string name="STRING_NOT_AVAILABLE">Not Available</string>
+	<string name="STRING_DIVX_REGISTRATION">DivX? VOD Registration</string>
+	<string name="STRING_AUDIO_FORMAT_UNSUPPORT">Audio format not supported</string>
+	<string name="STRING_VIDEO_RESOLUTION_UNSUPPORT">Video resolution not supported</string>
+	<string name="STRING_PLAY">Play</string>
+	<string name="STRING_WARM">Warm</string>
+	<string name="STRING_NATURAL">Natural</string>
+	<string name="STRING_DIVX_VOD">DivX? VOD</string>
+	<string name="STRING_VCR">VCR</string>
+	<string name="STRING_1920x1080">1920x1080</string>	
+	<string name="STRING_BACK">Back</string>	
+	<string name="STRING_DEFAULT_GATEWAY">Default Gateway</string>	
+	<string name="STRING_DISPLAY_SETTINGS">Display Settings</string>
+	<string name="STRING_DVD">DVD</string>
+	<string name="STRING_ENERGY_SAVING_SETTING">Energy Saving Settings</string>
+	
+	<string name="STRING_INPUT_LABELLING">Input Labelling</string>
+	<string name="STRING_MOVE">Move</string>
+	<string name="STRING_NETWORK_TYPE">Network Type</string>
+	
+	<string name="STRING_POS.">Pos.</string>
+	<string name="STRING_PRIMARY_DNS_ADDR">Primary DNS Address</string>
+	<string name="STRING_SATELLITE">Satellite</string>
+	<string name="STRING_SECONDARY_DNS_ADDR">Secondary DNS Address</string>	
+	<string name="STRING_STAND">Stand</string>
+	<string name="STRING_WALL">Wall</string>
+	<string name="STRING_TV_MOUNTING">TV Mounting</string>
+	<string name="STRING_AUTHENTICATION">Authentication</string>
+	<string name="STRING_CONNECTED">Connected</string>
+	<string name="STRING_DHCP">DHCP</string>
+	<string name="STRING_DISCONNECTED">Disconnected</string>
+	<string name="STRING_ENCRYPTION">Encryption</string>
+	<string name="STRING_NETWORK_NAME">Network Name</string>
+	<string name="STRING_OPEN_SYSTEM">Open System</string>
+	<string name="STRING_PIN">PIN</string>
+	<string name="STRING_SHARED_KEY">Shared Key</string>
+	<string name="STRING_STATUS">Status</string>
+	<string name="STRING_TKIP">TKIP</string>
+	<string name="STRING_WEP">WEP</string>
+	<string name="STRING_11a">11a</string>
+	<string name="STRING_11a_b">11a/b</string>
+	<string name="STRING_11a_b_g">11a/b/g</string>
+	<string name="STRING_11a_b_g_n">11a/b/g/n</string>
+	<string name="STRING_11a_g">11a/g</string>
+	<string name="STRING_11a_g_n">11a/g/n</string>
+	<string name="STRING_11a_n">11a/n</string>
+	<string name="STRING_11b">11b</string>
+	<string name="STRING_11b_g">11b/g</string>
+	<string name="STRING_11b_g_n">11b/g/n</string>
+	<string name="STRING_11g">11g</string>
+	<string name="STRING_11g_n">11g/n</string>
+	<string name="STRING_11n">11n</string>
+	<string name="STRING_WIRED">Wired</string>
+	<string name="STRING_WIRELESS">Wireless</string>
+	<string name="STRING_WPA_PSK">WPA-PSK</string>
+	<string name="STRING_WPA2_PSK">WPA2-PSK</string>
+	<string name="STRING_BACKGROUNG_MUSIC">Background Music</string>
+	<string name="STRING_ZOOM">Zoom</string>
+	<string name="STRING_ZOOM_IN">Zoom In</string>
+	<string name="STRING_ZOOM_OUT">Zoom Out</string>
+	<string name="STRING_Authorization_Error">Authorization Error</string>	
+	<string name="STRING_RENTAL_EXPIRED">Rental Expired</string>
+	<string name="STRING_RECORDER">Recorder</string>
+	<string name="STRING_NO_SIGNAL_POWER_DOWN_INFO">The No Signal Power Down feature will switch the TV to standby in a moment.</string>
+	<string name="STRING_PBC">PBC</string>	
+	
+	<string name="STRING_STORE_MODE_HINT">You have selected [Store]. This mode consumes more energy. Are you sure you want to set to this mode?</string>
+	<string name="STRING_AUTOVIEW_MODE_HINT">Intelligent AutoView mode automatically adjusts picture settings to suit ambient light conditions. Do you wish to enable Intelligent AutoView mode?</string>
+	
+	<string name="STRING_PC_HDMI_2_AUDIO">PC/HDMI 2 Audio</string>
+	<string name="STRING_HDMI_2_AUDIO">HDMI 2 Audio</string>	
+	<string name="STRING_NO_APPLICABLE_MEDIA_FILES">No applicable media files</string>	
+		<string name="STRING_AUTO_SIGNAL_BOOSTER">Auto Signal Booster</string>	
+	<string name="STRING_AUTOMATIC_STANDBY_INFO">The Automatic Power Down feature will switch the TV to standby in a moment.</string>
+	<string name="STRING_CHINESE">Chinese</string>	
+	<string name="STRING_THAI">Thai</string>
+	<string name="STRING_MALAY">Malay</string>
+	<string name="STRING_Vietnamese">Vietnamese</string>
+	<string name="STRING_ARABIC">Arabic</string>
+	<string name="STRING_PERSIAN">Persian</string>
+	<string name="STRING_HEBREW">Hebrew</string>
+	<string name="STRING_C">C</string>
+	<string name="STRING_DEVICE_REMOVED">Device has been removed.</string>
+	<string name="STRING_SIGNAL_FORMAT_UNSUPPORT">Unsupported signal format.</string>
+	<string name="STRING_NO_APPLICABLE_FILE">No applicable media files.</string>
+	<string name="STRING_POSITION_KEY_PASS_THROUGH">Position Key Pass Through</string>
+	<string name="STRING_DivX_DRM_VERSION_UNAUTHORIZED">Unauthorized DivX? DRM version</string>
+	<string name="STRING_CHAPTER">Chapter</string>
+	<string name="STRING_TITLE_CHANGE">Title Change</string>
+	<string name="STRING_MUSIC_PLAY_ERROR">Music Playback Error</string>
+	<string name="STRING_RETURN">Return</string>
+	
+	<string name="STRING_SOFTWARE_UPGRADE_HINT">A software upgrade is available. Do you wish to upgrade?</string>
+	<string name="STRING_PLAY_LIST">Play List</string>
+	<string name="STRING_AUDIO_TRACKS">Audio Tracks:</string>
+	<string name="STRING_ALBUM">Album:</string>
+	<string name="STRING_RESUME_PLAY">Resume play?</string>
+	<string name="STRING_NO_AUTHORIZED_INFO">You do not have authorization to play this video.</string>
+	<string name="STRING_REGISTER_DEVICE_INFO">You must register your device to play DivX? protected videos.</string>
+	<string name="STRING_REGISTRATION_CODE">Registration code:</string>
+	<string name="STRING_REGISTER_INFO">Register at http://vod.divx.com</string>
+	<string name="STRING_DEVIDE_NO_AUTHORIZED_INFO">Your device is not authorized to play this DivX? protected video.</string>
+	<string name="STRING_DivX_RENTAL_EXPIRED">This DivX? rental has expired.</string>
+	<string name="STRING_CONTINUE">Continue?</string>
+	<string name="STRING_DEVICE_ALREADY_REGISTERED">Your device is already registered.</string>
+	<string name="STRING_DEREGISTER_HINT">Are you sure you wish to deregister?</string>
+	<string name="STRING_DEREGISTER_CODE">Deregistration code:</string>
+	<string name="STRING_DEREGISTER_INFO">Deregister at http://vod.divx.com</string>
+	<string name="STRING_CONTINUE_REGISTER">Continue with registration?</string>
+	<string name="STRING_DivX_RENTAL_INFO">This DivX? rental has used X out of Y views.</string>
+	<string name="STRING_CHAPTER_JUMP">Chapter Jump</string>
+	<string name="STRING_CHAPTER_INFORMATION">Information</string>
+	<string name="STRING_UP_FOLDER">Up Folder</string>
+	<string name="STRING_VIDEO_1">VIDEO 1</string>
+	<string name="STRING_VIDEO_2">VIDEO 2</string>
+	<string name="STRING_x2">x2</string>
+	<string name="STRING_x4">x4</string>
+	<string name="STRING_x8">x8</string>
+	<string name="STRING_x16">x16</string>
+	<string name="STRING_STEREO_SAP">Stereo SAP</string>
+	<string name="STRING_DivX_DRM_VER_UNSUPPORT">Unsupported DivX? DRM Version</string>
+	<string name="STRING_PROGRAM">Programme:</string>
+	<string name="STRING_SUBTITLE">Subtitle</string>
+	<string name="STRING_ARTIST">Artist:</string>
+	<string name="STRING_TITLE">Title:</string>
+	<string name="STRING_RESOLUTION">Resolution:</string>
+	<string name="STRING_DTV_SERVICES_FOUND">DTV Services Found</string>
+	<string name="STRING_LOGIN">Login</string>
+	<string name="STRING_LOGOUT">Logout</string>
+	<string name="STRING_ENTER_PIN_CODE">Enter PIN Code:</string>
+	<string name="STRING_USB_OVER_CURRENT_INFO">USB over current status detected. Please remove all USB devices from the TV, and restart the TV by removing the AC power.</string>
+	<string name="STRING_SKIP_ON">Skip: On</string>
+	<string name="STRING_SKIP_OFF">Skip: Off</string>
+	<string name="STRING_KOREAN">Korean</string>
+	<string name="STRING_JAPANESE">Japanese</string>
+	<string name="STRING_DivX_VOD_DEREGISTER">DivX? VOD Deregistration</string>
+	<string name="STRING_DATE">Date:</string>
+	<string name="STRING_PRODUCT_NAME">Product Name:</string>
+	<string name="STRING_CAPACITY">Capacity:</string>
+	<string name="STRING_SUPER">Super</string>
+	
+	<string name="STRING_ON_AC">On (AC)</string>
+	<string name="STRING_INDONESIAN">Indonesian</string>	
+	
+	<string name="STRING_HDMI_CEC_SETUP">HDMI CEC Setup</string>
+	<string name="STRING_ENABLE_HDMI_CEC">Enable HDMI CEC</string>
+	<string name="STRING_ECO_MODE">Eco Mode</string>
+	
+	<string name="STRING_ENABLED">Enabled</string>
+	<string name="disabled">Disabled</string>
+	<string name="STRING_HOTEL_MODE_SETTING">Hotel Mode Settings</string>
+	<string name="STRING_HOTEL_MODE">Hotel Mode</string>
+	<string name="STRING_MAX_VOLUME">Max Volume</string>
+	<string name="STRING_CHANGE_POS_VIDEO">Change POS/VIDEO</string>
+	<string name="STRING_POS_VIDEO">POS/VIDEO</string>
+	<string name="STRING_CHANGE_VOLUME">Change Volume</string>
+	<string name="STRING_TV_POWER">TV Power</string>
+	<string name="STRING_POSITION_CHANGE">Position Change on HDMI/PC Input</string>
+	<string name="STRING_FORCE_STANDBY">Force Standby</string>
+	<string name="STRING_OFF_EXCEPT_INPUT">Off (Except INPUT)</string>
+	<string name="STRING_CONTROL_PANEL">Control Panel</string>
+	<string name="STRING_REMOTE_CONTROL">Remote Control</string>
+	<string name="STRING_SETUP_MENU">Setup Menu</string>
+	<string name="STRING_FORCE_ON">Force On</string>
+	<string name="STRING_CHANGE_PIC_MODE">Change Picture Mode</string>
+	<string name="STRING_OFF_EXCEPT_LANG">Off (Except Language)</string>
+	<string name="STRING_PICTUR_MODE">Picture Mode</string>
+	<string name="STRING_TIME">Time:</string>
+	<string name="STRING_3SEC">3sec</string>
+	<string name="STRING_5SEC">5sec</string>
+	<string name="STRING_10SEC">10sec</string>
+	<string name="STRING_15SEC">15sec</string>
+	<string name="STRING_30SEC">30sec</string>
+	<string name="STRING_60SEC">60sec</string>
+	<string name="STRING_90SEC">90sec</string>	
+	<string name="STRING_RESOLUTION_UNSUPPORT">Video resolution not supported.</string>
+	<string name="STRING_FRAMERATE_UNSUPPORT">Video framerate not supported.</string>	
+	<string name="STRING_PLAYER">Player</string>
+	<string name="STRING_CRICKET">Cricket</string>
+	<string name="STRING_Football">Football</string>
+	<string name="STRING_SOUND_MODE">Sound Mode</string>
+	<string name="STRING_SPECTRUM_ANALYSER">Spectrum Analyser</string>
+	<string name="STRING_DYNAMIC_BAND_AMPLIFIER">Dynamic Band Amplifier</string>
+	<string name="STRING_DEMO_MODE">Demo Mode</string>
+	<string name="STRING_AMPLITUDE">Amplitude (dB)</string>
+	<string name="STRING_FREQUENCY">Frequency (Hz)</string>
+	<string name="STRING_POWER_AUDIO_BOOSTER">Power Audio Booster</string>
+	<string name="STRING_POWER_SOUND_BOOSTER">Power Sound Booster</string>
+	<string name="STRING_NEWS">News</string>
+	<string name="STRING_DRAMA">Drama</string>
+	<string name="STRING_SPORTS">Sports</string>
+	<string name="STRING_INDONESIA">Indonesia</string>
+	<string name="STRING_AUDIO_DISTORTION_CONTROL">Audio Distortion Control</string>
+	<string name="STRING_CLEAR_VOICE">Clear Voice</string>
+	<string name="STRING_SET_TOP_BOX">Set Top Box</string>
+	<string name="STRING_WIRELESS_MODE">wireless mode</string>
+	<string name="STRING_AUDIO_SOURCE_FILTERING">Audio Source Filtering</string>
+	<string name="STRING_TAP">Tap</string>
+	<string name="STRING_POWEROFF_LOGOUT">Power Off &amp; Logout</string>
+	<string name="STRING_POWEROFF_AND_LOGOUT">Logout at the same time as Power Off.</string>
+	<string name="STRING_ABOUT_TV">About TV</string>
+	<string name="STRING_TV_APPLICATION">TV Application</string>
+	<string name="STRING_BACK_KEY_TO_EXIT_APP">Please press the back key again to exit application.</string>
+	<string name="STRING_WAITING_CONNECT_PBC">Waiting for connection, PBC Mode.</string>
+	<string name="STRING_WAITING_CONNECT_PIN">Waiting for connection, PIN Mode.</string>
+	<string name="STRING_CONNECTING">Connecting...</string>
+	<string name="STRING_CONNECTION_FAILED">Connection failed.</string>
+	<string name="STRING_CONNECTION_SUCCESSED">Connection succeed.</string>
+	<string name="STRING_SOURCE_CONNECTING">Source connecting...</string>
+	<string name="STRING_DEVICE_IN_STANDBY">Device is now in standby mode.</string>
+	<string name="STRING_STOP_KEY_AGAIN_INFO">Resume playback is currently available for this file. However, if you press the Stop key again, the resume point will be lost.</string>
+	<string name="STRING_JUMP_ANOTHER_FILE">Would you like to jump to another title?</string>
+	<string name="STRING_FILE_NUM_OVER_MAX_NUM">There are more than maximum number of files. Some files cannot be displayed.</string>
+	<string name="STRING_CONNECT_Miracast_HINT">While connected to Miracast? other Netowork applications will not be available. Are you sure you want to start Miracast??</string>
+	<string name="STRING_CONNECT_INTERRUPT">The connection has been terminated.</string>
+	<string name="STRING_ENTER_PIN_INTO_DEV">Enter the PIN into your device.</string>
+	<string name="STRING_SERVICE_MODE">Service Mode</string>
+	<string name="STRING_SPECIAL_SETTING">Special Setting</string>
+	<string name="STRING_WB_ADJUST">WB Adjust</string>
+	<string name="STRING_VERTICAL_LINE">Vertical Line</string>
+	<string name="STRING_V_LOCK">V Lock</string>
+	<string name="STRING_WHITE_TAIL">White Tail</string>
+	<string name="STRING_COLOR_FLICKER">Color Flicker</string>
+	<string name="STRING_WHITE_PEAK">White Peak</string>
+	<string name="STRING_H_JITTER">H Jitter</string>
+	<string name="STRING_VSYNCE_THRE">Vsync Threshold</string>
+	<string name="STRING_IF_AGC_SPEED">IF AGC Speed</string>
+	<string name="STRING_LOG_DEBUG">Log Debug</string>
+	<string name="STRING_SIGNAL_HSYNC">Signal det. Hsync</string>
+	<string name="STRING_CH_WIDTH_VIDEO_SYS">CH WIDTH VIDEO SYS</string>
+	<string name="STRING_AGC_LOOP">Agc loop 1 dn sample</string>
+	<string name="STRING_FACTORY_RESET">Factory Reset</string>
+
+	
+	<string name="STRING_RCUT">RCUT</string>
+	<string name="STRING_GCUT">GCUT</string>
+	<string name="STRING_BCUT">BCUT</string>
+	<string name="STRING_RDRV">RDRV</string>
+	<string name="STRING_GDRV">GDRV</string>
+	<string name="STRING_BDRV">BDRV</string>
+	<string name="STRING_RCON">RCON</string>
+	<string name="STRING_GCON">GCON</string>
+	<string name="STRING_BCON">BCON</string>
+	<string name="STRING_RDON">RDON</string>
+	<string name="STRING_GDON">GDON</string>
+	<string name="STRING_BDON">BDON</string>
+	<string name="STRING_RCOW">RCOW</string>
+	<string name="STRING_GCOW">GCOW</string>
+	<string name="STRING_BCOW">BCOW</string>
+	<string name="STRING_RDOW">RDOW</string>
+	<string name="STRING_GDOW">RGOW</string>
+	<string name="STRING_BDOW">RBOW</string>
+
+	<string name="STRING_DESIGN_MODE">Design Mode</string>
+	<string name="STRING_Audio_Quality_Page">Audio Quality Page</string>
+	<string name="STRING_Back_Light_Control">Back Light Control</string>
+	<string name="STRING_Auto_View_Parameter">Auto View Parameter</string>
+	<string name="STRING_Picture_Quality">Picture Quality</string>
+	<string name="STRING_Contrast_Booster">Contrast Booster</string>
+
+	<string name="STRING_DESIGN_AQ_PRESCALE">Scaler</string>
+	<string name="STRING_DESIGN_AQ_VOLUME">Volume</string>
+	<string name="STRING_DESIGN_AQ_SURROUND">Surround</string>
+	<string name="STRING_DESIGN_AQ_POWER_BASS_BOOSTER">Power Bass Booster</string>
+	<string name="STRING_DESIGN_AQ_DISTORTION_CONTROL">Distortion Control</string>
+	<string name="STRING_DESIGN_AQ_TV_MOUNT_EQ">TV Mount EQ</string>
+
+	<string name="STRING_DESIGN_AQ_ST1_F">ST1_F</string>
+	<string name="STRING_DESIGN_AQ_ST1_Q">ST1_Q</string>
+	<string name="STRING_DESIGN_AQ_ST1_G">ST1_G</string>
+	<string name="STRING_DESIGN_AQ_ST2_F">ST2_F</string>
+	<string name="STRING_DESIGN_AQ_ST2_Q">ST2_Q</string>
+	<string name="STRING_DESIGN_AQ_ST2_G">ST2_G</string>
+	<string name="STRING_DESIGN_AQ_ST3_F">ST3_F</string>
+	<string name="STRING_DESIGN_AQ_ST3_Q">ST3_Q</string>
+	<string name="STRING_DESIGN_AQ_ST3_G">ST3_G</string>
+	<string name="STRING_DESIGN_AQ_ST4_F">ST4_F</string>
+	<string name="STRING_DESIGN_AQ_ST4_Q">ST4_Q</string>
+	<string name="STRING_DESIGN_AQ_ST4_G">ST4_G</string>
+	<string name="STRING_DESIGN_AQ_WA1_F">ST1_F</string>
+	<string name="STRING_DESIGN_AQ_WA1_Q">ST1_Q</string>
+	<string name="STRING_DESIGN_AQ_WA1_G">ST1_G</string>
+	<string name="STRING_DESIGN_AQ_WA2_F">ST2_F</string>
+	<string name="STRING_DESIGN_AQ_WA2_Q">ST2_Q</string>
+	<string name="STRING_DESIGN_AQ_WA2_G">ST2_G</string>
+	<string name="STRING_DESIGN_AQ_WA3_F">ST3_F</string>
+	<string name="STRING_DESIGN_AQ_WA3_Q">ST3_Q</string>
+	<string name="STRING_DESIGN_AQ_WA3_G">ST3_G</string>
+	<string name="STRING_DESIGN_AQ_WA4_F">ST4_F</string>
+	<string name="STRING_DESIGN_AQ_WA4_Q">ST4_Q</string>
+	<string name="STRING_DESIGN_AQ_WA4_G">ST4_G</string>
+
+	<string name="STRING_DESIGN_AQ_D_HWAMP">D_HWAMP</string>
+	<string name="STRING_DESIGN_AQ_D_GMAX">D_GMAX</string>
+	<string name="STRING_DESIGN_AQ_D_GRISE">D_GRISE</string>
+	<string name="STRING_DESIGN_AQ_D_GDROP">D_GDROP</string>
+	<string name="STRING_DESIGN_AQ_D_JUDGE">D_JUDGE</string>
+	
+	<string name="STRING_DESIGN_AQ_PRE_SCAL">PRE_SCAL</string>
+	<string name="STRING_DESIGN_AQ_SCAL">SCAL</string>
+	<string name="STRING_DESIGN_AQ_POS_SCAL">POS_SCAL</string>
+
+	<string name="STRING_DESIGN_AQ_VOL01">VOL01</string>
+	<string name="STRING_DESIGN_AQ_VOL25">VOL25</string>
+	<string name="STRING_DESIGN_AQ_VOL50">VOL50</string>
+	<string name="STRING_DESIGN_AQ_VOL75">VOL75</string>
+	<string name="STRING_DESIGN_AQ_VOL100">VOL100</string>
+	<string name="STRING_DESIGN_AQ_PSE_OFFSET">PSE_OFFSET</string>	
+
+	<string name="STRING_DESIGN_AQ_SR1_SET">SR1_SET</string>
+	<string name="STRING_DESIGN_AQ_SR2_SET">SR2_SET</string>
+	<string name="STRING_DESIGN_AQ_SR1_D1_M1">SR1_D1_M1</string>
+	<string name="STRING_DESIGN_AQ_SR1_D2_M1">SR1_D2_M1</string>
+	<string name="STRING_DESIGN_AQ_SR1_D3_M1">SR1_D3_M1</string>
+	<string name="STRING_DESIGN_AQ_SR1_G1_M1">SR1_G1_M1</string>
+	<string name="STRING_DESIGN_AQ_SR1_G2_M1">SR1_G2_M1</string>
+	<string name="STRING_DESIGN_AQ_SR1_G3_M1">SR1_G3_M1</string>
+	<string name="STRING_DESIGN_AQ_SR1_G4_M1">SR1_G4_M1</string>
+	<string name="STRING_DESIGN_AQ_SR1_G5_M1">SR1_G5_M1</string>
+	<string name="STRING_DESIGN_AQ_SR1_D1_M2">SR1_D1_M2</string>
+	<string name="STRING_DESIGN_AQ_SR1_D2_M2">SR1_D2_M2</string>
+	<string name="STRING_DESIGN_AQ_SR1_D3_M2">SR1_D3_M2</string>
+	<string name="STRING_DESIGN_AQ_SR1_G1_M2">SR1_G1_M2</string>
+	<string name="STRING_DESIGN_AQ_SR1_G2_M2">SR1_G2_M2</string>
+	<string name="STRING_DESIGN_AQ_SR1_G3_M2">SR1_G3_M2</string>
+	<string name="STRING_DESIGN_AQ_SR1_G4_M2">SR1_G4_M2</string>
+	<string name="STRING_DESIGN_AQ_SR1_G5_M2">SR1_G5_M2</string>
+	<string name="STRING_DESIGN_AQ_SR1_BQ1_F">SR1_BQ1_F</string>
+	<string name="STRING_DESIGN_AQ_SR1_BQ2_F">SR1_BQ2_F</string>
+	<string name="STRING_DESIGN_AQ_SR1_BQ1_Q">SR1_BQ1_Q</string>
+	<string name="STRING_DESIGN_AQ_SR1_BQ2_Q">SR1_BQ2_Q</string>
+
+	<string name="STRING_DESIGN_AQ_P2B_EN">P2B_EN</string>
+	<string name="STRING_DESIGN_AQ_BB_HPF1">BB_HPF1</string>
+	<string name="STRING_DESIGN_AQ_BB_LPF1">BB_LPF1</string>
+	<string name="STRING_DESIGN_AQ_BB_LPF2">BB_LPF2</string>
+	<string name="STRING_DESIGN_AQ_X2_GAIN_L">X2_GAIN_L</string>
+	<string name="STRING_DESIGN_AQ_X3_GAIN_L">X3_GAIN_L</string>
+	<string name="STRING_DESIGN_AQ_X3PD_GAIN_L">X3PD_GAIN_L</string>
+	<string name="STRING_DESIGN_AQ_X2_GAIN_H">X2_GAIN_L</string>
+	<string name="STRING_DESIGN_AQ_X3_GAIN_H">X3_GAIN_H</string>
+	<string name="STRING_DESIGN_AQ_X3PD_GAIN_H">X3PD_GAIN_H</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ1_T">PBB_BQ1_T</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ2_T">PBB_BQ2_T</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ1_F">PBB_BQ1_F</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ2_F">PBB_BQ2_F</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ1_Q">PBB_BQ1_Q</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ2_Q">PBB_BQ2_Q</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ1_GL">PBB_BQ1_GL</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ2_GL">PBB_BQ2_GL</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ1_GH">PBB_BQ1_GH</string>
+	<string name="STRING_DESIGN_AQ_PBB_BQ2_GH">PBB_BQ2_GH</string>
+	<string name="STRING_DESIGN_AQ_PBB_WON50">PBB_WON50</string>
+	<string name="STRING_DESIGN_AQ_PBB_WON75">PBB_WON75</string>
+	<string name="STRING_DESIGN_AQ_PBB_WON100">PBB_WON100</string>
+	
+
+	<string name="STRING_DESIGN_AutoView_ATAV">ATAV</string>
+	<string name="STRING_DESIGN_AutoView_DDTH">DDTH</string>
+	<string name="STRING_DESIGN_AutoView_DTCD">DTCD</string>
+	<string name="STRING_DESIGN_AutoView_USAV">USAV</string>
+	<string name="STRING_DESIGN_AutoView_DSAV">DSAV</string>
+	<string name="STRING_DESIGN_AutoView_MINS">MINS</string>
+	<string name="STRING_DESIGN_AutoView_CNTS">CNTS</string>
+	<string name="STRING_DESIGN_AutoView_MAXS">MAXS</string>
+	<string name="STRING_DESIGN_AutoView_PSCN">PSCN</string>
+	<string name="STRING_DESIGN_AutoView_BSMN">BSMN</string>
+	<string name="STRING_DESIGN_AutoView_BSCN">BSCN</string>
+	<string name="STRING_DESIGN_AutoView_BSMX">BSMX</string>
+
+	<string name="STRING_DESIGN_backlight_HSCA">HSCA</string>
+	<string name="STRING_DESIGN_backlight_HSCB">HSCB</string>
+	<string name="STRING_DESIGN_backlight_HSCC">HSCC</string>
+	<string name="STRING_DESIGN_backlight_HSCD">HSCD</string>
+	<string name="STRING_DESIGN_backlight_HSCE">HSCE</string>
+	<string name="STRING_DESIGN_backlight_HSCF">HSCF</string>
+	<string name="STRING_DESIGN_backlight_HSCG">HSCG</string>
+	<string name="STRING_DESIGN_backlight_HSCH">HSCH</string>
+	<string name="STRING_DESIGN_backlight_ATAB">ATAB</string>
+	<string name="STRING_DESIGN_backlight_USAB">USAB</string>
+	<string name="STRING_DESIGN_backlight_DSAB">DSAB</string>
+	<string name="STRING_DESIGN_backlight_SABH">SABH</string>
+	<string name="STRING_DESIGN_backlight_SABL">SABL</string>
+	<string name="STRING_DESIGN_backlight_EABH">EABH</string>
+	<string name="STRING_DESIGN_backlight_EABL">EABL</string>
+	<string name="STRING_DESIGN_backlight_MLBL">MLBL</string>
+	<string name="STRING_DESIGN_backlight_BLEC">BLEC</string>
+	
+	<string name="STRING_DESIGN_CNTX">CNTX</string>
+	<string name="STRING_DESIGN_COLC">COLC</string>
+	<string name="STRING_DESIGN_UVTT">UVTT</string>
+	<string name="STRING_DESIGN_BRTC">BRTC</string>
+	<string name="STRING_DESIGN_SHPC">SHPC</string>
+
+
+	<string name="STRING_DESIGN_contrastbooster_Gamma_H">Gamma_H</string>
+	<string name="STRING_DESIGN_contrastbooster_SG_Index_H">SG Index_H</string>
+	<string name="STRING_DESIGN_contrastbooster_SG_Low_H">SG Low_H</string>
+	<string name="STRING_DESIGN_contrastbooster_SG_High_H">SG High_H</string>
+	<string name="STRING_DESIGN_contrastbooster_DCC_H">DCC_H</string>
+	<string name="STRING_DESIGN_contrastbooster_DCL_W_H">DCL_W_H</string>
+	<string name="STRING_DESIGN_contrastbooster_DCL_B_H">DCL_B_H</string>
+	<string name="STRING_DESIGN_contrastbooster_DCC_Step_H">DCC Step_H</string>
+	<string name="STRING_DESIGN_contrastbooster_DCC_Delay_Time_H">DCC Delay_Time_H</string>
+	<string name="STRING_DESIGN_contrastbooster_DCC_MODE_H">DCC MODE_H</string>
+	<string name="STRING_DESIGN_contrastbooster_DCC_Slow_H">DCC Slow_H</string>
+	<string name="STRING_DESIGN_contrastbooster_DCC_Shigh_H">DCC Shigh_H</string>
+	<string name="STRING_DESIGN_contrastbooster_DCC_Sindex_H">DCC Sindex_H</string>
+
+	
+	
+	<string name="STRING_PROGRAMME_TIMER_TITLE">Programme Timer</string>
+	<string name="STRING_EDIT_PROGRAMME_TIMER_TITLE">Edit Timer</string>
+	<string name="STRING_CHANNEL_COLUMN">Channel</string>
+	<string name="STRING_DATE_COLUMN">Date</string>
+	<string name="STRING_TIME_COLUMN">Time</string>
+	<string name="STRING_REPEAT_COLUMN">Repeat</string>
+	<string name="STRING_SET_TIMER">Set Timer</string>
+	<string name="STRING_DELETE_TIMER">Delete Timer</string>
+	<string name="STRING_EPG">EPG</string>
+	<string name="STRING_NOW">Now</string>
+	<string name="STRING_NEXT">Next</string>
+	<string name="STRING_PREVIOUS">Previous</string>
+	<string name="STRING_START_TIME">Start Time</string>
+	
+	<string name="STRING_SETTINGS">                    Settings   </string>
+	<string name="STRING_PROXY_SETTING">               Proxy Setting   </string>
+	<string name="STRING_GATEWAY">                     Gateway    </string>
+	<string name="STRING_SECURITY_CONFIG_SUCCESS">     Security configuration successful.             </string>
+	<string name="STRING_PHOTOS">                      Photos    </string>
+	<string name="STRING_VIDEOS">                      Videos     </string>
+	<string name="STRING_TOTAL_TIME">                  Total Time     </string>
+	<string name="STRING_SLOW">                    	Slow		</string>
+	<string name="STRING_FAST">                    	Fast		</string>
+
+	<string name="STRING_SCREEN_MIRRORING">         Screen Mirroring         				</string>
+	<string name="STRING_READY_FOR_CONNECTION">     Ready for connection. To get started, launch Screen Mirroring on your device.             				</string>
+	<string name="STRING_CONNECT_SCREEN_MIRROR">    Connected to Screen Mirroring. Please wait.              				</string>
+	<string name="STRING_EXIT_YES_OR_NO">           Are you sure you want to exit?       				</string>
+	<string name="STRING_HZ_2">                    	Hz		</string>
+	<string name="STRING_LEVEL_2">                    Level			</string>
+	<string name="STRING_DEVICE">                   Device 			</string>
+	<string name="STRING_SIZE">                    	Size		</string>
+	<string name="STRING_FILE">                    	File		</string>
+	<string name="STRING_DNS">                    	DNS		</string>
+	<string name="STRING_GRAPHIC_EQUALISER">        Graphic Equaliser          				</string>
+	<string name="STRING_POWER_SOUND_EQUALISER">    Power Sound Equaliser              				</string>
+	<string name="STRING_SYSTEM_SETTING">           System Settings       				</string>
+	<string name="STRING_FOLDER">                   Folder: 			</string>
+	<string name="STRING_WIRED_MAC_ADDRESS">        Wired MAC address          				</string>
+	<string name="STRING_MANUFACTURE">              Manufacture    				</string>
+	<string name="STRING_MEDIAPLAYER_VERSION">      Media Player version            				</string>
+	<string name="STRING_TV_APPLICATION_VERSION">   TV Application version               				</string>
+	<string name="STRING_WIFI_CANNOT_USE_HINT">     Wi-Fi is not available while Screen Mirroring is during operation. Do you want to continue?             				</string>
+	<string name="STRING_BOOT_VERSION">             Boot version     				</string>
+	<string name="STRING_DEVICE_NAME">              Device Name:    				</string>
+	<string name="STRING_COUNTRY">                  Country  			</string>
+	<string name="STRING_ISRAEL">                   Israel 			</string>
+	<string name="STRING_SAUDI_ARABIA">             Saudi Arabia     				</string>
+	<string name="STRING_SINGAPORE">                Singapore   				</string>
+  <string name="PC">PC</string>
+	<string name="STRING_MSG_EXIT">Please press the back key again to exit application.</string>
+	<string name="STRING_AD_ADJUST">A/D Adjusting...</string>
+	<string name="STRING_AD_ADJUST_OK">A/D Adjusting OK.</string>
+    
+    <string name="STRING_PVR">PVR</string>
+    <string name="STRING_SELECT_DISK">Select Disk</string>
+    <string name="STRING_TIMESHIFT_SIZE">TimeShift Size</string>
+    <string name="STRING_FORMAT_START">Format Start</string>
+    <string name="STRING_SPEED_CHECK">Speed Check</string>
+    <string name="STRING_TIMESHIFT_ONOFF">TimeShift OnOff</string>
+    
+    <string name="STRING_VGA">VGA</string>
+    <string name="STRING_VGA_SETTINGS">VGA Settings</string>
+    <string name="STRING_VGA_HORIZON_POS">VGA Horizon Position</string>
+    <string name="STRING_VGA_VERTICAL_POS">VGA Vertical Position</string>
+    <string name="STRING_VGA_AUTOADJUST">VGA Auto Adjust</string>
+    <string name="STRING_VGA_CLOCK">VGA Clock</string>
+    <string name="STRING_VGA_PHASE">VGA Phase</string>    
+    
+    <string name="STRING_512M">512M</string>
+    <string name="STRING_1G">1G</string>
+    <string name="STRING_2G">2G</string>
+    <string name="STRING_4G">4G</string>
+    
+    <string name="STRING_FORMAT_DISK">Format Disk</string>
+    <string name="STRING_START_FORMAT_DISK_NOW">Start format disk now?</string>
+    <string name="PROGRESSING">"Progressing..."</string>
+    <string name="PLEASE_DO_NOT_TOUCH_ANYTHING">Please do not touch anything!</string>
+    <string name="USB_SPEED">Usb Speed</string>
+    
+    <string name="WIDE_SETUP">Wide Setup</string>
+    
+    <string name="audio_info_ad">AD</string>
+    <string name="title_epg">Program Guide</string>
+    <string name="msg_no_data_available">No data available</string>
+    <string name="msg_no_epg_data_available">No EPG data available</string>
+    <string name="msg_no_subtitles">No Subtitles</string>
+    <string name="msg_subtitle_disabled">Subtitle Disabled</string>
+    <string name="msg_no_channel_found">No channels found.</string>
+    <string name="msg_select_atv_table_scan">Select ATV scan method.</string>
+    <string name="table_scan">Table Scan</string>
+    <string name="seek_scan">Seek Scan</string>
+    
+    <string name="settings_3d">3D Settings</string>
+    <string name="settings_3d_mode">3D Mode</string>
+    <string name="settings_3d_disabled">Disabled</string>
+    <string name="settings_3d_auto">Auto</string>
+    <string name="settings_3d_l_r">Left, Right</string>
+    <string name="settings_3d_u_d">Up, Down</string>
+    <string name="settings_3d_depth">3D Depth</string>
+    <string name="settings_2d_to_3d">2D to 3D</string>
+    <string name="settings_3d_to_2d">3D to 2D</string>
+    <string name="settings_3d_left_right_swapping">Left-Right Swapping</string>
+    
+    <string name="msg_timeshift_disabled">PVR timeshift disabled</string>
+    <string name="msg_failed_to_enable_timeshift">Failed to enable PVR timeshift</string>
+    <string name="msg_failed_to_disable_timeshift">Failed to disable PVR timeshift</string>
+    <string name="msg_pvr_not_supported_current_source">PVR is not supported in current source</string>
+    <string name="stop_record">Stop Record</string>
+
+    <string name="settings_check_update">Check Update</string>
+    <string name="msg_checking_update">Checking updates</string>
+    <string name="msg_no_update_available">No updates available</string>
+    <string name="msg_new_update_available">New updates available</string>
+    <string name="msg_prepare_update">Prepare updates…</string>
+    <string name="msg_downlaoding_update">Download updates…</string>
+    <string name="msg_download_fail">Download failed</string>
+    <string name="msg_verify_update">Verify updates…</string>
+    <string name="msg_verify_update_fail">Verify failed</string>
+    <string name="msg_update_download_success">Download success: Reboot to continue.</string>
+    <string name="msg_failed_to_update">Failed to update.</string>
+    
+    <string name="settings_rtk_ci">RTK CI</string>
+    
+    <string name="update">Update</string>
+    <string name="recorded_videos">Recorded Videos</string>
+    <string name="recording_schedules">Recording Schedules</string>
+    <string name="schedule_recording">Schedule Recording</string>
+    <string name="manage">Manage</string>
+    <string name="delete">Delete</string>
+    <string name="select_all">Select All</string>
+    <string name="lock_unlock">Lock/Unlock</string>
+    <string name="open_media">Open Media</string>
+    <string name="single_episode">Single Episode</string>
+    <string name="all_episodes">All Episode</string>
+    <string name="replace">Replace</string>
+    <string name="ignore">Ignore</string>
+    <string name="sync_dtv_time">Sync. DTV time</string>
+    <string name="start_record">Start Record</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="record_repeats">Repeats</string>
+    <string name="once">Once</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="record">Record</string>
+
+    <string name="reboot">Reboot</string>
+    <string name="download">Download</string>
+    <string name="abort">Abort</string>
+    <string name="channel_number">Channel Number</string>
+    
+    <string name="format_disk_usage">%1$s used / %2$s available</string>
+    <string name="format_time_sec">%d Sec.</string>
+    <string name="format_time_min">%d Min.</string>
+    <string name="format_time_minutes">%d minutes</string>
+    <string name="format_time_hour_min">%1$d Hour %2$d Min.</string>
+    <string name="format_item_position">&lt; %1$s/%2$s &gt;</string>
+    
+    <string name="msg_recording_started">Recording started.</string>
+    <string name="msg_recording_stopped">Recording stopped.</string>
+    <string name="msg_failed_to_start_record">Failed to start record.</string>
+    <string name="msg_failed_to_stop_record">Failed to stop record.</string>
+    <string name="msg_failed_to_start_timeshift">Failed to start timeshift.</string>
+    <string name="msg_failed_to_resume_timeshift">Failed to resume timeshift.</string>
+    <string name="msg_failed_to_pause_timeshift">Failed to pause timeshift.</string>
+    <string name="msg_invalid_date_format">Invalid date format.</string>
+    <string name="msg_recording_schedule_setup_success">Recording schedule setup success.</string>
+    <string name="msg_ask_dtv_time_not_sync">The time from TV source is not snynchronized with the system\nDo you want to update the system time setting?</string>
+    <string name="msg_already_a_timer_at_the_same_time">There\'s already a timer at the same time.</string>
+    <string name="msg_cannot_switch_channel_during_recording">Cannot switch channel during recording.</string>
+    <string name="msg_cannot_switch_source_during_recording">Cannot switch source during recording.</string>
+    <string name="msg_cannot_switch_source_during_timeshifting">Cannot switch source during timeshifting.</string>
+    <string name="msg_disable_timeshift_before_record">Please disable timeshift before starting to record.</string>
+    <string name="msg_item_locked">The item has been locked.</string>
+    <string name="msg_record_shutdown_canceled">Shutdown canceled</string>
+    <string name="msg_pvr_stop_disk_full">Record stopped: disk full</string>
+    <string name="msg_pvr_stop_disk_error">Record stopped: disk error</string>
+    
+    <string name="format_msg_delete_items">Are you sure you want to delete %1$d files.</string>
+    <string name="format_msg_record_epg_item">%1$s\n%2$s ~ %3$s</string>
+    
+    <string name="move">Move</string>
+    <string name="favorite">Favorite</string>
+
+    <string name="symbol_rate">Symbol Rate</string>
+    <string name="modulation">Modulation</string>
+    <string name="strength">Strength</string>
+    <string name="quality">Quality</string>
+    <string name="ber">BER</string>
+    <string name="frequency">Frequency</string>
+    <string name="num">Num.</string>
+    <string name="service_id">Service ID</string>
+    <string name="nit_scan">NIT Scan</string>
+    <string name="audio_channel">Audio Channel</string>
+    <string name="advanced_options">Advanced Options</string>
+    <string name="program_name">Program Name</string>
+    <string name="date">Date</string>
+    <string name="duration">Duration</string>
+    <string name="time">Time</string>
+    <string name="unknown">Unknown</string>
+    <string name="channel">Channel</string>
+    <string name="dtv_channel_manager">DTV Channel Manager</string>
+    <string name="format_frequency_mhz">%1$.2f MHz</string>
+    
+    <string name="msg_failed_to_move_channel">Failed to move channel</string>
+    <string name="msg_failed_to_sort_channel">Failed to sort channel</string>
+    <string name="msg_got_new_nit_ask_scan">Got new NIT.\nDo you want to scan channel again.</string>
+    <string name="msg_ask_erase_storage">Erase the storage? You will lose <b>all</b> data on the storage!</string>
+    
+    <string name="sleep_timer">Sleep timer</string>
+    <string name="format_msg_sleep_count_down">The system is going to sleep in %d seconds.</string>
+    <string name="wait">Wait</string>
+    <string name="msg_update_timeout_ask">System is not responding...</string>
+    <string name="radio_only">Radio Only</string>
+    
+    <string name="air_cable">Air/Cable</string>
+    <string name="cable_system">Cable System</string>
+    <string name="cable_system_auto">AUTO</string>
+    <string name="string_no_event_information">NO EVENT INFORMATION</string>
+    <string name="string_closed_caption">Closed Caption</string>
+    <string name="string_cc_mode">CC mode</string>
+    <string name="string_basic_selection">Basic Selection</string>
+    <string name="string_advanced_selection">Advanced Selection</string>
+    <string name="string_cc_service">Service</string>
+    <string name="string_cc_service_none">N/A</string>
+    <string name="string_option">Option</string>
+    <string name="string_cc_option">CC Option</string>
+    <string name="string_cc_option_mode">Mode</string>
+    <string name="string_cc_option_font">Font</string>
+    <string name="string_cc_option_size">Size</string>
+    <string name="string_cc_option_edge_effect">Edge Effect</string>
+    <string name="string_cc_option_edge_color">Edge Color</string>
+    <string name="string_cc_option_text_color">Text Color</string>
+    <string name="string_cc_option_background_color">Background Color</string>
+    <string name="string_cc_option_text_opacity">Text Opacity</string>
+    <string name="string_cc_option_background_opacity">Background Opacity</string>
+    
+    <string name="twelve_hour_time_format">h:mm a</string>
+    <string name="twenty_four_hour_time_format">H:mm</string>
+        
+</resources>

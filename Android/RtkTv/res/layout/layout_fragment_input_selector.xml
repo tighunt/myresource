@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="210dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left|bottom"
+    android:layout_margin="@dimen/pane_padding"
+    android:background="@color/background_dark"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/Widget.Tv.TextView.Title"
+        android:text="@string/STRING_INPUT" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/pane_padding"
+        android:layout_marginLeft="@dimen/pane_padding"
+        android:layout_marginRight="@dimen/pane_padding"
+        android:choiceMode="none"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="outsideOverlay" />
+
+</LinearLayout>

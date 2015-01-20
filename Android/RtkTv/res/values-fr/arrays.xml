@@ -1,0 +1,281 @@
+<resources>
+	<string-array name="pic_ratio">
+        <item>Plein écran</item>
+        <item>Cinéma</item>
+        <item>Sous-titre</item>
+        <item>14:9</item>
+        <item>Pixel par pixel</item>
+        <item>Zoom</item>
+        <item>Normale</item>
+        <item>Natif</item>
+        <item>Large</item>
+        <item>4:3</item>
+        <item>PC format large</item>
+        <item>PC normal</item>
+    </string-array>
+	<string-array name="sourcelist_aka">
+        <item>--</item>
+        <item>Ampli</item>
+        <item>Câble</item>
+        <item>DVD</item>
+        <item>Jeux</item>
+        <item>PC</item>
+        <item>Enregistreur</item>
+        <item>Satellite</item>
+        <item>VCR</item>
+    </string-array>
+	<string-array name="color_temperature">
+        <item>Chaud</item>
+        <item>NATUREL</item>
+        <item>Froide</item>
+    </string-array>
+	<string-array name="yes_no">
+        <item>Non</item>
+        <item>Oui</item>
+    </string-array>
+	<string-array name="inputs">
+        <item>DTV</item>
+        <item>ATV</item>
+        <item>EXT 1</item>
+        <item>EXT 2</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>PC</item>
+    </string-array>
+	<string-array name="power_bass_booster">
+        <item>Arrêt</item>
+        <item>Normale</item>
+        <item>Super</item>
+    </string-array>
+	<string-array name="sound_mode">
+		<item>Dynamique</item>
+        <item>NATUREL</item>
+        <item>Voix claire</item>  
+    </string-array>
+	<string-array name="mts">
+        <item>Auto</item>
+        <item>Mono</item>
+        <item>Stéréo</item>
+        <item>SAP</item>
+    </string-array>
+	<string-array name="atv_receiving_sound_mode">
+        <item>Mono</item>
+        <item>Stéréo</item>
+        <item>Db. Langage</item>
+        <item>SAP</item>
+        <item>Stéréo SAP</item>
+    </string-array>
+    <string-array name="dual">
+        <item>Langue 1</item>
+        <item>Langue 2</item>
+    </string-array>
+    <string-array name="audo_track">
+        <item>Mono</item>
+		<item>Mono 1</item>
+		<item>Mono 2</item>
+        <item>Langue 1</item>
+        <item>Langue 2</item>
+		<item>SAP</item>
+        <item>Stéréo</item>
+    </string-array>
+	<string-array name="pic_mode">
+        <item>Intelligent AutoView</item>
+        <item>Dynamique</item>
+        <item>Football</item>
+        <item>Cricket</item>
+        <item>Normal</item>
+        <item>Tendre</item>
+        <item>Film</item>
+        <item>Mode Eco</item>
+        <item>Jeux</item>
+        <item>PC</item>
+    </string-array>
+   	<string-array name="noise_nr">
+    	<item>Arrêt</item>
+    	<item>Faible</item>
+        <item>Moyen</item>
+        <item>Fort</item>       
+    </string-array>
+    <string-array name="contrast_booster">
+    	<item>Arrêt</item>
+    	<item>Faible</item>
+        <item>Moyen</item>        
+        <item>Fort</item>       
+    </string-array>
+    <string-array name="tv_mount">
+        <item>Socle</item>
+        <item>Mur</item>
+    </string-array>
+	<string-array name="preference_teletext">
+        <item>Auto</item>
+        <item>Liste</item>
+    </string-array>
+    <string-array name="preference_1_4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+	<string-array name="preference_pc_hdmi">
+        <item>PC</item>
+        <item>HDMI 1</item>
+    </string-array>
+    <string-array name="preference_hdmi_audio">
+        <item>Auto</item>
+        <item>Numérique</item>
+        <item>Analogique</item>
+    </string-array>
+	<string-array name="tabsetting_option_OnOff">
+		<item>Arrêt</item>
+        <item>Marche</item>
+    </string-array>
+    <string-array name ="setup_country">
+        <item>Bahreïn</item>
+        <item>Inde</item>
+        <item>Indonésie</item>
+        <item>Israel</item>
+        <item>Koweït</item>
+        <item>Malaisie</item>
+        <item>Philippines</item>
+        <item>Qatar</item>
+        <item>Saudi Arabia</item>
+        <item>Singapore</item>
+        <item>Thaïlande</item>
+        <item>Émirats arabes unis</item>
+        <item>Vietnam</item>
+    </string-array>
+    <string-array name="setup_option_location">
+		<item>Domicile</item>
+        <item>Magasin</item>
+    </string-array>
+	<string-array name="tabsettingsound_adsettup_avl">
+        <item>Marche</item>
+        <item>Arrêt</item>
+    </string-array>
+    <string-array name="tabsettingsound_adsettup_spdif">
+        <item>SPDIF RAW</item>
+        <item>SPDIF LPCM</item>
+    </string-array>
+    
+	<string-array name="tabsettingpicture_personal_noise">
+        <item>Arrêt</item>
+        <item>Faible</item>
+        <item>Moyen</item>
+        <item>Fort</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcc">
+        <item>Marche</item>
+        <item>Arrêt</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcr">
+        <item>Marche</item>
+        <item>Arrêt</item>
+    </string-array>
+    <string-array name="tabsettingsetting_osd_exhibitiontime">
+        <item>None</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>45s</item>
+        <item>60s</item>
+    </string-array>
+    
+    <string-array name="tabsettingchannel_chantenna_tvsource">
+        <item>AIR</item>
+        <item>Câble</item>
+    </string-array>
+	<string-array name="setting_other_adj_hdmisource">
+        <item>Auto</item>
+        <item>HDMI</item>
+        <item>DVI</item>
+    </string-array>
+    <string-array name="setting_other_adj_sleeptimer">
+        <item>Arrêt</item>
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>60 Min</item>
+        <item>90 Min</item>
+        <item>120 Min</item>
+    </string-array>
+    <string-array name="manual_tuning_system">
+        <item>D/K</item>
+        <item>I</item>
+        <item>B/G</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system">
+        <item>A</item>
+        <item>P</item>
+        <item>S</item>
+        <item>N4</item>
+        <item>N3</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system_full">
+        <item>Auto</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC 4.43</item>
+        <item>NTSC 3.58</item>
+    </string-array>
+    <string-array name="manual_tuning_sigclass">
+        <item>C</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="manual_tuning_search">
+        <item>Augmenter</item>
+        <item>Diminuer</item>
+   </string-array>
+   <string-array name="service_option_normal_special">
+   		<item>Normale</item>
+   		<item>Special</item>
+   </string-array>
+   <string-array name="service_option_white_tail">
+   		<item>Normale</item>
+   		<item>1</item>
+   		<item>2</item>
+		<item>3</item>
+   		<item>4</item>
+   </string-array>
+   <string-array name="service_option_H_jitter">
+   		<item>Normale</item>
+   		<item>_01</item>
+   		<item>_02</item>
+   		<item>_03</item>
+   		<item>_04</item>
+   		<item>_05</item>
+   </string-array>      
+   <string-array name="service_option_vsync_threshold">
+   		<item>Normale</item>
+   		<item>1</item>
+   		<item>2</item>
+   </string-array>
+   <string-array name="service_option_enable_disable">
+   		<item>Disable</item>
+   		<item>Enable</item>
+   </string-array>
+   <string-array name="service_option_agc_speed">
+   		<item>196</item>
+   		<item>206</item>
+   		<item>216</item>
+   		<item>219</item>
+   		<item>222</item>
+   		<item>248</item>
+   		<item>250</item>
+   		<item>251</item>
+   		<item>Default</item>
+   		<item>89</item>
+   		<item>105</item>
+   		<item>121</item>
+   		<item>137</item>
+   		<item>158</item>
+   		<item>172</item>
+   		<item>185</item>
+   </string-array>
+    <string-array name="programme_timer_repeat">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+   </string-array>
+   
+</resources> 

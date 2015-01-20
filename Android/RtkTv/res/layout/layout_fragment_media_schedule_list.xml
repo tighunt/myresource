@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background_sea"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="6dp"
+    android:paddingLeft="66dp"
+    android:paddingRight="66dp"
+    android:paddingTop="0dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp" >
+
+        <com.tsb.widget.DtvTextClock
+            android:id="@+id/textclock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/pane_padding"
+            android:format12Hour="MMM dd, yyyy hh:mm"
+            android:format24Hour="MMM dd, yyyy HH:mm"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/image_preview"
+            android:layout_width="240dp"
+            android:layout_height="135dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textclock"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/text_disk_usage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image_preview"
+            android:layout_alignParentLeft="true"
+            android:text="@null"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_disk_usage"
+            android:layout_alignParentLeft="true"
+            android:text="@string/recording_schedules"
+            android:textSize="26.25sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progress_disk_usage"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/text_disk_usage"
+            android:layout_marginBottom="6sp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_toRightOf="@+id/text_disk_usage"
+            android:max="100"
+            android:progress="50" />
+
+        <TextView
+            android:id="@+id/text_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text_disk_usage"
+            android:layout_toRightOf="@+id/progress_disk_usage"
+            android:text="@string/format_item_position"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/background_light"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/channel"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/program_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/date"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/time"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="192dp" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_dark"
+            android:cacheColorHint="@color/background_dark"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@drawable/item_generic_round_background"
+            tools:listitem="@layout/item_recording_schedule" >
+        </ListView>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <LinearLayout
+        style="@style/Pane.Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/hint_manage"
+            style="@style/Widget.Tv.TextView.Hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_hint_green"
+            android:text="@string/manage" />
+
+        <TextView
+            android:id="@+id/hint_delete"
+            style="@style/Widget.Tv.TextView.Hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_hint_red"
+            android:text="@string/delete" />
+
+        <TextView
+            android:id="@+id/hint_select_all"
+            style="@style/Widget.Tv.TextView.Hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_hint_yellow"
+            android:text="@string/select_all" />
+
+        <TextView
+            android:id="@+id/hint_lock_unlock"
+            style="@style/Widget.Tv.TextView.Hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_hint_blue"
+            android:text="@string/lock_unlock" />
+    </LinearLayout>
+
+</LinearLayout>

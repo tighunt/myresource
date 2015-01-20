@@ -1,0 +1,592 @@
+<resources>
+
+    <string-array name="pic_ratio">
+        <item>Super Live</item>
+        <item>Cinema</item>
+        <item>Subtitle</item>
+        <item>14:9</item>
+        <item>Dot By Dot</item>
+        <item>Zoom</item>
+        <item>Normal</item>
+        <item>Native</item>
+        <item>Wide</item>
+        <item>4:3</item>
+        <item>PC Wide</item>
+        <item>PC Normal</item>
+    </string-array>
+    <string-array name="sourcelist_aka">
+        <item>--</item>
+        <item>Amplifier</item>
+        <item>Cable</item>
+        <item>DVD</item>
+        <item>Game</item>
+        <item>PC</item>
+        <item>Recorder</item>
+        <item>Satellite</item>
+        <item>VCR</item>
+    </string-array>
+    <string-array name="color_temperature">
+        <item>Warm</item>
+        <item>Natural</item>
+        <item>Cool</item>
+    </string-array>
+    <string-array name="yes_no">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+    <string-array name="inputs">
+        <item>DTV</item>
+        <item>ATV</item>
+        <item>EXT 1</item>
+        <item>EXT 2</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>PC</item>
+    </string-array>
+    <string-array name="power_bass_booster">
+        <item>Off</item>
+        <item>Normal</item>
+        <item>Super</item>
+    </string-array>
+    <string-array name="sound_mode">
+        <item>Dynamic</item>
+        <item>Natural</item>
+        <item>Clear Voice</item>
+    </string-array>
+    <string-array name="mts">
+        <item>Auto</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="atv_receiving_sound_mode">
+        <item>Mono</item>
+        <item>Stereo</item>
+        <item>Dual</item>
+        <item>SAP</item>
+        <item>Stereo SAP</item>
+    </string-array>
+    <string-array name="dual">
+        <item>Dual 1</item>
+        <item>Dual 2</item>
+    </string-array>
+    <string-array name="audo_track">
+        <item>Mono</item>
+        <item>Mono 1</item>
+        <item>Mono 2</item>
+        <item>Dual 1</item>
+        <item>Dual 2</item>
+        <item>SAP</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="pic_mode">
+        <item>Intelligent AutoView</item>
+        <item>Dynamic</item>
+        <item>Football</item>
+        <item>Cricket</item>
+        <item>Standard</item>
+        <item>Mild</item>
+        <item>Movie</item>
+        <item>Eco Mode</item>
+        <item>Game</item>
+        <item>PC</item>
+    </string-array>
+    <string-array name="noise_nr">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Middle</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="contrast_booster">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Middle</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="tv_mount">
+        <item>Stand</item>
+        <item>Wall</item>
+    </string-array>
+    <string-array name="preference_teletext">
+        <item>Auto</item>
+        <item>List</item>
+    </string-array>
+    <string-array name="preference_1_4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="preference_pc_hdmi">
+        <item>PC</item>
+        <item>HDMI 1</item>
+    </string-array>
+    <string-array name="preference_hdmi_audio">
+        <item>Auto</item>
+        <item>Digital</item>
+        <item>Analogue</item>
+    </string-array>
+    <string-array name="tabsetting_option_OnOff">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="setup_country">
+        <item>Bahrain</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Israel</item>
+        <item>Kuwait</item>
+        <item>Malaysia</item>
+        <item>Philippines</item>
+        <item>Qatar</item>
+        <item>Saudi Arabia</item>
+        <item>Singapore</item>
+        <item>Thailand</item>
+        <item>United Arab Emirates</item>
+        <item>Vietnam</item>
+    </string-array>
+    <string-array name="setup_option_location">
+        <item>Home</item>
+        <item>Store</item>
+    </string-array>
+    <string-array name="tabsettingsound_adsettup_avl">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="tabsettingsound_adsettup_spdif">
+        <item>SPDIF RAW</item>
+        <item>SPDIF LPCM</item>
+    </string-array>
+    <string-array name="tabsettingpicture_personal_noise">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcc">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcr">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="tabsettingsetting_osd_exhibitiontime">
+        <item>None</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>45s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="tabsettingchannel_chantenna_tvsource">
+        <item>AIR</item>
+        <item>CABLE</item>
+    </string-array>
+    <string-array name="setting_other_adj_hdmisource">
+        <item>Auto</item>
+        <item>HDMI</item>
+        <item>DVI</item>
+    </string-array>
+    <string-array name="setting_other_adj_sleeptimer">
+        <item>Off</item>
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>60 Min</item>
+        <item>90 Min</item>
+        <item>120 Min</item>
+    </string-array>
+    <string-array name="manual_tuning_system">
+        <item>D/K</item>
+        <item>I</item>
+        <item>B/G</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system">
+        <item>A</item>
+        <item>P</item>
+        <item>S</item>
+        <item>N4</item>
+        <item>N3</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system_full">
+        <item>Auto</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC 4.43</item>
+        <item>NTSC 3.58</item>
+    </string-array>
+    <string-array name="manual_tuning_sigclass">
+        <item>C</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="manual_tuning_search">
+        <item>Up</item>
+        <item>Down</item>
+    </string-array>
+    <string-array name="service_option_normal_special">
+        <item>Normal</item>
+        <item>Special</item>
+    </string-array>
+    <string-array name="service_option_white_tail">
+        <item>Normal</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="service_option_H_jitter">
+        <item>Normal</item>
+        <item>_01</item>
+        <item>_02</item>
+        <item>_03</item>
+        <item>_04</item>
+        <item>_05</item>
+    </string-array>
+    <string-array name="service_option_vsync_threshold">
+        <item>Normal</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="service_option_enable_disable">
+        <item>Disable</item>
+        <item>Enable</item>
+    </string-array>
+    <string-array name="service_option_agc_speed">
+        <item>196</item>
+        <item>206</item>
+        <item>216</item>
+        <item>219</item>
+        <item>222</item>
+        <item>248</item>
+        <item>250</item>
+        <item>251</item>
+        <item>Default</item>
+        <item>89</item>
+        <item>105</item>
+        <item>121</item>
+        <item>137</item>
+        <item>158</item>
+        <item>172</item>
+        <item>185</item>
+    </string-array>
+    <string-array name="time_shift_size">
+        <item>512M</item>
+        <item>1G</item>
+        <item>2G</item>
+        <item>4G</item>
+    </string-array>
+
+    <!-- walker add for l5450 -->
+    <string-array name="tuning_mode">
+        <item>DTV and ATV</item>
+        <item>DTV</item>
+        <item>ATV</item>
+    </string-array>
+    <string-array name="scan_type">
+        <item>Quick Scan</item>
+        <item>Full Scan</item>
+    </string-array>
+    <string-array name="band_width">
+        <item>8 MHz</item>
+        <item>7 MHz</item>
+        <item>7 MHz and 8MHz</item>
+    </string-array>
+    <string-array name="parent_control">
+        <item>None</item>
+        <item>4~18</item>
+    </string-array>
+    <string-array name="subtitle_type">
+        <item>Normal</item>
+        <item>For Hard of Hearing</item>
+    </string-array>
+    <string-array name="subtitle_language">
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Malay</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+        <item>Russian</item>
+        <item>Arabic</item>
+        <item>Persian</item>
+        <item>French</item>
+        <item>Indonesian</item>
+        <item>Tamil</item>
+    </string-array>
+    <string-array name="dtv_channel_mode">
+        <item>All Channels</item>
+        <item>TV Channels</item>
+        <item>Radio Channels</item>
+        <item>Text Channels</item>
+        <item>Favorites Channels</item>
+    </string-array>
+    <string-array name="iso_639_language_table">
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Indonesian</item>
+        <item>Korean</item>
+        <item>Thailand</item>
+        <item>Portuguese</item>
+        <item>Dutch</item>
+        <item>Czech</item>
+        <item>Hungarian</item>
+        <item>Russian</item>
+        <item>Polish</item>
+        <item>Finnish</item>
+        <item>Norwegian</item>
+        <item>Swedish</item>
+        <item>Danish</item>
+        <item>Greek</item>
+        <item>Irish</item>
+        <item>Hindi</item>
+        <item>Slovenian</item>
+        <item>Hebrew</item>
+        <item>TURKISH</item>
+        <item>Romanian</item>
+        <item>Arabic</item>
+        <item>Bulgarian</item>
+        <item>Latin</item>
+        <item>Lithuanian</item>
+        <item>Latvian</item>
+        <item>Malay</item>
+        <item>Burmese</item>
+        <item>Nepali</item>
+        <item>Slovak</item>
+        <item>Albanian</item>
+        <item>Serbian</item>
+        <item>Ukrainian</item>
+        <item>Vietnamese</item>
+        <item>Croatian</item>
+        <item>Armenian</item>
+        <item>Icelandic</item>
+        <item>Cambodian</item>
+        <item>Estonian</item>
+        <item>Macedonian</item>
+    </string-array>
+    <string-array name="setting_pic_modes">
+        <item>User</item>
+        <item>Vivid</item>
+        <item>Standard</item>
+        <item>Gentle</item>
+        <item>Movie</item>
+        <item>Sport</item>
+        <item>Game</item>
+        <item>Max</item>
+    </string-array>
+    <string-array name="setting_pic_color_temp">
+        <item>User</item>
+        <item>Normal</item>
+        <item>Warmer</item>
+        <item>Warm</item>
+        <item>Cool</item>
+        <item>Cooler</item>
+    </string-array>
+    <string-array name="setting_dnr_mode">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Auto</item>
+    </string-array>
+
+    <string-array name="tuner_modulations">
+        <item>ATV</item>
+        <item>OQPSK</item>
+        <item>VSB8</item>
+        <item>VSB16</item>
+        <item>QAM_AUTO</item>
+        <item>QAM4</item>
+        <item>QAM16</item>
+        <item>QAM32</item>
+        <item>QAM64</item>
+        <item>QAM128</item>
+        <item>QAM256</item>
+        <item>QAM512</item>
+        <item>QAM1024</item>
+        <item>QPSK</item>
+        <item>BPSK</item>
+        <item>OFDM</item>
+        <item>ISDB_AUTO</item>
+        <item>DVB_AUTO</item>
+        <item>DTMB_AUTO</item>
+        <item>ABS_AUTO</item>
+    </string-array>
+
+    <string-array name="audio_channel_swap">
+        <item>Stereo</item>
+        <item>Right to Left</item>
+        <item>Left to Right</item>
+        <item>Swap</item>
+        <item>Mixed</item>
+    </string-array>
+
+    <string-array name="sort_dtv">
+        <item>Channel number</item>
+        <item>Frequency</item>
+        <item>Service ID</item>
+        <item>LCN</item>
+        <!--
+        <item>Transport stream ID and Service ID</item>
+        <item>Program order number from BAT</item>
+        <item>Channel number from SDT</item>
+        <item>NIT LCN</item>
+        <item>User</item>
+        -->
+    </string-array>
+
+    <string-array name="sleep_timer_entires">
+        <item>Off</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>60 minutes</item>
+        <item>90 minutes</item>
+        <item>120 minutes</item>
+        <item>180 minutes</item>
+        <item>240 minutes</item>
+    </string-array>
+    
+    <string-array name="atsc_input">
+        <item>Air</item>
+        <item>Cable</item>
+    </string-array>
+    
+    <string-array name="atsc_cable_system">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+        <item>AUTO</item>
+    </string-array>
+    
+    <string-array name="atsc_cc_mode">
+        <item>On</item>
+        <item>Off</item>
+        <item>CC on Mute</item>
+    </string-array>
+    
+    <string-array name="atsc_cc_basic_selection">
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>Text1</item>
+        <item>Text2</item>
+        <item>Text3</item>
+        <item>Text4</item>                        
+    </string-array>
+    
+    <string-array name="atsc_cc_advanced_selection">
+        <item>Service1</item>
+        <item>Service2</item>
+        <item>Service3</item>
+        <item>Service4</item>
+        <item>Service5</item>
+        <item>Service6</item>                       
+    </string-array>
+
+    <string-array name="atsc_cc_option_mode">
+        <item>Custom</item>
+        <item>Default</item>                      
+    </string-array>
+    
+    <string-array name="atsc_cc_font_style">
+        <item>Font0</item>
+        <item>Font1</item>
+        <item>Font2</item>
+        <item>Font3</item>
+        <item>Font4</item>
+        <item>Font5</item>
+        <item>Font6</item>
+        <item>Font7</item>
+        <item>Default</item>                                              
+    </string-array>
+    
+    <string-array name="atsc_cc_font_size">
+        <item>Small</item>
+        <item>Standard</item>
+        <item>Large</item>
+        <item>Default</item>                                              
+    </string-array>
+    
+    <string-array name="atsc_cc_font_edge_style">
+        <item>None</item>
+        <item>Raised</item>
+        <item>Depressed</item>
+        <item>Uniform</item>
+        <item>Left Shadow</item>
+        <item>Right Shadow</item>
+        <item>Default</item>                                              
+    </string-array>
+    
+    <string-array name="atsc_cc_color">
+        <item>Black</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+        <item>Default</item>                                              
+    </string-array>    
+    
+    <string-array name="atsc_cc_opacity_style">
+        <item>Solid</item>
+        <item>Flashing</item>
+        <item>Translucent</item>
+        <item>Transparent</item>
+        <item>Low</item>
+        <item>High</item>
+        <item>Default</item>                                              
+    </string-array> 
+    
+    <string-array name="atsc_pl_off_on">
+        <item>OFF</item>
+        <item>ON</item>                                            
+    </string-array> 
+    
+    <string-array name="atsc_pl_canada_english">
+        <item>OFF</item>
+        <item>E</item>
+        <item>C</item>
+        <item>C8P</item>
+        <item>G</item>
+        <item>PG</item>
+        <item>14P</item>
+        <item>18P</item>
+        <item>NR</item>                                              
+    </string-array> 
+    
+    <string-array name="atsc_pl_canada_french">
+        <item>OFF</item>
+        <item>E</item>
+        <item>G</item>
+        <item>8P</item>
+        <item>13P</item>
+        <item>16P</item>
+        <item>18P</item>
+        <item>NR1</item>
+        <item>NR2</item>                                              
+    </string-array> 
+    
+    <string-array name="atsc_pl_usa_mpaa">
+        <item>OFF</item>
+        <item>G</item>
+        <item>PG</item>
+        <item>PG13</item>
+        <item>R</item>
+        <item>NC17</item>
+        <item>X</item>
+        <item>NR</item>
+        <item>NONE</item>                                              
+    </string-array> 
+    
+</resources>

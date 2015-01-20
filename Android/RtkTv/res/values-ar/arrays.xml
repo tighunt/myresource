@@ -1,0 +1,281 @@
+<resources>
+	<string-array name="pic_ratio">
+        <item>فائق الحيوية</item>
+        <item>سينما</item>
+        <item>ترجمة</item>
+        <item>14:9</item>
+        <item>تقطة تلو الأخرى</item>
+        <item>زوم</item>
+        <item>عادي</item>
+        <item>أصلي</item>
+        <item>عريض</item>
+        <item>4:3</item>
+        <item>عريض PC</item>
+        <item>طبيعي PC</item>
+    </string-array>
+	<string-array name="sourcelist_aka">
+        <item>--</item>
+        <item>المضخم</item>
+        <item>كبل</item>
+        <item>DVD</item>
+        <item>ألعاب</item>
+        <item>PC</item>
+        <item>المسجل</item>
+        <item>ستالايت</item>
+        <item>VCR</item>
+    </string-array>
+	<string-array name="color_temperature">
+        <item>دافئ</item>
+        <item>طبيعي</item>
+        <item>بارد</item>
+    </string-array>
+	<string-array name="yes_no">
+        <item>لا</item>
+        <item>نعم</item>
+    </string-array>
+	<string-array name="inputs">
+        <item>DTV</item>
+        <item>ATV</item>
+        <item>EXT 1</item>
+        <item>EXT 2</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>PC</item>
+    </string-array>
+	<string-array name="power_bass_booster">
+        <item>إيقاف</item>
+        <item>عادي</item>
+        <item>فائق</item>
+    </string-array>
+	<string-array name="sound_mode">
+		<item>ديناميكية</item>
+        <item>طبيعي</item>
+        <item>صوت واضح</item>  
+    </string-array>
+	<string-array name="mts">
+        <item>تلقائي</item>
+        <item>أحادي</item>
+        <item>ستيريو</item>
+        <item>SAP</item>
+    </string-array>
+	 <string-array name="atv_receiving_sound_mode">
+        <item>أحادي</item>
+        <item>ستيريو</item>
+        <item>ثنائي</item>
+        <item>SAP</item>
+        <item>ستيريو SAP</item>
+    </string-array>
+    <string-array name="dual">
+        <item>ثنائي-1</item>
+        <item>ثنائي-2</item>
+    </string-array>
+    <string-array name="audo_track">
+        <item>أحادي</item>
+		<item>أحادي-1</item>
+		<item>أحادي-2</item>
+        <item>ثنائي-1</item>
+        <item>ثنائي-2</item>
+		<item>SAP</item>
+        <item>ستيريو</item>
+    </string-array>
+	<string-array name="pic_mode">
+        <item>Intelligent AutoView</item>
+        <item>ديناميكية</item>
+        <item>كرة قدم</item>
+        <item>كريكت</item>
+        <item>قياسية</item>
+        <item>ناعمة</item>
+        <item>فيلم</item>
+        <item>Eco </item>
+        <item>ألعاب</item>
+        <item>PC</item>
+    </string-array>
+   	<string-array name="noise_nr">
+    	<item>إيقاف</item>
+    	<item>منخفض</item>
+        <item>متوسط</item>
+        <item>عالي</item>       
+    </string-array>
+    <string-array name="contrast_booster">
+    	<item>إيقاف</item>
+    	<item>منخفض</item>
+        <item>متوسط</item>        
+        <item>عالي</item>       
+    </string-array>
+    <string-array name="tv_mount">
+        <item>قائم</item>
+        <item>جدار</item>
+    </string-array>
+	<string-array name="preference_teletext">
+        <item>تلقائي</item>
+        <item>لائحة</item>
+    </string-array>
+    <string-array name="preference_1_4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+	<string-array name="preference_pc_hdmi">
+        <item>PC</item>
+        <item>HDMI 1</item>
+    </string-array>
+    <string-array name="preference_hdmi_audio">
+        <item>تلقائي</item>
+        <item>رقمي</item>
+        <item>أنالوج</item>
+    </string-array>
+	<string-array name="tabsetting_option_OnOff">
+        <item>إيقاف</item>
+        <item>تشغيل</item>
+    </string-array>
+    <string-array name ="setup_country">
+        <item>البحرين</item>
+        <item>الهند</item>
+        <item>إندونيسيا</item>
+        <item>اسرائيل</item>
+        <item>الكويت</item>
+        <item>ماليزيا</item>
+        <item>الفلبين</item>
+        <item>قطر</item>
+        <item>السعودية</item>
+        <item>سينغافورة</item>
+        <item>تايلاند</item>
+        <item>الإمارات</item>
+        <item>فيتنام</item>
+    </string-array>
+    <string-array name="setup_option_location">
+		<item>الصفحة الرئيسية</item>
+        <item>مخزن</item>
+    </string-array>
+	<string-array name="tabsettingsound_adsettup_avl">
+        <item>تجاوز</item>
+        <item>إيقاف</item>
+    </string-array>
+    <string-array name="tabsettingsound_adsettup_spdif">
+        <item>SPDIF RAW</item>
+        <item>SPDIF LPCM</item>
+    </string-array>
+    
+	<string-array name="tabsettingpicture_personal_noise">
+        <item>إيقاف</item>
+        <item>منخفض</item>
+        <item>متوسط</item>
+        <item>عالي</item>
+        <item>تلقائي</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcc">
+        <item>تجاوز</item>
+        <item>إيقاف</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcr">
+        <item>تجاوز</item>
+        <item>إيقاف</item>
+    </string-array>
+    <string-array name="tabsettingsetting_osd_exhibitiontime">
+        <item>None</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>45s</item>
+        <item>60s</item>
+    </string-array>
+    
+    <string-array name="tabsettingchannel_chantenna_tvsource">
+        <item>AIR</item>
+        <item>كبل</item>
+    </string-array>
+	<string-array name="setting_other_adj_hdmisource">
+        <item>تلقائي</item>
+        <item>HDMI</item>
+        <item>DVI</item>
+    </string-array>
+    <string-array name="setting_other_adj_sleeptimer">
+        <item>إيقاف</item>
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>60 Min</item>
+        <item>90 Min</item>
+        <item>120 Min</item>
+    </string-array>
+    <string-array name="manual_tuning_system">
+        <item>D/K</item>
+        <item>I</item>
+        <item>B/G</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system">
+        <item>A</item>
+        <item>P</item>
+        <item>S</item>
+        <item>N4</item>
+        <item>N3</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system_full">
+        <item>تلقائي</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC 4.43</item>
+        <item>NTSC 3.58</item>
+    </string-array>
+    <string-array name="manual_tuning_sigclass">
+        <item>C</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="manual_tuning_search">
+        <item>أعلى</item>
+        <item>أسفل</item>
+   </string-array>
+   <string-array name="service_option_normal_special">
+   		<item>عادي</item>
+   		<item>Special</item>
+   </string-array>
+   <string-array name="service_option_white_tail">
+   		<item>عادي</item>
+   		<item>1</item>
+   		<item>2</item>
+		<item>3</item>
+   		<item>4</item>
+   </string-array>
+   <string-array name="service_option_H_jitter">
+   		<item>عادي</item>
+   		<item>_01</item>
+   		<item>_02</item>
+   		<item>_03</item>
+   		<item>_04</item>
+   		<item>_05</item>
+   </string-array>      
+   <string-array name="service_option_vsync_threshold">
+   		<item>عادي</item>
+   		<item>1</item>
+   		<item>2</item>
+   </string-array>
+   <string-array name="service_option_enable_disable">
+   		<item>Disable</item>
+   		<item>Enable</item>
+   </string-array>
+   <string-array name="service_option_agc_speed">
+   		<item>196</item>
+   		<item>206</item>
+   		<item>216</item>
+   		<item>219</item>
+   		<item>222</item>
+   		<item>248</item>
+   		<item>250</item>
+   		<item>251</item>
+   		<item>Default</item>
+   		<item>89</item>
+   		<item>105</item>
+   		<item>121</item>
+   		<item>137</item>
+   		<item>158</item>
+   		<item>172</item>
+   		<item>185</item>
+   </string-array>
+    <string-array name="programme_timer_repeat">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+   </string-array>
+   
+</resources> 

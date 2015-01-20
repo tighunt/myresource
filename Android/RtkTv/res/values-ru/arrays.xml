@@ -1,0 +1,281 @@
+<resources>
+	<string-array name="pic_ratio">
+        <item>Полный экран</item>
+        <item>Киноформат</item>
+        <item>Субтитры</item>
+        <item>14:9</item>
+        <item>Точка-в-точку</item>
+        <item>Масштабирование</item>
+        <item>Нормальный</item>
+        <item>Естественный</item>
+        <item>Широкий экран</item>
+        <item>4:3</item>
+        <item>ПК широкоформ.</item>
+        <item>ПК нормальный</item>
+    </string-array>
+	<string-array name="sourcelist_aka">
+        <item>--</item>
+        <item>Усилитель</item>
+        <item>Кабель</item>
+        <item>DVD</item>
+        <item>Игры</item>
+        <item>PC</item>
+        <item>Проигрыватель</item>
+        <item>Спутник</item>
+        <item>VCR</item>
+    </string-array>
+	<string-array name="color_temperature">
+        <item>Теплый</item>
+        <item>Естественный</item>
+        <item>Прохладный</item>
+    </string-array>
+	<string-array name="yes_no">
+        <item>Нет</item>
+        <item>Да</item>
+    </string-array>
+	<string-array name="inputs">
+        <item>DTV</item>
+        <item>ATV</item>
+        <item>EXT 1</item>
+        <item>EXT 2</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>PC</item>
+    </string-array>
+	<string-array name="power_bass_booster">
+        <item> Выкл</item>
+        <item>Нормальный</item>
+        <item>Super</item>
+    </string-array>
+	<string-array name="sound_mode">
+		<item>Динамическое</item>
+        <item>Естественный</item>
+        <item>Четкий голос</item>  
+    </string-array>
+	<string-array name="mts">
+        <item>Авто</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>SAP</item>
+    </string-array>
+	 <string-array name="atv_receiving_sound_mode">
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>Двухканал</item>
+        <item>SAP</item>
+        <item>Стерео SAP</item>
+    </string-array>
+    <string-array name="dual">
+        <item>Язык 1</item>
+        <item>Язык 2</item>
+    </string-array>
+    <string-array name="audo_track">
+        <item>Моно</item>
+		<item>Моно 1</item>
+		<item>Моно 2</item>
+        <item>Язык 1</item>
+        <item>Язык 2</item>
+		<item>SAP</item>
+        <item>Стерео</item>
+    </string-array>
+	<string-array name="pic_mode">
+        <item>Intelligent AutoView</item>
+        <item>Динамическое</item>
+        <item>Футбол</item>
+        <item>Крикет</item>
+        <item>Стандартное</item>
+        <item>Мягкое</item>
+        <item>Кино</item>
+        <item>Режим Eco</item>
+        <item>Игры</item>
+        <item>PC</item>
+    </string-array>
+   	<string-array name="noise_nr">
+    	<item> Выкл</item>
+    	<item>Слабое</item>
+        <item>Среднее</item>
+        <item>Сильное</item>       
+    </string-array>
+    <string-array name="contrast_booster">
+    	<item> Выкл</item>
+    	<item>Слабое</item>
+        <item>Среднее</item>        
+        <item>Сильное</item>       
+    </string-array>
+    <string-array name="tv_mount">
+        <item>Подставка</item>
+        <item>Стена</item>
+    </string-array>
+	<string-array name="preference_teletext">
+        <item>Авто</item>
+        <item>Список</item>
+    </string-array>
+    <string-array name="preference_1_4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+	<string-array name="preference_pc_hdmi">
+        <item>PC</item>
+        <item>HDMI 1</item>
+    </string-array>
+    <string-array name="preference_hdmi_audio">
+        <item>Авто</item>
+        <item>Цифровой</item>
+        <item>Аналоговый</item>
+    </string-array>
+	<string-array name="tabsetting_option_OnOff">
+		<item> Выкл</item>
+        <item>Вкл</item>
+    </string-array>
+    <string-array name ="setup_country">
+        <item>Бахрейн</item>
+        <item>Индия</item>
+        <item>Индонезия</item>
+        <item>Израиль</item>
+        <item>Кувейт</item>
+        <item>Малайзия</item>
+        <item>Филиппины</item>
+        <item>Катар</item>
+        <item>Саудовская Аравия</item>
+        <item>Сингапур</item>
+        <item>Таиланд</item>
+        <item>Объединенные Арабские Эмираты</item>
+        <item>Вьетнам</item>
+    </string-array>
+    <string-array name="setup_option_location">
+		<item>Дом</item>
+        <item>Магазин</item>
+    </string-array>
+	<string-array name="tabsettingsound_adsettup_avl">
+        <item>Вкл</item>
+        <item> Выкл</item>
+    </string-array>
+    <string-array name="tabsettingsound_adsettup_spdif">
+        <item>SPDIF RAW</item>
+        <item>SPDIF LPCM</item>
+    </string-array>
+    
+	<string-array name="tabsettingpicture_personal_noise">
+        <item> Выкл</item>
+        <item>Слабое</item>
+        <item>Среднее</item>
+        <item>Сильное</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcc">
+        <item>Вкл</item>
+        <item> Выкл</item>
+    </string-array>
+    <string-array name="tabsettingpicture_adsetup_dcr">
+        <item>Вкл</item>
+        <item> Выкл</item>
+    </string-array>
+    <string-array name="tabsettingsetting_osd_exhibitiontime">
+        <item>None</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>45s</item>
+        <item>60s</item>
+    </string-array>
+    
+    <string-array name="tabsettingchannel_chantenna_tvsource">
+        <item>AIR</item>
+        <item>Кабель</item>
+    </string-array>
+	<string-array name="setting_other_adj_hdmisource">
+        <item>Авто</item>
+        <item>HDMI</item>
+        <item>DVI</item>
+    </string-array>
+    <string-array name="setting_other_adj_sleeptimer">
+        <item> Выкл</item>
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>60 Min</item>
+        <item>90 Min</item>
+        <item>120 Min</item>
+    </string-array>
+    <string-array name="manual_tuning_system">
+        <item>D/K</item>
+        <item>I</item>
+        <item>B/G</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system">
+        <item>A</item>
+        <item>P</item>
+        <item>S</item>
+        <item>N4</item>
+        <item>N3</item>
+    </string-array>
+    <string-array name="manual_tuning_color_system_full">
+        <item>Авто</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC 4.43</item>
+        <item>NTSC 3.58</item>
+    </string-array>
+    <string-array name="manual_tuning_sigclass">
+        <item>C</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="manual_tuning_search">
+        <item>Вверх</item>
+        <item>Вниз</item>
+   </string-array>
+   <string-array name="service_option_normal_special">
+   		<item>Нормальный</item>
+   		<item>Special</item>
+   </string-array>
+   <string-array name="service_option_white_tail">
+   		<item>Нормальный</item>
+   		<item>1</item>
+   		<item>2</item>
+		<item>3</item>
+   		<item>4</item>
+   </string-array>
+   <string-array name="service_option_H_jitter">
+   		<item>Нормальный</item>
+   		<item>_01</item>
+   		<item>_02</item>
+   		<item>_03</item>
+   		<item>_04</item>
+   		<item>_05</item>
+   </string-array>      
+   <string-array name="service_option_vsync_threshold">
+   		<item>Нормальный</item>
+   		<item>1</item>
+   		<item>2</item>
+   </string-array>
+   <string-array name="service_option_enable_disable">
+   		<item>Disable</item>
+   		<item>Enable</item>
+   </string-array>
+   <string-array name="service_option_agc_speed">
+   		<item>196</item>
+   		<item>206</item>
+   		<item>216</item>
+   		<item>219</item>
+   		<item>222</item>
+   		<item>248</item>
+   		<item>250</item>
+   		<item>251</item>
+   		<item>Default</item>
+   		<item>89</item>
+   		<item>105</item>
+   		<item>121</item>
+   		<item>137</item>
+   		<item>158</item>
+   		<item>172</item>
+   		<item>185</item>
+   </string-array>
+    <string-array name="programme_timer_repeat">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+   </string-array>
+   
+</resources> 

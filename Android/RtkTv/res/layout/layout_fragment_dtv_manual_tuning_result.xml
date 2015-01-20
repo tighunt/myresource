@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Pane.Dialog"
+    android:layout_width="540dp"
+    android:layout_height="420dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/Widget.Tv.TextView.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pane_padding"
+            android:paddingLeft="@dimen/pane_padding"
+            android:paddingRight="@dimen/pane_padding"
+            android:paddingTop="@dimen/pane_padding"
+            android:text="@string/dtv_channel_manager"
+            android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Title" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginBottom="@dimen/pane_padding_half"
+            android:layout_marginLeft="@dimen/pane_padding"
+            android:layout_marginRight="@dimen/pane_padding"
+            android:layout_marginTop="@dimen/pane_padding_half" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pane_padding"
+        android:layout_marginRight="@dimen/pane_padding"
+        android:paddingBottom="@dimen/pane_padding_half"
+        android:paddingTop="@dimen/pane_padding_half" >
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="@dimen/pane_padding_half"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="@string/STRING_POSITION"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pane_padding_half"
+            android:layout_marginRight="@dimen/pane_padding_half"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="@string/STRING_NAME"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pane_padding_half"
+            android:layout_marginRight="@dimen/pane_padding_half"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="@string/num"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pane_padding_half"
+            android:layout_marginRight="@dimen/pane_padding_half"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="@string/service_id"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pane_padding_half"
+            android:layout_marginRight="@dimen/pane_padding_half"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="@string/frequency"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/pane_padding"
+        android:layout_marginRight="@dimen/pane_padding"
+        android:layout_weight="1"
+        android:choiceMode="none"
+        android:fadeScrollbars="false"
+        android:fadingEdge="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        tools:listitem="@layout/item_dtv_manual_tuning" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_manual_tuning"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/STRING_MANUAL_TUNING" />
+
+        <Button
+            android:id="@+id/button_sort"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/STRING_SORT" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Pane.Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            style="@style/Widget.Tv.TextView.Hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_hint_red"
+            android:text="@string/delete" />
+
+        <TextView
+            style="@style/Widget.Tv.TextView.Hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_hint_green"
+            android:text="@string/move" />
+
+        <TextView
+            style="@style/Widget.Tv.TextView.Hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_hint_yellow"
+            android:text="@string/favorite" />
+
+        <TextView
+            style="@style/Widget.Tv.TextView.Hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_hint_blue"
+            android:text="@string/lock_unlock" />
+    </LinearLayout>
+
+</LinearLayout>

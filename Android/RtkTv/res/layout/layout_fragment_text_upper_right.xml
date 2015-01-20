@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right|top"
+    android:background="@android:drawable/alert_dark_frame" >
+
+    <TextView
+        android:id="@+id/text_upper_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/pane_padding_quarter"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@null"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+</FrameLayout>
