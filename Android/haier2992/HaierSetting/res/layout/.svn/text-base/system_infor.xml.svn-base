@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="600dip"
+        android:background="@drawable/set_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/system_information"
+            android:textColor="#CCCCCCCC"
+            android:textSize="28sp" 
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/line" >
+        </ImageView>
+
+
+<!--         <TextView -->
+<!--             android:id="@+id/system_info" -->
+<!--             android:layout_width="960dip" -->
+<!--             android:layout_height="300dip" -->
+<!--             android:layout_gravity="center_horizontal" -->
+<!--             android:layout_marginTop="25dip" -->
+<!--             android:background="@drawable/taskbar_blue" -->
+<!--             android:paddingLeft="20dip" -->
+<!--             android:paddingRight="10dip" -->
+<!--             android:paddingTop="20dip" -->
+<!--             android:singleLine="false" -->
+<!--             android:textColor="#CCCCCCCC" -->
+<!--             android:textSize="18sp" > -->
+<!--         </TextView> -->
+        <TextView
+            android:id="@+id/system_info"
+            android:layout_width="960dip"
+            android:layout_height="300dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="25dip"
+            android:background="@drawable/taskbar_blue"
+            android:singleLine="true"
+            android:textColor="#CCCCCCCC"
+            android:textSize="28sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dip"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" 
+            android:background="@drawable/left_bg"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:layout_marginBottom="40dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <!-- <include layout="@layout/bottom_back" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

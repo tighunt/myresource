@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_account_okcancel"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dip" 
+    android:layout_marginTop="40dip" >
+
+    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+
+	        <Button
+	            android:id="@+id/ok"
+	            android:layout_width="200dip"
+	            android:layout_height="40dip"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="330dip"
+	            android:background="@drawable/button_change1"
+	            android:text="@string/ok"
+	            android:textSize="24sp" 
+	            android:textColor="#FFFFFFFF"
+	            android:visibility="invisible"/>
+           <Button
+	            android:id="@+id/cancel"
+	            android:layout_width="200dip"
+	            android:layout_height="40dip"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="200dip"
+	            android:background="@drawable/button_change1"
+	            android:text="@string/cancle"
+	            android:textSize="24sp" 
+	            android:textColor="#FFFFFFFF"
+	            android:visibility="invisible"/>
+            </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac
+END
+FlacTagCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/FlacTagCreator.java
+END
+FlacFileWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/FlacFileWriter.java
+END
+FlacInfoReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/FlacInfoReader.java
+END
+FlacStreamReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/FlacStreamReader.java
+END
+FlacTagReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/FlacTagReader.java
+END
+FlacFileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/FlacFileReader.java
+END
+FlacTagWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/FlacTagWriter.java
+END

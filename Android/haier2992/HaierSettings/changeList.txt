@@ -1,0 +1,78 @@
+软件名称：【系统设置】; 版本号：【1.0.17】 ;发布日期：【2012-02-15 ;发布人：【scott.fan】;TAG：【3604】
+路径：src\com\android\settings\Settings.java
+
+1、删除不必要的包。
+2、修改包名com.android.settings.application为com.android.settings.applications。
+3、增加包名com.android.settings.inputmethod,将LanguageSettings.java从com.android.settings中移置过来，
+        并将LanguageSettings.java类名修改为InputMethodAndLanguageSettingsActivity.java。
+4、删除包com.android.settings.language,并将其下的类KeyboadrSelectDialog.java和LanguageSelectDialog.java移置过来。
+5、网络设置模块PPPOE联网bug修复。
+
+2012-01-11
+未发布版本
+1、与服务端联调，将测试地址改为正是地址。
+2、下载地址的变化：获取升级包的大小，如果升级包的大小大于cache大小，升级包下载到U盘，否则，下载到cache分区。
+3、版本号读取system/build.prop中的ro.build.version.incremental
+       平台号读取system/build.prop中的ro.build.description
+
+       
+konka 
+2012-1-13修改
+1.公板settings应用管理页面鼠标输入
+2.公板settings网络设置页鼠标输入
+3.公板settings3d设置页面鼠标输入
+4.公板settings音频设置页面鼠标输入
+5.公板settings视频设置页面鼠标输入
+6.bug修复：连接方式切换时报越界异常
+
+
+2012-1-13 yanhd
+【修改bug】
+1，0219930 设置-关于中存在字体重叠现象 。
+2，0219929 设置-语言和键盘设置-语言设置中,当当前语言为中文时,进入该选项,英文输入法显示为z 。
+3，显示时区的Dialog 未能将页数显示出来。
+
+【残留问题】
+（1，设置日期后，当时生效当重启板子后恢复207-1-1）
+
+2012-1-14 yanhd
+1，修改网络设置中，ip地址输入框焦点移动方式。
+2，修改网络设置中，ip地址输入框为超出范围时 将文本设为最后一次输入数字。
+3，修改网络设置中，ip输入或pppoe输入完成后焦点移到左侧后，自动保存设置。
+
+2012-1-18
+1,优化 有线网络，DHCP 和静态ip功能。
+
+2012-1-31 yanhd
+1,完善 wifi 的静态IP 设置功能。
+
+2012-2-1 yanhd
+1,增加网络状态框中的有线,和无线的ip显示.
+
+2012-2-2 yanhd 
+1,增加有线，无线，自动刷新ip功能
+1，增加wifi 的忘记功能。
+
+2012-2-3 yanhd
+1，增加wifi 根据之前已保存的wifi 设置来连接网络的功能。
+
+2012-2-7 yanhd
+1，添加无线PPPoE功能。
+2012-2-10
+1.修正android.process.acore停止运行前的问题，添加相应权限
+2.wifi 软键盘问题修正
+
+2012-2-10 yangf
+1、修正时间、日期设置弹出输入法软件盘
+2、时间设置在分输入框中输入不合规范的分钟，退出系统的bug。
+涉及类：
+1、com.android.settings.datetime.DateSettingDialog
+2、com.android.settings.datetime.TimeSettingDialog
+
+2012-2-11 scott.fan
+1.修正允许安装非AppStore应用
+2.修正安装程序可以自动中转到允许安装非AppStore应用界面
+
+2012-2-15
+1.pppoe网络为优先.当进行拨号时 首先将 有线ip清空，然后再进行拨号。一旦拨号成功上网。就不允许有线 修改ip了避免冲突。
+2.添加系统恢复功能，清除用户数据

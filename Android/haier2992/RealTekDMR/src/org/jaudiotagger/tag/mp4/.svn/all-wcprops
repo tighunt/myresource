@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4
+END
+Mp4TagField.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/Mp4TagField.java
+END
+Mp4NonStandardFieldKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/Mp4NonStandardFieldKey.java
+END
+Mp4Tag.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/Mp4Tag.java
+END
+Mp4TagCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/Mp4TagCreator.java
+END
+Mp4FieldKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/Mp4FieldKey.java
+END

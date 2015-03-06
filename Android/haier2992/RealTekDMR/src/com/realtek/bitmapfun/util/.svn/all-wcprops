@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/Utils.java
+END
+DiskLruCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/DiskLruCache.java
+END
+EffectListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/EffectListener.java
+END
+FadeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/FadeListener.java
+END
+RetainFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/RetainFragment.java
+END
+PicSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/PicSize.java
+END
+ImageCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/ImageCache.java
+END
+ImageWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/ImageWorker.java
+END
+LoadingControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/LoadingControl.java
+END
+ImageFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/ImageFetcher.java
+END
+ImageResizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/ImageResizer.java
+END
+FileFilterType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/FileFilterType.java
+END
+CommonFrargmentWithImageWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/CommonFrargmentWithImageWorker.java
+END
+ImageFileSystemFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/ImageFileSystemFetcher.java
+END
+ReturnSizes.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/ReturnSizes.java
+END
+CommonActivityWithImageWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/bitmapfun/util/CommonActivityWithImageWorker.java
+END

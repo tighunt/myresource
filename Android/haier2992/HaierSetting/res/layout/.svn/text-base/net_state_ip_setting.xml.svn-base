@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/net_state_net_ip_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <RelativeLayout
+        android:id="@+id/ip_address_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:paddingLeft="30dip"
+            android:text="@string/ip_address"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_ip_four"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_ip_three"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_ip_four"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_ip_two"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_ip_three"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_ip_one"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_ip_two"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/subnet_mask_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:paddingLeft="30dip"
+            android:text="@string/subnet_mask"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_subnet_four"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_subnet_three"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_subnet_four"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_subnet_two"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_subnet_three"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_subnet_one"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_subnet_two"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/default_gateway_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:numeric="integer"
+            android:paddingLeft="30dip"
+            android:text="@string/default_geteway"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_geteway_four"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_geteway_three"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_geteway_four"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_geteway_two"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_geteway_three"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_geteway_one"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_geteway_two"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/first_dns_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:paddingLeft="30dip"
+            android:text="@string/first_dns"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_first_four"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_first_three"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_first_four"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_first_two"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_first_three"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_first_one"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_first_two"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+    </RelativeLayout>
+	
+    <!-- [2012-3-29yanhd add] second dns-->
+    <RelativeLayout
+        android:id="@+id/second_dns_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:paddingLeft="30dip"
+            android:text="@string/second_dns"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_second_four"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_second_three"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_second_four"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_second_two"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_second_three"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_second_one"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@id/net_state_second_two"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+    </RelativeLayout>
+    <!-- [2012-3-29yanhd add]  end -->
+    
+    
+    <RelativeLayout
+        android:id="@+id/mac_address_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:paddingLeft="30dip"
+            android:text="@string/wire_mac_address"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_mac_address"
+            android:layout_width="300dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="17"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+    </RelativeLayout>
+    
+         <RelativeLayout
+        android:id="@+id/mac2_address_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:paddingLeft="30dip"
+            android:text="@string/wireless_mac_address"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/net_state_mac2_address"
+            android:layout_width="300dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:focusable="false"
+            android:gravity="left"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="17"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+
+	<declare-styleable name="WifiEncryptionState">
+		<attr format="boolean" name="state_encrypted" />
+	</declare-styleable>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:visibility="gone" >
+
+    <ListView
+        android:id="@+id/app_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/app_select_item"
+        android:minHeight="60dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="30dip"
+        android:textColor="#FFFFFFFF">
+    </ListView>
+
+</LinearLayout>

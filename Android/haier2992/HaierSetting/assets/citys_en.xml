@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<haier version="2.0">
+  <china>
+    <province pid="1" pname="BJ">
+      <city locid="110000" name="BJ"></city>
+    </province>
+    <province pid="2" pname="TJ">
+      <city locid="120000" name="TJ"></city>
+    </province>
+    <province pid="3" pname="HB">
+      <city locid="130100" name="sjz"></city>
+      <city locid="130200" name="ts"></city>
+      <city locid="130300" name="qhd"></city>
+      <city locid="130400" name="hd"></city>
+      <city locid="130500" name="xt"></city>
+      <city locid="130600" name="bd"></city>
+      <city locid="130700" name="zjk"></city>
+      <city locid="130800" name="cd"></city>
+      <city locid="130900" name="cz"></city>
+      <city locid="131000" name="lf"></city>
+      <city locid="131100" name="hs"></city>
+    </province>
+    <province pid="4" pname="SX">
+      <city locid="140100" name="ty"></city>
+      <city locid="230606" name="dt"></city>
+      <city locid="140300" name="yq"></city>
+      <city locid="140400" name="cz"></city>
+      <city locid="140500" name="jc"></city>
+      <city locid="140600" name="sz"></city>
+      <city locid="140700" name="jz"></city>
+      <city locid="140800" name="yc"></city>
+      <city locid="140900" name="xz"></city>
+      <city locid="141000" name="lf"></city>
+    </province>
+    <province pid="5" pname="NMG">
+      <city locid="150100" name="hhht"></city>
+      <city locid="150200" name="bt"></city>
+      <city locid="150300" name="wh"></city>
+      <city locid="150400" name="cf"></city>
+      <city locid="150500" name="tl"></city>
+      <city locid="150600" name="eeds"></city>
+      <city locid="150700" name="hlbe"></city>
+    </province>
+    <province pid="6" pname="LN">
+      <city locid="210100" name="sy"></city>
+      <city locid="210200" name="dl"></city>
+      <city locid="210300" name="as"></city>
+      <city locid="210400" name="fs"></city>
+      <city locid="210521" name="bx"></city>
+      <city locid="210600" name="dd"></city>
+      <city locid="210700" name="jz"></city>
+      <city locid="210800" name="yk"></city>
+      <city locid="210921" name="fx"></city>
+      <city locid="211000" name="ly"></city>
+      <city locid="211100" name="pj"></city>
+      <city locid="211200" name="tl"></city>
+      <city locid="211300" name="cy"></city>
+      <city locid="211400" name="HuLD"></city>
+    </province>
+    <province pid="7" pname="JL">
+      <city locid="220100" name="cc"></city>
+      <city locid="220000" name="jl"></city>
+      <city locid="220300" name="sp"></city>
+      <city locid="220400" name="ly"></city>
+      <city locid="220500" name="th"></city>
+      <city locid="220600" name="bs"></city>
+      <city locid="220700" name="sy"></city>
+      <city locid="220800" name="bc"></city>
+      <city locid="222400" name="yb"></city>
+    </province>
+    <province pid="8" pname="HLJ">
+      <city locid="230100" name="heb"></city>
+      <city locid="230200" name="qqhe"></city>
+      <city locid="230300" name="jx"></city>
+      <city locid="230400" name="hg"></city>
+      <city locid="230500" name="sys"></city>
+      <city locid="230600" name="dq"></city>
+      <city locid="230702" name="yc"></city>
+      <city locid="230800" name="jms"></city>
+      <city locid="230900" name="qth"></city>
+      <city locid="231000" name="mdj"></city>
+      <city locid="231100" name="hh"></city>
+      <city locid="231200" name="sh"></city>
+      <city locid="232700" name="dxal"></city>
+    </province>
+    <province pid="9" pname="SH">
+      <city locid="310000" name="SH"></city>
+    </province>
+    <province pid="10" pname="JS">
+      <city locid="320100" name="nj"></city>
+      <city locid="320200" name="wx"></city>
+      <city locid="320300" name="xz"></city>
+      <city locid="320400" name="cz"></city>
+      <city locid="320500" name="sz"></city>
+      <city locid="320600" name="nt"></city>
+      <city locid="320700" name="lyg"></city>
+      <city locid="320800" name="ha"></city>
+      <city locid="320900" name="yc"></city>
+      <city locid="321000" name="yz"></city>
+      <city locid="321100" name="zj"></city>
+      <city locid="321200" name="tz"></city>
+      <city locid="321300" name="sq"></city>
+    </province>
+    <province pid="11" pname="ZJ">
+      <city locid="330100" name="hz"></city>
+      <city locid="330200" name="nb"></city>
+      <city locid="330300" name="wz"></city>
+      <city locid="330400" name="jx"></city>
+      <city locid="330500" name="hz"></city>
+      <city locid="330600" name="sx"></city>
+      <city locid="330700" name="jh"></city>
+      <city locid="330800" name="qz"></city>
+      <city locid="330900" name="zs"></city>
+      <city locid="331000" name="tz"></city>
+      <city locid="331100" name="ls"></city>
+    </province>
+    <province pid="12" pname="AH">
+      <city locid="340100" name="hf"></city>
+      <city locid="340200" name="wh"></city>
+      <city locid="340300" name="bb"></city>
+      <city locid="340400" name="hn"></city>
+      <city locid="340500" name="mas"></city>
+      <city locid="340600" name="hb"></city>
+      <city locid="340700" name="tl"></city>
+      <city locid="340800" name="aq"></city>
+      <city locid="341003" name="hs"></city>
+      <city locid="341100" name="cz"></city>
+      <city locid="341200" name="fy"></city>
+      <city locid="341300" name="sz"></city>
+      <city locid="341400" name="zh"></city>
+      <city locid="341500" name="la"></city>
+      <city locid="341600" name="bz"></city>
+      <city locid="341700" name="cz"></city>
+      <city locid="341800" name="xc"></city>
+    </province>
+    <province pid="13" pname="FJ">
+      <city locid="350100" name="fz"></city>
+      <city locid="350200" name="xm"></city>
+      <city locid="350300" name="pt"></city>
+      <city locid="350400" name="sm"></city>
+      <city locid="350500" name="qz"></city>
+      <city locid="350600" name="zz"></city>
+      <city locid="350700" name="np"></city>
+      <city locid="350800" name="ly"></city>
+      <city locid="350900" name="nd"></city>
+    </province>
+    <province pid="14" pname="JX">
+	  <city locid="360100" name="nc" />
+	  <city locid="360200" name="jdz" />
+	  <city locid="360300" name="px" />
+	  <city locid="360400" name="jj" />
+	  <city locid="360500" name="xy" />
+	  <city locid="360600" name="yt" />
+	  <city locid="360700" name="gz" />
+	  <city locid="360800" name="ja" />
+	  <city locid="360900" name="yc" />
+	  <city locid="361000" name="fz" />
+	  <city locid="361100" name="sr" />
+    </province>
+    <province pid="15" pname="SD">
+      <city locid="370100" name="jn" />
+      <city locid="370200" name="qd" />
+      <city locid="370300" name="zb" />
+      <city locid="370400" name="zz" />
+      <city locid="370502" name="dy" />
+      <city locid="370600" name="yt" />
+      <city locid="370700" name="wf" />
+      <city locid="370800" name="jn" />
+      <city locid="370900" name="ta" />
+      <city locid="371000" name="wh" />
+      <city locid="371100" name="rz" />
+      <city locid="371200" name="lw" />
+      <city locid="371300" name="ly" />
+      <city locid="371400" name="dz" />
+      <city locid="371500" name="lc" />
+      <city locid="371600" name="bz" />
+      <city locid="371700" name="hz" />
+   </province>
+   <province pid="16" pname="HN">
+      <city locid="410100" name="zz" />
+      <city locid="410200" name="kf" />
+      <city locid="410300" name="ly" />
+      <city locid="410400" name="pds" />
+      <city locid="410500" name="ay" />
+      <city locid="410600" name="hb" />
+      <city locid="410700" name="xx" />
+      <city locid="410800" name="jz" />
+      <city locid="410900" name="py" />
+      <city locid="411000" name="xc" />
+      <city locid="411100" name="lh" />
+      <city locid="411200" name="smx" />
+      <city locid="411300" name="ny" />
+      <city locid="411400" name="sq" />
+      <city locid="411500" name="xy" />
+      <city locid="411600" name="zk" />
+      <city locid="411700" name="zmd" />
+   </province>
+   <province pid="17" pname="HAB">
+      <city locid="420100" name="wh" />
+      <city locid="420202" name="hs" />
+      <city locid="420300" name="sy" />
+      <city locid="420500" name="yc" />
+      <city locid="420600" name="xf" />
+      <city locid="420700" name="ez" />
+      <city locid="420800" name="jm" />
+      <city locid="420900" name="xg" />
+      <city locid="421003" name="jz" />
+      <city locid="421100" name="hg" />
+      <city locid="421200" name="xn" />
+      <city locid="421300" name="sz" />
+      <city locid="422801" name="es" />
+   </province>
+   <province pid="18" pname="HAN">
+      <city locid="430100" name="cs" />
+      <city locid="430200" name="zz" />
+      <city locid="430300" name="xt" />
+      <city locid="430400" name="hy" />
+      <city locid="430500" name="sy" />
+      <city locid="430602" name="yy" />
+      <city locid="430700" name="cd" />
+      <city locid="430800" name="zjj" />
+      <city locid="430900" name="yy" />
+      <city locid="431000" name="cz" />
+      <city locid="431100" name="yz" />
+      <city locid="431200" name="hh" />
+      <city locid="431300" name="ld" />
+   </province>
+   <province pid="19" pname="GD">
+      <city locid="440100" name="gz" />
+      <city locid="440200" name="sg" />
+      <city locid="440300" name="sz" />
+      <city locid="440400" name="zh" />
+      <city locid="440500" name="st" />
+      <city locid="440600" name="fs" />
+      <city locid="440700" name="jm" />
+      <city locid="440800" name="zj" />
+      <city locid="440900" name="mm" />
+      <city locid="441200" name="Zzq" />
+      <city locid="441300" name="hz" />
+      <city locid="441400" name="mz" />
+      <city locid="441500" name="sw" />
+      <city locid="441600" name="hy" />
+      <city locid="441700" name="yj" />
+      <city locid="441800" name="qy" />
+      <city locid="441900" name="dg" />
+      <city locid="210202" name="zs" />
+      <city locid="445100" name="cZ" />
+      <city locid="445200" name="jy" />
+      <city locid="445300" name="yf" />
+   </province>
+   <province pid="20" pname="GX">
+      <city locid="450100" name="nn" />
+      <city locid="450200" name="lz" />
+      <city locid="450300" name="gl" />
+      <city locid="450400" name="wz" />
+      <city locid="450500" name="bh" />
+      <city locid="450600" name="fgc" />
+      <city locid="450700" name="qz" />
+      <city locid="450800" name="gg" />
+      <city locid="450900" name="yl" />
+      <city locid="451000" name="bs" />
+      <city locid="451100" name="hz" />
+      <city locid="451200" name="hc" />
+   </province>
+   <province pid="21" pname="HBN">
+      <city locid="460100" name="hk" />
+      <city locid="460200" name="sy" />
+   </province>
+   <province pid="22" pname="CQ">
+      <city locid="500000" name="CQ" />
+   </province>
+   <province pid="23" pname="SC">
+      <city locid="510100" name="cd" />
+      <city locid="510300" name="zg" />
+      <city locid="510400" name="pzh" />
+      <city locid="510500" name="lz" />
+      <city locid="510600" name="dy" />
+      <city locid="510700" name="my" />
+      <city locid="510800" name="gy" />
+      <city locid="510900" name="sn" />
+      <city locid="511000" name="nj" />
+      <city locid="511100" name="ls" />
+      <city locid="511300" name="nc" />
+      <city locid="511400" name="ms" />
+      <city locid="511500" name="yb" />
+      <city locid="511602" name="ga" />
+      <city locid="511700" name="dz" />
+      <city locid="511800" name="ya" />
+      <city locid="511900" name="bz" />
+      <city locid="430902" name="zy" />
+      <city locid="513200" name="ab" />
+      <city locid="513300" name="gz" />
+   </province>
+   <province pid="24" pname="GZ">
+      <city locid="520100" name="gy" />
+      <city locid="520200" name="lps" />
+      <city locid="520300" name="zy" />
+      <city locid="520400" name="as" />
+      <city locid="522200" name="tr" />
+      <city locid="522300" name="qxn" />
+      <city locid="522400" name="bj" />
+   </province>
+   <province pid="25" pname="YN">
+      <city locid="530100" name="km" />
+      <city locid="530300" name="qj" />
+      <city locid="530400" name="yx" />
+      <city locid="530500" name="bs" />
+      <city locid="530600" name="st" />
+      <city locid="530700" name="lj" />
+      <city locid="530802" name="sm" />
+      <city locid="530900" name="lc" />
+      <city locid="532301" name="cx" />
+      <city locid="532500" name="hh" />
+      <city locid="532621" name="ws" />
+      <city locid="532800" name="xsbn" />
+      <city locid="532900" name="dl" />
+      <city locid="533100" name="dh" />
+      <city locid="533300" name="nj" />
+   </province>
+   <province pid="26" pname="XZ">
+      <city locid="540100" name="ls" />
+      <city locid="542100" name="cd" />
+      <city locid="542300" name="rkz" />
+      <city locid="542400" name="nq" />
+      <city locid="542600" name="lz" />
+   </province>
+   <province pid="27" pname="SAX">
+      <city locid="610100" name="xa" />
+      <city locid="610200" name="tc" />
+      <city locid="610300" name="bj" />
+      <city locid="610400" name="xy" />
+      <city locid="610500" name="wn" />
+      <city locid="610600" name="yn" />
+      <city locid="610700" name="hz" />
+      <city locid="610800" name="yl" />
+      <city locid="610900" name="ak" />
+      <city locid="611000" name="sl" />
+   </province>
+   <province pid="28" pname="GS">
+      <city locid="620100" name="lz" />
+      <city locid="620200" name="jyg" />
+      <city locid="620300" name="jc" />
+      <city locid="620402" name="by" />
+      <city locid="620500" name="ts" />
+      <city locid="620600" name="ww" />
+      <city locid="620700" name="zy" />
+      <city locid="620800" name="pl" />
+      <city locid="620900" name="jq" />
+      <city locid="621000" name="qy" />
+      <city locid="621100" name="dx" />
+      <city locid="622900" name="lx" />
+      <city locid="623000" name="gn" />
+   </province>
+   <province pid="29" pname="QH">
+      <city locid="630100" name="xn" />
+      <city locid="632100" name="hd" />
+      <city locid="632600" name="gl" />
+      <city locid="632700" name="ys" />
+   </province>
+   <province pid="30" pname="NX">
+      <city locid="640100" name="yc" />
+      <city locid="640200" name="szs" />
+      <city locid="640300" name="wz" />
+      <city locid="640400" name="gy" />
+      <city locid="640500" name="zw" />
+   </province>
+   <province pid="31" pname="XJ">
+      <city locid="650100" name="wlmq" />
+      <city locid="650203" name="klmy" />
+      <city locid="652100" name="tlf" />
+      <city locid="652200" name="hm" />
+      <city locid="652300" name="cj" />
+      <city locid="652900" name="aks" />
+      <city locid="653100" name="ks" />
+      <city locid="653200" name="ht" />
+      <city locid="654000" name="yl" />
+      <city locid="654200" name="tc" />
+      <city locid="654300" name="alt" />
+      <city locid="659001" name="shz" />
+   </province>
+   <province pid="32" pname="HK">
+      <city locid="810000" name="HK" />
+   </province>
+   <province pid="33" pname="MO">
+      <city locid="820000" name="MO" />
+   </province>
+   <province pid="34" pname="TW">
+      <city locid="831000" name="tb" />
+      <city locid="832000" name="tz" />
+      <city locid="833000" name="gx" />
+   </province> 
+  </china>
+</haier>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/other_intelligenteye"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/one_px"
+    android:minHeight="60dip" >
+
+    <TextView
+        android:id="@+id/intelligenteye_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_centerVertical="true"
+        android:paddingLeft="60dip"
+        android:text="@string/intelligent_eye"
+        android:textColor="#CCCCCCCC"
+        android:textSize="22sp"
+        android:enabled="false"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/intelligentyey_mode_return"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignRight="@+id/intelligenteye_set"
+        android:layout_centerVertical="true"
+        android:paddingLeft="60dip"
+        android:text="@string/intelligent_eye_mode1"
+        android:textColor="#CCCCCCCC"
+        android:textSize="22sp"
+        android:enabled="false"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/intelligenteye_set"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="60dip"
+        android:background="@drawable/one_px"
+        android:textColor="#CCCCCCCC"
+        android:textSize="20sp"
+        android:enabled="false"
+        android:focusable="false" />
+
+</RelativeLayout>

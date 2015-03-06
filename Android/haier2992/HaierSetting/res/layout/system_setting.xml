@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="600dip"
+        android:background="@drawable/set_bg"
+        android:orientation="vertical"
+        android:alpha="178">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/system_setting_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:text="@string/system_setting"
+                android:textSize="28sp" 
+                android:textColor="#CCCCCCCC"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/line">
+            </ImageView>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/system_list_select"
+            android:layout_width="fill_parent"
+            android:layout_height="460dip"
+            android:listSelector="@drawable/select_item"
+            android:scrollbars="none"
+            android:paddingTop="10dip"
+            android:minHeight="50dip">
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_marginBottom="40dip"
+                android:background="@drawable/line">
+            </ImageView>
+
+      <!--       <include layout="@layout/bottom" >
+            </include> -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

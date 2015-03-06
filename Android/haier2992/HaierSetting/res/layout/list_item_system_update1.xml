@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/updateItem1"
+        android:layout_width="320dip"
+        android:layout_height="60dip"
+        android:paddingLeft="60dip"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFFFF"
+        android:textSize="22sp" />
+    <ImageView
+        android:id="@+id/imageupdateItem"
+        android:layout_width="wrap_content"
+        android:layout_height="20dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="600dip"
+        android:background="@drawable/set_drop"/>
+
+</LinearLayout>

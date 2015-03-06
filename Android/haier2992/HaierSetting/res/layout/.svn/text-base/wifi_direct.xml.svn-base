@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_direct_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <RelativeLayout
+        android:id="@+id/wifi_direct_switch"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:minHeight="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/wifi_direct"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+        
+         <CheckBox
+            android:id="@+id/wifi_diect_checkbox"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:visibility="invisible"
+            android:nextFocusDown="@+id/device_discover_btn"
+            android:button="@drawable/custom_checkbox" />
+         
+         <CheckBox
+            android:id="@+id/wifi_diect_checkbox_en"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:visibility="invisible"
+            android:nextFocusDown="@+id/device_discover_btn_en"
+            android:button="@drawable/custom_checkbox_en" />
+
+    </RelativeLayout>
+
+    <TextView
+           	android:id="@+id/wifi_diect_deviceinfo"
+            android:layout_width="700dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip"
+            android:background="@drawable/net_state_bg"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp"/>
+    
+    <RelativeLayout
+        android:id="@+id/wifi_direct_discover"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/wlan_direct_device"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+        
+        <Button 
+            android:id="@+id/device_discover_btn"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70dip"
+            android:text="@string/device_discover"
+            android:textSize="18sp"
+            android:textColor="#FFFFFFFF"
+            android:visibility="invisible"
+            android:nextFocusUp="@+id/wifi_diect_checkbox"
+            android:nextFocusDown="@+id/direct_device_list"
+            android:background="@drawable/edit_normal"/>
+        
+        <Button 
+            android:id="@+id/device_discover_btn_en"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70dip"
+            android:text="@string/device_discover"
+            android:textSize="18sp"
+            android:textColor="#FFFFFFFF"
+            android:visibility="invisible"
+            android:nextFocusUp="@+id/wifi_diect_checkbox_en"
+            android:nextFocusDown="@+id/direct_device_list"
+            android:background="@drawable/edit_normal"/>
+        
+    </RelativeLayout>
+    <TextView
+        	android:id="@+id/wifi_direct_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="10dip"
+            android:paddingLeft="10dip"
+            android:textColor="#FFFFFFFF"
+            android:text="@string/device_list"
+            android:textSize="18sp"/>
+    <ListView
+            android:id="@+id/direct_device_list"
+            android:layout_width="700dip"
+            android:layout_height="180dip"
+            android:scrollbars="none"
+            android:paddingTop="10dip"
+            android:minHeight="50dip"
+            android:layout_marginLeft="30dip"
+            android:nextFocusUp="@+id/device_discover_btn"
+            android:listSelector="@drawable/select_item"
+            android:background="@drawable/net_state_bg">
+        
+    </ListView>
+    
+</LinearLayout>

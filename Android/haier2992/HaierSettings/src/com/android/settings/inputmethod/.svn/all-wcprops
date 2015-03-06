@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MM/mmandroid/!svn/ver/8036/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/inputmethod
+END
+KeyboadrSelectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MM/mmandroid/!svn/ver/8036/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/inputmethod/KeyboadrSelectDialog.java
+END
+LanguageSelectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/inputmethod/LanguageSelectDialog.java
+END
+InputMethodAndLanguageSettingsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 195
+/svn/MM/mmandroid/!svn/ver/8024/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/inputmethod/InputMethodAndLanguageSettingsActivity.java
+END
+InputMethodAndSubtypeEnablerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/inputmethod/InputMethodAndSubtypeEnablerActivity.java
+END

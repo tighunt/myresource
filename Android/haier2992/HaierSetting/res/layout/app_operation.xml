@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+
+    <Button
+        android:id="@+id/force_stop_btn"
+        android:layout_width="230dip"
+        android:layout_height="50dip"
+        android:background="@drawable/button_change"
+        android:text="@string/force_stop"
+        android:textColor="#CCCCCCCC"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/uninstall_btn"
+        android:layout_width="230dip"
+        android:layout_height="50dip"
+        android:background="@drawable/button_change"
+        android:paddingTop="5dip"
+        android:text="@string/uninstall_app"
+        android:textColor="#CCCCCCCC"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/clear_data_btn"
+        android:layout_width="230dip"
+        android:layout_height="50dip"
+        android:background="@drawable/button_change"
+        android:paddingTop="5dip"
+        android:text="@string/clear_data"
+        android:textColor="#CCCCCCCC"
+        android:textSize="24sp" />
+
+    <!--     zhoujf 2012-8-24 屏蔽  SDCARED 
+    <Button
+        android:id="@+id/move_app_btn"
+        android:layout_width="230dip"
+        android:layout_height="50dip"
+        android:background="@drawable/button_change"
+        android:paddingTop="5dip"
+        android:textColor="#CCCCCCCC"
+        android:textSize="24sp" />
+      -->  
+    <Button
+        android:id="@+id/set_btn"
+        android:layout_width="230dip"
+        android:layout_height="50dip"
+        android:background="@drawable/button_change"
+        android:text="@string/ok"
+        android:textColor="#CCCCCCCC"
+        android:textSize="24sp" />
+
+</LinearLayout>

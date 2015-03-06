@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wire_setting_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:gravity="center_vertical"
+        android:minHeight="50dip" >
+
+        <TextView
+        	android:id="@+id/notice_wire_status"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:paddingLeft="30dip"
+            android:text="@string/auto_ip"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+            
+        <Button
+            android:id="@+id/checkbox_auto_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+           
+            android:background="@drawable/close"
+            />
+      
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/ip_address" />
+
+        <include layout="@layout/subnet_mask" />
+
+        <include layout="@layout/default_gateway" />
+
+        <include layout="@layout/first_dns" />
+
+        <include layout="@layout/second_dns" />
+    </LinearLayout>
+
+</LinearLayout>

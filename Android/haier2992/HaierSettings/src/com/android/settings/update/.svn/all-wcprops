@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MM/mmandroid/!svn/ver/9738/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update
+END
+NetInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/NetInfo.java
+END
+UpdateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/UpdateService.java
+END
+JSONData.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/JSONData.java
+END
+SystemUpdateActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/SystemUpdateActivity.java
+END
+Updater.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MM/mmandroid/!svn/ver/8414/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/Updater.java
+END
+SystemRestoreActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/SystemRestoreActivity.java
+END
+IService.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/IService.java
+END
+UpgradeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/UpgradeTask.java
+END
+SystemNetUpdateActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/SystemNetUpdateActivity.java
+END
+IDownloadProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/IDownloadProgressListener.java
+END
+UpgradeReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/MM/mmandroid/!svn/ver/8414/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/UpgradeReceiver.java
+END
+SystemBackupUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/SystemBackupUpdate.java
+END
+SystemLocalUpdateActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/SystemLocalUpdateActivity.java
+END
+VersionInfor.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/VersionInfor.java
+END
+MD5.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/MD5.java
+END
+SystemBackupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/SystemBackupActivity.java
+END
+SDCardListenerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/SDCardListenerService.java
+END
+SystemInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/SystemInformation.java
+END
+SystemRestoreFactoryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/MM/mmandroid/!svn/ver/9738/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/SystemRestoreFactoryActivity.java
+END
+CheckSDCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/update/CheckSDCard.java
+END

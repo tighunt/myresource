@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="listItemHeight">45dp</dimen>
+    <dimen name="dividerHeight">4dp</dimen>
+</resources>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MM/mmandroid/!svn/ver/11644/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr
+END
+PictureSurfaceView.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MM/mmandroid/!svn/ver/7643/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr/PictureSurfaceView.java
+END
+QuickMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr/QuickMenu.java
+END
+DmrPhotoPlayerActivity_M.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/11644/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr/DmrPhotoPlayerActivity_M.java
+END
+DmrVideoPlayerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MM/mmandroid/!svn/ver/10281/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr/DmrVideoPlayerActivity.java
+END
+MediaApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr/MediaApplication.java
+END
+Utility.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr/Utility.java
+END
+BootCompletedReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr/BootCompletedReceiver.java
+END
+DmrMusicPlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MM/mmandroid/!svn/ver/11644/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr/DmrMusicPlay.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/com/realtek/dmr/Util.java
+END

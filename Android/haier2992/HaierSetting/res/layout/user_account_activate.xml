@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/user_account_activate"
+            android:layout_width="952dip"
+            android:layout_height="52dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/user_account_item_selector"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/vip"
+            android:textColor="#ffffff"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user_account_activate_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dip"
+                android:text="@string/user_number"
+                android:textColor="#CCCCCCCC"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/user_account_usernum_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:textColor="#CCCCCCCC"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/user_account_password_linear"
+            android:layout_width="952dip"
+            android:layout_height="52dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dip"
+                android:gravity="center"
+                android:text="@string/password_setting"
+                android:textColor="#CCCCCCCC"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/user_account_password"
+                android:layout_width="398dip"
+                android:layout_height="46dip"
+                android:layout_marginLeft="30dip"
+                android:background="@drawable/input_pw_nor"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ"
+                android:inputType="text"
+                android:paddingLeft="5dip"
+                android:textColor="#CCCCCCCC"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/user_account_repassword_linear"
+            android:layout_width="952dip"
+            android:layout_height="52dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dip"
+                android:gravity="center"
+                android:text="@string/re_password"
+                android:textColor="#CCCCCCCC"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/user_account_repassword"
+                android:layout_width="398dip"
+                android:layout_height="46dip"
+                android:layout_marginLeft="30dip"
+                android:background="@drawable/input_pw_nor"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ"
+                android:inputType="text"
+                android:nextFocusDown="@+id/user_account_ok"
+                android:paddingLeft="5dip"
+                android:textColor="#CCCCCCCC"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/user_account_remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#A52D77"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user_account_activate_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/user_account_ok"
+            android:layout_width="202dip"
+            android:layout_height="52dip"
+            android:layout_marginRight="120dip"
+            android:background="@drawable/button_change_useraccount"
+            android:text="@string/ok"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/user_account_cancel"
+            android:layout_width="202dip"
+            android:layout_height="52dip"
+            android:background="@drawable/button_change_useraccount"
+            android:text="@string/cancle"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

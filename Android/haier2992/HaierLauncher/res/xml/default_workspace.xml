@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+     
+    快捷方式说明
+<favorite 　　　　　　　　　　　　　　　　　　　　　　　　　   //程序快捷键
+    launcher:className="com.android.browser.BrowserActivity"   //该应用的类
+    launcher:packageName="com.android.browser"          　　　                      //该应用的包名
+    launcher:screen="2"                                        //第3屏,0-4屏共5屏
+    launcher:x="0"                                             //图标X位置,左上角第一个为0,向左递增,0-5共6个
+    l0auncher:y="3"/>                                          //图标Y位置,左上角第一个为0,向下递增,0-2共3个
+
+插件说明
+<appwidget　　　　　　　　　　　　　　　　　　　　　　　　　　　               //插件
+    launcher:className="com.android.music.MediaAppWidgetProvider" //该应用的类
+    launcher:packageName="com.android.music"   　　　　　　　　                 //  该应用的包名
+    launcher:screen="4"                                           //第5屏,0-4屏共5屏
+    launcher:x="2"                                                //图标X位置,左上角第一个为0,向左递增,0-5共6个
+    launcher:y="1"                                                //图标Y位置,左上角第一个为0,向下递增,0-2共3个
+    launcher:spanX="2"                                            //在x方向上所占格数
+    launcher:spanY="1" />                                         //在y方向上所占格数
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.haier.launcher" >
+
+<!-- 预置:第1页中的 【万年历】-->
+    <favorite
+        launcher:className="com.haier.calendar.CalendarActivity"
+        launcher:packageName="com.haier.calendar"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+        
+<!-- 预置:第1页中的 【新浪乐库】-->
+    <favorite
+        launcher:className="com.haier.sinamusic.SinaMusicActivity"
+        launcher:packageName="com.haier.sinamusic"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="0" />
+        <!--  预置:第1页中的 【云空间】 -->
+    <favorite
+        launcher:className="com.haiersoft.activity.SplashScreen"
+        launcher:packageName="com.haiersoft"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="0" 
+/>
+
+<!--       
+    <favorite
+        launcher:className="pro.lashou.LashouProActivity"
+        launcher:packageName="pro.lashou"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="1" />-->
+
+    <!-- 预置:第2页中的 【所有应用】-->
+    <favorite
+        launcher:className="com.haier.showallapps.ShowAllAppsActivity"
+        launcher:packageName="com.haier.showallapps"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1" />
+        
+    <!-- 预置:第2页中的 【MM】-->
+    <favorite
+        launcher:className="com.hrtvbic.usb.S6A801.ui.main.MainActivity"
+        launcher:packageName="com.hrtvbic.usb.S6A801"
+        launcher:screen="1"
+        launcher:x="4"
+        launcher:y="1" />
+        
+    <!-- 预置:第2页中的 【浏览器】-->
+    <favorite
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:packageName="com.android.browser"
+        launcher:screen="1"
+        launcher:x="5"
+        launcher:y="1" />
+        
+    <!-- 预置:第2页中的 【移屏】-->
+    <favorite
+        launcher:className="com.rtk.movescreen.MainActivity"
+        launcher:packageName="com.rtk.movescreen"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="2" />
+    
+    <!-- 预置:第2页中的 【电视聚】-->
+    <favorite
+        launcher:className="com.duomi.androidtv.activity.InitActivity"
+        launcher:packageName="com.duomi.androidtv"
+        launcher:screen="1"
+        launcher:x="4"
+        launcher:y="2" />
+        
+    <!-- 预置:第2页中的 【百事通】-->
+    <favorite
+        launcher:className="com.bestv.ctv.MainActivity"
+        launcher:packageName="com.bestv.ctv"
+        launcher:screen="1"
+        launcher:x="5"
+        launcher:y="2" />
+        
+    <!-- 预置:第2页中的 【京东商城】
+<favorite
+launcher:className="com.jingdong.app.tv.StartActivity"
+launcher:packageName="com.jingdong.app.tv"
+launcher:screen="1"
+launcher:x="3"
+        launcher:y="3" />-->
+                            <!-- 预置:第2页中的 【电子说明书】
+<favorite
+launcher:className="com.hrtvbic.spec.S6A801.S6A801specActivity"
+launcher:packageName="com.hrtvbic.spec.S6A801"
+launcher:screen="1"
+launcher:x="5"
+        launcher:y="3" />-->
+        
+    <!-- 预置:第2页中的 【海尔之家】-->
+    <favorite
+        launcher:className="cn.haier.haier.tv7520.vstoresubclient.MainActivity"
+        launcher:packageName="cn.haier.haier.tv7520.vstoresubclient"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="3" />
+        
+    <!-- 预置:第2页中的 【安卓市场】-->
+    <favorite
+        launcher:className="com.hiapk.markettv.MarketMainFrame"
+        launcher:packageName="com.hiapk.markettv"
+        launcher:screen="1"
+        launcher:x="4"
+        launcher:y="3" />
+        
+    <!-- 预置:第2页中的 【游戏大厅】 -->
+    <favorite
+        launcher:className="com.android.settings.Settings"
+        launcher:packageName="com.android.settings"
+        launcher:screen="1"
+        launcher:x="5"
+        launcher:y="3" />
+
+
+    
+    <!-- 预置:第2页中的 【云搜索 widget】 -->
+    <appwidget
+        launcher:className="com.haier.cloudsearch.widget.Widget"
+        launcher:packageName="com.haier.cloudsearch"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="4"         launcher:spanX="3"
+        launcher:spanY="1"/>
+        
+    <!-- 预置:第2页中的【天气widget】 -->
+    <appwidget
+        launcher:className="com.haier.widgets.news.WeatherWidgetProvider"
+        launcher:packageName="com.haier.widgets.news"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0" 
+        launcher:spanX="3"
+        launcher:spanY="1"/>
+   
+    <!-- TV widget 放一个空widget占位置  -->
+    <appwidget
+        launcher:className="com.haier.showallapps.HaierTvEmptyWidget"
+        launcher:packageName="com.haier.showallapps"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="3"
+        launcher:spanY="2" /> 
+
+    <!-- 预置:第2页中的【应用推荐 widget】 --> 
+
+    <appwidget
+        launcher:className="com.haier.homecloudlive.RecommendAPPProvider"
+        launcher:packageName="com.haier.homecloudlive"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="3"
+        launcher:spanX="3"
+        launcher:spanY="2" /> 
+        
+    <!-- 第2页中的 【最近播放 widget】-->
+
+    <appwidget
+        launcher:className="com.haier.widgets.news.BestvWidgetProvider"
+        launcher:packageName="com.haier.widgets.news"
+        launcher:screen="1"
+        launcher:x="6"
+        launcher:y="1"
+        launcher:spanX="3"
+        launcher:spanY="4" />
+    
+    <!-- 预置:第2页中的【新闻widget】 -->
+    <!-- 
+<appwidget
+launcher:className="com.haier.widgets.news.NewsWidgetProvider"
+launcher:packageName="com.haier.widgets.news"
+launcher:screen="1"
+launcher:x="6"
+launcher:y="3" 
+launcher:spanX="3"
+        launcher:spanY="2"/>
+     -->
+        <!-- 预置:第3页中的 【快乐乒乓】-->
+
+<favorite
+    launcher:className="com.trans.pingpang2.GameLauncher"
+        launcher:packageName="com.trans.pingpang2"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0" 
+/>
+        <!-- 预置:第3页中的 【在线教育】-->
+		<!--
+        <favorite
+
+launcher:className="com.haier.eduol.activity.EducationOnlineActivity"
+    launcher:packageName="com.haier.eduol.activity"
+    launcher:screen="2"
+        launcher:x="1"
+        launcher:y="0" />
+		-->
+        <!-- 预置:第页中的 【系统设置】 
+    <favorite
+        launcher:className="com.android.settings.Settings"
+        launcher:packageName="com.android.settings"
+launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />-->
+        <!-- 预置:第3页中的 【云服务 widget】
+    <appwidget
+        launcher:className="com.haiertv.homewgt.cloudservice.AppWidget"
+        launcher:packageName="com.haiertv.homewgt.cloudservice"
+        launcher:screen="2"
+launcher:x="0"
+        launcher:y="0" 
+launcher:spanX="3"
+        launcher:spanY="4"/>-->
+        
+<!-- 预置:第3页中的 【云搜索 widget】 
+    <appwidget
+        launcher:className="com.haier.cloudsearch.widget.Widget"
+        launcher:packageName="com.haier.cloudsearch"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="4" 
+        launcher:spanX="3"
+        launcher:spanY="1"/>-->
+
+        <!--  预置:第3页中的 【云视频 widget】
+<appwidget
+launcher:className="com.haier.widgets.news.BestvWidgetProvider"
+launcher:packageName="com.haier.widgets.news"
+launcher:screen="2"
+launcher:x="3"
+launcher:y="0" 
+launcher:spanX="3"
+        launcher:spanY="4"/>-->
+            <!--  预置:第3页中的 【同步查看/云同步 widget】
+<appwidget
+launcher:className="com.hrtvbic.syncshow.widget.widgetProvider"
+launcher:packageName="com.hrtvbic.syncshow"
+launcher:screen="2"
+launcher:x="3"
+launcher:y="4" 
+launcher:spanX="3"
+        launcher:spanY="1"/>   -->
+            <!-- 预置:第3页中的【微博 widget】
+<appwidget
+launcher:className="com.hrtvbic.weibo.activity.HuatibangWidget"
+launcher:packageName="com.hrtvbic.weibo.activity"
+launcher:screen="2"
+launcher:x="6"
+launcher:y="0" 
+launcher:spanX="3"
+        launcher:spanY="4"/> -->
+            <!--  预置:第3页中的 【云服务/云空间 widget】
+<appwidget
+launcher:className="com.haiersoft.activity.widget"
+launcher:packageName="com.haiersoft"
+launcher:screen="2"
+launcher:x="6"
+launcher:y="4" 
+launcher:spanX="3"
+        launcher:spanY="1"/> -->
+
+</favorites>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="600dip"
+        android:background="@drawable/set_bg1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/citys_list_select"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dip"
+                android:text="@string/city_select"
+                android:textColor="#FFC8C8C8"
+                android:textSize="30dip" />
+            <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:layout_marginTop="30dip" 
+	            android:layout_marginLeft="30dip">
+	           <TextView
+                android:id="@+id/citys_list"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF969696"
+                android:textSize="30dip"/> 
+	        </LinearLayout>            
+                
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/cities_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="5" 
+            android:listSelector="@drawable/focus_bg_big"
+            android:layout_marginLeft="45dip"
+            android:layout_marginTop="10dip">
+        </GridView>
+
+    </LinearLayout>
+
+</LinearLayout>

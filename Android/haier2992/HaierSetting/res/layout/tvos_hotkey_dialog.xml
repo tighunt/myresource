@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/menuBgRelativeLayout"
+        android:layout_width="333dip"
+        android:layout_height="333dip"
+        android:background="@drawable/tvos_hotkey_menu_bg">
+        <!-- center imageview -->
+        <ImageView
+            android:id="@+id/menuFocusImage"
+            android:layout_width="114dip"
+            android:layout_height="114dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/tvos_hotkey_menu_focus"
+            android:visibility="invisible" />
+
+        <!-- up component -->
+        <ImageView
+            android:id="@+id/upImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dip"
+            android:src="@drawable/tvos_hotkey_img_arrow_u"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/upText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:visibility="invisible" />
+
+        <!-- left component -->
+        <ImageView
+            android:id="@+id/leftImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:src="@drawable/tvos_hotkey_img_arrow_l"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/leftText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/leftImage"
+            android:visibility="invisible" />
+
+        <!-- right component -->
+        <TextView
+            android:id="@+id/rightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/rightImage"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/rightImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:src="@drawable/tvos_hotkey_img_arrow_r"
+            android:visibility="invisible" />
+
+        <!-- down component -->
+        <TextView
+            android:id="@+id/downText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/downImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dip"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/downImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dip"
+            android:src="@drawable/tvos_hotkey_img_arrow_d"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

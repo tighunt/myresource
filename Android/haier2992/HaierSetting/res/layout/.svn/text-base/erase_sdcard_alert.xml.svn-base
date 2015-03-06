@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/line" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/alert_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/taskbar_blue"
+        android:gravity="left"
+        android:padding="10dip"
+        android:singleLine="false"
+        android:text="@string/erase_sdcard_alert"
+        android:textColor="#CCCCCCCC"
+        android:textSize="25sp" >
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/format_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="60dp"
+        android:visibility="gone"/>
+    
+    <TextView
+        android:id="@+id/format_hint"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/formating_sdcard"
+        android:gravity="center"
+        android:textColor="#CCCCCCCC"
+        android:textSize="25sp" 
+        android:visibility="gone"
+        />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/erase_ok_btn"
+            android:layout_width="200dip"
+            android:layout_height="40dip"
+            android:background="@drawable/button_change1"
+            android:text="@string/ok"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/erase_cancel_btn"
+            android:layout_width="200dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="30dip"
+            android:background="@drawable/button_change1"
+            android:text="@string/cancle"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/line" >
+    </ImageView>
+
+</LinearLayout>

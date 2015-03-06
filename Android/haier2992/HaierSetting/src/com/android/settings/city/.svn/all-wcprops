@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/city
+END
+ProvinceSelectSettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/city/ProvinceSelectSettingActivity.java
+END
+CityHelp.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/city/CityHelp.java
+END
+CityViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/city/CityViewHolder.java
+END
+CityEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/city/CityEntity.java
+END
+CitySettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/city/CitySettings.java
+END
+SelectCityByProvinceDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/city/SelectCityByProvinceDialog.java
+END
+ProvinceSelectSettingViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/city/ProvinceSelectSettingViewHolder.java
+END

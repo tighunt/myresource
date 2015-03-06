@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MM/mmandroid/!svn/ver/11807/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings
+END
+dfds.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/dfds.java
+END
+Settings.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/8165/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/Settings.java
+END
+DialogCreatable.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/DialogCreatable.java
+END
+ProgressCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/ProgressCategory.java
+END
+TVHotKeyReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/TVHotKeyReceiver.java
+END
+SettingGlobalReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/SettingGlobalReceiver.java
+END
+SettingsPreferenceFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/SettingsPreferenceFragment.java
+END
+ApplicationSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/9760/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/ApplicationSettings.java
+END
+GetFileSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/GetFileSize.java
+END
+DeviceInfoSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/DeviceInfoSettings.java
+END
+ProgressCategoryBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/ProgressCategoryBase.java
+END
+DateTimeSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/9981/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/DateTimeSettings.java
+END
+PreferancesTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/PreferancesTools.java
+END

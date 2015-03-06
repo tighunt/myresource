@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/location_service_ly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+	
+    <RelativeLayout
+        android:id="@+id/net_location_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/google_location"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <CheckBox
+            android:id="@+id/net_location_switch"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dip"
+            android:visibility="invisible"
+            android:button="@drawable/custom_checkbox" />
+        <CheckBox
+            android:id="@+id/net_location_switch_en"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dip"
+            android:visibility="invisible"
+            android:button="@drawable/custom_checkbox_en" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="700dip"
+        android:layout_height="30dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="30dip"
+        android:background="@drawable/net_state_bg"
+        android:paddingLeft="10dip"
+        android:text="@string/wifi_net_location"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp" />
+    
+
+</LinearLayout>

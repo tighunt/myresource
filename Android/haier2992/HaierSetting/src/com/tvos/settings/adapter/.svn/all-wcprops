@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/tvos/settings/adapter
+END
+AppAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/tvos/settings/adapter/AppAdapter.java
+END
+SdcardAppAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/tvos/settings/adapter/SdcardAppAdapter.java
+END
+SetttingsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/tvos/settings/adapter/SetttingsAdapter.java
+END
+SystemBackAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/tvos/settings/adapter/SystemBackAdapter.java
+END
+SystemBackAdapter1.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/tvos/settings/adapter/SystemBackAdapter1.java
+END
+AboutAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/tvos/settings/adapter/AboutAdapter.java
+END

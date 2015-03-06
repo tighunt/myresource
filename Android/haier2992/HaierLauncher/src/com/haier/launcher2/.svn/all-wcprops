@@ -1,0 +1,467 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/9672/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2
+END
+PagedViewWithDraggableItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PagedViewWithDraggableItems.java
+END
+LauncherAnimatorUpdateListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LauncherAnimatorUpdateListener.java
+END
+DragView.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/DragView.java
+END
+DragLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/DragLayer.java
+END
+WallpaperChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/WallpaperChooser.java
+END
+PagedViewWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PagedViewWidget.java
+END
+FocusHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MM/mmandroid/!svn/ver/8044/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/FocusHelper.java
+END
+DragController.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/DragController.java
+END
+AppWidgetResizeFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/AppWidgetResizeFrame.java
+END
+PagedViewIcon.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PagedViewIcon.java
+END
+CellLayoutChildren.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/CellLayoutChildren.java
+END
+FolderEditText.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/FolderEditText.java
+END
+SearchDropTargetBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/SearchDropTargetBar.java
+END
+AllAppsView.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/AllAppsView.java
+END
+AddAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/AddAdapter.java
+END
+Alarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/Alarm.java
+END
+Cling.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/Cling.java
+END
+DragSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/DragSource.java
+END
+InstallWidgetReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/InstallWidgetReceiver.java
+END
+Global.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MM/mmandroid/!svn/ver/8044/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/Global.java
+END
+Launcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MM/mmandroid/!svn/ver/9608/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/Launcher.java
+END
+HolographicPagedViewIcon.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/HolographicPagedViewIcon.java
+END
+SmoothPagedView.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/SmoothPagedView.java
+END
+PagedViewIconCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PagedViewIconCache.java
+END
+ItemInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/ItemInfo.java
+END
+LauncherProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LauncherProvider.java
+END
+SpringLoadedDragController.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/SpringLoadedDragController.java
+END
+LanguageOrWallpaperSettingReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LanguageOrWallpaperSettingReceiver.java
+END
+ApplicationInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/ApplicationInfo.java
+END
+LauncherSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LauncherSettings.java
+END
+LauncherModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MM/mmandroid/!svn/ver/8165/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LauncherModel.java
+END
+DragScroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/DragScroller.java
+END
+HandleView.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/HandleView.java
+END
+HolographicLinearLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/HolographicLinearLayout.java
+END
+AllAppsList.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/AllAppsList.java
+END
+FastBitmapDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/FastBitmapDrawable.java
+END
+Workspace.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/Workspace.java
+END
+InterruptibleInOutAnimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/InterruptibleInOutAnimator.java
+END
+LauncherAppWidgetHost.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/9459/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LauncherAppWidgetHost.java
+END
+Hotseat.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/Hotseat.java
+END
+RocketLauncher.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/RocketLauncher.java
+END
+PagedViewCellLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PagedViewCellLayout.java
+END
+DropTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/DropTarget.java
+END
+Folder.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/Folder.java
+END
+StrokedTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/StrokedTextView.java
+END
+IconCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/IconCache.java
+END
+FocusOnlyTabWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/FocusOnlyTabWidget.java
+END
+DeferredHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/DeferredHandler.java
+END
+WallpaperChooserDialogFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/WallpaperChooserDialogFragment.java
+END
+LauncherApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LauncherApplication.java
+END
+AppsCustomizeTabHost.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/9672/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/AppsCustomizeTabHost.java
+END
+LauncherAppWidgetHostView.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LauncherAppWidgetHostView.java
+END
+TweenCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/TweenCallback.java
+END
+HolographicOutlineHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/HolographicOutlineHelper.java
+END
+AppsCustomizePagedView.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/MM/mmandroid/!svn/ver/9672/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/AppsCustomizePagedView.java
+END
+ButtonDropTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/ButtonDropTarget.java
+END
+PagedView.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PagedView.java
+END
+Utilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/Utilities.java
+END
+PagedViewWidgetImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PagedViewWidgetImageView.java
+END
+CellLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/CellLayout.java
+END
+PagedViewGridLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PagedViewGridLayout.java
+END
+AccessibleTabView.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/AccessibleTabView.java
+END
+PagedViewCellLayoutChildren.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PagedViewCellLayoutChildren.java
+END
+LauncherAppWidgetInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LauncherAppWidgetInfo.java
+END
+FolderIcon.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/FolderIcon.java
+END
+InstallShortcutReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/InstallShortcutReceiver.java
+END
+ShortcutInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/ShortcutInfo.java
+END
+LauncherSetStorageReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/LauncherSetStorageReceiver.java
+END
+InfoDropTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/InfoDropTarget.java
+END
+FolderInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/FolderInfo.java
+END
+SymmetricalLinearTween.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/SymmetricalLinearTween.java
+END
+PendingAddItemInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/PendingAddItemInfo.java
+END
+HolographicViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/HolographicViewHelper.java
+END
+UninstallShortcutReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/UninstallShortcutReceiver.java
+END
+BubbleTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/BubbleTextView.java
+END
+HolographicImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/HolographicImageView.java
+END
+DeleteDropTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/src/com/haier/launcher2/DeleteDropTarget.java
+END

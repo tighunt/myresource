@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_hotspot_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <RelativeLayout
+        android:id="@+id/wifi_hotspot_switch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/wifi_hotspot"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <CheckBox
+            android:id="@+id/wifi_hotspot_checkbox"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:button="@drawable/custom_checkbox"
+            android:nextFocusDown="@+id/wifi_hotspot_config"
+            android:visibility="invisible" />
+
+        <CheckBox
+            android:id="@+id/wifi_hotspot_checkbox_en"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:button="@drawable/custom_checkbox_en"
+            android:nextFocusDown="@+id/wifi_hotspot_config"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/wifi_hotspot_info"
+        android:layout_width="700dip"
+        android:layout_height="60dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/net_state_bg"
+        android:paddingLeft="10dip"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:minHeight="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/config_wifi_hotspot"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/wifi_hotspot_config"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70dip"
+            android:background="@drawable/edit_text"
+            android:nextFocusDown="@+id/wifi_hotspot_ssid"
+            android:nextFocusUp="@+id/wifi_hotspot_checkbox"
+            android:text="@string/setting"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/wifi_hotspot_config_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="430dip"
+            android:layout_height="30dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:paddingLeft="30dip"
+                android:text="@string/ss_id"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/wifi_hotspot_ssid"
+                android:layout_width="230dip"
+                android:layout_height="30dip"
+                android:hint="@string/ss_userid"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/edit_text_large"
+                android:gravity="center"
+                android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+                android:maxLength="63"
+                android:nextFocusDown="@+id/secure_type"
+                android:nextFocusUp="@+id/wifi_hotspot_config"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="430dip"
+            android:layout_height="30dip"
+            android:layout_marginTop="10dip"
+            android:minHeight="50dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="30dip"
+                android:text="@string/wifi_hotspot_secure"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <RelativeLayout
+                android:id="@+id/wifi_hotspot_secure_ly"
+                android:layout_width="230dip"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:minHeight="50dip"
+                android:nextFocusDown="@+id/wifi_hotspot_pwd"
+                android:nextFocusUp="@+id/wifi_hotspot_ssid" >
+
+                <ImageView
+                    android:id="@+id/secure_left_arrowhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/desktop_right" />
+                <!-- android:visibility="invisible" -->
+
+                <Button
+                    android:id="@+id/secure_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/left_arrowhead"
+                    android:background="@drawable/one_px"
+                    android:gravity="center"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/secure_right_arrowhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50dip"
+                    android:layout_toLeftOf="@id/connect_type"
+                    android:background="@drawable/desktop_left" />
+
+                <!-- android:visibility="invisible" -->
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wifiap_password_rl"
+            android:layout_width="430dip"
+            android:layout_height="30dip"
+            android:layout_marginTop="10dip"
+            android:minHeight="50dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:paddingLeft="30dip"
+                android:text="@string/password"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/wifi_hotspot_pwd"
+                android:layout_width="230dip"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/edit_text_large"
+                android:gravity="center"
+                android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+                android:maxLength="63"
+                android:nextFocusDown="@+id/hotspot_show_password"
+                android:nextFocusUp="@+id/secure_type"
+                android:password="true"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wifiap_show_password_rl"
+            android:layout_width="430dip"
+            android:layout_height="45dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:minHeight="50dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_centerVertical="true"
+                android:paddingLeft="30dip"
+                android:text="@string/show_password"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/hotspot_show_password"
+                android:layout_width="125dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@drawable/custom_checkbox"
+                android:nextFocusDown="@+id/hotspot_save_btn"
+                android:nextFocusUp="@+id/wifi_hotspot_pwd"
+                android:visibility="invisible" />
+
+            <CheckBox
+                android:id="@+id/hotspot_show_password_en"
+                android:layout_width="125dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@drawable/custom_checkbox_en"
+                android:nextFocusDown="@+id/hotspot_save_btn"
+                android:nextFocusUp="@+id/wifi_hotspot_pwd"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/hotspot_save_btn"
+                android:layout_width="80dip"
+                android:layout_height="35dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="70dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/edit_text"
+                android:nextFocusUp="@+id/hotspot_show_password"
+                android:text="@string/save"
+                android:textColor="#708090"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

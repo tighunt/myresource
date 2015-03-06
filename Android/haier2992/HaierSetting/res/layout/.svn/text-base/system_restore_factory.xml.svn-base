@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    >
+	
+    <LinearLayout
+        android:layout_width="750dip"
+        android:layout_height="450dip"
+        android:background="@drawable/set_bg"
+		android:orientation="vertical">
+		
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/system_restore_factory"
+				android:textColor="#CCCCCCCC"
+				android:textSize="28sp"
+				android:gravity="center"/>
+            
+            <ImageView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/line"/>                    
+           
+            <TextView
+            	android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:paddingLeft="50dip"
+                android:text="@string/notice_restore_factory"
+                android:textSize="22sp"
+                android:textColor="#CCCCCCCC"/>
+            
+			<TextView
+            	android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:paddingLeft="70dip"
+                android:text="@string/clear_google_user"
+                android:textSize="22sp"
+                android:textColor="#CCCCCCCC"/>
+            
+            
+		    <TextView
+            	android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:paddingLeft="70dip"
+                android:text="@string/system_and_app_set"
+                android:textSize="22sp"
+                android:textColor="#CCCCCCCC"/>
+            
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dip"
+		        android:paddingLeft="70dip"
+		         android:orientation="horizontal">
+		        
+		        <TextView
+            	android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_data_restore"
+                android:textSize="22sp"
+                android:textColor="#CCCCCCCC"/>
+		        
+		        <!-- CheckBox
+		        android:id="@+id/isClearTVdate"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="30dip"
+		    	android:checked="false"/-->
+		    </LinearLayout>    
+		        
+		    <ImageView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:background="@drawable/line"/>
+	        <Button
+	            android:id="@+id/clear_button"
+	            android:layout_width="200dip"
+	            android:layout_height="60dip"
+	            android:layout_marginTop="20dip"
+	            android:layout_marginLeft="280dip"
+	            android:layout_centerVertical="true"
+	            android:background="@drawable/button_change"
+	            android:text="@string/ok"
+	            android:textColor="#FFFFFFFF"
+	            android:textSize="28sp" />
+
+        </LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<haier version="2.0">
+  <china>
+    <province pid="1" pname="北京">
+      <city locid="110000" name="北京"></city>
+    </province>
+    <province pid="2" pname="天津">
+      <city locid="120000" name="天津"></city>
+    </province>
+    <province pid="3" pname="河北">
+      <city locid="130100" name="石家庄"></city>
+      <city locid="130200" name="唐山"></city>
+      <city locid="130300" name="秦皇岛"></city>
+      <city locid="130400" name="邯郸"></city>
+      <city locid="130500" name="邢台"></city>
+      <city locid="130600" name="保定"></city>
+      <city locid="130700" name="张家口"></city>
+      <city locid="130800" name="承德"></city>
+      <city locid="130900" name="沧州"></city>
+      <city locid="131000" name="廊坊"></city>
+      <city locid="131100" name="衡水"></city>
+    </province>
+    <province pid="4" pname="山西">
+      <city locid="140100" name="太原"></city>
+      <city locid="230606" name="大同"></city>
+      <city locid="140300" name="阳泉"></city>
+      <city locid="140400" name="长治"></city>
+      <city locid="140500" name="晋城"></city>
+      <city locid="140600" name="朔州"></city>
+      <city locid="140700" name="晋中"></city>
+      <city locid="140800" name="运城"></city>
+      <city locid="140900" name="忻州"></city>
+      <city locid="141000" name="临汾"></city>
+    </province>
+    <province pid="5" pname="内蒙古">
+      <city locid="150100" name="呼和浩特"></city>
+      <city locid="150200" name="包头"></city>
+      <city locid="150300" name="乌海"></city>
+      <city locid="150400" name="赤峰"></city>
+      <city locid="150500" name="通辽"></city>
+      <city locid="150600" name="鄂尔多斯"></city>
+      <city locid="150700" name="呼伦贝尔"></city>
+    </province>
+    <province pid="6" pname="辽宁">
+      <city locid="210100" name="沈阳"></city>
+      <city locid="210200" name="大连"></city>
+      <city locid="210300" name="鞍山"></city>
+      <city locid="210400" name="抚顺"></city>
+      <city locid="210521" name="本溪"></city>
+      <city locid="210600" name="丹东"></city>
+      <city locid="210700" name="锦州"></city>
+      <city locid="210800" name="营口"></city>
+      <city locid="210921" name="阜新"></city>
+      <city locid="211000" name="辽阳"></city>
+      <city locid="211100" name="盘锦"></city>
+      <city locid="211200" name="铁岭"></city>
+      <city locid="211300" name="朝阳"></city>
+      <city locid="211400" name="葫芦岛"></city>
+    </province>
+    <province pid="7" pname="吉林">
+      <city locid="220100" name="长春"></city>
+      <city locid="220000" name="吉林"></city>
+      <city locid="220300" name="四平"></city>
+      <city locid="220400" name="辽源"></city>
+      <city locid="220500" name="通化"></city>
+      <city locid="220600" name="白山"></city>
+      <city locid="220700" name="松原"></city>
+      <city locid="220800" name="白城"></city>
+      <city locid="222400" name="延边"></city>
+    </province>
+    <province pid="8" pname="黑龙江">
+      <city locid="230100" name="哈尔滨"></city>
+      <city locid="230200" name="齐齐哈尔"></city>
+      <city locid="230300" name="鸡西"></city>
+      <city locid="230400" name="鹤岗"></city>
+      <city locid="230500" name="双鸭山"></city>
+      <city locid="230600" name="大庆"></city>
+      <city locid="230702" name="伊春"></city>
+      <city locid="230800" name="佳木斯"></city>
+      <city locid="230900" name="七台河"></city>
+      <city locid="231000" name="牡丹江"></city>
+      <city locid="231100" name="黑河"></city>
+      <city locid="231200" name="绥化"></city>
+      <city locid="232700" name="大兴安岭"></city>
+    </province>
+    <province pid="9" pname="上海">
+      <city locid="310000" name="上海"></city>
+    </province>
+    <province pid="10" pname="江苏">
+      <city locid="320100" name="南京"></city>
+      <city locid="320200" name="无锡"></city>
+      <city locid="320300" name="徐州"></city>
+      <city locid="320400" name="常州"></city>
+      <city locid="320500" name="苏州"></city>
+      <city locid="320600" name="南通"></city>
+      <city locid="320700" name="连云港"></city>
+      <city locid="320800" name="淮安"></city>
+      <city locid="320900" name="盐城"></city>
+      <city locid="321000" name="扬州"></city>
+      <city locid="321100" name="镇江"></city>
+      <city locid="321200" name="泰州"></city>
+      <city locid="321300" name="宿迁"></city>
+    </province>
+    <province pid="11" pname="浙江">
+      <city locid="330100" name="杭州"></city>
+      <city locid="330200" name="宁波"></city>
+      <city locid="330300" name="温州"></city>
+      <city locid="330400" name="嘉兴"></city>
+      <city locid="330500" name="湖州"></city>
+      <city locid="330600" name="绍兴"></city>
+      <city locid="330700" name="金华"></city>
+      <city locid="330800" name="衢州"></city>
+      <city locid="330900" name="舟山"></city>
+      <city locid="331000" name="台州"></city>
+      <city locid="331100" name="丽水"></city>
+    </province>
+    <province pid="12" pname="安徽">
+      <city locid="340100" name="合肥"></city>
+      <city locid="340200" name="芜湖"></city>
+      <city locid="340300" name="蚌埠"></city>
+      <city locid="340400" name="淮南"></city>
+      <city locid="340500" name="马鞍山"></city>
+      <city locid="340600" name="淮北"></city>
+      <city locid="340700" name="铜陵"></city>
+      <city locid="340800" name="安庆"></city>
+      <city locid="341003" name="黄山"></city>
+      <city locid="341100" name="滁州"></city>
+      <city locid="341200" name="阜阳"></city>
+      <city locid="341300" name="宿州"></city>
+      <city locid="341400" name="巢湖"></city>
+      <city locid="341500" name="六安"></city>
+      <city locid="341600" name="亳州"></city>
+      <city locid="341700" name="池州"></city>
+      <city locid="341800" name="宣城"></city>
+    </province>
+    <province pid="13" pname="福建">
+      <city locid="350100" name="福州"></city>
+      <city locid="350200" name="厦门"></city>
+      <city locid="350300" name="莆田"></city>
+      <city locid="350400" name="三明"></city>
+      <city locid="350500" name="泉州"></city>
+      <city locid="350600" name="漳州"></city>
+      <city locid="350700" name="南平"></city>
+      <city locid="350800" name="龙岩"></city>
+      <city locid="350900" name="宁德"></city>
+    </province>
+    <province pid="14" pname="江西">
+	  <city locid="360100" name="南昌" />
+	  <city locid="360200" name="景德镇" />
+	  <city locid="360300" name="萍乡" />
+	  <city locid="360400" name="九江" />
+	  <city locid="360500" name="新余" />
+	  <city locid="360600" name="鹰潭" />
+	  <city locid="360700" name="赣州" />
+	  <city locid="360800" name="吉安" />
+	  <city locid="360900" name="宜春" />
+	  <city locid="361000" name="抚州" />
+	  <city locid="361100" name="上饶" />
+    </province>
+    <province pid="15" pname="山东">
+      <city locid="370100" name="济南" />
+      <city locid="370200" name="青岛" />
+      <city locid="370300" name="淄博" />
+      <city locid="370400" name="枣庄" />
+      <city locid="370502" name="东营" />
+      <city locid="370600" name="烟台" />
+      <city locid="370700" name="潍坊" />
+      <city locid="370800" name="济宁" />
+      <city locid="370900" name="泰安" />
+      <city locid="371000" name="威海" />
+      <city locid="371100" name="日照" />
+      <city locid="371200" name="莱芜" />
+      <city locid="371300" name="临沂" />
+      <city locid="371400" name="德州" />
+      <city locid="371500" name="聊城" />
+      <city locid="371600" name="滨州" />
+      <city locid="371700" name="菏泽" />
+   </province>
+   <province pid="16" pname="河南">
+      <city locid="410100" name="郑州" />
+      <city locid="410200" name="开封" />
+      <city locid="410300" name="洛阳" />
+      <city locid="410400" name="平顶山" />
+      <city locid="410500" name="安阳" />
+      <city locid="410600" name="鹤壁" />
+      <city locid="410700" name="新乡" />
+      <city locid="410800" name="焦作" />
+      <city locid="410900" name="濮阳" />
+      <city locid="411000" name="许昌" />
+      <city locid="411100" name="漯河" />
+      <city locid="411200" name="三门峡" />
+      <city locid="411300" name="南阳" />
+      <city locid="411400" name="商丘" />
+      <city locid="411500" name="信阳" />
+      <city locid="411600" name="周口" />
+      <city locid="411700" name="驻马店" />
+   </province>
+   <province pid="17" pname="湖北">
+      <city locid="420100" name="武汉" />
+      <city locid="420202" name="黄石" />
+      <city locid="420300" name="十堰" />
+      <city locid="420500" name="宜昌" />
+      <city locid="420600" name="襄樊" />
+      <city locid="420700" name="鄂州" />
+      <city locid="420800" name="荆门" />
+      <city locid="420900" name="孝感" />
+      <city locid="421003" name="荆州" />
+      <city locid="421100" name="黄冈" />
+      <city locid="421200" name="咸宁" />
+      <city locid="421300" name="随州" />
+      <city locid="422801" name="恩施" />
+   </province>
+   <province pid="18" pname="湖南">
+      <city locid="430100" name="长沙" />
+      <city locid="430200" name="株洲" />
+      <city locid="430300" name="湘潭" />
+      <city locid="430400" name="衡阳" />
+      <city locid="430500" name="邵阳" />
+      <city locid="430602" name="岳阳" />
+      <city locid="430700" name="常德" />
+      <city locid="430800" name="张家界" />
+      <city locid="430900" name="益阳" />
+      <city locid="431000" name="郴州" />
+      <city locid="431100" name="永州" />
+      <city locid="431200" name="怀化" />
+      <city locid="431300" name="娄底" />
+   </province>
+   <province pid="19" pname="广东">
+      <city locid="440100" name="广州" />
+      <city locid="440200" name="韶关" />
+      <city locid="440300" name="深圳" />
+      <city locid="440400" name="珠海" />
+      <city locid="440500" name="汕头" />
+      <city locid="440600" name="佛山" />
+      <city locid="440700" name="江门" />
+      <city locid="440800" name="湛江" />
+      <city locid="440900" name="茂名" />
+      <city locid="441200" name="肇庆" />
+      <city locid="441300" name="惠州" />
+      <city locid="441400" name="梅州" />
+      <city locid="441500" name="汕尾" />
+      <city locid="441600" name="河源" />
+      <city locid="441700" name="阳江" />
+      <city locid="441800" name="清远" />
+      <city locid="441900" name="东莞" />
+      <city locid="210202" name="中山" />
+      <city locid="445100" name="潮州" />
+      <city locid="445200" name="揭阳" />
+      <city locid="445300" name="云浮" />
+   </province>
+   <province pid="20" pname="广西">
+      <city locid="450100" name="南宁" />
+      <city locid="450200" name="柳州" />
+      <city locid="450300" name="桂林" />
+      <city locid="450400" name="梧州" />
+      <city locid="450500" name="北海" />
+      <city locid="450600" name="防城港" />
+      <city locid="450700" name="钦州" />
+      <city locid="450800" name="贵港" />
+      <city locid="450900" name="玉林" />
+      <city locid="451000" name="百色" />
+      <city locid="451100" name="贺州" />
+      <city locid="451200" name="河池" />
+   </province>
+   <province pid="21" pname="海南">
+      <city locid="460100" name="海口" />
+      <city locid="460200" name="三亚" />
+   </province>
+   <province pid="22" pname="重庆">
+      <city locid="500000" name="重庆" />
+   </province>
+   <province pid="23" pname="四川">
+      <city locid="510100" name="成都" />
+      <city locid="510300" name="自贡" />
+      <city locid="510400" name="攀枝花" />
+      <city locid="510500" name="泸州" />
+      <city locid="510600" name="德阳" />
+      <city locid="510700" name="绵阳" />
+      <city locid="510800" name="广元" />
+      <city locid="510900" name="遂宁" />
+      <city locid="511000" name="内江" />
+      <city locid="511100" name="乐山" />
+      <city locid="511300" name="南充" />
+      <city locid="511400" name="眉山" />
+      <city locid="511500" name="宜宾" />
+      <city locid="511602" name="广安" />
+      <city locid="511700" name="达州" />
+      <city locid="511800" name="雅安" />
+      <city locid="511900" name="巴中" />
+      <city locid="430902" name="资阳" />
+      <city locid="513200" name="阿坝" />
+      <city locid="513300" name="甘孜" />
+   </province>
+   <province pid="24" pname="贵州">
+      <city locid="520100" name="贵阳" />
+      <city locid="520200" name="六盘水" />
+      <city locid="520300" name="遵义" />
+      <city locid="520400" name="安顺" />
+      <city locid="522200" name="铜仁" />
+      <city locid="522300" name="黔西南" />
+      <city locid="522400" name="毕节" />
+   </province>
+   <province pid="25" pname="云南">
+      <city locid="530100" name="昆明" />
+      <city locid="530300" name="曲靖" />
+      <city locid="530400" name="玉溪" />
+      <city locid="530500" name="保山" />
+      <city locid="530600" name="昭通" />
+      <city locid="530700" name="丽江" />
+      <city locid="530802" name="思茅" />
+      <city locid="530900" name="临沧" />
+      <city locid="532301" name="楚雄" />
+      <city locid="532500" name="红河" />
+      <city locid="532621" name="文山" />
+      <city locid="532800" name="西双版纳" />
+      <city locid="532900" name="大理" />
+      <city locid="533100" name="德宏" />
+      <city locid="533300" name="怒江" />
+   </province>
+   <province pid="26" pname="西藏">
+      <city locid="540100" name="拉萨" />
+      <city locid="542100" name="昌都" />
+      <city locid="542300" name="日喀则" />
+      <city locid="542400" name="那曲" />
+      <city locid="542600" name="林芝" />
+   </province>
+   <province pid="27" pname="陕西">
+      <city locid="610100" name="西安" />
+      <city locid="610200" name="铜川" />
+      <city locid="610300" name="宝鸡" />
+      <city locid="610400" name="咸阳" />
+      <city locid="610500" name="渭南" />
+      <city locid="610600" name="延安" />
+      <city locid="610700" name="汉中" />
+      <city locid="610800" name="榆林" />
+      <city locid="610900" name="安康" />
+      <city locid="611000" name="商洛" />
+   </province>
+   <province pid="28" pname="甘肃">
+      <city locid="620100" name="兰州" />
+      <city locid="620200" name="嘉峪关" />
+      <city locid="620300" name="金昌" />
+      <city locid="620402" name="白银" />
+      <city locid="620500" name="天水" />
+      <city locid="620600" name="武威" />
+      <city locid="620700" name="张掖" />
+      <city locid="620800" name="平凉" />
+      <city locid="620900" name="酒泉" />
+      <city locid="621000" name="庆阳" />
+      <city locid="621100" name="定西" />
+      <city locid="622900" name="临夏" />
+      <city locid="623000" name="甘南" />
+   </province>
+   <province pid="29" pname="青海">
+      <city locid="630100" name="西宁" />
+      <city locid="632100" name="海东" />
+      <city locid="632600" name="果洛" />
+      <city locid="632700" name="玉树" />
+   </province>
+   <province pid="30" pname="宁夏">
+      <city locid="640100" name="银川" />
+      <city locid="640200" name="石嘴山" />
+      <city locid="640300" name="吴忠" />
+      <city locid="640400" name="固原" />
+      <city locid="640500" name="中卫" />
+   </province>
+   <province pid="31" pname="新疆">
+      <city locid="650100" name="乌鲁木齐" />
+      <city locid="650203" name="克拉玛依" />
+      <city locid="652100" name="吐鲁番" />
+      <city locid="652200" name="哈密" />
+      <city locid="652300" name="昌吉" />
+      <city locid="652900" name="阿克苏" />
+      <city locid="653100" name="喀什" />
+      <city locid="653200" name="和田" />
+      <city locid="654000" name="伊犁" />
+      <city locid="654200" name="塔城" />
+      <city locid="654300" name="阿勒泰" />
+      <city locid="659001" name="石河子" />
+   </province>
+   <province pid="32" pname="香港">
+      <city locid="810000" name="香港" />
+   </province>
+   <province pid="33" pname="澳门">
+      <city locid="820000" name="澳门" />
+   </province>
+   <province pid="34" pname="台湾">
+      <city locid="831000" name="台北" />
+      <city locid="832000" name="台中" />
+      <city locid="833000" name="高雄" />
+   </province> 
+  </china>
+</haier>

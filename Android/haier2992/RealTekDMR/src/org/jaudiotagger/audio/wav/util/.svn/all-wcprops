@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/wav/util
+END
+WavFormatHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/wav/util/WavFormatHeader.java
+END
+WavInfoReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/wav/util/WavInfoReader.java
+END
+WavRIFFHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/wav/util/WavRIFFHeader.java
+END

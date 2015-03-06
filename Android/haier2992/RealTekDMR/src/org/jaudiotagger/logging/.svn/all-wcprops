@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/logging
+END
+Hex.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/logging/Hex.java
+END
+LogFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/logging/LogFormatter.java
+END
+XMLTagDisplayFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/logging/XMLTagDisplayFormatter.java
+END
+AbstractTagDisplayFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/logging/AbstractTagDisplayFormatter.java
+END
+FileSystemMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/logging/FileSystemMessage.java
+END
+ErrorMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/logging/ErrorMessage.java
+END
+PlainTextTagDisplayFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/logging/PlainTextTagDisplayFormatter.java
+END

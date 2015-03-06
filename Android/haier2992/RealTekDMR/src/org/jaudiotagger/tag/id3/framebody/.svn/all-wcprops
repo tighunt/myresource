@@ -1,0 +1,671 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody
+END
+FrameBodyTSOA.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOA.java
+END
+FrameBodyMLLT.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyMLLT.java
+END
+FrameBodyTDOR.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTDOR.java
+END
+FrameBodyXSOA.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyXSOA.java
+END
+FrameBodyTPUB.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTPUB.java
+END
+FrameBodyTSRC.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTSRC.java
+END
+FrameBodyTPE3.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE3.java
+END
+FrameBodyRVRB.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyRVRB.java
+END
+AbstractID3v2FrameBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/AbstractID3v2FrameBody.java
+END
+FrameBodyAPIC.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyAPIC.java
+END
+FrameBodyTKEY.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTKEY.java
+END
+FrameBodyWPUB.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyWPUB.java
+END
+FrameBodyTSSE.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTSSE.java
+END
+FrameBodyTMOO.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTMOO.java
+END
+FrameBodyTALB.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTALB.java
+END
+FrameBodyTIT2.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTIT2.java
+END
+FrameBodyTSO2.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTSO2.java
+END
+FrameBodyCTOC.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyCTOC.java
+END
+FrameBodyTMED.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTMED.java
+END
+FrameBodyWORS.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyWORS.java
+END
+FrameBodyETCO.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyETCO.java
+END
+FrameBodyWOAF.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyWOAF.java
+END
+ID3v2ChapterFrameBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/ID3v2ChapterFrameBody.java
+END
+FrameBodyTMCL.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTMCL.java
+END
+FrameBodyCOMR.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyCOMR.java
+END
+FrameBodyTCON.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTCON.java
+END
+FrameBodyPCNT.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyPCNT.java
+END
+FrameBodyAENC.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyAENC.java
+END
+FrameBodyWOAR.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyWOAR.java
+END
+ID3v23FrameBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/ID3v23FrameBody.java
+END
+FrameBodyRVA2.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyRVA2.java
+END
+FrameBodyPIC.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyPIC.java
+END
+FrameBodyTXXX.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTXXX.java
+END
+FrameBodyCHAP.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyCHAP.java
+END
+FrameBodyTPE4.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE4.java
+END
+FrameBodyMCDI.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyMCDI.java
+END
+FrameBodyTDLY.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTDLY.java
+END
+FrameBodyWXXX.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyWXXX.java
+END
+FrameBodyUSER.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyUSER.java
+END
+FrameBodyTIT3.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTIT3.java
+END
+FrameBodyTPOS.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTPOS.java
+END
+FrameBodyTOWN.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTOWN.java
+END
+FrameBodyENCR.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyENCR.java
+END
+FrameBodyUSLT.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyUSLT.java
+END
+FrameBodyUnsupported.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyUnsupported.java
+END
+FrameBodyTENC.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTENC.java
+END
+FrameBodyTSIZ.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTSIZ.java
+END
+FrameBodyEQUA.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyEQUA.java
+END
+FrameBodyTDAT.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTDAT.java
+END
+FrameBodyASPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyASPI.java
+END
+FrameBodyLINK.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyLINK.java
+END
+FrameBodyTIME.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTIME.java
+END
+FrameBodyRBUF.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyRBUF.java
+END
+FrameBodyDeprecated.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyDeprecated.java
+END
+FrameBodyTOPE.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTOPE.java
+END
+FrameBodyOWNE.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyOWNE.java
+END
+FrameBodyTSOC.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOC.java
+END
+FrameBodyTFLT.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTFLT.java
+END
+FrameBodyTPE1.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE1.java
+END
+FrameBodyWOAS.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyWOAS.java
+END
+FrameBodyPOPM.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyPOPM.java
+END
+FrameBodyGEOB.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyGEOB.java
+END
+FrameBodyEQU2.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyEQU2.java
+END
+FrameBodyPRIV.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyPRIV.java
+END
+FrameBodyCRM.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyCRM.java
+END
+FrameBodySYTC.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodySYTC.java
+END
+FrameBodyPOSS.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyPOSS.java
+END
+AbstractFrameBodyTextInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/AbstractFrameBodyTextInfo.java
+END
+FrameBodyTRSN.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTRSN.java
+END
+FrameBodyTOLY.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTOLY.java
+END
+FrameBodyTRDA.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTRDA.java
+END
+FrameBodyTDRC.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTDRC.java
+END
+FrameBodyTORY.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTORY.java
+END
+FrameBodyTOAL.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTOAL.java
+END
+FrameBodySIGN.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodySIGN.java
+END
+FrameBodyTDTG.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTDTG.java
+END
+FrameBodyTBPM.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTBPM.java
+END
+FrameBodyTCMP.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTCMP.java
+END
+FrameBodyTRCK.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTRCK.java
+END
+AbstractFrameBodyUrlLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/AbstractFrameBodyUrlLink.java
+END
+FrameBodyTCOP.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTCOP.java
+END
+FrameBodyTOFN.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTOFN.java
+END
+FrameBodyIPLS.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyIPLS.java
+END
+FrameBodyTIPL.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTIPL.java
+END
+FrameBodyWCOP.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyWCOP.java
+END
+ID3v22FrameBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/ID3v22FrameBody.java
+END
+FrameBodyTPE2.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE2.java
+END
+ID3v24FrameBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/ID3v24FrameBody.java
+END
+FrameBodyWPAY.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyWPAY.java
+END
+FrameBodyTIT1.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTIT1.java
+END
+FrameBodyTYER.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTYER.java
+END
+FrameBodyTPRO.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTPRO.java
+END
+FrameBodyTEXT.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTEXT.java
+END
+FrameBodyTSOP.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOP.java
+END
+FrameBodyGRID.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyGRID.java
+END
+FrameBodySEEK.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodySEEK.java
+END
+FrameBodyTRSO.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTRSO.java
+END
+FrameBodyUFID.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyUFID.java
+END
+FrameBodyTSOT.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOT.java
+END
+FrameBodyXSOP.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyXSOP.java
+END
+FrameBodyTDEN.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTDEN.java
+END
+FrameBodyCOMM.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyCOMM.java
+END
+FrameBodySYLT.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodySYLT.java
+END
+FrameBodyRVAD.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyRVAD.java
+END
+FrameBodyXSOT.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyXSOT.java
+END
+FrameBodyTSST.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTSST.java
+END
+FrameBodyTLAN.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTLAN.java
+END
+FrameBodyTCOM.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTCOM.java
+END
+FrameBodyTLEN.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTLEN.java
+END
+FrameBodyWCOM.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyWCOM.java
+END
+FrameBodyTDRL.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/framebody/FrameBodyTDRL.java
+END

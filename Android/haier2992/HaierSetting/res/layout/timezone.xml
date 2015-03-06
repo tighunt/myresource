@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/timezone_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:minHeight="60dip" >
+
+    <TextView
+        android:id="@+id/timezone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_centerVertical="true"
+        android:paddingLeft="60dip"
+        android:text="@string/time_zone"
+        android:textColor="#FFFFFFFF"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/timezone_set"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="60dip"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" 
+        android:background="@drawable/one_px"/>
+
+</RelativeLayout>

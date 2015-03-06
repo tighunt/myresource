@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="600dip"
+        android:background="@drawable/set_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/updateTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:textColor="#CCCCCCCC"
+                android:textSize="28sp" 
+                android:gravity="center"/>
+            
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/net_update_info"
+            android:layout_width="960dip"
+            android:layout_height="140dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dip"
+            android:background="@drawable/taskbar_blue"
+            android:paddingLeft="20dip"
+            android:paddingRight="10dip"
+            android:paddingTop="20dip"
+            android:singleLine="false"
+            android:textColor="#CCCCCCCC"
+            android:textSize="18sp" >
+        </TextView>
+		<LinearLayout 
+            android:layout_width="960dip"
+            android:layout_height="200dip"
+			android:layout_marginLeft="20dip" >
+		    <include layout="@layout/upgrade_help"/>
+		</LinearLayout>
+		
+        <LinearLayout
+            android:id="@+id/show_progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dip"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dip"
+                android:text="@string/progress"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/current_progress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="960dip"
+            android:layout_height="25dip"
+			android:layout_marginLeft="2dip" >
+
+            <include layout="@layout/progress" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/immediate"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dip"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_marginBottom="40dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <!-- <include layout="@layout/bottom_back" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

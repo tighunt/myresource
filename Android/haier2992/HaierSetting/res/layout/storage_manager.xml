@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/storage_ll"
+    android:layout_width="match_parent"
+    android:layout_height="400dip"
+    android:orientation="vertical"
+    android:visibility="gone">
+    <RelativeLayout
+        android:id="@+id/erase_sdcard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="60dip"
+        android:focusable="true"
+        android:clickable="true"
+        android:focusableInTouchMode="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:paddingLeft="60dip"
+            android:text="@string/erase_sdcard"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/sdcard_using"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:paddingRight="60dip"
+            android:text="@string/sdcard_using"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

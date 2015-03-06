@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array
+		name="date_format_values"
+		translatable="false">
+		<item>Month-Day-Year</item>
+		<item>Day-Month-Year</item>
+		<item>Year-Month-Day</item>
+	</string-array>
+	<string-array
+		name="language_names"
+		translatable="false">
+		<item>Chinese (Simplified)</item>
+		<item>English</item>
+	</string-array>
+
+	<!-- <item>中文 (繁體)</item> -->
+
+	<string-array
+		name="d3_screen_view"
+		translatable="false">
+		<item>Full screen</item>
+		<item>Center</item>
+		<item>Automatic</item>
+	</string-array>
+
+	<string-array
+		name="different"
+		translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+		<item>32</item>
+	</string-array>
+	<string-array
+		name="audio_video"
+		translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+		<item>32</item>
+		<item>33</item>
+		<item>34</item>
+		<item>35</item>
+		<item>36</item>
+		<item>37</item>
+		<item>38</item>
+		<item>39</item>
+		<item>40</item>
+		<item>41</item>
+		<item>42</item>
+		<item>43</item>
+		<item>44</item>
+		<item>45</item>
+		<item>46</item>
+		<item>47</item>
+		<item>48</item>
+		<item>49</item>
+		<item>50</item>
+		<item>51</item>
+		<item>52</item>
+		<item>53</item>
+		<item>55</item>
+		<item>56</item>
+		<item>57</item>
+		<item>58</item>
+		<item>59</item>
+		<item>60</item>
+		<item>61</item>
+		<item>62</item>
+		<item>63</item>
+		<item>64</item>
+		<item>56</item>
+		<item>66</item>
+		<item>67</item>
+		<item>68</item>
+		<item>69</item>
+		<item>70</item>
+		<item>71</item>
+		<item>72</item>
+		<item>73</item>
+		<item>74</item>
+		<item>75</item>
+		<item>76</item>
+		<item>77</item>
+		<item>78</item>
+		<item>79</item>
+		<item>80</item>
+		<item>81</item>
+		<item>82</item>
+		<item>83</item>
+		<item>84</item>
+		<item>85</item>
+		<item>86</item>
+		<item>87</item>
+		<item>88</item>
+		<item>89</item>
+		<item>90</item>
+		<item>91</item>
+		<item>92</item>
+		<item>93</item>
+		<item>94</item>
+		<item>95</item>
+		<item>96</item>
+		<item>97</item>
+		<item>98</item>
+		<item>99</item>
+		<item>100</item>
+	</string-array>
+	<string-array
+		name="spdif"
+		translatable="false">
+		<item>Off</item>
+		<item>Raw</item>
+		<item>Pcm</item>
+	</string-array>
+	<string-array
+		name="auto_touch"
+		translatable="false">
+		<item>Shut</item>
+		<item>Immediately</item>
+		<item>Screen</item>
+	</string-array>
+	<string-array
+		name="auto_delicacy"
+		translatable="false">
+		<item>Low</item>
+		<item>In</item>
+		<item>High</item>
+	</string-array>
+	<string-array
+		name="d3_mode"
+		translatable="false">
+		<item>shut</item>
+		<item>Left or Right</item>
+		<item>Up or down</item>
+		<item>Frame sequence</item>
+		<item>Lines interweave</item>
+		<item>2 D to 3 D</item>
+		<item>Immediately</item>
+	</string-array>
+	<string-array
+		name="d3_to_d2"
+		translatable="false">
+		<item>Shut</item>
+		<item>Left or Right</item>
+		<item>Up or Down</item>
+		<item>Frame Sequence</item>
+		<item>Lines Interweave</item>
+		<item>2 D to 3 D</item>
+		<item>Immediately</item>
+	</string-array>
+	<string-array
+		name="auto_start"
+		translatable="false">
+		<item>Shut</item>
+		<item>2D</item>
+		<item>3D</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<item msgid="1922181315419294640"></item>
+		<item msgid="8934131797783724664">"Is scanning..."</item>
+		<item msgid="8513729475867537913">"Are connecting..."</item>
+		<item msgid="515055375277271756">"Ongoing identity authentication..."</item>
+		<item msgid="1943354004029184381">"Is retrieving IP address..."</item>
+		<item msgid="4221763391123233270">"Has connected"</item>
+		<item msgid="624838831631122137">"Has suspended"</item>
+		<item msgid="7979680559596111948">"Are disconnected..."</item>
+		<item msgid="1634960474403853625">"Have become disconnected"</item>
+		<item msgid="746097431216080650">"Failure"</item>
+	</string-array>
+	<!-- <string-array name="wifi_status_with_ssid"> -->
+	<!-- <item msgid="7714855332363650812"></item> -->
+	<!-- <item msgid="8878186979715711006">"正在扫描..."</item> -->
+	<!-- <item msgid="355508996603873860">"正在连接到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g>..."</item> -->
+	<!-- <item msgid="554971459996405634">"正在通过 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 
+		进行身份验证..."</item> -->
+	<!-- <item msgid="7928343808033020343">"正在从 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 
+		获取 IP 地址..."</item> -->
+	<!-- <item msgid="8937994881315223448">"已连接到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item> -->
+	<!-- <item msgid="1330262655415760617">"已暂停"</item> -->
+	<!-- <item msgid="7698638434317271902">"正在断开与 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 
+		的连接..."</item> -->
+	<!-- <item msgid="197508606402264311">"已断开连接"</item> -->
+	<!-- <item msgid="8578370891960825148">"失败"</item> -->
+	<!-- </string-array> -->
+	<string-array name="wifi_status_with_ssid">
+		<item msgid="7714855332363650812"></item>
+		<item msgid="8878186979715711006">"Is scanning..."</item>
+		<item msgid="355508996603873860">"Ongoing identity authentication..."</item>
+		<item msgid="554971459996405634">"Is retrieving IP address..."</item>
+		<item msgid="7928343808033020343">"Is retrieving IP address..."</item>
+		<item msgid="8937994881315223448">"Has connected"</item>
+		<item msgid="1330262655415760617">"Has suspended"</item>
+		<item msgid="7698638434317271902">"Are disconnected..."</item>
+		<item msgid="197508606402264311">"Have become disconnected"</item>
+		<item msgid="8578370891960825148">"Failure"</item>
+	</string-array>
+	<string-array name="wifi_security">
+		<item msgid="1435933968767043814">"open"</item>
+		<item msgid="6318432659048829665">"WEP"</item>
+		<item msgid="2966395706508338179">"WPA/WPA2 PSK"</item>
+		<item msgid="9098390198768443435">"802.1x EAP"</item>
+	</string-array>
+	<string-array name="wifi_eap_method">
+		<item msgid="1160193392455075561">"PEAP"</item>
+		<item msgid="7981731051382306293">"TLS"</item>
+		<item msgid="2892994535305020162">"TTLS"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item msgid="2245412278046491293">"Weak"</item>
+		<item msgid="5615082285463430971">"General"</item>
+		<item msgid="3565079809875324621">"Stronger"</item>
+		<item msgid="5702329417707689835">"Strong"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item msgid="3804733751095821976">"Screen closed dormancy"</item>
+		<item msgid="1549288661423279207">"Charge never dormancy"</item>
+		<item msgid="1986753720941888596">"Never dormancy"</item>
+	</string-array>
+	<string-array name="wifi_eap_entries">
+		<item msgid="8615575908717909498">"PEAP"</item>
+		<item msgid="8667872640594311615">"TLS"</item>
+		<item msgid="7182812872984827322">"TTLS"</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item msgid="1818786254010764570">"NO"</item>
+		<item msgid="6189918678874123056">"PAP"</item>
+		<item msgid="1524112260493662517">"MSCHAP"</item>
+		<item msgid="5923246669412752932">"MSCHAPV2"</item>
+		<item msgid="8651992560135239389">"GTC"</item>
+	</string-array>
+	    <string-array name="show_font_size" translatable="false">
+        <item>Small</item>
+        <item>Common</item>
+        <item>Big</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="show_dormant" translatable="false">
+        <item>Never</item>
+        <item>15seconds</item>
+        <item>30second</item>
+        <item>1minute</item>
+        <item>2minutes</item>
+        <item>5minutes</item>
+        <item>10minutes</item>
+        <item>30minutes</item>
+    </string-array>
+      <string-array name="bluetooth_visibility_timeout_entries">
+    <item msgid="8151962652413645395">"2 minutes"</item>
+    <item msgid="8675215713017289017">"5 minutes"</item>
+    <item msgid="477015974247590543">"1 hour"</item>
+    <item msgid="5198271470953124739">"never"</item>
+  </string-array>
+	<string-array name="wifi_p2p_status">
+        <item>Connected</item>
+        <item>Invited</item>
+        <item>Unsuccessful</item>
+        <item>Available</item>
+        <item>Out-of-Range</item>
+   </string-array>
+
+    <string-array name="intelligent_eye_mode" translatable="false">
+        <item>OFF</item>
+        <item>DEMO</item>
+        <item>ON</item>
+    </string-array>
+    
+    <string-array name="sleep_mode" translatable="false">
+        <item>OFF</item>
+        <item>5min</item>
+        <item>10min</item>
+        <item>15min</item>
+        <item>30min</item>
+        <item>45min</item>
+        <item>60min</item>
+        <item>90min</item>
+        <item>120min</item>
+        <item>180min</item>
+        <item>240min</item>
+    </string-array>
+    
+    <string-array name="app_install_local" translatable="false">
+        <item>Default</item>
+        <item>Internal</item>
+    </string-array>
+    
+    <!-- zhoujf 2012-8-24 屏蔽  SDCARED        
+    <item>External</item>
+    -->
+</resources>

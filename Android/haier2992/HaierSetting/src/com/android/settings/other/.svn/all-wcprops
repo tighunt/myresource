@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MM/mmandroid/!svn/ver/10213/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other
+END
+DesktopSettingViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/DesktopSettingViewHolder.java
+END
+AudioSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/8036/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/AudioSettings.java
+END
+OtherSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/8655/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/OtherSettings.java
+END
+DesktopSettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/DesktopSettingActivity.java
+END
+TimerSkin.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/TimerSkin.java
+END
+SleepSettingDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/MM/mmandroid/!svn/ver/10213/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/SleepSettingDialog.java
+END
+AudiosettingViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/AudiosettingViewHolder.java
+END
+EN_SLEEP_TIME_STATE.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/EN_SLEEP_TIME_STATE.java
+END
+OtherViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/8165/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/OtherViewHolder.java
+END
+DesktopSettingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/DesktopSettingListener.java
+END
+CountDownTimerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MM/mmandroid/!svn/ver/9841/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/other/CountDownTimerActivity.java
+END

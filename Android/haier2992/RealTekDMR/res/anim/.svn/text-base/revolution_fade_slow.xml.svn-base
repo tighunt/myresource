@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:interpolator="@android:anim/linear_interpolator"
+	android:shareInterpolator="true">
+	<!-- 淡入淡出 -->
+	<alpha
+		android:fromAlpha="1.0"
+		android:toAlpha="0.6"
+		android:duration="2500" 
+		android:repeatCount="infinite"
+		android:repeatMode="reverse" />
+
+	<!-- 公传360度 -->
+	<rotate
+		android:fromDegrees="0"
+		android:toDegrees="+360"
+		android:pivotX="50%"
+		android:pivotY="50%"
+		android:duration="5000"
+		android:repeatCount="infinite"
+		android:repeatMode="restart" />
+</set>

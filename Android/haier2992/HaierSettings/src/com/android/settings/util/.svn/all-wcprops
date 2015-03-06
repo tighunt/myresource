@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/util
+END
+Tools.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/util/Tools.java
+END
+StorageInfor.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/util/StorageInfor.java
+END
+Storage.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/util/Storage.java
+END
+DateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/util/DateUtil.java
+END
+InvalidDateFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/util/InvalidDateFormatException.java
+END

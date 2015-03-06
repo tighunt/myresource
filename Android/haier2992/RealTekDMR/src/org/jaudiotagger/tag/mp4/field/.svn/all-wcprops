@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field
+END
+Mp4TagCoverField.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4TagCoverField.java
+END
+Mp4TagRawBinaryField.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4TagRawBinaryField.java
+END
+Mp4TagReverseDnsField.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4TagReverseDnsField.java
+END
+Mp4DiscNoField.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4DiscNoField.java
+END
+Mp4TagByteField.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4TagByteField.java
+END
+Mp4GenreField.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4GenreField.java
+END
+Mp4TagBinaryField.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4TagBinaryField.java
+END
+Mp4TagTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4TagTextField.java
+END
+Mp4FieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4FieldType.java
+END
+Mp4TrackField.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4TrackField.java
+END
+Mp4TagTextNumberField.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/mp4/field/Mp4TagTextNumberField.java
+END

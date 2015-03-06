@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair
+END
+ReceivedAsTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/ReceivedAsTypes.java
+END
+EventTimingTimestampTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/EventTimingTimestampTypes.java
+END
+SynchronisedLyricsContentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/SynchronisedLyricsContentType.java
+END
+TextEncoding.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/TextEncoding.java
+END
+InterpolationTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/InterpolationTypes.java
+END
+ChannelTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/ChannelTypes.java
+END
+V2GenreTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/V2GenreTypes.java
+END
+EventTimingTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/EventTimingTypes.java
+END
+ID3V2ExtendedGenreTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/ID3V2ExtendedGenreTypes.java
+END
+ImageFormats.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/id3/valuepair/ImageFormats.java
+END

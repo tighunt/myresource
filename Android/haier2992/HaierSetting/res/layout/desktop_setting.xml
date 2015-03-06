@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="600dip"
+        android:background="@drawable/set_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dip"
+                android:text="@string/desktop_setting"
+                android:textColor="#FFFFFFFF"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="440dip"
+            android:orientation="horizontal"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:layout_weight="2"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/preview"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/preview_iv"
+                    android:layout_width="300dip"
+                    android:layout_height="150dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dip"
+                    android:background="@drawable/desktop_img" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/desktop_background_rl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="30dip"
+                        android:text="@string/background"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/desk_right_arrowhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="40dip"
+                        android:background="@drawable/desktop_right"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/change_image_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="50dip"
+                        android:layout_toLeftOf="@id/desk_right_arrowhead"
+                        android:background="@drawable/one_px"
+                        android:text="@string/blue_sky"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/desk_left_arrowhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="50dip"
+                        android:layout_toLeftOf="@id/change_image_btn"
+                        android:background="@drawable/desktop_left"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/desktop_style_rl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="30dip"
+                        android:text="@string/style"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/desk_style_right_arrowhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="40dip"
+                        android:background="@drawable/desktop_right"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/change_style_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="50dip"
+                        android:layout_toLeftOf="@id/desk_style_right_arrowhead"
+                        android:background="@drawable/one_px"
+                        android:text="@string/blue_sky"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/desk_style_left_arrowhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="50dip"
+                        android:layout_toLeftOf="@id/change_style_btn"
+                        android:background="@drawable/desktop_left"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <include layout="@layout/desktop_bottom" >
+            </include>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style
+		name="Theme.Wallpaper"
+		parent="android:style/Theme.Wallpaper">
+		<item name="android:colorForeground">#fff</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+	</style>
+
+	<style
+		name="mainMenu"
+		parent="@android:style/Theme.Dialog">
+		<!-- 更换背景图片实现全透明 -->
+		<item name="android:windowBackground">@drawable/one_px</item>
+		<!-- 屏幕背景不变暗 -->
+		<item name="android:backgroundDimEnabled">false</item>
+	</style>
+</resources>

@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io
+END
+RandomAccessFileOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/RandomAccessFileOutputStream.java
+END
+ContentDescriptionReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/ContentDescriptionReader.java
+END
+EncodingChunkReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/EncodingChunkReader.java
+END
+ContentBrandingReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/ContentBrandingReader.java
+END
+LanguageListReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/LanguageListReader.java
+END
+MetadataReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/MetadataReader.java
+END
+ChunkHeaderReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/ChunkHeaderReader.java
+END
+ModificationResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/ModificationResult.java
+END
+AsfHeaderReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/AsfHeaderReader.java
+END
+EncryptionChunkReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/EncryptionChunkReader.java
+END
+StreamBitratePropertiesReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/StreamBitratePropertiesReader.java
+END
+WriteableChunk.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/WriteableChunk.java
+END
+StreamChunkReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/StreamChunkReader.java
+END
+FullRequestInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/FullRequestInputStream.java
+END
+ChunkRemover.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/ChunkRemover.java
+END
+FileHeaderReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/FileHeaderReader.java
+END
+AsfStreamer.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/AsfStreamer.java
+END
+WriteableChunkModifer.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/WriteableChunkModifer.java
+END
+CountingInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/CountingInputStream.java
+END
+AsfExtHeaderModifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/AsfExtHeaderModifier.java
+END
+CountingOutputstream.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/CountingOutputstream.java
+END
+AsfExtHeaderReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/AsfExtHeaderReader.java
+END
+ChunkModifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/ChunkModifier.java
+END
+ChunkReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/ChunkReader.java
+END
+RandomAccessFileInputstream.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/RandomAccessFileInputstream.java
+END
+ChunkContainerReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/asf/io/ChunkContainerReader.java
+END

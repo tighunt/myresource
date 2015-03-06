@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/net_state_wire"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/wire_net_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dip"
+        android:text="@string/wire_connect"
+        android:textColor="#CCCCCCCC"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dip" />
+
+    <!-- [2012-4-2 yanhd remove]
+    <TextView
+        android:id="@+id/wire_connect_failure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dip"
+        android:text="@string/wire_con_failure"
+        android:textColor="#CCCCCCCC"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/ip_match"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dip"
+            android:text="@string/check_ip"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dip"
+            android:background="@drawable/check_success" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/default_match"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dip"
+            android:text="@string/check_default"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dip"
+            android:background="@drawable/check_success" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/net_mask_match"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dip"
+            android:text="@string/check_net_mask"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dip"
+            android:background="@drawable/check_success" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dns_match"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dip"
+            android:text="@string/check_first_dns"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dip"
+            android:background="@drawable/check_success" />
+    </RelativeLayout>
+	 -->
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/other_audiosetting_keyaudio"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dip" 
+    android:background="@drawable/one_px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:paddingLeft="60dip"
+        android:text="@string/other_keyaudio"
+        android:textColor="#FFFFFFFF"
+        android:layout_centerVertical="true"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/audiosetting_keyaudio_set"
+        android:layout_width="120dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dip"
+        android:visibility="invisible"
+        android:button="@drawable/custom_checkbox" />
+     <CheckBox
+        android:id="@+id/audiosetting_keyaudio_set_en"
+        android:layout_width="120dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dip"
+        android:visibility="invisible"
+        android:button="@drawable/custom_checkbox_en" />
+    
+
+</RelativeLayout>

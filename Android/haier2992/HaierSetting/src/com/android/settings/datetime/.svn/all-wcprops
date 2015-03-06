@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MM/mmandroid/!svn/ver/9981/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/datetime
+END
+DateTimeViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/MM/mmandroid/!svn/ver/9665/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/datetime/DateTimeViewHolder.java
+END
+DateFormatSelectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/datetime/DateFormatSelectDialog.java
+END
+ZoneListSelectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/datetime/ZoneListSelectDialog.java
+END
+DateSettingDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/MM/mmandroid/!svn/ver/9981/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/datetime/DateSettingDialog.java
+END
+TimeSettingDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/datetime/TimeSettingDialog.java
+END

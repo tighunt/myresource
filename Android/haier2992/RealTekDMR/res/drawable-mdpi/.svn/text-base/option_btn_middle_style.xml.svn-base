@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/music_button_middle_sel" android:state_focused="true" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/music_button_middle_sel"
+        android:state_focused="true"></item>
+    <item android:drawable="@drawable/music_button_middle_sel" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/jump_sel_bg" android:state_selected="true"></item>
+    <!-- <item -->
+    <!-- android:state_focused="false" -->
+    <!-- android:drawable="@drawable/music_button_middle_bg" > -->
+    <!-- </item> -->
+
+</selector>

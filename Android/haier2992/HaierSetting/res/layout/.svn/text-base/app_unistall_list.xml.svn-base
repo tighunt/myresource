@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_uninstall_select"
+    android:layout_width="250dip"
+    android:layout_height="wrap_content"
+    android:listSelector="@drawable/left_select_item"
+    android:minHeight="50dip"
+    android:paddingTop="10dip"
+    android:scrollbars="none" >
+</ListView>

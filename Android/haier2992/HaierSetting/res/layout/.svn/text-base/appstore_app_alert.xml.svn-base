@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/line" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/appstore_app_alert_txt"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/taskbar_blue"
+        android:gravity="left"
+        android:padding="10dip"
+        android:singleLine="false"
+        android:text="@string/appstore_app_alert"
+        android:textColor="#CCCCCCCC"
+        android:textSize="25sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/appstore_ok_btn"
+            android:layout_width="200dip"
+            android:layout_height="40dip"
+            android:background="@drawable/button_change1"
+            android:text="@string/ok"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/appstore_cancel_btn"
+            android:layout_width="200dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="30dip"
+            android:background="@drawable/button_change1"
+            android:text="@string/cancle"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/line" >
+    </ImageView>
+
+</LinearLayout>

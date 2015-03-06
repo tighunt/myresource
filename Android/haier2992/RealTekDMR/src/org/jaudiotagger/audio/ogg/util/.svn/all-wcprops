@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/ogg/util
+END
+OggPageHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/ogg/util/OggPageHeader.java
+END
+VorbisIdentificationHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/ogg/util/VorbisIdentificationHeader.java
+END
+OggInfoReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/ogg/util/OggInfoReader.java
+END
+OggCRCFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/ogg/util/OggCRCFactory.java
+END
+VorbisHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/ogg/util/VorbisHeader.java
+END
+VorbisPacketType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/ogg/util/VorbisPacketType.java
+END
+VorbisSetupHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/ogg/util/VorbisSetupHeader.java
+END

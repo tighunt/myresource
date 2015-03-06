@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="650dip"
+        android:background="@drawable/set_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/bluetooth_setting"
+                android:textColor="#FFFFFFFF"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/line" >
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1000dip"
+            android:layout_height="600dip"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="360dip"
+                android:layout_height="600dip"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/bluetooth_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_vertical"
+                    android:minHeight="50dip" >
+
+                  
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:paddingLeft="30dip"
+                        android:text="@string/bluetooth"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="22sp" />
+                    
+               
+
+                    <ImageView
+                        android:id="@+id/bluetooth_button_image"
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="40dip" />
+                    
+                           <ProgressBar
+                        android:id="@+id/ProgressBar01"
+                        style="@android:style/Widget.ProgressBar.Small.Inverse"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toLeftOf="@id/bluetooth_button_image"
+                        android:layout_marginLeft="20dip"
+                        android:scrollbarSize="20dip"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bluetooth_devicename"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:minHeight="50dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="30dip"
+                        android:text="@string/bluetooth_devicename"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/bluetooth_devicename_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="40dip" />
+                </RelativeLayout>
+
+                <!-- <RelativeLayout -->
+                <!-- android:id="@+id/bluetooth_discoverable" -->
+                <!-- android:layout_width="fill_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:focusable="true" -->
+                <!-- android:focusableInTouchMode="true" -->
+                <!-- android:minHeight="50dip" > -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:orientation="vertical" -->
+                <!-- android:paddingLeft="30dip" -->
+                <!-- > -->
+                <!-- <TextView -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="40dip" -->
+                <!-- android:text="@string/bluetooth_discoverable" -->
+                <!-- android:textColor="#CCCCCCCC" -->
+                <!-- android:textSize="22sp" /> -->
+                <!-- <TextView -->
+                <!-- android:id="@+id/bluetooth_discoverable_time" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="20dip" -->
+                <!-- android:paddingLeft="30dip" -->
+                <!-- android:textColor="#CCCCCCCC" -->
+                <!-- android:textSize="11sp" /> -->
+                <!-- </LinearLayout> -->
+
+
+                <!-- <ImageView -->
+                <!-- android:id="@+id/bluetooth_discoverable_image" -->
+                <!-- android:layout_width="100dip" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_alignParentRight="true" -->
+                <!-- android:layout_marginRight="40dip" /> -->
+                <!-- </RelativeLayout> -->
+
+                <RelativeLayout
+                    android:id="@+id/bluetooth_discoverable_timeout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:minHeight="50dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="30dip"
+                        android:text="@string/bluetooth_discoverable_timeout"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/bluetooth_discoverable_timeout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dip"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bluetooth_scan_for_devices"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:minHeight="50dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="30dip"
+                        android:text="@string/bluetooth_scan_for_devices"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="22sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="600dip"
+                android:background="@drawable/vertical_line" />
+
+            <LinearLayout
+                android:layout_width="590dip"
+                android:layout_height="600dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="590dip"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="30dip"
+                        android:text="@string/bluetooth_devices"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="22sp" />
+                    <!-- <ProgressBar -->
+                    <!-- style="@android:style/Widget.ProgressBar.Small.Inverse" -->
+                    <!-- android:id="@+id/ProgressBar01" -->
+                    <!-- android:layout_gravity="center_vertical" -->
+                    <!-- android:visibility="gone" -->
+                    <!-- android:scrollbarSize="20dip" -->
+                    <!-- android:paddingRight="20dip" -->
+                    <!-- android:layout_width="wrap_content" -->
+                    <!-- android:layout_height="wrap_content" /> -->
+
+                </LinearLayout>
+
+                <fragment
+                    android:id="@+id/device_list_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.android.settings.bluetooth.BluetoothSettings" />
+
+                <!-- <ListView -->
+                <!-- android:id="@+id/device_list" -->
+                <!-- android:layout_width="1dip" -->
+                <!-- android:listSelector="@drawable/select_item" -->
+                <!-- android:layout_height="1dip" -->
+                <!-- /> -->
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

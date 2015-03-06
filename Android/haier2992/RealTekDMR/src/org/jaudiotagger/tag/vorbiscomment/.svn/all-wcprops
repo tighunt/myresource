@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/vorbiscomment
+END
+VorbisCommentTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/vorbiscomment/VorbisCommentTag.java
+END
+VorbisCommentFieldKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/vorbiscomment/VorbisCommentFieldKey.java
+END
+VorbisCommentCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/vorbiscomment/VorbisCommentCreator.java
+END
+VorbisCommentTagField.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/vorbiscomment/VorbisCommentTagField.java
+END
+VorbisCommentReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/vorbiscomment/VorbisCommentReader.java
+END

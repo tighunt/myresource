@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/date_time_24hour_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dip"
+    android:background="@drawable/one_px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:paddingLeft="60dip"
+        android:text="@string/hour_format"
+        android:textColor="#FFFFFFFF"
+        android:layout_centerVertical="true"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/hour_format_cb"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dip"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:button="@drawable/custom_checkbox" />
+    <CheckBox
+        android:id="@+id/hour_format_cb_en"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dip"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:button="@drawable/custom_checkbox_en" />
+
+</RelativeLayout>

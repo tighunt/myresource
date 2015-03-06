@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions
+END
+NullBoxIdException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/NullBoxIdException.java
+END
+UnableToModifyFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/UnableToModifyFileException.java
+END
+UnableToRenameFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/UnableToRenameFileException.java
+END
+InvalidAudioFrameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/InvalidAudioFrameException.java
+END
+CannotReadVideoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/CannotReadVideoException.java
+END
+ModifyVetoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/ModifyVetoException.java
+END
+InvalidBoxHeaderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/InvalidBoxHeaderException.java
+END
+CannotWriteException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/CannotWriteException.java
+END
+ReadOnlyFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/ReadOnlyFileException.java
+END
+UnableToCreateFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/UnableToCreateFileException.java
+END
+CannotReadException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/exceptions/CannotReadException.java
+END

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridLayout1"
+    android:layout_width="1000dip"
+    android:layout_height="600dip"
+    android:layout_gravity="center"
+    android:background="@drawable/set_bg1"
+    android:columnCount="10"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/province_list_select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="10"
+        android:gravity="center"
+        android:paddingTop="10dip"
+        android:text="@string/city_select"
+        android:textColor="#FFC8C8C8"
+        android:textSize="30dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="10"
+        android:orientation="vertical" >     
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="10"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="30dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/province_list_beijing"
+            android:layout_width="110dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/city_button_change"
+            android:gravity="center"
+            android:text="@string/beijing"
+            android:textColor="#FFFFFFFF"
+            android:textSize="30dip" 
+            android:nextFocusLeft="@+id/province_list_beijing"/>
+
+        <Button
+            android:id="@+id/province_list_shanghai"
+            android:layout_width="110dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="40dip"
+            android:background="@drawable/city_button_change"
+            android:gravity="center"
+            android:text="@string/shanghai"
+            android:textColor="#FFFFFFFF"
+            android:textSize="30dip" />
+
+        <Button
+            android:id="@+id/province_list_chongqing"
+            android:layout_width="110dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="40dip"
+            android:background="@drawable/city_button_change"
+            android:gravity="center"
+            android:text="@string/chongqing"
+            android:textColor="#FFFFFFFF"
+            android:textSize="30dip" 
+            android:nextFocusDown="@+id/province_list_anhui"/>
+
+        <Button
+            android:id="@+id/province_list_tianjin"
+            android:layout_width="110dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="40dip"
+            android:background="@drawable/city_button_change"
+            android:gravity="center"
+            android:text="@string/tianjin"
+            android:textColor="#FFFFFFFF"
+            android:textSize="30dip" />
+
+        <Button
+            android:id="@+id/province_list_xianggang"
+            android:layout_width="110dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="40dip"
+            android:background="@drawable/city_button_change"
+            android:gravity="center"
+            android:text="@string/xianggang"
+            android:textColor="#FFFFFFFF"
+            android:textSize="30dip" />
+
+        <Button
+            android:id="@+id/province_list_aomen"
+            android:layout_width="110dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="40dip"
+            android:background="@drawable/city_button_change"
+            android:gravity="center"
+            android:text="@string/aomen"
+            android:textColor="#FFFFFFFF"
+            android:textSize="30dip"
+            android:nextFocusRight="@+id/province_list_anhui"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="918dip"
+        android:layout_height="2dip"
+        android:layout_columnSpan="10"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/pop_line" >
+    </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/province_list_A"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="40dip"
+        android:gravity="center"
+        android:text="@string/province_A"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip" 
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_anhui"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="4"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/anhui"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusLeft="@+id/province_list_aomen"/>
+
+    <TextView
+        android:id="@+id/province_list_N"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/province_N"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_neimenggu"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/neimenggu"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_ningxia"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="3"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/ningxia"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip" 
+        android:layout_marginBottom="10dip"
+        android:nextFocusRight="@+id/province_list_fujian"/>
+
+    <TextView
+        android:id="@+id/province_list_F"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="40dip"
+        android:gravity="center"
+        android:text="@string/province_F"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_fujian"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="4"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/fujian"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusRight="@+id/province_list_qinghai"
+        android:nextFocusLeft="@+id/province_list_ningxia"/>
+
+    <TextView
+        android:id="@+id/province_list_Q"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/province_Q"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_qinghai"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="4"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/qinghai"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip" 
+        android:layout_marginBottom="10dip"
+        android:nextFocusRight="@+id/province_list_guangxi"
+        android:nextFocusLeft="@+id/pprovince_list_fujian"/>
+
+    <TextView
+        android:id="@+id/province_list_G"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="40dip"
+        android:gravity="center"
+        android:text="@string/province_G"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_guangxi"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/guangxi"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusLeft="@+id/province_list_qinghai"/>
+
+    <Button
+        android:id="@+id/province_list_guangdong"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/guangdong"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_guizhou"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/guizhou"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_gansu"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/gansu"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusUp="@+id/province_list_fujian"/>
+
+    <TextView
+        android:id="@+id/province_list_S"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/province_S"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_shandong"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/shandong"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_shanxi"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/shanxi"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_shaanxi"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/shaanxi"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusUp="@+id/province_list_qinghai"
+        android:nextFocusDown="@+id/province_list_taiwan"/>
+
+    <Button
+        android:id="@+id/province_list_sichuan"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/sichuan"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusUp="@+id/province_list_qinghai"
+        android:nextFocusDown="@+id/province_list_taiwan"
+        android:nextFocusRight="@+id/province_list_hainan"/>
+
+    <TextView
+        android:id="@+id/province_list_H"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="40dip"
+        android:gravity="center"
+        android:text="@string/province_H"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_hainan"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/hainan"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip" 
+        android:nextFocusLeft="@+id/province_list_sichuan"/>
+
+    <Button
+        android:id="@+id/province_list_henan"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/henan"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_hebei"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/hebei"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_hubei"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/hubei"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusDown="@+id/province_list_heilongjiang"/>
+
+    <TextView
+        android:id="@+id/province_list_T"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/province_T"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_taiwan"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="4"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/taiwan"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusRight="@+id/province_list_hunan"/>
+
+    <TextView
+        android:id="@+id/province_list_null"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="40dip"
+        android:focusable="false"
+        android:gravity="center"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_hunan"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/hunan"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusLeft="@+id/province_list_taiwan"/>
+
+    <Button
+        android:id="@+id/province_list_heilongjiang"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="3"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/heilongjiang"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusRight="@+id/province_list_xizang"/>
+
+    <TextView
+        android:id="@+id/province_list_X"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/province_X"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip" 
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_xizang"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/xizang"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip" 
+        android:layout_marginBottom="10dip"
+        android:nextFocusLeft="@+id/province_list_heilongjiang"/>
+
+    <Button
+        android:id="@+id/province_list_xinjiang"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="3"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/xinjiang"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+         android:nextFocusRight="@+id/province_list_jilin"/>
+
+    <TextView
+        android:id="@+id/province_list_J"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="40dip"
+        android:gravity="center"
+        android:text="@string/province_J"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_jilin"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/jilin"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusLeft="@+id/province_list_xinjiang"/>
+
+    <Button
+        android:id="@+id/province_list_jiangsu"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/jiangsu"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_jiangxi"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="2"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/jiangxi"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <TextView
+        android:id="@+id/province_list_Y"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/province_Y"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_yunnan"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="4"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/yunnan"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusRight="@+id/province_list_liaoning"/>
+
+    <TextView
+        android:id="@+id/province_list_L"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="40dip"
+        android:gravity="center"
+        android:text="@string/province_L"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_liaoning"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="4"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/liaoning"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:nextFocusRight="@+id/province_list_zhejiang"
+        android:nextFocusLeft="@+id/province_list_yunnan"/>
+
+    <TextView
+        android:id="@+id/province_list_Z"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/province_Z"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:id="@+id/province_list_zhejiang"
+        android:layout_width="110dip"
+        android:layout_height="50dip"
+        android:layout_columnSpan="4"
+        android:background="@drawable/city_button_change"
+        android:gravity="center"
+        android:text="@string/zhejiang"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dip" 
+        android:layout_marginBottom="10dip"
+        android:nextFocusLeft="@+id/province_list_liaoning"
+        android:nextFocusRight="@+id/province_list_zhejiang"/>
+
+</GridLayout>

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag
+END
+InvalidDataTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/InvalidDataTypeException.java
+END
+InvalidTagException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/InvalidTagException.java
+END
+FieldDataInvalidException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/FieldDataInvalidException.java
+END
+TagNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/TagNotFoundException.java
+END
+Tag.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/Tag.java
+END
+TagField.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/TagField.java
+END
+InvalidFrameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/InvalidFrameException.java
+END
+InvalidFrameIdentifierException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/InvalidFrameIdentifierException.java
+END
+TagTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/TagTextField.java
+END
+KeyNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/KeyNotFoundException.java
+END
+TagOptionSingleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/TagOptionSingleton.java
+END
+ImageHandling.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/ImageHandling.java
+END
+EmptyFrameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/EmptyFrameException.java
+END
+TagException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/TagException.java
+END
+FieldKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/FieldKey.java
+END

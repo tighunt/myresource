@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="600dip"
+        android:background="@drawable/set_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/legal_infor"
+                android:textColor="#CCCCCCCC"
+                android:textSize="28sp" 
+                android:layout_marginTop="10dip"/>
+            
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="900dip"
+            android:layout_height="440dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:background="@drawable/taskbar_blue"
+            android:layout_gravity="center_horizontal" 
+            android:layout_marginTop="10dip">
+
+            <TextView
+                android:id="@+id/about_legal_info"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                android:textScaleX="1"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" >
+            </TextView>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dip"
+                android:layout_marginBottom="40dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <!-- <include layout="@layout/bottom_back" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

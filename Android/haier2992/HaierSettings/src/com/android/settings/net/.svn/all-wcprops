@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MM/mmandroid/!svn/ver/11807/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net
+END
+NetSettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/NetSettingActivity.java
+END
+WireSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WireSetting.java
+END
+WiFiSignalListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/MM/mmandroid/!svn/ver/11807/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WiFiSignalListActivity.java
+END
+TVOSGHotKeyDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/TVOSGHotKeyDialog.java
+END
+LocationSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/LocationSetting.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/Constants.java
+END
+WifiApSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/9706/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WifiApSetting.java
+END
+NetSettingViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/NetSettingViewHolder.java
+END
+NetSettingListeners.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/NetSettingListeners.java
+END
+WiFiEditDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WiFiEditDialog.java
+END
+FocusChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/FocusChange.java
+END
+WifiDirectListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WifiDirectListAdapter.java
+END
+WiFiAddDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WiFiAddDialog.java
+END
+WifiDirectSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/9965/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WifiDirectSetting.java
+END
+WiFiConnectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WiFiConnectDialog.java
+END
+WiFiSignalListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WiFiSignalListAdapter.java
+END
+WiFiSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MM/mmandroid/!svn/ver/8165/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/WiFiSetting.java
+END
+CurretNetStatusBak.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/CurretNetStatusBak.java
+END
+InputIPAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/net/InputIPAddress.java
+END

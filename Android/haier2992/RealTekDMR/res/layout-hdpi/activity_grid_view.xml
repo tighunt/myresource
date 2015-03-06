@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#06284e"
+    tools:context=".GridViewActivity" >
+    
+    
+	<TextView
+        android:id="@+id/topMediaIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="22dp"
+        android:layout_width="wrap_content"        
+        android:layout_height="wrap_content"   
+        android:textColor="#ffffff"     
+        android:text="@string/mediaplayer"
+	 />
+	
+	
+	<TextView
+        android:id="@+id/topMediaInfo"
+        android:layout_toRightOf="@+id/topMediaIcon"
+        android:layout_alignTop="@+id/topMediaIcon"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:singleLine="true"
+        android:text="@string/title_photo"
+        android:textColor="#ffffff"     
+        android:textSize="27sp" 
+        />
+	
+	
+	<ImageView
+        android:id="@+id/topLoadingIcon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="62dp"
+        android:layout_marginTop="27dp"
+        android:layout_width="30dp"        
+        android:layout_height="30dp" 
+  
+        android:src="@drawable/others_icons_loading"/>
+	<LinearLayout 
+	    android:id="@+id/ll_above_gv"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="84dp"
+		android:layout_marginTop="79dp"
+	    android:orientation="vertical"
+	    android:layout_width="667dp"
+	    android:layout_height="33dp"
+	    
+	    >
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="31dp"
+	        android:orientation="horizontal"
+	        >
+	        <ImageView
+		        android:id="@+id/topFolderIcon"
+		        android:layout_width="33dp"        
+		        android:layout_height="28dp"    
+		        android:layout_gravity="left"
+		        android:src="@drawable/list_common_icon_folder" />
+ 		
+			<TextView
+		        android:id="@+id/topMeidiaPathInfo"
+		        android:layout_width="480dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="#ffffff"     
+		        android:textSize="19sp" 
+		        android:singleLine="true"/>
+
+			
+	        
+	    </LinearLayout>   
+	</LinearLayout>
+
+	<LinearLayout 
+	    android:layout_below="@+id/ll_above_gv"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    >
+    
+	    <fragment android:name="com.rtk.dmp.GridViewFragment"
+	        android:id="@+id/gridview_fragment"
+	        android:focusable="true"
+	        android:layout_width="1050dp"
+	        android:layout_height="550dp" 
+	        />
+	</LinearLayout>
+
+</RelativeLayout>
+
+

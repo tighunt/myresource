@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="600dip"
+        android:background="@drawable/set_bg"
+        android:orientation="vertical" >
+        
+     <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" > 
+          
+		     <TextView
+		         android:layout_width="fill_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_marginTop="10dip"
+		         android:text="@string/city_select"
+		         android:textColor="#CCCCCCCC"
+		         android:textSize="28sp"
+		         android:gravity="center" />
+		
+		       <ImageView
+		           android:layout_width="fill_parent"
+		           android:layout_height="wrap_content"
+		           android:layout_marginTop="10dip"
+		           android:background="@drawable/line" >
+		       </ImageView>
+        
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="440dip"
+            android:orientation="vertical" 
+            android:paddingTop="10dip">
+           
+            <include layout="@layout/city_list" />
+            <include layout="@layout/current_city" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_marginBottom="40dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <!-- <include layout="@layout/bottom" >
+            </include> -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

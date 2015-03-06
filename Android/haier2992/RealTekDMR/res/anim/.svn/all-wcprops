@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MM/mmandroid/!svn/ver/10286/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim
+END
+quick_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim/quick_in.xml
+END
+revolution_fade_fast.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MM/mmandroid/!svn/ver/10286/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim/revolution_fade_fast.xml
+END
+quick_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim/quick_out.xml
+END
+rotate_clockwise_slow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MM/mmandroid/!svn/ver/10286/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim/rotate_clockwise_slow.xml
+END
+scale_fade.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MM/mmandroid/!svn/ver/10286/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim/scale_fade.xml
+END
+rotate_point_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MM/mmandroid/!svn/ver/10286/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim/rotate_point_1.xml
+END
+rotate_point_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MM/mmandroid/!svn/ver/10286/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim/rotate_point_2.xml
+END
+revolution_fade_slow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MM/mmandroid/!svn/ver/10286/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim/revolution_fade_slow.xml
+END
+rotate_clockwise_fast.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MM/mmandroid/!svn/ver/10286/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/res/anim/rotate_clockwise_fast.xml
+END

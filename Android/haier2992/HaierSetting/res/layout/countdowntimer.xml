@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="333dp"
+    android:layout_height="133dp"
+    android:orientation="vertical" 
+    android:layout_gravity="center"
+    android:background="@drawable/haier_pop_bg_2">
+    <LinearLayout 
+	 		android:id="@+id/linearlayout_left_time"
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="33dp"
+			android:focusable="false"
+			android:focusableInTouchMode="false"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="20dp"> 
+			<TextView 
+				android:id="@+id/textview_left_time_val" 
+			    android:layout_width="25dp" 
+			    android:layout_height="fill_parent" 
+			    android:gravity="center|center_vertical"
+			    android:textColor="#ffffff"
+			    android:textSize="20dp"
+			    />
+
+			<TextView
+			    android:id="@+id/textview_left_time"
+			    android:layout_width="125dp"
+			    android:layout_height="fill_parent"
+			    android:gravity="center|center_vertical"
+			    android:text="@string/sleeptime_warning"
+			    android:textColor="#ffffff"
+			    android:textSize="20dp" />
+									
+		</LinearLayout>
+		 <LinearLayout 
+	 		android:id="@+id/linearlayout_left_time_choosen"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="33dp"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="100dp"> 
+
+			<LinearLayout 
+	 		android:id="@+id/linearlayout_left_time_choosen_yes"
+			android:orientation="horizontal"
+			android:layout_width="133dp"
+			android:layout_height="33dp"
+			android:layout_gravity="center"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:background="@drawable/reminder_but_state"
+			>
+
+				<TextView
+				    android:layout_width="133dp"
+				    android:layout_height="fill_parent"
+				    android:gravity="center|center_vertical"
+				    android:text="@string/sleeptime_sure"
+				    android:textColor="#ffffff"
+				    android:textSize="17dp" />
+
+		  </LinearLayout>		
+		</LinearLayout>
+
+    
+
+</LinearLayout>

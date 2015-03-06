@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="date_format_values" translatable="false">
+        <item>月-日-年</item>
+        <item>日-月-年</item>
+        <item>年-月-日</item>
+    </string-array>
+    <string-array name="language_names" translatable="false">
+        <item>中文 (简体)</item>
+        <item>英文</item>
+ <!-- [2011-1-12 yanhd bug:0219929] -->
+    </string-array>
+
+    <!-- <item>中文 (繁體)</item> -->
+
+    <string-array name="d3_screen_view" translatable="false">
+        <item>全屏</item>
+        <item>居中</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="different" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="audio_video" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>56</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="spdif" translatable="false">
+        <item>Off</item>
+        <item>Raw</item>
+        <item>Pcm</item>
+    </string-array>
+    <string-array name="auto_touch" translatable="false">
+        <item>关</item>
+        <item>立即</item>
+        <item>画面切换</item>
+    </string-array>
+    <string-array name="auto_delicacy" translatable="false">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="d3_mode" translatable="false">
+        <item>关</item>
+        <item>左右</item>
+        <item>上下</item>
+        <item>帧序列</item>
+        <item>行交织</item>
+        <item>2D转3D</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="d3_to_d2" translatable="false">
+        <item>关</item>
+        <item>左右</item>
+        <item>上下</item>
+        <item>帧序列</item>
+        <item>行交织</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="auto_start" translatable="false">
+        <item>关</item>
+        <item>2D</item>
+        <item>3D</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item msgid="1922181315419294640"></item>
+        <item msgid="8934131797783724664">"正在扫描..."</item>
+        <item msgid="8513729475867537913">"正在连接..."</item>
+        <item msgid="515055375277271756">"正在进行身份验证..."</item>
+        <item msgid="1943354004029184381">"正在获取 IP 地址..."</item>
+        <item msgid="4221763391123233270">"已连接"</item>
+        <item msgid="624838831631122137">"已暂停"</item>
+        <item msgid="7979680559596111948">"正在断开连接..."</item>
+        <item msgid="1634960474403853625">"已断开连接"</item>
+        <item msgid="746097431216080650">"失败"</item>
+    </string-array>
+    <!-- <string-array name="wifi_status_with_ssid"> -->
+    <!-- <item msgid="7714855332363650812"></item> -->
+    <!-- <item msgid="8878186979715711006">"正在扫描..."</item> -->
+    <!-- <item msgid="355508996603873860">"正在连接到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g>..."</item> -->
+    <!-- <item msgid="554971459996405634">"正在通过 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 进行身份验证..."</item> -->
+    <!-- <item msgid="7928343808033020343">"正在从 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 获取 IP 地址..."</item> -->
+    <!-- <item msgid="8937994881315223448">"已连接到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item> -->
+    <!-- <item msgid="1330262655415760617">"已暂停"</item> -->
+    <!-- <item msgid="7698638434317271902">"正在断开与 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 的连接..."</item> -->
+    <!-- <item msgid="197508606402264311">"已断开连接"</item> -->
+    <!-- <item msgid="8578370891960825148">"失败"</item> -->
+    <!-- </string-array> -->
+    <string-array name="wifi_status_with_ssid">
+        <item msgid="7714855332363650812"></item>
+        <item msgid="8878186979715711006">"正在扫描..."</item>
+        <item msgid="355508996603873860">"正在连接到..."</item>
+        <item msgid="554971459996405634">"正在进行身份验证..."</item>
+        <item msgid="7928343808033020343">"正在获取 IP 地址..."</item>
+        <item msgid="8937994881315223448">"已连接"</item>
+        <item msgid="1330262655415760617">"已暂停"</item>
+        <item msgid="7698638434317271902">"正在断开连接..."</item>
+        <item msgid="197508606402264311">"已断开连接"</item>
+        <item msgid="8578370891960825148">"失败"</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item msgid="1435933968767043814">"开放"</item>
+        <item msgid="6318432659048829665">"WEP"</item>
+        <item msgid="2966395706508338179">"WPA/WPA2 PSK"</item>
+        <item msgid="9098390198768443435">"802.1x EAP"</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item msgid="1160193392455075561">"PEAP"</item>
+        <item msgid="7981731051382306293">"TLS"</item>
+        <item msgid="2892994535305020162">"TTLS"</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item msgid="2245412278046491293">"弱"</item>
+        <item msgid="5615082285463430971">"一般"</item>
+        <item msgid="3565079809875324621">"较强"</item>
+        <item msgid="5702329417707689835">"强"</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item msgid="3804733751095821976">"屏幕关闭时休眠"</item>
+        <item msgid="1549288661423279207">"充电时永不休眠"</item>
+        <item msgid="1986753720941888596">"永不休眠"</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item msgid="8615575908717909498">"PEAP"</item>
+        <item msgid="8667872640594311615">"TLS"</item>
+        <item msgid="7182812872984827322">"TTLS"</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item msgid="1818786254010764570">"无"</item>
+        <item msgid="6189918678874123056">"PAP"</item>
+        <item msgid="1524112260493662517">"MSCHAP"</item>
+        <item msgid="5923246669412752932">"MSCHAPV2"</item>
+        <item msgid="8651992560135239389">"GTC"</item>
+    </string-array>
+    <string-array name="show_font_size" translatable="false">
+        <item>小</item>
+        <item>普通</item>
+        <item>大</item>
+        <item>超大</item>
+    </string-array>
+    <string-array name="show_dormant" translatable="false">
+        <item>永不</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
+    </string-array>
+      <string-array name="bluetooth_visibility_timeout_entries">
+    <item msgid="8151962652413645395">"2 分钟"</item>
+    <item msgid="8675215713017289017">"5 分钟"</item>
+    <item msgid="477015974247590543">"1 小时"</item>
+    <item msgid="5198271470953124739">"永不超时"</item>
+  </string-array>
+   <string-array name="wifi_p2p_status">
+    <item msgid="1701505390737218306">"已连接"</item>
+    <item msgid="3189211552661432651">"已邀请"</item>
+    <item msgid="3206450250360237549">"失败"</item>
+    <item msgid="7785896708926971207">"可用"</item>
+    <item msgid="2330782789550628803">"超出范围"</item>
+  </string-array>
+
+    <string-array name="intelligent_eye_mode" translatable="false">
+        <item>关</item>
+        <item>演示</item>
+        <item>开</item>
+    </string-array>
+    
+    <string-array name="sleep_mode" translatable="false">
+        <item>关</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>15分钟</item>
+        <item>30分钟</item>
+        <item>45分钟</item>
+        <item>60分钟</item>
+        <item>90分钟</item>
+        <item>120分钟</item>
+        <item>180分钟</item>
+        <item>240分钟</item>
+    </string-array>
+    
+    <string-array name="appstore_position" translatable="false">
+        <item>内部</item>
+        <item>SDCard</item>
+    </string-array>
+    
+    <string-array name="app_install_local" translatable="false">
+        <item>由系统确定</item>
+        <item>设备内部存储</item>
+    </string-array>
+    
+    <!-- zhoujf 2012-8-24 屏蔽  SDCARED        
+    <item>可卸载的外部磁盘</item> 
+    -->
+</resources>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3
+END
+MP3File.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3/MP3File.java
+END
+XingFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3/XingFrame.java
+END
+MP3FileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3/MP3FileReader.java
+END
+LameFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3/LameFrame.java
+END
+MP3AudioHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3/MP3AudioHeader.java
+END
+MP3FileWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3/MP3FileWriter.java
+END
+MPEGFrameHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3/MPEGFrameHeader.java
+END
+ByteArrayMP3AudioHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3/ByteArrayMP3AudioHeader.java
+END
+VbriFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/mp3/VbriFrame.java
+END

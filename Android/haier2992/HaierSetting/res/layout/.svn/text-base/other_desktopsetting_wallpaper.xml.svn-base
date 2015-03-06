@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/other_wallpaper_static"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dip" >
+
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="60dip"
+        android:src="@drawable/ic_launcher_wallpaper"
+        android:layout_centerVertical="true"
+        />    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:paddingLeft="160dip"
+        android:text="@string/other_wallpaper"
+        android:textColor="#FFFFFFFF"
+        android:layout_centerVertical="true"
+        android:textSize="22sp" />
+
+   <Button
+        android:id="@+id/wallpaper_static_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dip"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/one_px"/>
+
+</RelativeLayout>

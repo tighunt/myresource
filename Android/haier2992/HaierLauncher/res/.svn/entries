@@ -1,0 +1,556 @@
+10
+
+dir
+13006
+http://svnrs.realtek.com.tw/svn/MM/mmandroid/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/res
+http://svnrs.realtek.com.tw/svn/MM/mmandroid
+
+
+
+2014-02-22T06:01:14.337476Z
+9570
+leon_hu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15591e4f-95c5-4f2a-b82d-e4fd38c68c11
+
+values-lv-sw600dp
+dir
+
+values-es-land
+dir
+
+values-tr
+dir
+
+values-ko-land
+dir
+
+values-tr-sw600dp
+dir
+
+values-rm-land
+dir
+
+values-ms-land
+dir
+
+values-uk-land
+dir
+
+drawable-sw600dp-nodpi
+dir
+
+values-el
+dir
+
+values-el-sw600dp
+dir
+
+values-ru-land
+dir
+
+values-sw-land
+dir
+
+values-es
+dir
+
+values-es-sw600dp
+dir
+
+values-et
+dir
+
+values-et-sw600dp
+dir
+
+values-zu-land
+dir
+
+values-nb-land
+dir
+
+values-uk
+dir
+
+values-ms
+dir
+
+values-uk-sw600dp
+dir
+
+values-ms-sw600dp
+dir
+
+values-fr-land
+dir
+
+values-fa
+dir
+
+values-fa-sw600dp
+dir
+
+values-sl-land
+dir
+
+values-es-rUS-land
+dir
+
+values-lv-land
+dir
+
+values-fi
+dir
+
+values-ca-land
+dir
+
+values-nb
+dir
+
+values-fi-sw600dp
+dir
+
+values-nb-sw600dp
+dir
+
+values-zh-rCN
+dir
+
+values-zh-rCN-sw600dp
+dir
+
+values
+dir
+
+values-sw600dp
+dir
+
+layout-sw600dp-port
+dir
+
+values-sw340dp
+dir
+
+values-bg-land
+dir
+
+values-fr
+dir
+
+values-fr-sw600dp
+dir
+
+values-am-land
+dir
+
+values-nl
+dir
+
+values-nl-sw600dp
+dir
+
+drawable-mdpi
+dir
+
+values-vi
+dir
+
+values-vi-sw600dp
+dir
+
+values-sw340dp-land
+dir
+
+values-sw600dp-port
+dir
+
+values-en-rGB-land
+dir
+
+drawable-nodpi
+dir
+
+values-ro-land
+dir
+
+drawable-hdpi
+dir
+
+values-zh-rCN-land
+dir
+
+values-ar-land
+dir
+
+layout
+dir
+
+layout-sw600dp
+dir
+
+values-nl-land
+dir
+
+values-th-land
+dir
+
+values-sw720dp-port
+dir
+
+values-zh-rTW
+dir
+
+values-zh-rTW-sw600dp
+dir
+
+drawable-sw600dp-xhdpi
+dir
+
+values-hi
+dir
+
+values-hi-sw600dp
+dir
+
+values-fa-land
+dir
+
+values-sv-land
+dir
+
+values-de-land
+dir
+
+values-sw720dp
+dir
+
+values-ja-land
+dir
+
+values-hr
+dir
+
+values-fi-land
+dir
+
+values-en-rGB
+dir
+
+values-hr-sw600dp
+dir
+
+values-en-rGB-sw600dp
+dir
+
+values-pl
+dir
+
+values-pl-sw600dp
+dir
+
+values-hu
+dir
+
+values-hu-sw600dp
+dir
+
+values-cs-land
+dir
+
+values-pt
+dir
+
+values-pt-sw600dp
+dir
+
+values-af
+dir
+
+values-af-sw600dp
+dir
+
+values-hu-land
+dir
+
+values-sk-land
+dir
+
+values-vi-land
+dir
+
+values-iw-land
+dir
+
+layout-sw600dp-land
+dir
+
+values-am
+dir
+
+values-am-sw600dp
+dir
+
+values-ar
+dir
+
+layout-port
+dir
+
+values-ar-sw600dp
+dir
+
+values-in
+dir
+
+values-in-sw600dp
+dir
+
+values-it
+dir
+
+values-el-land
+dir
+
+values-it-sw600dp
+dir
+
+values-iw
+dir
+
+values-sw600dp-land
+dir
+
+values-iw-sw600dp
+dir
+
+values-port
+dir
+
+values-hr-land
+dir
+
+values-pt-rPT
+dir
+
+values-be
+dir
+
+values-pt-rPT-sw600dp
+dir
+
+anim
+dir
+
+values-be-sw600dp
+dir
+
+values-bg
+dir
+
+values-it-land
+dir
+
+values-bg-sw600dp
+dir
+
+values-ja
+dir
+
+values-ja-sw600dp
+dir
+
+drawable-xhdpi
+dir
+
+values-tr-land
+dir
+
+drawable-land-xhdpi
+dir
+
+values-rm
+dir
+
+values-ro
+dir
+
+values-ro-sw600dp
+dir
+
+values-sw720dp-land
+dir
+
+values-ca
+dir
+
+drawable
+dir
+
+values-ca-sw600dp
+dir
+
+values-ru
+dir
+
+drawable-land-mdpi
+dir
+
+values-ru-sw600dp
+dir
+
+values-zu
+dir
+
+values-zu-sw600dp
+dir
+
+values-af-land
+dir
+
+values-cs
+dir
+
+values-cs-sw600dp
+dir
+
+values-zh-rTW-land
+dir
+
+values-ko
+dir
+
+values-ko-sw600dp
+dir
+
+drawable-ldpi
+dir
+
+drawable-sw600dp-mdpi
+dir
+
+values-sk
+dir
+
+values-sl
+dir
+
+values-sk-sw600dp
+dir
+
+values-es-rUS
+dir
+
+values-sl-sw600dp
+dir
+
+values-es-rUS-sw600dp
+dir
+
+drawable-land-hdpi
+dir
+
+values-in-land
+dir
+
+values-sr
+dir
+
+values-da
+dir
+
+values-da-sw600dp
+dir
+
+values-sr-sw600dp
+dir
+
+values-sw340dp-port
+dir
+
+values-pl-land
+dir
+
+values-de
+dir
+
+values-sv
+dir
+
+values-de-sw600dp
+dir
+
+values-sv-sw600dp
+dir
+
+values-sw
+dir
+
+values-sw-sw600dp
+dir
+
+values-lt-land
+dir
+
+values-tl-land
+dir
+
+layout-land
+dir
+
+values-pt-land
+dir
+
+values-sr-land
+dir
+
+values-da-land
+dir
+
+values-pt-rPT-land
+dir
+
+xml
+dir
+
+drawable-sw600dp-hdpi
+dir
+
+values-th
+dir
+
+values-th-sw600dp
+dir
+
+values-land
+dir
+
+values-lt
+dir
+
+values-tl
+dir
+
+values-lt-sw600dp
+dir
+
+values-tl-sw600dp
+dir
+
+values-lv
+dir
+

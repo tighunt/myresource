@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock
+END
+MetadataBlockDataPicture.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataPicture.java
+END
+MetadataBlockHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockHeader.java
+END
+MetadataBlockData.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockData.java
+END
+MetadataBlockDataSeekTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataSeekTable.java
+END
+MetadataBlockDataApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataApplication.java
+END
+MetadataBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/MetadataBlock.java
+END
+MetadataBlockDataCueSheet.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataCueSheet.java
+END
+BlockType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/BlockType.java
+END
+MetadataBlockDataPadding.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataPadding.java
+END
+MetadataBlockDataStreamInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataStreamInfo.java
+END

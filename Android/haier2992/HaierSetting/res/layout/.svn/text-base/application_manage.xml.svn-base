@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="600dip"
+        android:background="@drawable/set_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dip"
+                android:text="@string/application_manage"
+                android:textColor="#CCCCCCCC"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/line" >
+            </ImageView>
+        </LinearLayout>
+
+        <!--
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/current_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCCCC"
+                android:textSize="28sp" />
+        </LinearLayout>
+        -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="250dip"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/app_list_select"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:listSelector="@drawable/left_select_item"
+                    android:minHeight="50dip"
+                    android:paddingTop="10dip"
+                    android:scrollbars="none" >
+                </ListView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="35dip"
+                    android:paddingTop="20dip"
+                    android:text="@string/internal_storage"
+                    android:textColor="#CCCCCCCC"
+                    android:textSize="20sp" />
+
+                <ProgressBar
+                    android:id="@+id/cur_pro"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dip"
+                    android:layout_height="15dip"
+                    android:layout_gravity="center_horizontal"
+                    android:max="100"
+                    android:paddingTop="5dip" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="35dip"
+                        android:text="@string/used"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/used_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <!--
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="35dip"
+                        android:text="@string/total"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/total_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#CCCCCCCC"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                -->
+
+                <LinearLayout
+                    android:id="@+id/sdcard_info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dip"
+                    android:orientation="vertical"
+                    android:paddingTop="20dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sdcard_storage"
+                        android:textSize="18sp" />
+
+                    <ProgressBar
+                        android:id="@+id/sdcard_storage_bar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="180dip"
+                        android:layout_height="20dip"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sdcard_all_storage"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/sdcard_all_storage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sdcard_free_storage"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/sdcard_avialiable_storage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="440dip"
+                android:background="@drawable/vertical_line" />
+
+            <LinearLayout
+                android:layout_width="750dip"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dip" >
+
+                <include layout="@layout/appstore_app" />
+
+                <include layout="@layout/app_list" />
+
+                <include layout="@layout/storage_manager" /> 
+                <!--
+                zhoujf 2012-8-24 屏蔽 SDCARED            
+                <include layout="@layout/sdcard_app_list" /> 
+                -->
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dip"
+                android:layout_marginTop="40dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <!--
+            <include layout="@layout/bottom" >
+            </include>
+            -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

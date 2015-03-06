@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/asf
+END
+AsfTagBannerField.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/asf/AsfTagBannerField.java
+END
+AbstractAsfTagImageField.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/asf/AbstractAsfTagImageField.java
+END
+AsfTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/asf/AsfTag.java
+END
+AsfFieldKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/asf/AsfFieldKey.java
+END
+AsfTagCoverField.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/asf/AsfTagCoverField.java
+END
+AsfTagField.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/asf/AsfTagField.java
+END
+AsfTagTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MM/mmandroid/!svn/ver/7610/branches/jb_299x_tv013/device/realtek/apps/RealTekDMR/src/org/jaudiotagger/tag/asf/AsfTagTextField.java
+END

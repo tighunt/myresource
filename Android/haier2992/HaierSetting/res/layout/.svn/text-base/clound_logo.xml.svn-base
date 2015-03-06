@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clound_logo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/one_px"
+    android:minHeight="60dip" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_centerVertical="true"
+        android:paddingLeft="60dip"
+        android:text="@string/logo_switch"
+        android:textColor="#FFFFFFFF"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_clound_logo"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dip"
+        android:visibility="invisible"
+        android:button="@drawable/custom_checkbox" />
+     <CheckBox
+        android:id="@+id/checkbox_clound_logo_en"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dip"
+        android:visibility="invisible"
+        android:button="@drawable/custom_checkbox_en" />
+
+</RelativeLayout>

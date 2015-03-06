@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginLeft="60dip"
+        android:background="@drawable/moboicon" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dip" >
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/version"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/app_version_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/total_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="70dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_total"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/app_total_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+        	android:id="@+id/app_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_size"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/app_size_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+        	android:id="@+id/data_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_data"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/app_data_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+        	android:id="@+id/cache_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cache_date"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/app_cache_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCCCC"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

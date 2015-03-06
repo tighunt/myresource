@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/time_setting"
+        android:textColor="#CCCCCCCC"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:id="@+id/morning"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="20dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+      
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:text="@string/morning"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="134dp"
+           android:background="@drawable/unselected"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/afternoon"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="10dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:text="@string/afternoon"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="134dp"
+            android:background="@drawable/unselected"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:text="@string/hour"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/hour_et"
+            android:layout_width="200dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dip"
+            android:background="@drawable/edit_text_large"
+            android:gravity="center"
+            android:maxLength="2"
+            android:numeric="integer"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:text="@string/minute"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/minute_et"
+            android:layout_width="200dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dip"
+            android:background="@drawable/edit_text_large"
+            android:gravity="center"
+            android:maxLength="2"
+            android:nextFocusDown="@+id/setting_time_ok"
+            android:numeric="integer"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip" >
+
+        <Button
+            android:id="@+id/setting_time_ok"
+            android:layout_width="150dip"
+            android:layout_height="70dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dip"
+            android:background="@drawable/button_change"
+            android:text="@string/setting"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/cannel_time_setting"
+            android:layout_width="150dip"
+            android:layout_height="60dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dip"
+            android:background="@drawable/button_change"
+            android:text="@string/cancle"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+    </RelativeLayout>
+
+</LinearLayout>

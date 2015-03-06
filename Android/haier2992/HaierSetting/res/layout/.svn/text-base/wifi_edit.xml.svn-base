@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/modigy_password"
+        android:textColor="#FFFFFFFF"
+        android:textSize="22sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="20dip"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/net_ssid"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/net_id_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70dip"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/wifi_wps_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/wps_key_connect"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/wps_switch"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dip"
+            android:visibility="invisible"
+            android:button="@drawable/custom_checkbox" />
+        
+        <CheckBox
+            android:id="@+id/wps_switch_en"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dip"
+            android:visibility="invisible"
+            android:button="@drawable/custom_checkbox_en" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wifi_edit_r2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/net_password"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="300dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dip"
+            android:background="@drawable/edit_text_large"
+            android:gravity="center"
+            android:password="true"
+            android:singleLine="true" 
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wifi_edit_r3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:minHeight="40dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/show_password_1"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/code_show_pass_cb"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dip"
+            android:visibility="invisible"
+            android:button="@drawable/custom_checkbox"
+            android:nextFocusDown="@+id/save_net_eidt_ok" />
+        
+        <CheckBox
+            android:id="@+id/code_show_pass_cb_en"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dip"
+            android:visibility="invisible"
+            android:button="@drawable/custom_checkbox_en"
+            android:nextFocusDown="@+id/save_net_eidt_ok_en" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/notice_no_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_gravity="center"
+        android:text="@string/notice_no_pwd"
+        android:textColor="#FFFFFFFF"
+        android:paddingLeft="190dip"
+        android:textSize="15sp">
+        
+    </TextView>
+    
+    <RelativeLayout
+        android:id="@+id/wifi_edit_r4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <Button
+            android:id="@+id/save_net_eidt_ok"
+            android:layout_width="150dip"
+            android:layout_height="60dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dip"
+            android:background="@drawable/button_change"
+            android:text="@string/connect_to"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp"
+            android:visibility="invisible"
+            android:nextFocusUp="@+id/code_show_pass_cb" />
+        
+        <Button
+            android:id="@+id/save_net_eidt_ok_en"
+            android:layout_width="150dip"
+            android:layout_height="60dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dip"
+            android:background="@drawable/button_change"
+            android:text="@string/connect_to"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp"
+            android:visibility="invisible"
+            android:nextFocusUp="@+id/code_show_pass_cb_en" />
+
+        <Button
+            android:id="@+id/save_net_edit_cancel"
+            android:layout_width="150dip"
+            android:layout_height="60dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dip"
+            android:background="@drawable/button_change"
+            android:text="@string/cancle"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+    </RelativeLayout>
+
+</LinearLayout>

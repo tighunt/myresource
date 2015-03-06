@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:interpolator="@android:anim/accelerate_interpolator"
+	android:shareInterpolator="true">
+<!-- 淡入 -->
+<alpha
+	android:fromAlpha="0.0"
+	android:toAlpha="1.0"
+	android:duration="1500" 
+	/>
+<!-- 自传360度 -->
+<rotate
+	android:fromDegrees="0"
+	android:toDegrees="360"
+	android:pivotX="50%"
+	android:pivotY="50%"
+	android:startOffset="500"
+	android:duration="1500" 
+	/>
+</set>

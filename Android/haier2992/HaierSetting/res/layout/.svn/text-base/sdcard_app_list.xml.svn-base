@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sdcard_app_ll"
+    android:layout_width="match_parent"
+    android:layout_height="400dip"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <ListView
+        android:id="@+id/sdcard_app_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/app_select_item"
+        android:minHeight="60dip" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/sdcard_empty_app"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sdcard_not_app"
+        android:textSize="22sp" />
+</LinearLayout>

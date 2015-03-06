@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/connect_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:textColor="#FFFFFFFF"
+        android:textSize="28sp" />
+
+    <RelativeLayout
+        android:id="@+id/connect_r1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="30dip"
+        android:minHeight="50dip" >
+
+        <EditText
+            android:id="@+id/code_et_con"
+            android:layout_width="300dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dip"
+            android:background="@drawable/edit_text_large"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/code_et_con"
+            android:paddingRight="20dip"
+            android:text="@string/net_password"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/connect_r2"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_marginTop="10dip"
+        android:minHeight="50dip" >
+
+        <CheckBox
+            android:id="@+id/code_show_cb_con"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:button="@drawable/custom_checkbox" />
+        
+        <CheckBox
+            android:id="@+id/code_show_cb_con_en"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:button="@drawable/custom_checkbox_en" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/code_show_cb_con"
+            android:paddingRight="235dip"
+            android:text="@string/show_password_1"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="5dip" >
+
+        <Button
+            android:id="@+id/connect_ok"
+            android:layout_width="150dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dip"
+            android:background="@drawable/button_change"
+            android:text="@string/connect_net"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/connect_cancel"
+            android:layout_width="150dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dip"
+            android:background="@drawable/button_change"
+            android:text="@string/cancle"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp" />
+    </RelativeLayout>
+
+</LinearLayout>

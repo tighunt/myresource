@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/android/content/pm
+END
+PackageStats.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/android/content/pm/PackageStats.aidl
+END
+IPackageStatsObserver.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/android/content/pm/IPackageStatsObserver.aidl
+END
+IPackageDeleteObserver.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/android/content/pm/IPackageDeleteObserver.aidl
+END
+IPackageDataObserver.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/android/content/pm/IPackageDataObserver.aidl
+END

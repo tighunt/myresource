@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/preview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="302px"
+        android:layout_height="251px"
+        android:layout_marginTop="136dp"
+        android:layout_marginLeft="290dp"
+        android:orientation="vertical" 
+        android:visibility="gone">
+
+        <!-- <ImageView
+            android:id="@+id/tv_outside"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/av_bg_nor" /> -->
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="255dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="17dp"
+            android:layout_centerVertical="true"/>
+            <!-- android:background="@drawable/apps_customize_bg" -->
+            
+           <!--  android:visibility="gone" /> -->
+
+        <SurfaceView    
+            android:id="@+id/Surface_view"
+            android:layout_width="140px"
+            android:layout_height="200px"
+            android:layout_marginLeft="200dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            />
+        <!-- <RtkAtvViewEx    
+            android:id="@+id/atv_surfaceView"
+            android:layout_width="140px"
+            android:layout_height="200px"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            /> -->
+
+    </RelativeLayout>
+
+   
+
+</LinearLayout>

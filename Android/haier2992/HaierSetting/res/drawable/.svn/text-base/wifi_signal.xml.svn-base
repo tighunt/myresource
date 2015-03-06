@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/wifi_signal_lock" state_encrypted="true"/>
+    <item android:drawable="@drawable/wifi_signal_open" state_encrypted="false"/>
+
+</selector>

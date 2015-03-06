@@ -1,0 +1,61 @@
+10
+
+dir
+13002
+http://svnrs.realtek.com.tw/svn/MM/mmandroid/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/res
+http://svnrs.realtek.com.tw/svn/MM/mmandroid
+
+
+
+2014-02-26T07:37:36.923950Z
+9706
+leon_hu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15591e4f-95c5-4f2a-b82d-e4fd38c68c11
+
+values
+dir
+
+values-en
+dir
+
+xml-zh
+dir
+
+xml
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+anim
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+

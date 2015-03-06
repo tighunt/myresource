@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dip"
+    android:background="#00000000"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/bluetooth_discoverable_timeout"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/twomin_timeout_re"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="450dip"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:text="@string/twominute"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout         
+        android:id="@+id/fivemin_timeout_re"
+        android:layout_width="450dip"
+                android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:gravity="center|center_vertical"
+            android:text="@string/fiveminute"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/onehour_timeout_re"
+        android:layout_width="450dip"
+                android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center|center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:text="@string/onehour"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/never_timeout_re"
+        android:layout_width="450dip"
+                android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:gravity="center|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:text="@string/never"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/set_timeout_cancle_button"
+        android:layout_width="400dip"
+        android:layout_height="50dip"
+        android:text="@string/cancle" />
+
+</LinearLayout>

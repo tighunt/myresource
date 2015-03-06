@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/quick_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/quick_menu_bg"/>    
+    <TextView
+        android:paddingLeft="34px"
+        android:layout_height="54px"
+        android:id="@+id/quick_menu_title"
+        android:layout_width="match_parent"
+        android:text="@string/quickmenu"
+        android:textColor="#0f265f"
+        android:textSize="36px"
+        android:background="#FFc8d4ea"
+        android:gravity="center_vertical"
+        android:shadowColor="#FB3C3F3B"
+        android:shadowRadius="4"
+        android:shadowDy="2"
+        android:shadowDx="2"/>
+        <!--     android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="0dp"
+        --> 
+        <ListView
+        android:id="@+id/quick_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="70px"
+        android:listSelector="@drawable/selector_list_background"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:divider="#FF98B0D0"
+		android:dividerHeight="2px"
+        >
+          <!-- 
+                    android:divider="@color/quickMenuLine"
+         -->
+
+    </ListView>
+
+</RelativeLayout>

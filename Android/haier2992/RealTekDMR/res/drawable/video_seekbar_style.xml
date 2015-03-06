@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!--  
+    <item android:id="@android:id/background">
+        <clip android:drawable="@drawable/video_player_seek_bar_bg" />
+    </item>
+    -->
+    
+    <item android:id="@android:id/secondaryProgress">
+        <clip android:drawable="@drawable/video_player_seek_bar_progress2" />
+    </item>
+    
+    <!--  设置第一级进度条颜色图像资源  -->  
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/video_player_seek_bar_progress" />
+    </item> 
+
+</layer-list>

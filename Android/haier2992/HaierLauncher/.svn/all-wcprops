@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MM/mmandroid/!svn/ver/10829/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher
+END
+fill_screens.py
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/fill_screens.py
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/NOTICE
+END
+CleanSpec.mk
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/CleanSpec.mk
+END
+Launcher开发readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/Launcher%E5%BC%80%E5%8F%91readme.txt
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MM/mmandroid/!svn/ver/8024/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/Android.mk
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MM/mmandroid/!svn/ver/10829/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/AndroidManifest.xml
+END
+bash.exe.stackdump
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/bash.exe.stackdump
+END
+print_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/print_db.py
+END
+MODULE_LICENSE_APACHE2
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/MODULE_LICENSE_APACHE2
+END
+proguard.flags
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_haier/HaierLauncher/proguard.flags
+END

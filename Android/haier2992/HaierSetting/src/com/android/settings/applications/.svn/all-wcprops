@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MM/mmandroid/!svn/ver/9759/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications
+END
+LowMemoryReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/LowMemoryReceiver.java
+END
+AppInstallLocalDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/AppInstallLocalDialog.java
+END
+AppManageViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/AppManageViewHolder.java
+END
+ApplicationInforAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/MM/mmandroid/!svn/ver/9759/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/ApplicationInforAdapter.java
+END
+PkgSizeObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MM/mmandroid/!svn/ver/8036/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/PkgSizeObserver.java
+END
+AppstoreAlertDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/AppstoreAlertDialog.java
+END
+AppDetailInforListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/AppDetailInforListener.java
+END
+AppInforViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/MM/mmandroid/!svn/ver/7445/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/AppInforViewHolder.java
+END
+EraseSDcardAlertDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/MM/mmandroid/!svn/ver/8024/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/EraseSDcardAlertDialog.java
+END
+AppDetailInforActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/MM/mmandroid/!svn/ver/8292/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/AppDetailInforActivity.java
+END
+AppInfor.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MM/mmandroid/!svn/ver/9758/branches/jb_299x_tv013/device/realtek/rtd299x_tv013/apps/apps_public/HaierSettings/src/com/android/settings/applications/AppInfor.java
+END

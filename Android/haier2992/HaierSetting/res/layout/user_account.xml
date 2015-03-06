@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000dip"
+    android:layout_height="600dip"
+    android:layout_gravity="center"
+    android:background="@drawable/set_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/user_account_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:text="@string/user_account"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user_account_content"
+        android:layout_width="fill_parent"
+        android:layout_height="400dip"
+        android:gravity="center_horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+			android:autoLink="web"
+            android:text="@string/remind"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line" >
+        </ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>

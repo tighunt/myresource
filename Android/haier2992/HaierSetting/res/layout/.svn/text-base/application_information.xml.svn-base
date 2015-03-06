@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="1000dip"
+        android:layout_height="600dip"
+        android:background="@drawable/set_bg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@drawable/line" >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="70dip" >
+
+            <LinearLayout
+                android:layout_width="650dip"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <include layout="@layout/app_detail_info" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dip"
+                android:background="@drawable/vertical_line" />
+
+            <LinearLayout
+                android:layout_width="350dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical" >
+                
+                <include layout="@layout/app_operation" />
+                
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/uninstall_progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="50dip"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="960dip"
+            android:layout_height="25dip"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dip" >
+
+            <include layout="@layout/progress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dip"
+                android:layout_marginBottom="40dip"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <!-- <include layout="@layout/bottom" >
+            </include> -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

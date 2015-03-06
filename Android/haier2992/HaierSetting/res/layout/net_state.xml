@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/net_state_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/connect_format_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/connect_format"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/left_arrowhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dip"
+            android:background="@drawable/desktop_right"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/connect_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dip"
+            android:layout_toLeftOf="@id/left_arrowhead"
+            android:background="@drawable/one_px"
+            android:text="@string/wire_connect"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/right_arrowhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dip"
+            android:layout_toLeftOf="@id/connect_type"
+            android:background="@drawable/desktop_left"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <!--RelativeLayout
+        android:id="@+id/pppoe_dialer_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dip"
+        android:visibility="invisible" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dip"
+            android:text="@string/pppoe_dialer"
+            android:textColor="#CCCCCCCC"
+            android:textSize="22sp" />
+        <Button
+            android:id="@+id/pp_connect_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="135dip"
+            android:background="@drawable/one_px"
+            android:text="@string/connect_net"
+            android:textColor="#CCCCCCCC"
+            android:textSize="18sp" />
+    </RelativeLayout -->
+
+<!--     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:paddingLeft="30dip"
+        android:text="@string/net_state"
+        android:textColor="#CCCCCCCC"
+        android:textSize="22sp" /> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/net_state_bg"
+        android:orientation="vertical" >
+
+        <!-- <include layout="@layout/net_state_wire1" /> -->
+        <!-- <include layout="@layout/net_state_wireless1" /> -->
+
+        <include layout="@layout/net_state_wire" />
+
+        <include layout="@layout/net_state_wireless" />
+
+        <include layout="@layout/net_state_pppoe" />
+
+        <include layout="@layout/net_state_ip_setting" />
+    </LinearLayout>
+
+</LinearLayout>
